@@ -13,3 +13,9 @@ The maintainer of this repo has not yet edited this section.
 
 [//]: # (TODO: Add documentation description)
 The maintainer of this repo has not yet edited this section.
+
+# Licence
+
+This softare is licensed under the Open Software License version 3.0.
+
+For more details read full licence [here](https://github.com/The-FireHub-Project/TheCore/blob/master/LICENCE.md).
