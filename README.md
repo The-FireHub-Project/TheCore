@@ -1,20 +1,24 @@
 <img src="https://raw.githubusercontent.com/The-FireHub-Project/the-firehub-project.github.io/master/resources/graphics/logo/core.svg" width="100%" height="100px">
 
-# About
+## About
 
 FireHub is powerfull web application framework.
 
-# Installation
+## Installation
 
 [//]: # (TODO: Add instalation description)
 The maintainer of this repo has not yet edited this section.
 
-# Documentation
+## Documentation
 
 [//]: # (TODO: Add documentation description)
 The maintainer of this repo has not yet edited this section.
 
-# Licence
+## Community
+
+Be sure to review the [Code of Conduct](https://github.com/The-FireHub-Project/.github/blob/master/.github/CODE_OF_CONDUCT.md).
+
+## Licence
 
 This softare is licensed under the Open Software License version 3.0.
 
