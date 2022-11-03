@@ -1,0 +1,15 @@
+# top-most EditorConfig file
+root = true
+
+# all files
+[*]
+charset = utf-8 # default charset
+end_of_line = lf # unix-style newlines
+indent_style = space # space indentation
+indent_size = 4 # 4 spaces
+trim_trailing_whitespace = true # remove any whitespace characters preceding newline characters
+insert_final_newline = false # ensure file doesn't ends with a newline
+
+# yml,yaml and config files
+[*.{yml,yaml,config}]
+indent_size = 2 # 2 spaces
