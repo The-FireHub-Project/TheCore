@@ -1,0 +1,21 @@
+# main owner
+*   @The-FireHub-Project/admin-team
+
+# all dot files will be handled by lead dev
+.*  @dieselxxx
+
+# all schema and SQL migrations related files owns database administrators team
+*.sql   @The-FireHub-Project/database-team
+
+# licence and citation owns legal team
+/LICENCE.md   @The-FireHub-Project/legal-team
+/CITATION.cff @The-FireHub-Project/legal-team
+
+# README.md will be handled by maintenance team
+/README.md  @The-FireHub-Project/maintenance-team
+
+# .github will be handled by maintenance team
+/.github @The-FireHub-Project/maintenance-team
+
+# CODEOWNERS will be handled by the owner
+/.github/CODEOWNERS @dieselxxx
