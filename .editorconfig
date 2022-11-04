@@ -10,6 +10,6 @@ indent_size = 4 # 4 spaces
 trim_trailing_whitespace = true # remove any whitespace characters preceding newline characters
 insert_final_newline = false # ensure file doesn't ends with a newline
 
-# yml,yaml and config files
-[*.{yml,yaml,config}]
+# yml, yaml, config and cff files
+[*.{yml,yaml,config,cff}]
 indent_size = 2 # 2 spaces
