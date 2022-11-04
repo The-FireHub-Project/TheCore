@@ -1,0 +1,9 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# 40-character hexadecimal blob object name
+* ident
+
+# files and directories that won’t be added to archive files
+/*.* export-ignore
+/.github export-ignore
