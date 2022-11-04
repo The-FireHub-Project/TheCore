@@ -17,6 +17,7 @@ The maintainer of this repo has not yet edited this section.
 ## Community
 
 Be sure to review the [Code of Conduct](https://github.com/The-FireHub-Project/.github/blob/master/.github/CODE_OF_CONDUCT.md).
+Read our [Support](https://github.com/The-FireHub-Project/.github/blob/master/.github/SUPPORT.md) file that explains how you can get help with the repository and project.
 
 ## Licence
 
