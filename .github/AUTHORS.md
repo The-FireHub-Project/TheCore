@@ -8,7 +8,7 @@
         </tr>
         <tr>
             <td valign="top">
-                Original Author and projet owner.
+                Original Author and project owner.
             </td>
         </tr>
     </table>
