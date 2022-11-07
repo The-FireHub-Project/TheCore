@@ -1,4 +1,4 @@
-**# Security Policies and Procedures
+# Security Policies and Procedures
 
 - [Supported Versions](#supported-versions)
 - [Reporting a Vulnerability](#reporting-a-vulnerability)
