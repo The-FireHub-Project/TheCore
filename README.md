@@ -2,7 +2,7 @@
 
 ![Release](https://img.shields.io/badge/Release-DEV-black)
 ![Version](https://img.shields.io/badge/Version-0.1.0.pre--alpha.M1-d50000)
-[![License](https://img.shields.io/badge/License-OSL%203.0-orange.svg)](https://opensource.org/licenses/OSL-3.0)
+[![License](https://img.shields.io/badge/License-OSL%203.0-orange.svg)](./LICENCE.md)
 
 ## About
 
