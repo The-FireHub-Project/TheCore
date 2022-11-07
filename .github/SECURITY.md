@@ -11,7 +11,7 @@ receiving such patches depend on supported versions:
 
 | Version | Initial Release | Active Support Until | Security Support Until |
 | ------- | --------------- | -------------------- | ---------------------- |
-| < v1.0.0 | 2022-11-02 | :black_square: No support for developer versions | :black_square: No support for developer versions |
+| < v1.0.0 | 2022-11-02 | :black_large_square: No support for developer versions | :black_large_square: No support for developer versions |
 
 ### Legend
 
@@ -23,7 +23,7 @@ receiving such patches depend on supported versions:
 | :orange_square: EOM (End of maintenance) | A release that is supported for critical security issues only. General support is restricted to investigations, troubleshooting and workarounds. Releases are only made on an as-needed basis. |
 | :red_square: EOS (End of support) | A release that is supported for critical security issues only and general support is not availible. Releases are only made on an as-needed basis. |
 | :purple_square: EOL (End of life) | A release that is no longer supported and general support is not availible. Users of this release should upgrade as soon as possible, as they may be exposed to unpatched security vulnerabilities. |
-| :black_square: DEV (Development) | A release that is only for development purpose. These releases should not be used in production, and don't have any support for them. |
+| :black_large_square: DEV (Development) | A release that is only for development purpose. These releases should not be used in production, and don't have any support for them. |
 
 ## Reporting a Vulnerability
 
