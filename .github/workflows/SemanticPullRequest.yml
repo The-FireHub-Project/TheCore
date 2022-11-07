@@ -1,0 +1,49 @@
+name: SemanticPullRequest
+on:
+  pull_request_target:
+    types:
+      - opened
+      - edited
+      - synchronize
+jobs:
+  main:
+    name: Validate PR title
+    runs-on: ubuntu-latest
+    steps:
+      - uses: amannn/action-semantic-pull-request@v4
+        with:
+          types: |
+            bug
+            critical
+            feature
+            debug
+            development
+            docs
+            fix
+            incident
+            security
+            maintenence
+            optimization
+            performance
+            question
+            support
+            suggestions
+            enhancement
+            refactor
+            testing
+            internal
+            revert
+          scopes: |
+            api
+            components
+            console
+            http
+            other
+            packages
+            services
+            support
+            tests
+            ui
+          requireScope: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.FIREHUB }}
