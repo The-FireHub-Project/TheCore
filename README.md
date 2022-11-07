@@ -1,5 +1,9 @@
 <img src="https://raw.githubusercontent.com/The-FireHub-Project/the-firehub-project.github.io/master/resources/graphics/logo/core.svg" width="100%" height="100px">
 
+![Release](https://img.shields.io/badge/Release-DEV-black)
+![Version](https://img.shields.io/badge/Version-0.1.0.pre--alpha.M1-d50000)
+[![License](https://img.shields.io/badge/License-OSL%203.0-orange.svg)](https://opensource.org/licenses/OSL-3.0)
+
 ## About
 
 FireHub is powerfull web application framework.
