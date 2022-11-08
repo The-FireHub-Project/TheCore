@@ -11,6 +11,7 @@
 
 ## About
 
+![GitHub milestone](https://img.shields.io/github/milestones/progress-percent/The-FireHub-Project/thecore/1?style=flat&labelColor=30363d)
 [![GitHub Discussions](https://img.shields.io/github/discussions/The-FireHub-Project/TheCore?style=flat&labelColor=30363d)](https://github.com/orgs/The-FireHub-Project/discussions)
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/The-FireHub-Project/TheCore/master?style=flat&labelColor=30363d)
 ![Website](https://img.shields.io/website?down_message=offline&up_message=online&url=https%3A%2F%2Fthe-firehub-project.github.io%2F?style=flat&labelColor=30363d)
@@ -24,8 +25,9 @@ FireHub is powerfull web application framework.
 ![Packagist PHP Version](https://img.shields.io/packagist/dependency-v/firehub/thecore/php?version=v0.1)
 ![Packagist Dependency Version (specify version)](https://img.shields.io/packagist/dependency-v/firehub/thecore/firehub/php-documentor-templates-test?version=v0.1)
 ![Packagist Stars](https://img.shields.io/packagist/stars/firehub/thecore)
+![Packagist Downloads](https://img.shields.io/packagist/dt/firehub/thecore)
 -->
-![Packagist PHP Version](https://img.shields.io/badge/php-%3E%3D8.1-blue?labelColor=30363d)
+![Packagist PHP Version](https://img.shields.io/badge/php-%3E%3D8.1-blue?style=flat&labelColor=30363d)
 
 [//]: # (TODO: Add instalation description)
 The maintainer of this repo has not yet edited this section.
