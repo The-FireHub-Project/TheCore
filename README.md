@@ -7,6 +7,7 @@
 </p>
 
 [![PHPMD](https://github.com/The-FireHub-Project/TheCore/actions/workflows/PHPMD.yml/badge.svg?branch=master)](https://github.com/The-FireHub-Project/TheCore/actions/workflows/PHPMD.yml)
+[![PHPStan](https://github.com/The-FireHub-Project/TheCore/actions/workflows/PHPStan.yml/badge.svg?branch=master)](https://github.com/The-FireHub-Project/TheCore/actions/workflows/PHPStan.yml)
 
 ## About
 
