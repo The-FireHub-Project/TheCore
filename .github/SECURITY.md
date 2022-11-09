@@ -13,6 +13,20 @@ receiving such patches depend on supported versions:
 | ------- | --------------- | -------------------- | ---------------------- |
 | < v1.0.0 | 2022-11-02 | :black_large_square: No support for developer versions | :black_large_square: No support for developer versions |
 
+```mermaid
+%%{init: {
+  "theme": "default",
+  "themeVariables": {
+    "textColor" : "#adbac7"
+ }
+}}%%
+gantt
+    title Calendar
+    section <v1.0.0
+    ⬛ DEV (Development) : active, dev100, 2022-11-02, 2023-01-01
+    🟦 GA (General availability) : ga100, after dev100, 365d
+```
+
 ### Legend
 
 | Type | Description |
