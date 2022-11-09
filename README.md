@@ -11,13 +11,13 @@
 
 ## About
 
-![GitHub milestone](https://img.shields.io/github/milestones/progress-percent/The-FireHub-Project/thecore/1?style=flat&labelColor=30363d)
+[![GitHub milestone](https://img.shields.io/github/milestones/progress-percent/The-FireHub-Project/thecore/1?style=flat&labelColor=30363d)](https://github.com/The-FireHub-Project/TheCore/milestone/1)
 [![GitHub Discussions](https://img.shields.io/github/discussions/The-FireHub-Project/TheCore?style=flat&labelColor=30363d)](https://github.com/orgs/The-FireHub-Project/discussions)
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/The-FireHub-Project/TheCore/master?style=flat&labelColor=30363d)
 ![GitHub contributors](https://img.shields.io/github/contributors/The-FireHub-Project/thecore?style=flat&labelColor=30363d)
 ![Website](https://img.shields.io/website?down_message=offline&up_message=online&url=https%3A%2F%2Fthe-firehub-project.github.io%2F?style=flat&labelColor=30363d)
 
-FireHub is powerfull web application framework.
+FireHub is powerful web application framework.
 
 ## Installation
 
@@ -38,6 +38,13 @@ The maintainer of this repo has not yet edited this section.
 [//]: # (TODO: Add documentation description)
 The maintainer of this repo has not yet edited this section.
 
+## Support
+
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/The-FireHub-Project/TheCore.svg)](http://isitmaintained.com/project/The-FireHub-Project/TheCore "Percentage of issues still open")
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/The-FireHub-Project/TheCore.svg)](http://isitmaintained.com/project/The-FireHub-Project/TheCore "Average time to resolve an issue")
+
+Read our [Support](https://github.com/The-FireHub-Project/.github/blob/master/.github/SUPPORT.md) file that explains how you can get help with the repository and project.
+
 ## Community
 
 ![GitHub watchers](https://img.shields.io/github/watchers/The-FireHub-Project/thecore?style=social)
@@ -45,7 +52,6 @@ The maintainer of this repo has not yet edited this section.
 ![GitHub forks](https://img.shields.io/github/forks/The-FireHub-Project/thecore?style=social)
 
 Be sure to review the [Code of Conduct](https://github.com/The-FireHub-Project/.github/blob/master/.github/CODE_OF_CONDUCT.md).<br>
-Read our [Support](https://github.com/The-FireHub-Project/.github/blob/master/.github/SUPPORT.md) file that explains how you can get help with the repository and project.<br>
 Read [Contributing](https://github.com/The-FireHub-Project/.github/blob/master/.github/CONTRIBUTING.md) file to see how can you contribute to this project.<br>
 Read our [Security policy](.github/SECURITY.md) file to see how can you report a vulnerability.
 
