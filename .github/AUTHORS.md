@@ -1,7 +1,6 @@
 # Authors
 
 * __Project Owner__
-
     <table>
         <tr>
             <td rowspan="2" valign="center" width="80px"><img src="https://avatars.githubusercontent.com/u/56673130?v=4" height="50px" width="50px"></td>
@@ -15,7 +14,6 @@
     </table>
 
 * __Lead developer__
-
     <table>
         <tr>
             <td rowspan="2" valign="center" width="80px"><img src="https://avatars.githubusercontent.com/u/87519338?v=4" height="50px" width="50px"></td>
@@ -30,7 +28,6 @@
     </table>
 
 * __Lead designer__
-
     <table>
         <tr>
             <td rowspan="2" valign="center" width="80px">❓</td>
@@ -42,7 +39,6 @@
     </table>
 
 * __Lead database administrator__
-
     <table>
         <tr>
             <td rowspan="2" valign="center" width="80px">❓</td>
@@ -54,7 +50,6 @@
     </table>
 
 * __Lead project maintainer__
-
     <table>
         <tr>
             <td rowspan="2" valign="center" width="80px">❓</td>
@@ -66,7 +61,6 @@
     </table>
 
 * __Legal__
-
     <table>
         <tr>
             <td rowspan="2" valign="center" width="80px">❓</td>
@@ -77,8 +71,7 @@
         </tr>
     </table>
 
-* __Quality Assurance__
-
+* __Quality Assurance___
     <table>
         <tr>
             <td rowspan="2" valign="center" width="80px">❓</td>
@@ -89,6 +82,6 @@
         </tr>
     </table>
 
-# Other Contributors
+## Other Contributors
 
 Full list of individuals contributors can be found [here](https://github.com/The-FireHub-Project/TheCore/blob/master/.github/CONTRIBUTORS.md).
