@@ -8,6 +8,7 @@
 
 [![PHPMD](https://github.com/The-FireHub-Project/TheCore/actions/workflows/PHPMD.yml/badge.svg?branch=develop-pre-alpha-m1)](https://github.com/The-FireHub-Project/TheCore/actions/workflows/PHPMD.yml)
 [![PHPStan](https://github.com/The-FireHub-Project/TheCore/actions/workflows/PHPStan.yml/badge.svg?branch=develop-pre-alpha-m1)](https://github.com/The-FireHub-Project/TheCore/actions/workflows/PHPStan.yml)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/45a691b48f814c8eb196fa4166ffa513?branch=develop-pre-alpha-m1)](https://www.codacy.com/gh/The-FireHub-Project/TheCore/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=The-FireHub-Project/TheCore&amp;utm_campaign=Badge_Grade)
 
 ## About
 
