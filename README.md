@@ -62,6 +62,6 @@ Full list of individual contributors can be found [here](.github/CONTRIBUTORS.md
 
 ## Licence
 
-This softare is licensed under the Open Software License version 3.0.
+This software is licensed under the Open Software License version 3.0.
 
-For more details read full licence [here](https://github.com/The-FireHub-Project/TheCore/blob/master/LICENCE.md).
+For more details read full licence [here](./LICENCE.md).
