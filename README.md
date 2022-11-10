@@ -31,8 +31,7 @@ FireHub is powerful web application framework.
 -->
 ![Packagist PHP Version](https://img.shields.io/badge/php-%3E%3D8.1-blue?style=flat&labelColor=30363d)
 
-[//]: # (TODO: Add instalation description)
-The maintainer of this repo has not yet edited this section.
+Anything that has been added, changed, deprecated, fixed or removed + any security updates are in [Changelog](./CHANGELOG.md) of this version.
 
 ## Documentation
 
