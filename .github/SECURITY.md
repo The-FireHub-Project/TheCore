@@ -1,8 +1,8 @@
 # Security Policies and Procedures
 
-- [Supported Versions](#supported-versions)
-- [Reporting a Vulnerability](#reporting-a-vulnerability)
-- [Disclosure Policy](#disclosure-policy)
+-  [Supported Versions](#supported-versions)
+-  [Reporting a Vulnerability](#reporting-a-vulnerability)
+-  [Disclosure Policy](#disclosure-policy)
 
 ## Supported Versions
 
@@ -64,6 +64,6 @@ When the security team receives a security bug report, they will assign it
 to a primary handler. This person will coordinate the fix and release
 process, involving the following steps:
 
-- Confirm the problem and determine the affected versions.
-- Audit code to find any potential similar problems.
-- Prepare fixes for all releases still under maintenance. These fixes will be released as fast as possible to NPM.
+-  Confirm the problem and determine the affected versions.
+-  Audit code to find any potential similar problems.
+-  Prepare fixes for all releases still under maintenance. These fixes will be released as fast as possible to NPM.
