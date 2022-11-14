@@ -1,0 +1,79 @@
+'' Author: Danijel Galić <danijel.galic@outlook.com>
+'' Copyright: 2023 FireHub Web Application Framework
+'' License: <https://opensource.org/licenses/OSL-3.0> OSL Open Source License version 3
+!$THEME = "firehub"
+
+''
+'' background color
+''
+skinparam backgroundColor "white"
+skinparam useBetaStyle false
+
+''
+'' colors
+''
+!$RED = "#D50000"
+!$DARK_RED = "#B71C1C"
+!$PINK = "#C51162"
+!$PURPLE = "#AA00FF"
+!$INDIGO = "#304FFE"
+!$BLUE = "#2962FF"
+!$LIGHT_BLUE = "#0091EA"
+!$CYAN = "#00B8D4"
+!$TEAL = "#00BFA5"
+!$GREEN = "#00C853"
+!$LIGHT_GREEN = "#64DD17"
+!$LIME = "#AEEA00"
+!$YELLOW = "#FFD600"
+!$AMBER = "#FFAB00"
+!$ORANGE = "#FF6D00"
+!$DEEP_ORANGE = "#DD2C00"
+!$BROWN = "#5D4037"
+!$GRAY = "#616161"
+!$BLUE_GRAY = "#455A64"
+!$BLACK = "#000000"
+!$WHITE = "#FFFFFF"
+!$TEXT = "#FAFAFA"
+
+''
+'' procedures
+''
+!procedure $primarySchema()
+	FontColor                   $TEXT
+	FontStyle                   "normal"
+	BorderStyle                 solid
+!endprocedure
+!procedure $firehubColors()
+	BackgroundColor             $RED
+	BorderColor                 $DARK_RED
+!endprocedure
+
+''
+'' global variables
+''
+skinparam defaultFontName       "Helvatica"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             true
+skinparam padding               1
+
+''
+'' components
+''
+skinparam package {
+    $primarySchema()
+    BackgroundColor             $WHITE
+  	BorderColor                 $DARK_RED
+  	FontSize                    8
+	FontColor                   $DARK_RED
+	BorderThickness             1
+}
+skinparam class {
+    $primarySchema()
+    $firehubColors()
+    AttributeIconSize           12
+}
+skinparam component {
+    $primarySchema()
+    $firehubColors()
+}
