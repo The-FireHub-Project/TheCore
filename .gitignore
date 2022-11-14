@@ -2,6 +2,6 @@
 .idea/
 
 # Phar
-/phar/*
+/phar/**
 !/phar/*.phar
 !/phar/*.phar.pubkey
