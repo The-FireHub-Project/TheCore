@@ -6,7 +6,8 @@
     "homepage": "https://the-firehub-project.github.io/",
     "license": "OSL-3.0",
     "require": {
-        "php": ">=8.1"
+        "php": ">=8.1",
+        "firehub/documentor": "~0.1"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
