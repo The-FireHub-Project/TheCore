@@ -5,3 +5,6 @@
 /phar/**
 !/phar/*.phar
 !/phar/*.phar.pubkey
+
+# Vendor
+/vendor/**
