@@ -24,13 +24,10 @@ FireHub is powerful web application framework.
 ## Installation
 
 [//]: # (TODO: Add Packagist badges)
-<!--
-![Packagist PHP Version](https://img.shields.io/packagist/dependency-v/firehub/thecore/php?version=v0.1)
-![Packagist Dependency Version (specify version)](https://img.shields.io/packagist/dependency-v/firehub/thecore/firehub/php-documentor-templates-test?version=v0.1)
+<!--![Packagist Dependency Version (specify version)](https://img.shields.io/packagist/dependency-v/firehub/thecore/firehub/php-documentor-templates-test?version=v0.1.0-alpha.1)-->
+![Packagist PHP Version](https://img.shields.io/packagist/dependency-v/firehub/thecore/php?version=v0.1.0-alpha.1)
 ![Packagist Stars](https://img.shields.io/packagist/stars/firehub/thecore)
 ![Packagist Downloads](https://img.shields.io/packagist/dt/firehub/thecore)
--->
-![Packagist PHP Version](https://img.shields.io/badge/php-%3E%3D8.1-blue?style=flat&labelColor=30363d)
 
 Anything that has been added, changed, deprecated, fixed or removed + any security updates are in [Changelog](./CHANGELOG.md) of this version.
 
