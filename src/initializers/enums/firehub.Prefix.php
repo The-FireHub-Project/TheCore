@@ -1,7 +1,7 @@
 <?php declare(strict_types = 1);
 
 /**
- * This file is part of FireHub Web Application Framework package.
+ * This file is part of FireHub Web Application Framework package
  * @since 0.1.1.pre-alpha.M1
  *
  * @author Danijel Galić <danijel.galic@outlook.com>
