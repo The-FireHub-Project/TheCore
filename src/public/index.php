@@ -1,7 +1,7 @@
 <?php declare(strict_types = 1);
 
 /**
- * Main Core web public landing file
+ * This file is part of FireHub Web Application Framework package
  *
  * This is a landing file if PHAR archive is accessed
  * through a web browser.
