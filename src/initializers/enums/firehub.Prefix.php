@@ -13,7 +13,7 @@
  * @version GIT: $Id$ Blob checksum.
  */
 
-namespace FireHub\Initializers\Enums;
+namespace FireHub\TheCore\Initializers\Enums;
 
 /**
  * ### Enum for available prefixes for files
@@ -24,7 +24,7 @@ enum Prefix:string {
     /**
      * ### Default FireHub prefix
      *
-     * This prefix is used by most of intenal objects.
+     * This prefix is used by intenal objects.
      * @since 0.1.1.pre-alpha.M1
      */
     case FIREHUB = 'firehub';

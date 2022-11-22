@@ -13,7 +13,7 @@
  * @version GIT: $Id$ Blob checksum.
  */
 
-namespace FireHub\Initializers\Enums;
+namespace FireHub\TheCore\Initializers\Enums;
 
 /**
  * ### Enum for available suffixes for files
