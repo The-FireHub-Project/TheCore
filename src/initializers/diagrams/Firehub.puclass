@@ -1,0 +1,14 @@
+@startuml
+
+package FireHub <<Node>> #FFEBEE {
+    namespace FireHub {
+        class FireHub #D50000;line:9B0000 {
+            + boot ():self
+            - bootloaders ():self
+            - registerConstants ():self
+            - autoload ():self
+        }
+    }
+}
+
+@enduml

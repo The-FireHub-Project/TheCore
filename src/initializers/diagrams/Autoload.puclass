@@ -1,0 +1,18 @@
+@startuml
+
+package FireHub\Initializers <<Node>> #FFEBEE {
+    namespace FireHub\Initializers {
+        class Autoload #D50000;line:9B0000 {
+            + register (callable|string $path, bool $prefix = false, bool $suffix = false, bool $prepend = false):bool
+            + unregister ():void
+            + functions ():array
+            + load (string $class, array $arguments = []):void
+            - callback (string $class_fqn, string $path, array $class_fqn_components, bool $prefix, bool $suffix):void
+            - extract (string $class_fqn):array
+            - prefix (string $name):Prefix|false
+            - suffix (string $name):Suffix|false
+        }
+    }
+}
+
+@enduml
