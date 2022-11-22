@@ -11,3 +11,5 @@ parameters:
     checkTooWideReturnTypesInProtectedAndPublicMethods: true
     checkUninitializedProperties: true
     tipsOfTheDay: false
+    ignoreErrors:
+        - '#PHPDoc tag @var does not specify variable name.#'
