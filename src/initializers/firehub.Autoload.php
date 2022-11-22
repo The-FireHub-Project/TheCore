@@ -1,7 +1,7 @@
 <?php declare(strict_types = 1);
 
 /**
- * This file is part of FireHub Web Application Framework package.
+ * This file is part of FireHub Web Application Framework package
  *
  * @author Danijel Galić <danijel.galic@outlook.com>
  * @copyright 2023 FireHub Web Application Framework
@@ -12,9 +12,32 @@
  * @version GIT: $Id$ Blob checksum.
  */
 
-namespace FireHub\Initializers;
+namespace FireHub\TheCore\Initializers;
 
+use FireHub\TheCore\Initializers\Enums\ {
+    Prefix, Suffix
+};
+use Error, Phar;
+
+use const FireHub\TheCore\Initializers\Constants\DS;
+
+use function array_key_last;
+use function array_pop;
+use function array_shift;
+use function class_exists;
+use function count;
+use function explode;
+use function implode;
+use function is_callable;
+use function is_file;
+use function spl_autoload_call;
+use function spl_autoload_functions;
 use function spl_autoload_register;
+use function spl_autoload_unregister;
+use function strtolower;
+
+require Phar::running(true).'/initializers/enums/firehub.Prefix.php';
+require Phar::running(true).'/initializers/enums/firehub.Suffix.php';
 
 /**
  * ### Autoload for called classes
@@ -29,34 +52,86 @@ final class Autoload {
      * ### Register new autoload implementation
      * @since 0.1.1.pre-alpha.M1
      *
-     * @param string $path <p>
-     * Root path where register will try to find classes.
+     * @param callable|string $path <p>
+     * Root path where register will try to find classes. All namespace components will be resolved as folders
+     * inside root path.
      * </p>
      * @param bool $prefix [optional] <p>
-     * If true, first namespace component from class will be used as prefix for file name.
+     * If true, your class filenames will have to use prefixes.
      *
-     * note: Prefix must be listed in \FireHub\Initializers\Enums\Prefix to work.
+     * note: Prefix must be listed in \FireHub\Initializers\Enums\Prefix to work and will have to match your first namespace component
+     * with dot at the end of prefix.
      * </p>
      * @param bool $suffix [optional] <p>
      * If true, you can use underscore after class name to add type to class.
      *
      * note: Suffix must be listed in \FireHub\Initializers\Enums\Suffix to work.
      * </p>
-     * @param bool $phar [optional] <p>
-     * If true, your first available namespace component will get .phar suffix.
-     * </p>
      * @param bool $prepend [optional] <p>
      * If true, register will prepend the autoloader on the autoload stack instead of appending it.
      * </p>
      *
+     * @throws Error If class doesn't have at least two namespace levels.
+     *
      * @return bool True if autoload is registered, false otherwise.
      */
-    public function register (string $path, bool $prefix = false, bool $suffix = false, bool $phar = false, bool $prepend = false):bool {
+    public function register (callable|string $path, bool $prefix = false, bool $suffix = false, bool $prepend = false):bool {
 
-        var_dump(\Phar::running(false));
-        var_dump(\Phar::running(true));
+        return spl_autoload_register(
+        /** @param class-string $class_fqn */
+            fn(string $class_fqn) => $this->callback(
+                $class_fqn, is_callable($path) ? $path($this->extract($class_fqn)) : $path, $this->extract($class_fqn), $prefix, $suffix
+            ), true, $prepend
+        );
 
-        return spl_autoload_register(fn(string $class_fqn) => $this->callback($path, $class_fqn, $prefix, $suffix, $phar), true, $prepend);
+    }
+
+    /**
+     * ### Unregister all autoload implementations
+     * @since 0.1.1.pre-alpha.M1
+     *
+     * @return void
+     */
+    public function unregister ():void {
+
+        foreach ($this->functions() as $function) spl_autoload_unregister($function);
+
+    }
+
+    /**
+     * ### Get all autoload implementations
+     * @since 0.1.1.pre-alpha.M1
+     *
+     * @return array<int, callable> List of all autoload implementations.
+     */
+    public function functions ():array {
+
+        return spl_autoload_functions();
+
+    }
+
+    /**
+     * ### Try to load class from registered auto-loaders
+     * @since 0.1.1.pre-alpha.M1
+     *
+     * @param class-string $class <p>
+     * Fully-qualified class name.
+     * </p>
+     * @param array<int, mixed> $arguments [optional] <p>
+     * List of constructor parameters to pass to class.
+     * </p>
+     *
+     * @throws Error If class does not exist.
+     *
+     * @return void
+     */
+    public function load (string $class, array $arguments = []):void {
+
+        spl_autoload_call($class);
+
+        if (!class_exists($class, false)) throw new Error("Class $class does not exist");
+
+        new $class(...$arguments);
 
     }
 
@@ -64,33 +139,128 @@ final class Autoload {
      * ### The autoload function being registered
      * @since 0.1.1.pre-alpha.M1
      *
+     * @param string $class_fqn <p>
+     * Fully-qualified class name.
+     * </p>
      * @param string $path <p>
      * Root path where register will try to find classes.
      * </p>
-     * @param string $class_fqn <p>
-     * Fully qualified class name to search for.
+     * @param array{vendor: string, app: string, namespace: string, prefix: string, class: string, suffix: string} $class_fqn_components <p>
+     * Extracted components from class fully-qualified name.
      * </p>
      * @param bool $prefix <p>
-     * If true, first namespace component from class will be used as prefix for file name.
+     * If true, your class filenames will have to use prefixes.
      *
-     * note: Suffix must be listed in \FireHub\Initializers\Enums\Suffix to work.
+     * note: Prefix must be listed in \FireHub\Initializers\Enums\Prefix to work and will have to match your first namespace component
+     * with dot at the end of prefix.
      * </p>
      * @param bool $suffix <p>
      * If true, you can use underscore after class name to add type to class.
      *
      * note: Suffix must be listed in \FireHub\Initializers\Enums\Suffix to work.
      * </p>
-     * @param bool $phar <p>
-     * If true, your first available namespace component will get .phar suffix.
-     * </p>
      *
      * @return void
      */
-    private function callback (string $path, string $class_fqn, bool $prefix, bool $suffix, bool $phar):void {
+    private function callback (string $class_fqn, string $path, array $class_fqn_components, bool $prefix, bool $suffix) {
 
-        var_dump($path);
+        // if using prefix option then extract prefix from class components
+        $prefix = $prefix // if prefix option exist
+            ? ($prefix = $this->prefix($class_fqn_components['prefix'])) // if prefix exist
+                ? $prefix->value.'.' // get value from prefix with dot at the end
+                : ''
+            : '';
 
-        //include $file;
+        // if using suffix option then extract suffix from class name
+        $suffix = $suffix // if suffix option is true
+            ? ($suffix = $this->suffix($class_fqn_components['suffix'])) // if suffix exist
+                ? '.'.$suffix->value // get value from suffix with dot at the beginning
+                : ''
+            : '';
+
+        if (is_file($file = $path.DS.$prefix.$class_fqn_components['class'].$suffix.'.php')) include $file;
+
+    }
+
+    /**
+     * ### Breake class fully-qualified name into usable components
+     * @since 0.1.1.pre-alpha.M1
+     *
+     * @uses \FireHub\TheCore\Initializers\Constants\DS To seperate folders.
+     *
+     * @param string $class_fqn <p>
+     * Fully-qualified class name.
+     * </p>
+     *
+     * @throws Error If class doesn't have at least two namespace levels.
+     *
+     * @return array{vendor: string, app: string, namespace: string, prefix: string, class: string, suffix: string} List of class components.
+     */
+    private function extract (string $class_fqn):array {
+
+        // list of class fully-qualified name components
+        $class_fqn_components = explode('\\', $class_fqn);
+
+        // last component represet class
+        $class = $class_fqn_components[array_key_last($class_fqn_components)];
+        $class_components = explode('_', $class);
+        array_pop($class_fqn_components);
+
+        // first two components represent path
+        foreach ($class_fqn_components as $key => $value) $class_fqn_components[$key] = strtolower($value); // lowercase all leftover components
+        if (count($class_fqn_components) < 2) throw new Error("Class $class_fqn must have at least two namespace levels!"); // classes must have at least two namespace levels
+        $vendor = $class_fqn_components[0];
+        $app = $class_fqn_components[1];
+        array_shift($class_fqn_components);
+        array_shift($class_fqn_components);
+
+        // leftover componenets represet namespace
+        $namespace = implode(DS, $class_fqn_components);
+
+        return [
+            'vendor' => $vendor,
+            'app' => $app,
+            'namespace' => $namespace,
+            'prefix' => $vendor,
+            'class' => $class_components[0],
+            'suffix' => $class_components[1] ?? ''
+        ];
+
+    }
+
+    /**
+     * ### Check for valid prefix
+     * @since 0.1.1.pre-alpha.M1
+     *
+     * @uses \FireHub\TheCore\Initializers\Enums\Prefix To try to match valid prefix.
+     *
+     * @param string $name <p>
+     * Prefix name to check for.
+     * </p>
+     *
+     * @return \FireHub\TheCore\Initializers\Enums\Prefix|false Valid prefix on false is none exist.
+     */
+    private function prefix (string $name):Prefix|false {
+
+        return Prefix::tryFrom($name) ?? false;
+
+    }
+
+    /**
+     * ### Check for valid suffix
+     * @since 0.1.1.pre-alpha.M1
+     *
+     * @uses \FireHub\TheCore\Initializers\Enums\Suffix To try to match valid suffix.
+     *
+     * @param string $name  <p>
+     * Suffix name to check for.
+     * </p>
+     *
+     * @return \FireHub\TheCore\Initializers\Enums\Suffix|false Valid suffix on false is none exist.
+     */
+    private function suffix (string $name):Suffix|false {
+
+        return Suffix::tryFrom($name) ?? false;
 
     }
 
