@@ -52,6 +52,29 @@ final class Autoload {
      * ### Register new autoload implementation
      * @since 0.1.1.pre-alpha.M1
      *
+     * @example Registiring new autoload implementation.
+     * ```php
+     * use FireHub\TheCore\Initializers\Autoload;
+     * use const FireHub\TheCore\Initializers\Constants\PROJECT_ROOT;
+     *
+     * $autoload = new Autoload();
+     * $autoload->register(
+     *  PROJECT_ROOT, false, true, true
+     * );
+     * ```
+     * @example Registiring new autoload implementation with callable path.
+     * ```php
+     * use FireHub\TheCore\Initializers\Autoload;
+     * use const FireHub\TheCore\Initializers\Constants\PROJECT_ROOT;
+     *
+     * $autoload = new Autoload();
+     * $autoload->register(
+     *  function (array $class_fqn_components):string {
+     *  return PROJECT_ROOT.(!empty($class_fqn_components['namespace']) ? DS.$class_fqn_components['namespace'] : '');
+     *  }, false, true, true
+     * );
+     * ```
+     *
      * @param callable|string $path <p>
      * Root path where register will try to find classes. All namespace components will be resolved as folders
      * inside root path.
