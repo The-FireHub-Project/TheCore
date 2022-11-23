@@ -46,7 +46,7 @@ require Phar::running(true).'/initializers/enums/firehub.Suffix.php';
  * call main Firehub classes and its components.
  *
  * @since 0.1.1.pre-alpha.M1
- * @since 0.1.3.pre-alpha.M1 Removed optional from all parameters in register method and replaced them with class properties.
+ * @since 0.1.3.pre-alpha.M1 Removed optional from all parameters in register method and replaced them with class properties, removed unused parameter $class_fqn in callable method.
  */
 final class Autoload {
 
@@ -127,7 +127,7 @@ final class Autoload {
         return spl_autoload_register(
         /** @param class-string $class_fqn */
             fn(string $class_fqn) => $this->callback(
-                $class_fqn, is_callable($path) ? $path($this->extract($class_fqn)) : $path, $this->extract($class_fqn), $this->prefix, $this->suffix
+                is_callable($path) ? $path($this->extract($class_fqn)) : $path, $this->extract($class_fqn), $this->prefix, $this->suffix
             ), true, $prepend
         );
 
@@ -183,14 +183,13 @@ final class Autoload {
     }
 
     /**
-     * ### The autoload function being registered
+     * ### The autoload function being registereD
+     *
      * @since 0.1.1.pre-alpha.M1
+     * @since 0.1.3.pre-alpha.M1 Removed unused parameter $class_fqn
      *
      * @uses \FireHub\TheCore\Initializers\Constants\DS To seperate folders.
      *
-     * @param string $class_fqn <p>
-     * Fully-qualified class name.
-     * </p>
      * @param string $path <p>
      * Root path where register will try to find classes.
      * </p>
@@ -210,8 +209,10 @@ final class Autoload {
      * </p>
      *
      * @return void
+     *
+     * @SuppressWarnings(PHPMD.IfStatementAssignment) Not typo on last line.
      */
-    private function callback (string $class_fqn, string $path, array $class_fqn_components, bool $prefix, bool $suffix) {
+    private function callback (string $path, array $class_fqn_components, bool $prefix, bool $suffix) {
 
         // if using prefix option then extract prefix from class components
         $prefix = $prefix // if prefix option exist
@@ -288,6 +289,8 @@ final class Autoload {
      * </p>
      *
      * @return \FireHub\TheCore\Initializers\Enums\Prefix|false Valid prefix on false is none exist.
+     *
+     * @SuppressWarnings(PHPMD.StaticAccess) Doesn't understand that this is Enum, not static method.
      */
     private function prefix (string $name):Prefix|false {
 
@@ -306,6 +309,8 @@ final class Autoload {
      * </p>
      *
      * @return \FireHub\TheCore\Initializers\Enums\Suffix|false Valid suffix on false is none exist.
+     *
+     * @SuppressWarnings(PHPMD.StaticAccess) Doesn't understand that this is Enum, not static method.
      */
     private function suffix (string $name):Suffix|false {
 
