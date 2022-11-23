@@ -15,6 +15,8 @@
 namespace FireHub\TheCore;
 
 use FireHub\TheCore\Initializers\Autoload;
+use FireHub\TheCore\Initializers\Kernel as Base_Kernel;
+use FireHub\TheCore\Initializers\Enums\Kernel;
 use DirectoryIterator, Error, Throwable;
 
 use const FireHub\TheCore\Initializers\Constants\DS;
@@ -30,7 +32,9 @@ use function implode;
  *
  * This class contains all system definitions, constants and dependant
  * components for FireHub bootstrapping.
+ *
  * @since 0.1.1.pre-alpha.M1
+ * @since 0.1.2 Added kernel parameter parameter and response from Kernel to boot method and created kernel method.
  */
 final class Firehub {
 
@@ -38,14 +42,22 @@ final class Firehub {
      * ### Light the torch
      *
      * This methode serves for instantiating FireHub framework.
-     * @since 0.1.1.pre-alpha.M1
      *
-     * @return $this This object.
+     * @since 0.1.1.pre-alpha.M1
+     * @since 0.1.2.pre-alpha.M1 Added $kernel parameter and response from Kernel.
+     *
+     * @param \FireHub\TheCore\Initializers\Enums\Kernel $kernel <p>
+     * Pick Kernel from Kernel enum, process your
+     * request and return appropriate response.
+     * </p>
+     *
+     * @return string Response from Kernel.
      */
-    public function boot ():self {
+    public function boot (Kernel $kernel):string {
 
         return $this
-            ->bootloaders();
+            ->bootloaders()
+            ->kernel($kernel->run());
 
     }
 
@@ -154,6 +166,23 @@ final class Firehub {
         );
 
         return $this;
+
+    }
+
+    /**
+     * ### Process Kernel
+     * @since 0.1.2.pre-alpha.M1
+     *
+     * @param \FireHub\TheCore\Initializers\Kernel $kernel <p>
+     * Picked Kernel from Kernel enum, process your
+     * request and return appropriate response.
+     * </p>
+     *
+     * @return string Response from Kernel.
+     */
+    private function kernel (Base_Kernel $kernel):string {
+
+        return $kernel->runtime();
 
     }
 
