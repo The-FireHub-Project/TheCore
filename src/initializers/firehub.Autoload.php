@@ -162,6 +162,8 @@ final class Autoload {
      * ### The autoload function being registered
      * @since 0.1.1.pre-alpha.M1
      *
+     * @uses \FireHub\TheCore\Initializers\Constants\DS To seperate folders.
+     *
      * @param string $class_fqn <p>
      * Fully-qualified class name.
      * </p>
