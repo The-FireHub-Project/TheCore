@@ -35,6 +35,7 @@ use function implode;
  *
  * @since 0.1.1.pre-alpha.M1
  * @since 0.1.2 Added kernel parameter parameter and response from Kernel to boot method and created kernel method.
+ * @since 0.1.3.pre-alpha.M1 Removed unused variable $folder.
  */
 final class Firehub {
 
@@ -83,7 +84,9 @@ final class Firehub {
      *
      * This method will scan FireHub\Initializers\Constants folder
      * and automatically include all PHP files.
+     *
      * @since 0.1.1.pre-alpha.M1
+     * @since 0.1.3.pre-alpha.M1 Removed unused variable $folder.
      *
      * @uses DirectoryIterator To find all php files in folder.
      *
@@ -95,7 +98,7 @@ final class Firehub {
 
         try {
 
-            foreach ($folder = new DirectoryIterator(__DIR__.DIRECTORY_SEPARATOR.implode(DIRECTORY_SEPARATOR, ['initializers', 'constants'])) as $file)
+            foreach (new DirectoryIterator(__DIR__.DIRECTORY_SEPARATOR.implode(DIRECTORY_SEPARATOR, ['initializers', 'constants'])) as $file)
                 if ($file->isFile() && $file->getExtension() === 'php') include $file->getPathname();
 
         } catch (Throwable) {
