@@ -1,0 +1,11 @@
+@startuml
+
+package FireHub\Kernel\HTTP <<Node>> #FFEBEE {
+    namespace FireHub\Kernel\HTTP {
+        class Kernel #D50000;line:9B0000 {
+            + runtime ():string
+        }
+    }
+}
+
+@enduml
