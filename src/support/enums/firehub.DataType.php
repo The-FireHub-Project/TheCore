@@ -28,49 +28,49 @@ enum DataType:string {
      * ### A bool expresses a truth value, it can be either true or false
      * @since 0.1.3.pre-alpha.M1
      */
-    case BOOL = 'boolean';
+    case T_BOOL = 'boolean';
 
     /**
      * ### An int is a number of the set ℤ = {..., -2, -1, 0, 1, 2, ...}
      * @since 0.1.3.pre-alpha.M1
      */
-    case INT = 'integer';
+    case T_INT = 'integer';
 
     /**
      * ### A floating-point number is represented approximately with a fixed number of significant digits
      * @since 0.1.3.pre-alpha.M1
      */
-    case FLOAT = 'double';
+    case T_FLOAT = 'double';
 
     /**
      * ### A string is series of characters, where a character is the same as a byte
      * @since 0.1.3.pre-alpha.M1
      */
-    case STRING = 'string';
+    case T_STRING = 'string';
 
     /**
      * ### An ordered map where map is a type that associates values to keys
      * @since 0.1.3.pre-alpha.M1
      */
-    case ARRAY = 'array';
+    case T_ARRAY = 'array';
 
     /**
      * ### An object is an individual instance of the data structure defined by a class
      * @since 0.1.3.pre-alpha.M1
      */
-    case OBJECT = 'object';
+    case T_OBJECT = 'object';
 
     /**
      * ### The special null value represents a variable with no value
      * @since 0.1.3.pre-alpha.M1
      */
-    case NULL = 'NULL';
+    case T_NULL = 'NULL';
 
     /**
      * ### The special resoure type is used to store references to some function call or to external PHP resources
      * @since 0.1.3.pre-alpha.M1
      */
-    case RESOURCE = 'resource';
+    case T_RESOURCE = 'resource';
 
     /**
      * ### Get type of data type
@@ -81,9 +81,9 @@ enum DataType:string {
     public function type ():DataTypeType {
 
         return match ($this) {
-            self::BOOL, self::INT, self::FLOAT, self::STRING => DataTypeType::SCALAR,
-            self::ARRAY, self::OBJECT => DataTypeType::COMPOUND,
-            self::NULL, self::RESOURCE => DataTypeType::SPECIAL
+            self::T_BOOL, self::T_INT, self::T_FLOAT, self::T_STRING => DataTypeType::SCALAR,
+            self::T_ARRAY, self::T_OBJECT => DataTypeType::COMPOUND,
+            self::T_NULL, self::T_RESOURCE => DataTypeType::SPECIAL
         };
 
     }
