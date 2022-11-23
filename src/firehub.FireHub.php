@@ -150,7 +150,7 @@ final class Firehub {
                 .DS.'phar'
                 .DS.$class_fqn_components['app'].'.phar'
                 .(!empty($class_fqn_components['namespace']) ? DS.$class_fqn_components['namespace'] : ''),
-            true, true
+            true, true, false
         );
 
         // register main firehub classes
@@ -165,7 +165,7 @@ final class Firehub {
             static fn(array $class_fqn_components):string =>
                  PROJECT_ROOT
                 .(!empty($class_fqn_components['namespace']) ? DS.$class_fqn_components['namespace'] : ''),
-            true, true
+            true, true, false
         );
 
         return $this;

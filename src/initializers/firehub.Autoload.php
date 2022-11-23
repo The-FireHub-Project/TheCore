@@ -44,13 +44,33 @@ require Phar::running(true).'/initializers/enums/firehub.Suffix.php';
  *
  * Firehub autoloader implementation used to
  * call main Firehub classes and its components.
+ *
  * @since 0.1.1.pre-alpha.M1
+ * @since 0.1.3.pre-alpha.M1 Removed optional from all parameters in register method and replaced them with class properties.
  */
 final class Autoload {
 
     /**
-     * ### Register new autoload implementation
+     * ### If true, you can use underscore after class name to add type to class
+     * @since 0.1.3.pre-alpha.M1
+     *
+     * @var bool $prefix
+     */
+    private bool $prefix = false;
+
+    /**
+     * ### If true, you can use underscore after class name to add type to class
+     * @since 0.1.3.pre-alpha.M1
+     *
+     * @var bool $suffix
+     */
+    private bool $suffix = false;
+
+    /**
+     * ### Register new autoload implementatioN
+     *
      * @since 0.1.1.pre-alpha.M1
+     * @since 0.1.3.pre-alpha.M1 Removed optional from all parameters.
      *
      * @example Registiring new autoload implementation.
      * ```php
@@ -79,18 +99,18 @@ final class Autoload {
      * Root path where register will try to find classes. All namespace components will be resolved as folders
      * inside root path.
      * </p>
-     * @param bool $prefix [optional] <p>
+     * @param bool $prefix <p>
      * If true, your class filenames will have to use prefixes.
      *
      * note: Prefix must be listed in \FireHub\Initializers\Enums\Prefix to work and will have to match your first namespace component
      * with dot at the end of prefix.
      * </p>
-     * @param bool $suffix [optional] <p>
+     * @param bool $suffix <p>
      * If true, you can use underscore after class name to add type to class.
      *
      * note: Suffix must be listed in \FireHub\Initializers\Enums\Suffix to work.
      * </p>
-     * @param bool $prepend [optional] <p>
+     * @param bool $prepend <p>
      * If true, register will prepend the autoloader on the autoload stack instead of appending it.
      * </p>
      *
@@ -98,12 +118,16 @@ final class Autoload {
      *
      * @return bool True if autoload is registered, false otherwise.
      */
-    public function register (callable|string $path, bool $prefix = false, bool $suffix = false, bool $prepend = false):bool {
+    public function register (callable|string $path, bool $prefix, bool $suffix, bool $prepend):bool {
+
+        // set properies
+        $this->prefix = $prefix;
+        $this->suffix = $suffix;
 
         return spl_autoload_register(
         /** @param class-string $class_fqn */
             fn(string $class_fqn) => $this->callback(
-                $class_fqn, is_callable($path) ? $path($this->extract($class_fqn)) : $path, $this->extract($class_fqn), $prefix, $suffix
+                $class_fqn, is_callable($path) ? $path($this->extract($class_fqn)) : $path, $this->extract($class_fqn), $this->prefix, $this->suffix
             ), true, $prepend
         );
 
