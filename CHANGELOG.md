@@ -1,6 +1,12 @@
 # Release Notes for v0.x.x.pre-alpha
 
-## [Unreleased](https://github.com/The-FireHub-Project/TheCore/compare/develop-pre-alpha-m1...develop-pre-alpha)
+## [Unreleased](https://github.com/The-FireHub-Project/Documentor/compare/develop-pre-alpha-m1...develop-pre-alpha)
+
+## [v0.1.2](https://github.com/The-FireHub-Project/TheCore/compare/v0.1.2-alpha.1...develop-pre-alpha-m1) - (2022-11-23)
+
+### Added
+- Created Kernel classes and enum ([#6](https://github.com/The-FireHub-Project/FireHub/issues/6), [c800ef8](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/c800ef8))
+- In main FireHub class, boot from Kernel now accepts Kernel as parameter and return response from it, and created kernel method ([#6](https://github.com/The-FireHub-Project/FireHub/issues/6), [824d269](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/824d269))
 
 ## [v0.1.1](https://github.com/The-FireHub-Project/TheCore/compare/v0.1.1-alpha.1...develop-pre-alpha-m1) - (2022-11-22)
 
