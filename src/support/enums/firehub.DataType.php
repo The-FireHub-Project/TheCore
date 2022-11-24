@@ -88,4 +88,19 @@ enum DataType:string {
 
     }
 
+    /**
+     * ### Check if value can be set to data type
+     * @since 0.1.3.pre-alpha.M1
+     *
+     * @return bool True if data type is settable, false otherwise.
+     */
+    public function settable ():bool {
+
+        return match ($this) {
+            self::T_RESOURCE => false,
+            default => true
+        };
+
+    }
+
 }
