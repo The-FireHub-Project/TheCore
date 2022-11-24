@@ -67,7 +67,7 @@ final class Autoload {
     private bool $suffix = false;
 
     /**
-     * ### Register new autoload implementatioN
+     * ### Register new autoload implementation
      *
      * @since 0.1.1.pre-alpha.M1
      * @since 0.1.3.pre-alpha.M1 Removed optional from all parameters.
