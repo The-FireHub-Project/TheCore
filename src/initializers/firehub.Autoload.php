@@ -289,8 +289,6 @@ final class Autoload {
      * </p>
      *
      * @return \FireHub\TheCore\Initializers\Enums\Prefix|false Valid prefix on false is none exist.
-     *
-     * @SuppressWarnings(PHPMD.StaticAccess) Doesn't understand that this is Enum, not static method.
      */
     private function prefix (string $name):Prefix|false {
 
@@ -309,8 +307,6 @@ final class Autoload {
      * </p>
      *
      * @return \FireHub\TheCore\Initializers\Enums\Suffix|false Valid suffix on false is none exist.
-     *
-     * @SuppressWarnings(PHPMD.StaticAccess) Doesn't understand that this is Enum, not static method.
      */
     private function suffix (string $name):Suffix|false {
 
