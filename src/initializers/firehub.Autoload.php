@@ -149,7 +149,7 @@ final class Autoload {
      * ### Get all autoload implementations
      * @since 0.1.1.pre-alpha.M1
      *
-     * @return array<int, callable> List of all autoload implementations.
+     * @return callable[] List of all autoload implementations.
      */
     public function functions ():array {
 
@@ -164,7 +164,7 @@ final class Autoload {
      * @param class-string $class <p>
      * Fully-qualified class name.
      * </p>
-     * @param array<int, mixed> $arguments [optional] <p>
+     * @param array{} $arguments [optional] <p>
      * List of constructor parameters to pass to class.
      * </p>
      *
