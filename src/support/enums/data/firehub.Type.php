@@ -12,7 +12,7 @@
  * @version GIT: $Id$ Blob checksum.
  */
 
-namespace FireHub\TheCore\Support\Enums;
+namespace FireHub\TheCore\Support\Enums\Data;
 
 /**
  * ### Data type enum
@@ -22,7 +22,7 @@ namespace FireHub\TheCore\Support\Enums;
  *
  * @api
  */
-enum DataType:string {
+enum Type:string {
 
     /**
      * ### A bool expresses a truth value, it can be either true or false
@@ -76,14 +76,14 @@ enum DataType:string {
      * ### Get type of data type
      * @since 0.1.3.pre-alpha.M1
      *
-     * @return \FireHub\TheCore\Support\Enums\DataTypeType Type of data type.
+     * @return \FireHub\TheCore\Support\Enums\Data\TypeType Type of data type.
      */
-    public function type ():DataTypeType {
+    public function type ():TypeType {
 
         return match ($this) {
-            self::T_BOOL, self::T_INT, self::T_FLOAT, self::T_STRING => DataTypeType::SCALAR,
-            self::T_ARRAY, self::T_OBJECT => DataTypeType::COMPOUND,
-            self::T_NULL, self::T_RESOURCE => DataTypeType::SPECIAL
+            self::T_BOOL, self::T_INT, self::T_FLOAT, self::T_STRING => TypeType::SCALAR,
+            self::T_ARRAY, self::T_OBJECT => TypeType::COMPOUND,
+            self::T_NULL, self::T_RESOURCE => TypeType::SPECIAL
         };
 
     }

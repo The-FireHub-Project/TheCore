@@ -12,7 +12,7 @@
  * @version GIT: $Id$ Blob checksum.
  */
 
-namespace FireHub\TheCore\Support\Enums;
+namespace FireHub\TheCore\Support\Enums\Data;
 
 /**
  * ### Type of data type enum
@@ -22,7 +22,7 @@ namespace FireHub\TheCore\Support\Enums;
  *
  * @api
  */
-enum DataTypeType {
+enum TypeType {
 
     /**
      * ### Scalar (predefined) type
