@@ -89,6 +89,7 @@ final class Firehub {
      * @since 0.1.3.pre-alpha.M1 Removed unused variable $folder.
      *
      * @uses DirectoryIterator To find all php files in folder.
+     * @uses Throwable To cache error.
      *
      * @throws Error If FireHub cannot load constant files.
      *
