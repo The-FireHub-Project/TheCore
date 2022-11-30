@@ -8,7 +8,7 @@ parameters:
     reportMaybesInMethodSignatures: true
     reportMaybesInPropertyPhpDocTypes: true
     reportStaticMethodSignatures: true
-    checkTooWideReturnTypesInProtectedAndPublicMethods: true
+    #checkTooWideReturnTypesInProtectedAndPublicMethods: true
     checkUninitializedProperties: true
     tipsOfTheDay: false
     ignoreErrors:
