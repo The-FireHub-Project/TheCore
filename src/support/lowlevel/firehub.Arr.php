@@ -674,10 +674,6 @@ final class Arr {
      */
     public static function intersectKey (array $array, array ...$arrays):array {
 
-        /**
-         * PHPStan stan reports that result array<0|1, int|string|TValue>.
-         * @phpstan-ignore-next-line
-         */
         return array_intersect_key($array, ...$arrays);
 
     }
