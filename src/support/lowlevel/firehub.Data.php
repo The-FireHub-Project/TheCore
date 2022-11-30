@@ -40,6 +40,7 @@ use function unserialize;
  * @SuppressWarnings(PHPMD.ExcessiveClassComplexity) Support class are not complex.
  * @SuppressWarnings(PHPMD.ExcessiveClassLength) Support class can be long.
  * @SuppressWarnings(PHPMD.ExcessivePublicCount) Support class can have large number of public items.
+ * @SuppressWarnings(PHPMD.BooleanArgumentFlag) Low level class can have boolian arguments.
  */
 final class Data {
 
@@ -158,8 +159,6 @@ final class Data {
      * @throws Error If failed to unserialize data or trying to unserialize serialized NULL value.
      *
      * @return string|int|float|bool|array{array-key, mixed} The converted value is returned.
-     *
-     * @SuppressWarnings(PHPMD.BooleanArgumentFlag) Because it is static low level method.
      */
     public static function unserialize (string $data, bool|array $allowed_classes = false, int $max_depth = 4096):string|int|float|bool|array {
 

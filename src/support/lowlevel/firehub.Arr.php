@@ -85,6 +85,7 @@ use function usort;
  * @SuppressWarnings(PHPMD.ExcessiveClassComplexity) Support class are not complex.
  * @SuppressWarnings(PHPMD.ExcessiveClassLength) Support class can be long.
  * @SuppressWarnings(PHPMD.ExcessivePublicCount) Support class can have large number of public items.
+ * @SuppressWarnings(PHPMD.BooleanArgumentFlag) Low level class can have boolian arguments.
  */
 final class Arr {
 
@@ -197,8 +198,6 @@ final class Arr {
      * @return int{0, max} Number of elements in array.
      *
      * @caution Method can detect recursion to avoid an infinite loop, but will emit an E_WARNING every time it does (in case the array contains itself more than once) and return a count higher than may be expected.
-     *
-     * @SuppressWarnings(PHPMD.BooleanArgumentFlag) Because it is static low level method.
      */
     public static function count (array $array, bool $multi_dimensional = false):int {
 
@@ -486,8 +485,6 @@ final class Arr {
      * </p>
      *
      * @return int|string|false The key for needle if it is found in the array, false otherwise.
-     *
-     * @SuppressWarnings(PHPMD.BooleanArgumentFlag) Because it is static low level method.
      */
     public static function search (mixed $value, array $array, int|string|false $second_dimension = false):int|string|false {
 
@@ -768,8 +765,6 @@ final class Arr {
      * @throws Error If asked number of items is greater than total number of items in array.
      *
      * @return ($preserve_keys is true ? int|string|array{TKey, TValue} : int|string|array{array-key, TValue}) If you are picking only one entry, returns the key for a random entry. Otherwise, it returns an array of keys for the random entries.
-     *
-     * @SuppressWarnings(PHPMD.BooleanArgumentFlag) Because it is static low level method.
      */
     public static function random (array $array, int $number = 1, bool $preserve_keys = false):int|string|array {
 
@@ -808,8 +803,6 @@ final class Arr {
      * </p>
      *
      * @return ($preserve_keys is true ? array{TKey, TValue} : array{array-key, TValue}) The reversed array.
-     *
-     * @SuppressWarnings(PHPMD.BooleanArgumentFlag) Because it is static low level method.
      */
     public static function reverse (array $array, bool $preserve_keys = false):array {
 
@@ -916,8 +909,6 @@ final class Arr {
      * @throws Error If trying to shuffle empty array.
      *
      * @return ($preserve_keys is true ? non-empty-array<TKey, TValue|int|string> : non-empty-array<int, TValue|int|string>) Shuffled array.
-     *
-     * @SuppressWarnings(PHPMD.BooleanArgumentFlag) Because it is static low level method.
      */
     public static function shuffle (array &$array, bool $preserve_keys = false):array {
 
@@ -974,8 +965,6 @@ final class Arr {
      * </p>
      *
      * @return ($preserve_keys is true ? array{TKey, TValue} : array{array-key, TValue}) Sliced array.
-     *
-     * @SuppressWarnings(PHPMD.BooleanArgumentFlag) Because it is static low level method.
      */
     public static function slice (array $array, int $offset, ?int $length = null, bool $preserve_keys = false):array {
 
@@ -1062,8 +1051,6 @@ final class Arr {
      * @return bool True on success, false otherwise.
      *
      * @note Resets array's internal pointer to the first element.
-     *
-     * @SuppressWarnings(PHPMD.BooleanArgumentFlag) Because it is static low level method.
      */
     public static function sort (array &$array, Order $order = Order::ASC, bool $preserve_keys = false, Sort $flag = Sort::SORT_REGULAR):bool {
 
@@ -1116,8 +1103,6 @@ final class Arr {
      * @return bool True on success, false otherwise.
      *
      * @note Resets array's internal pointer to the first element.
-     *
-     * @SuppressWarnings(PHPMD.BooleanArgumentFlag) Because it is static low level method.
      */
     public static function sortBy (array &$array, callable $callback, bool $preserve_keys = false):bool {
 
@@ -1376,8 +1361,6 @@ final class Arr {
      * @return array{array-key, mixed} Filtered array.
      *
      * @caution If the array is changed from the callback function (e.g. element added, deleted or unset) the behavior of this function is undefined.
-     *
-     * @SuppressWarnings(PHPMD.BooleanArgumentFlag) Because it is static low level method.
      */
     public static function filter (array $array, ?callable $callback = null, bool $pass_key = false, bool $pass_value = true):array {
 
