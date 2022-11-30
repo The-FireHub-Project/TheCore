@@ -47,6 +47,7 @@ use function is_writable;
  *
  * @api
  *
+ * @SuppressWarnings(PHPMD.TooManyMethods) Support class are supposed to have many methods.
  * @SuppressWarnings(PHPMD.TooManyPublicMethods) Support class are supposed to have many public methods.
  */
 final class DataIs {
