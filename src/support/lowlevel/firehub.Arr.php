@@ -977,17 +977,46 @@ final class Arr {
     }
 
     /**
-     * ### Get first key from array
+     * ### Get first value from array
      * @since 0.1.3.pre-alpha.M1
      *
-     * @template TKey of array-key
-     * @template TValue
-     *
-     * @param array{TKey, TValue} $array <p>
+     * @param array{array-key, mixed} $array <p>
      * The array.
      * </p>
      *
-     * @return TKey|null First key from array or null if array is empty.
+     * @return mixed First value from array or null if array is empty.
+     */
+    public static function first (array $array):mixed {
+
+        return !is_null(self::firstKey($array)) ? $array[self::firstKey($array)] : null;
+
+    }
+
+    /**
+     * ### Gat last value from array
+     * @since 0.1.3.pre-alpha.M1
+     *
+     * @param array{array-key, mixed} $array <p>
+     * The array.
+     * </p>
+     *
+     * @return mixed Last value from array or null if array is empty.
+     */
+    public static function last (array $array):mixed {
+
+        return !is_null(self::lastKey($array)) ? $array[self::lastKey($array)] : null;
+
+    }
+
+    /**
+     * ### Get first key from array
+     * @since 0.1.3.pre-alpha.M1
+     *
+     * @param array{array-key, mixed} $array <p>
+     * The array.
+     * </p>
+     *
+     * @return array-key|null First key from array or null if array is empty.
      */
     public static function firstKey (array $array):null|int|string {
 
@@ -999,14 +1028,11 @@ final class Arr {
      * ### Get last key from array
      * @since 0.1.3.pre-alpha.M1
      *
-     * @template TKey of array-key
-     * @template TValue
-     *
-     * @param array{TKey, TValue} $array <p>
+     * @param array{array-key, mixed} $array <p>
      * The array.
      * </p>
      *
-     * @return TKey|null First key from array or null if array is empty.
+     * @return array-key|null First key from array or null if array is empty.
      */
     public static function lastKey (array $array):null|int|string {
 
