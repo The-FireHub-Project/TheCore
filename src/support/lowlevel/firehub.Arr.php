@@ -19,17 +19,27 @@ use FireHub\TheCore\Support\Enums\ {
 };
 use Error, Throwable;
 
+use const ARRAY_FILTER_USE_BOTH;
+use const ARRAY_FILTER_USE_KEY;
 use const COUNT_NORMAL;
 use const COUNT_RECURSIVE;
+use const SORT_ASC;
+use const SORT_DESC;
 use const SORT_REGULAR;
 
 use function array_column;
 use function array_combine;
+use function array_count_values;
 use function array_diff;
 use function array_diff_assoc;
 use function array_diff_key;
+use function array_fill;
+use function array_fill_keys;
+use function array_filter;
+use function array_map;
 use function array_merge;
 use function array_merge_recursive;
+use function array_multisort;
 use function array_intersect;
 use function array_intersect_assoc;
 use function array_intersect_key;
@@ -42,6 +52,7 @@ use function array_pop;
 use function array_push;
 use function array_rand;
 use function array_reverse;
+use function array_search;
 use function array_shift;
 use function array_slice;
 use function array_splice;
@@ -53,13 +64,15 @@ use function arsort;
 use function asort;
 use function count;
 use function in_array;
-use function rsort;
 use function krsort;
 use function ksort;
+use function range;
+use function rsort;
+use function shuffle;
+use function sort;
 use function uasort;
 use function uksort;
 use function usort;
-use function sort;
 
 /**
  * ### Array low level class
@@ -70,6 +83,8 @@ use function sort;
  * @SuppressWarnings(PHPMD.TooManyMethods) Support class are supposed to have many methods.
  * @SuppressWarnings(PHPMD.TooManyPublicMethods) Support class are supposed to have many public methods.
  * @SuppressWarnings(PHPMD.ExcessiveClassComplexity) Support class are not complex.
+ * @SuppressWarnings(PHPMD.ExcessiveClassLength) Support class can be long.
+ * @SuppressWarnings(PHPMD.ExcessivePublicCount) Support class can have large number of public items.
  */
 final class Arr {
 
@@ -130,6 +145,42 @@ final class Arr {
     }
 
     /**
+     * ### Checks if array is multidimensional
+     * @since 0.1.3.pre-alpha.M1
+     *
+     * @param array{array-key, mixed} $array <p>
+     * Array to check.
+     * </p>
+     *
+     * @return bool True if array is multidimensional, false otherwise.
+     *
+     * @note That any array that has at least one item as array will be considered as multidimensional array.
+     */
+    public static function isMultiDimensional (array $array):bool {
+
+        return Arr::count(Arr::filter($array, [self::class, 'isArray'])) > 0;
+
+    }
+
+    /**
+     * ### Checks if array is associative
+     * @since 0.1.3.pre-alpha.M1
+     *
+     * @param array{array-key, mixed} $array <p>
+     * Array to check.
+     * </p>
+     *
+     * @return bool True if array is associative, false otherwise
+     */
+    public static function isAssociative (array $array):bool {
+
+        if (self::isEmpty($array)) return false;
+
+        return self::keys($array) !== self::range(0, self::count($array) - 1);
+
+    }
+
+    /**
      * ### Counts all elements in the array
      * @since 0.1.3.pre-alpha.M1
      *
@@ -152,6 +203,38 @@ final class Arr {
     public static function count (array $array, bool $multi_dimensional = false):int {
 
         return count($array, $multi_dimensional ? COUNT_RECURSIVE : COUNT_NORMAL);
+
+    }
+
+    /**
+     * ### Counts all the values of an array
+     * @since 0.1.3.pre-alpha.M1
+     *
+     * @template TKey of array-key
+     * @template TValue
+     *
+     * @uses \FireHub\TheCore\Support\LowLevel\DataIs::null() To check if $key is null.
+     *
+     * @param array{TKey, TValue} $array <p>
+     * The array of values to count.
+     * </p>
+     * @param TKey|null $key [optional] <p>
+     * Key to count if counting multidimensional array.
+     * </p>
+     *
+     * @throws Error If you have to provide key when counting multidimensional array.
+     *
+     * @return array<TKey, int<1, max>> An associative array of values from input as keys and their count as value.
+     */
+    public static function countValues (array $array, null|int|string $key = null):array {
+
+        if (!self::isMultiDimensional($array)) return array_count_values($array);
+
+        return DataIs::null($key)
+            ? throw new Error('You have to provide key when counting multidimensional array.')
+            : (self::isMultiDimensional($column = self::column($array, $key))
+                ? array_count_values(self::merge(...$column)) // @phpstan-ignore-line Wrong retun array shape
+                : array_count_values($column));
 
     }
 
@@ -328,6 +411,26 @@ final class Arr {
     }
 
     /**
+     * ### Collapses array of arrays into a single, flat array
+     * @since 0.1.3.pre-alpha.M1
+     *
+     * @param array{array-key, mixed} $array <p>
+     * Multidimensional array to collapse.
+     * </p>
+     *
+     * @throws Error If array is not multi-dimensional.
+     *
+     * @return array{array-key, mixed} The resulting array.
+     */
+    public static function collapse (array $array):array {
+
+        return self::isMultiDimensional($array)
+            ? self::merge(...Arr::filter($array, [self::class, 'isArray'])) // @phpstan-ignore-line Wrong retun array shape
+            : throw new Error('Array need to be multi-dimensional to be able to collapse.');
+
+    }
+
+    /**
      * ### Creates an array by using one array for keys and another for its values
      * @since 0.1.3.pre-alpha.M1
      *
@@ -365,6 +468,54 @@ final class Arr {
             throw new Error($error->getMessage());
 
         }
+
+    }
+
+    /**
+     * ### Searches the array for a given value and returns the first corresponding key if successful
+     * @since 0.1.3.pre-alpha.M1
+     *
+     * @param mixed $value <p>
+     * The searched value.
+     * </p>
+     * @param array{array-key, mixed} $array <p>
+     * Array to search.
+     * </p>
+     * @param int|string|false $second_dimension [optional] <p>
+     * Allows you to search second dimension on multidimensional array.
+     * </p>
+     *
+     * @return int|string|false The key for needle if it is found in the array, false otherwise.
+     *
+     * @SuppressWarnings(PHPMD.BooleanArgumentFlag) Because it is static low level method.
+     */
+    public static function search (mixed $value, array $array, int|string|false $second_dimension = false):int|string|false {
+
+        return $second_dimension
+            ? array_search($value, self::combine(self::keys($array), self::column($array, $second_dimension)), true)
+            : array_search($value, $array, true);
+
+    }
+
+    /**
+     * ### Searches the array for a given value and returns the list of corresponding keys if successful
+     * @since 0.1.3.pre-alpha.M1
+     *
+     * @template TKey of array-key
+     * @template TValue
+     *
+     * @param TValue $value <p>
+     * The searched value.
+     * </p>
+     * @param array{TKey, TValue} $array <p>
+     * Array to search.
+     * </p>
+     *
+     * @return array{int, TKey} The keys for needle if it is found in the array.
+     */
+    public static function searchAll (mixed $value, array $array):array {
+
+        return self::keys($array, $value);
 
     }
 
@@ -525,6 +676,48 @@ final class Arr {
          * @phpstan-ignore-next-line
          */
         return $items;
+
+    }
+
+    /**
+     * ### Get all items from array with the specified keys
+     * @since 0.1.3.pre-alpha.M1
+     *
+     * @param array{array-key, mixed} $array <p>
+     * The array to filter items.
+     * </p>
+     * @param array{array-key, array-key} $keys <p>
+     * List of keys to return.
+     * </p>
+     *
+     * @throws Error If method flip requires that all values be either int or string.
+     *
+     * @return array{array-key, mixed} The filtered array.
+     */
+    public static function only (array $array, array $keys):array {
+
+        return self::intersectKey($array, self::flip($keys));
+
+    }
+
+    /**
+     * ### Get all items from array except for those with the specified keys
+     * @since 0.1.3.pre-alpha.M1
+     *
+     * @param array{array-key, mixed} $array <p>
+     * The array to filter items.
+     * </p>
+     * @param array{array-key, array-key} $keys <p>
+     * List of keys to return.
+     * </p>
+     *
+     * @throws Error If method flip requires that all values be either int or string.
+     *
+     * @return array{array-key, mixed} The filtered array.
+     */
+    public static function except (array $array, array $keys):array {
+
+        return self::differenceKey($array, self::flip($keys));
 
     }
 
@@ -703,6 +896,56 @@ final class Arr {
          * @phpstan-ignore-next-line
          */
         return array_intersect_assoc($array, ...$arrays);
+
+    }
+
+    /**
+     * ### Shuffle array items
+     * @since 0.1.3.pre-alpha.M1
+     *
+     * @template TKey of array-key
+     * @template TValue
+     *
+     * @param array{TKey, TValue} $array <p>
+     * An array to shuffle.
+     * </p>
+     * @param bool $preserve_keys [optional] <p>
+     * Whether you want to preserve keys from original array or not.
+     * </p>
+     *
+     * @throws Error If trying to shuffle empty array.
+     *
+     * @return ($preserve_keys is true ? non-empty-array<TKey, TValue|int|string> : non-empty-array<int, TValue|int|string>) Shuffled array.
+     *
+     * @SuppressWarnings(PHPMD.BooleanArgumentFlag) Because it is static low level method.
+     */
+    public static function shuffle (array &$array, bool $preserve_keys = false):array {
+
+        if (self::isEmpty($array)) throw new Error('Cannot shuffle empty array.');
+
+        // if we want to preserve keys
+        if ($preserve_keys) {
+
+            $items = [];
+
+            // get of keys from array
+            $keys = self::keys($array);
+
+            // shuffle out keys
+            shuffle($keys);
+
+            // add values from original items to shuffled one
+            foreach($keys as $key) $items[$key] = $array[$key];
+
+            // return shuffled array
+            return $items;
+
+        }
+
+        // shuffle items without preserving keys
+        shuffle($array);
+
+        return $array;
 
     }
 
@@ -906,6 +1149,74 @@ final class Arr {
     }
 
     /**
+     * ### Sorts array by multiple fields
+     * @since 0.1.3.pre-alpha.M1
+     *
+     * @template TKey of array-key
+     * @template TValue
+     *
+     * @uses \FireHub\TheCore\Support\LowLevel\DataIs::string() To check if first $field value is string.
+     * @uses \FireHub\TheCore\Support\Enums\Order::DESC To check if order is desc on second $field value.
+     *
+     * @param array{TKey, TValue} $array <p>
+     * Array to sort.
+     * </p>
+     * @param array{int, array<int, string|\FireHub\TheCore\Support\Enums\Order>} $fields <p>
+     * List of fields to sort by.
+     * </p>
+     *
+     * @throws Error If each field has to have both field name and sort value.
+     * @throws Error If first key of each field is not integer nor string.
+     * @throws Error If sorting by many your array is not 2-dimensional array.
+     * @throws Error If key does not exist.
+     * @throws Error If key is missing somewhere.
+     *
+     * @return array{TKey, TValue} Sorter array.
+     */
+    public static function sortByMany (array $array, array $fields):array {
+
+        $multi_sort = [];
+
+        foreach ($fields as $field) {
+
+            // check if both field name and sort value are present
+            isset($field[0]) && isset($field[1]) ?: throw new Error('Each field has to have both field name and sort value.');
+
+            $column = $field[0];
+            $order = $field[1];
+
+            // first key of each field must be string
+            if (!DataIs::string($column)) throw new Error('First key of each field must be integer or string.');
+
+            // when sorting by many your collection must be 2-dimensional array
+            if (self::isArray($array[0]) === false) throw new Error('When sorting by many your collection must be 2-dimensional array.'); // @phpstan-ignore-line
+
+            if (!self::keyExist($column, $array[0])) throw new Error("Key $column does not exist."); // @phpstan-ignore-line
+
+            // field 1 will be converter to PHP order constants
+            // it will default to SORT_ASC is FireHub\Support\Enums\Order is not the type
+            $order = $order === Order::DESC ? SORT_DESC : SORT_ASC;
+
+            self::count(self::keys($array)) === self::count(self::column($array, $column)) ?: throw new Error("Key $column is missing somewhere.");
+
+            // first array is array of value from selected column
+            $multi_sort[] = [...self::column($array, $column)];
+
+            // second array is sort order
+            $multi_sort[] = $order;
+
+        }
+
+        // attach items at the end of multi-sort
+        $multi_sort[] = &$array; // @phpstan-ignore-line
+
+        array_multisort(...$multi_sort);
+
+        return $array;
+
+    }
+
+    /**
      * ### Checks if the given key or index exists in the array
      * @since 0.1.3.pre-alpha.M1
      *
@@ -976,6 +1287,8 @@ final class Arr {
      * ### Get first value from array
      * @since 0.1.3.pre-alpha.M1
      *
+     * @uses \FireHub\TheCore\Support\LowLevel\DataIs To check if last key is null.
+     *
      * @param array{array-key, mixed} $array <p>
      * The array.
      * </p>
@@ -984,13 +1297,15 @@ final class Arr {
      */
     public static function first (array $array):mixed {
 
-        return !is_null(self::firstKey($array)) ? $array[self::firstKey($array)] : null;
+        return !DataIs::null(self::firstKey($array)) ? $array[self::firstKey($array)] : null;
 
     }
 
     /**
      * ### Gat last value from array
      * @since 0.1.3.pre-alpha.M1
+     *
+     * @uses \FireHub\TheCore\Support\LowLevel\DataIs To check if last key is null.
      *
      * @param array{array-key, mixed} $array <p>
      * The array.
@@ -1000,7 +1315,7 @@ final class Arr {
      */
     public static function last (array $array):mixed {
 
-        return !is_null(self::lastKey($array)) ? $array[self::lastKey($array)] : null;
+        return !DataIs::null(self::lastKey($array)) ? $array[self::lastKey($array)] : null;
 
     }
 
@@ -1037,6 +1352,88 @@ final class Arr {
     }
 
     /**
+     * ### Filter elements in an array
+     * @since 0.1.3.pre-alpha.M1
+     *
+     * @uses \FireHub\TheCore\Support\LowLevel\DataIs To check if last key is null.
+     * @uses ARRAY_FILTER_USE_BOTH To pass key as the only argument to callback instead of the value.
+     * @uses ARRAY_FILTER_USE_KEY To both value and key as arguments to callback instead of the value.
+     *
+     * @param array{array-key, mixed} $array <p>
+     * The array to iterate over.
+     * </p>
+     * @param null|callable $callback [optional] <p>
+     * The callback function to use.
+     * If no callback is supplied, all empty and false entries of array will be removed.
+     * </p>
+     * @param bool $pass_key [optional] <p>
+     * Pass key as the argument to callback.
+     * </p>
+     * @param bool $pass_value [optional] <p>
+     * Pass value as the argument to callback.
+     * </p>
+     *
+     * @return array{array-key, mixed} Filtered array.
+     *
+     * @caution If the array is changed from the callback function (e.g. element added, deleted or unset) the behavior of this function is undefined.
+     *
+     * @SuppressWarnings(PHPMD.BooleanArgumentFlag) Because it is static low level method.
+     */
+    public static function filter (array $array, ?callable $callback = null, bool $pass_key = false, bool $pass_value = true):array {
+
+        if (DataIs::null($callback)) return array_filter($array); // @phpstan-ignore-line Returns array{0?: (int<min, -1>|int<1, max>|non-falsy-string), 1?: mixed}
+
+        $mode = $pass_key && $pass_value
+            ? ARRAY_FILTER_USE_BOTH
+            : ($pass_key
+                ? ARRAY_FILTER_USE_KEY
+                : 0);
+
+        return array_filter($array, $callback, $mode); // @phpstan-ignore-line Returns  array<0|1, mixed>
+
+    }
+
+    /**
+     * ### Create an array containing a range of elements
+     * @since 0.1.3.pre-alpha.M1
+     *
+     * @uses Throwable To cache error.
+     *
+     * @param int|float|string $start <p>
+     * First value of the sequence.
+     * </p>
+     * @param int|float|string $end <p>
+     * The sequence is ended upon reaching the end value.
+     * </p>
+     * @param int|float $step [optional] <p>
+     * If a step value is given, it will be used as the increment between elements in the sequence.
+     * Step should be given as a positive number. If not specified, step will default to 1.
+     * </p>
+     *
+     * @throws Error If Your start is bigger then the end of array.
+     * @throws Error If Your step is bigger then the end of array.
+     *
+     * @return array<int, (float|int|string)> An array of elements from start to end, inclusive.
+     */
+    public static function range (int|float|string $start, int|float|string $end, int|float $step = 1):array {
+
+        try {
+
+            return range($start, $end, $step);
+
+        } catch (Throwable $error) {
+
+            if ($start > $end) throw new Error("Your start $start is bigger then the end of array $end.");
+
+            if ($end < $step) throw new Error("Your step $end is bigger then the end of array $step.");
+
+            throw new Error($error->getMessage());
+
+        }
+
+    }
+
+    /**
      * ### Apply a user function to every member of an array
      * @since 0.1.3.pre-alpha.M1
      *
@@ -1057,6 +1454,75 @@ final class Arr {
     public static function walk (array &$array, callable $callback):bool {
 
         return array_walk($array, $callback);
+
+    }
+
+    /**
+     * ### Applies the callback to the elements of the given array
+     * @since 0.1.3.pre-alpha.M1
+     *
+     * @param array{array-key, mixed} $array <p>
+     * Array to run through the callback function.
+     * </p>
+     * @param callable $callback <p>
+     * Callback function to run for each element in each array.
+     * </p>
+     *
+     * @return array{array-key, mixed} Array containing all the elements of arr1 after applying the callback function.
+     */
+    public static function map (array $array, callable $callback):array {
+
+        return array_map($callback, $array);
+
+    }
+
+    /**
+     * ### Fill an array with values
+     * @since 0.1.3.pre-alpha.M1
+     *
+     * @template TValue
+     *
+     * @param int $start_index <p>
+     * The first index of the returned array.
+     * </p>
+     * @param int<0, max> $length <p>
+     * Number of elements to insert. Must be greater than or equal to zero.
+     * </p>
+     * @param TValue $value p>
+     * Value to use for filling.
+     * </p>
+     *
+     * @return array<int, TValue> Filled array.
+     */
+    public static function fill (int $start_index, int $length, mixed $value):array {
+
+        return array_fill($start_index, $length, $value);
+
+    }
+
+    /**
+     * ### Fill an array with values, specifying keys
+     * @since 0.1.3.pre-alpha.M1
+     *
+     * @template TKey of array-key
+     * @template TValue
+     *
+     * @param array{array-key, TKey} $keys <p>
+     * Array of values that will be used as keys. Illegal values for key will be converted to string.
+     * </p>
+     * @param TValue $value p>
+     * Value to use for filling.
+     * </p>
+     *
+     * @throws Error If array is empty.
+     *
+     * @return non-empty-array<TKey, TValue> Filled array.
+     */
+    public static function fillKeys (array $keys, mixed $value):array {
+
+        return self::isEmpty($keys)
+            ? throw new Error('Array cannot be empty.')
+            : array_fill_keys($keys, $value);
 
     }
 

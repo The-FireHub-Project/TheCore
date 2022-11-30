@@ -49,6 +49,9 @@ use function is_writable;
  *
  * @SuppressWarnings(PHPMD.TooManyMethods) Support class are supposed to have many methods.
  * @SuppressWarnings(PHPMD.TooManyPublicMethods) Support class are supposed to have many public methods.
+ * @SuppressWarnings(PHPMD.ExcessiveClassComplexity) Support class are not complex.
+ * @SuppressWarnings(PHPMD.ExcessiveClassLength) Support class can be long.
+ * @SuppressWarnings(PHPMD.ExcessivePublicCount) Support class can have large number of public items.
  */
 final class DataIs {
 
