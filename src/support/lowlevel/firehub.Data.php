@@ -125,7 +125,7 @@ final class Data {
                 $value_name = match (true) {
                     $reflection->name === 'Closure' => $value::class,
                     $reflection->isAnonymous() => 'Anonymous class',
-                    default => $value
+                    default => 'Unknown'
                 };
 
                 throw new Error("$value_name cannot be serialized.");
