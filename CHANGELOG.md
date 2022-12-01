@@ -9,6 +9,7 @@
 - Created DataIs support class ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [f30f198](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/f30f198))
 - Created Order and sort enums ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [31e8d73](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/31e8d73))
 - Created Arr and Data low level classes ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [66d345b](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/66d345b))
+- Created Cls and Obj low level classes ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [7d0b3c8](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/7d0b3c8))
 
 ### Removed
 - Removed optional from all parameters in register method and replaced them with class properties in Autoload class ([f6f3cd0](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/f6f3cd0))
