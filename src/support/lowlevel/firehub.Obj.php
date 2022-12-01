@@ -56,7 +56,7 @@ final class Obj {
      * Value to check.
      * </p>
      *
-     * @return bool True if value is object, false otherwise.
+     * @return ($value is object ? true : false) True if value is object, false otherwise.
      */
     public static function isObject (mixed $value):bool {
 
