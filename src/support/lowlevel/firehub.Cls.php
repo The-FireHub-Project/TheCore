@@ -14,6 +14,9 @@
 
 namespace FireHub\TheCore\Support\LowLevel;
 
+use FireHub\TheCore\Support\LowLevel\ {
+    Data\DataIs, Iterable\Arr
+};
 use Error;
 
 use function class_alias;
@@ -208,7 +211,7 @@ final class Cls {
      * ### Return the traits of the given class
      * @since 0.1.3.pre-alpha.M1
      *
-     * @uses \FireHub\TheCore\Support\LowLevel\Arr::merge() To merge parent traits with ones in class.
+     * @uses \FireHub\TheCore\Support\LowLevel\Iterable\Arr::merge() To merge parent traits with ones in class.
      *
      * @param class-string $class <p>
      * The tested class.
@@ -262,7 +265,7 @@ final class Cls {
      * ### Gets the class methods names
      * @since 0.1.3.pre-alpha.M1
      *
-     * @uses \FireHub\TheCore\Support\LowLevel\DataIs::object() To check if $class is object.
+     * @uses \FireHub\TheCore\Support\LowLevel\Data\DataIs::object() To check if $class is object.
      *
      * @param class-string $class <p>
      * Class name.

@@ -12,8 +12,9 @@
  * @version GIT: $Id$ Blob checksum.
  */
 
-namespace FireHub\TheCore\Support\LowLevel;
+namespace FireHub\TheCore\Support\LowLevel\Iterable;
 
+use FireHub\TheCore\Support\LowLevel\Data\DataIs;
 use Traversable;
 
 use function iterator_apply;
@@ -39,7 +40,7 @@ final class Iterator {
      * ### Checks if value is iterator
      * @since 0.1.3.pre-alpha.M1
      *
-     * @uses \FireHub\TheCore\Support\LowLevel\DataIs::iterable() To check if value is iterable.
+     * @uses \FireHub\TheCore\Support\LowLevel\Data\DataIs::iterable() To check if value is iterable.
      *
      * @param mixed $value <p>
      * Value to check.

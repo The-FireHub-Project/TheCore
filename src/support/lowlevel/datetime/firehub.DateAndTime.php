@@ -12,7 +12,7 @@
  * @version GIT: $Id$ Blob checksum.
  */
 
-namespace FireHub\TheCore\Support\LowLevel;
+namespace FireHub\TheCore\Support\LowLevel\DateTime;
 
 use FireHub\TheCore\Support\Enums\DateTime\TimeZone;
 use Error;

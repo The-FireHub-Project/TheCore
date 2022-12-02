@@ -12,11 +12,13 @@
  * @version GIT: $Id$ Blob checksum.
  */
 
-namespace FireHub\TheCore\Support\LowLevel;
+namespace FireHub\TheCore\Support\LowLevel\Data;
 
-use FireHub\TheCore\Support\Enums\Data\Type as DataType;
-use FireHub\TheCore\Support\Enums\Json\ {
-    Encode as JsonEncode, Decode as JsonDecode
+use FireHub\TheCore\Support\LowLevel\ {
+    Data\DataIs, Iterable\Arr
+};
+use FireHub\TheCore\Support\Enums\ {
+    Data\Type as DataType, Json\Encode as JsonEncode, Json\Decode as JsonDecode
 };
 use Error, ReflectionClass, Throwable;
 
@@ -90,7 +92,7 @@ final class Data {
      * ### Generates storable representation of data
      * @since 0.1.3.pre-alpha.M1
      *
-     * @uses \FireHub\TheCore\Support\LowLevel\DataIs::object() To check if value is object.
+     * @uses \FireHub\TheCore\Support\LowLevel\Data\DataIs::object() To check if value is object.
      * @uses Throwable To cache error.
      * @uses ReflectionClass To reflect object if value is one.
      *
@@ -178,8 +180,8 @@ final class Data {
      * ### Returns JSON representation of a value
      * @since 0.1.3.pre-alpha.M1
      *
-     * @uses \FireHub\TheCore\Support\LowLevel\Arr::walk() To replace array value from json encode enum with enum values.
-     * @uses \FireHub\TheCore\Support\LowLevel\Arr::unique() To remove duplicated enum values.
+     * @uses \FireHub\TheCore\Support\LowLevel\Iterable\Arr::walk() To replace array value from json encode enum with enum values.
+     * @uses \FireHub\TheCore\Support\LowLevel\Iterable\Arr::unique() To remove duplicated enum values.
      *
      * @param mixed $value <p>
      * The value being encoded.
@@ -207,8 +209,8 @@ final class Data {
      * ### Decodes JSON string
      * @since 0.1.3.pre-alpha.M1
      *
-     * @uses \FireHub\TheCore\Support\LowLevel\Arr::walk() To replace array value from json encode enum with enum values.
-     * @uses \FireHub\TheCore\Support\LowLevel\Arr::unique() To remove duplicated enum values.
+     * @uses \FireHub\TheCore\Support\LowLevel\Iterable\Arr::walk() To replace array value from json encode enum with enum values.
+     * @uses \FireHub\TheCore\Support\LowLevel\Iterable\Arr::unique() To remove duplicated enum values.
      *
      * @param string $json <p>
      * The json string being decoded.

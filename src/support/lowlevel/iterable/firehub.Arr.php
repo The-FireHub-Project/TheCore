@@ -12,8 +12,11 @@
  * @version GIT: $Id$ Blob checksum.
  */
 
-namespace FireHub\TheCore\Support\LowLevel;
+namespace FireHub\TheCore\Support\LowLevel\Iterable;
 
+use FireHub\TheCore\Support\LowLevel\Data\ {
+    Data, DataIs
+};
 use FireHub\TheCore\Support\Enums\ {
     Data\Type as DataType, Order, Sort
 };
@@ -93,7 +96,7 @@ final class Arr {
      * ### Checks if value is array
      * @since 0.1.3.pre-alpha.M1
      *
-     * @uses \FireHub\TheCore\Support\LowLevel\Data To get data type.
+     * @uses \FireHub\TheCore\Support\LowLevel\Data\Data To get data type.
      * @uses \FireHub\TheCore\Support\Enums\Data\Type To check if value is array.
      *
      * @param mixed $value <p>
@@ -112,7 +115,7 @@ final class Arr {
      * ### Convert value to array
      * @since 0.1.3.pre-alpha.M1
      *
-     * @uses \FireHub\TheCore\Support\LowLevel\Data::setType() To change value to array.
+     * @uses \FireHub\TheCore\Support\LowLevel\Data\Data::setType() To change value to array.
      * @uses \FireHub\TheCore\Support\Enums\Data\Type As argumenent for Data method.
      *
      * @param mixed $value <p>
@@ -130,8 +133,6 @@ final class Arr {
     /**
      * ### Checks if array is empty
      * @since 0.1.3.pre-alpha.M1
-     *
-     * @uses \FireHub\TheCore\Support\LowLevel\Arr::count() To count items in array.
      *
      * @param array{array-key, mixed} $array <p>
      * Array to check.
@@ -212,7 +213,7 @@ final class Arr {
      * @template TKey of array-key
      * @template TValue
      *
-     * @uses \FireHub\TheCore\Support\LowLevel\DataIs::null() To check if $key is null.
+     * @uses \FireHub\TheCore\Support\LowLevel\Data\DataIs::null() To check if $key is null.
      *
      * @param array{TKey, TValue} $array <p>
      * The array of values to count.
@@ -433,7 +434,6 @@ final class Arr {
      * ### Creates an array by using one array for keys and another for its values
      * @since 0.1.3.pre-alpha.M1
      *
-     * @uses \FireHub\TheCore\Support\LowLevel\Arr::count() To count items in array.
      * @uses Throwable To cache error.
      *
      * @template TKey of array-key
@@ -642,8 +642,8 @@ final class Arr {
      * @template TKey of array-key
      * @template TValue of array-key
      *
-     * @uses \FireHub\TheCore\Support\LowLevel\DataIs::int() To check if array value is integer.
-     * @uses \FireHub\TheCore\Support\LowLevel\DataIs::string() To check if array value is string.
+     * @uses \FireHub\TheCore\Support\LowLevel\Data\DataIs::int() To check if array value is integer.
+     * @uses \FireHub\TheCore\Support\LowLevel\Data\DataIs::string() To check if array value is string.
      *
      * @param array{TKey, TValue} $array <p>
      * The array to flip.
@@ -1140,7 +1140,7 @@ final class Arr {
      * @template TKey of array-key
      * @template TValue
      *
-     * @uses \FireHub\TheCore\Support\LowLevel\DataIs::string() To check if first $field value is string.
+     * @uses \FireHub\TheCore\Support\LowLevel\Data\DataIs::string() To check if first $field value is string.
      * @uses \FireHub\TheCore\Support\Enums\Order::DESC To check if order is desc on second $field value.
      *
      * @param array{TKey, TValue} $array <p>
@@ -1229,7 +1229,7 @@ final class Arr {
      * @template TKey of array-key
      * @template TValue
      *
-     * @uses \FireHub\TheCore\Support\LowLevel\DataIs::null() To check if filter is null.
+     * @uses \FireHub\TheCore\Support\LowLevel\Data\DataIs::null() To check if filter is null.
      *
      * @param array{TKey, TValue} $array <p>
      * An array containing keys to return.
@@ -1272,7 +1272,7 @@ final class Arr {
      * ### Get first value from array
      * @since 0.1.3.pre-alpha.M1
      *
-     * @uses \FireHub\TheCore\Support\LowLevel\DataIs To check if last key is null.
+     * @uses \FireHub\TheCore\Support\LowLevel\Data\DataIs To check if last key is null.
      *
      * @param array{array-key, mixed} $array <p>
      * The array.
@@ -1290,7 +1290,7 @@ final class Arr {
      * ### Gat last value from array
      * @since 0.1.3.pre-alpha.M1
      *
-     * @uses \FireHub\TheCore\Support\LowLevel\DataIs To check if last key is null.
+     * @uses \FireHub\TheCore\Support\LowLevel\Data\DataIs To check if last key is null.
      *
      * @param array{array-key, mixed} $array <p>
      * The array.
@@ -1340,7 +1340,7 @@ final class Arr {
      * ### Filter elements in an array
      * @since 0.1.3.pre-alpha.M1
      *
-     * @uses \FireHub\TheCore\Support\LowLevel\DataIs To check if last key is null.
+     * @uses \FireHub\TheCore\Support\LowLevel\Data\DataIs To check if last key is null.
      * @uses ARRAY_FILTER_USE_BOTH To pass key as the only argument to callback instead of the value.
      * @uses ARRAY_FILTER_USE_KEY To both value and key as arguments to callback instead of the value.
      *

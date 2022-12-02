@@ -14,6 +14,9 @@
 
 namespace FireHub\TheCore\Support\LowLevel;
 
+use FireHub\TheCore\Support\LowLevel\ {
+    Data\DataIs, Iterable\Arr
+};
 use UnitEnum;
 
 use function class_implements;
@@ -50,7 +53,7 @@ final class Obj {
      * ### Checks if value is object
      * @since 0.1.3.pre-alpha.M1
      *
-     * @uses \FireHub\TheCore\Support\LowLevel\DataIs::object() To check if value is object.
+     * @uses \FireHub\TheCore\Support\LowLevel\Data\DataIs::object() To check if value is object.
      *
      * @param mixed $value <p>
      * Value to check.
@@ -170,7 +173,7 @@ final class Obj {
      * ### Return the traits of the given object
      * @since 0.1.3.pre-alpha.M1
      *
-     * @uses \FireHub\TheCore\Support\LowLevel\Arr::merge() To merge parent traits with ones in class.
+     * @uses \FireHub\TheCore\Support\LowLevel\Iterable\Arr::merge() To merge parent traits with ones in class.
      * @uses \FireHub\TheCore\Support\LowLevel\Cls::traits() To check parent traits.
      *
      * @param object $object <p>
