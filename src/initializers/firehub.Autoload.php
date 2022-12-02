@@ -46,7 +46,7 @@ require Phar::running(true).'/initializers/enums/firehub.Suffix.php';
  * call main Firehub classes and its components.
  *
  * @since 0.1.1.pre-alpha.M1
- * @since 0.1.3.pre-alpha.M1 Removed optional from all parameters in register method and replaced them with class properties, removed unused parameter $class_fqn in callable method.
+ * @since 0.1.3.pre-alpha.M1 Removed optional from all parameters in register method and replaced them with class properties, removed unused parameter $class_fqn in callable method, fixed suffix by adding strtolower to return key in extract method.
  */
 final class Autoload {
 
@@ -234,7 +234,9 @@ final class Autoload {
 
     /**
      * ### Breake class fully-qualified name into usable components
+     *
      * @since 0.1.1.pre-alpha.M1
+     * @since 0.1.3.pre-alpha.M1 Fixed suffix by adding strtolower to return key.
      *
      * @uses \FireHub\TheCore\Initializers\Constants\DS To seperate folders.
      *
@@ -273,7 +275,7 @@ final class Autoload {
             'namespace' => $namespace,
             'prefix' => $vendor,
             'class' => $class_components[0],
-            'suffix' => $class_components[1] ?? ''
+            'suffix' => isset($class_components[1]) ? strtolower($class_components[1]) : ''
         ];
 
     }
