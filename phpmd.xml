@@ -13,6 +13,7 @@
     <rule ref="rulesets/design.xml" />
     <rule ref="rulesets/naming.xml">
         <exclude name="ShortMethodName" />
+        <exclude name="ShortVariable" />
     </rule>
     <rule ref="rulesets/unusedcode.xml" />
 </ruleset>
