@@ -2,15 +2,6 @@
 
 ## [Unreleased](https://github.com/The-FireHub-Project/Documentor/compare/develop-pre-alpha-m1...develop-pre-alpha)
 
-### Added
-- Created DataTypeType enum ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [c1b2d7a](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/c1b2d7a))
-- Created DataType enum ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [04d70c8](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/04d70c8))
-- Created JSON enums ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [aaa36a3](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/aaa36a3))
-- Created DataIs support class ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [f30f198](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/f30f198))
-- Created Order and sort enums ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [31e8d73](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/31e8d73))
-- Created Arr and Data low level classes ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [66d345b](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/66d345b))
-- Created Cls and Obj low level classes ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [7d0b3c8](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/7d0b3c8))
-
 ### Removed
 - Removed optional from all parameters in register method and replaced them with class properties in Autoload class ([f6f3cd0](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/f6f3cd0))
 - Removed unused parameter $class_fqn in callable method in Autoload class ([11294e3](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/11294e3))
