@@ -9,6 +9,7 @@
 - Created Order and Sort enums ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [ecd94af](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/ecd94af))
 - Created Arr low level class ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [b31c156](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/b31c156))
 - Created Iterator low level class ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [84cd11c](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/84cd11c))
+- Created Cls and Obj low level classes ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [1bb144a](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/1bb144a))
 
 ### Removed
 - Removed optional from all parameters in register method and replaced them with class properties in Autoload class ([f6f3cd0](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/f6f3cd0))
