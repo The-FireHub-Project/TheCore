@@ -1025,7 +1025,7 @@ final class Arr {
             if (!DataIs::string($column)) return false;
 
             // when sorting by many your collection must be 2-dimensional array
-            if (self::isArray($array[0]) === false) return false; // @phpstan-ignore-line
+            if (self::isArray($array[0]) === false) return false;
 
             if (!self::keyExist($column, $array[0])) return false; // @phpstan-ignore-line
 
