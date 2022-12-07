@@ -2,6 +2,11 @@
 
 ## [Unreleased](https://github.com/The-FireHub-Project/Documentor/compare/develop-pre-alpha-m1...develop-pre-alpha)
 
+### Added
+- Created Data Type and TypeType enum ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [d7d06c2](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/d7d06c2))
+- Created Json Encode and Decode enum ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [b9db72d](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/b9db72d))
+- Created Data and DataIs low level classes ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [e4af635](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/e4af635))
+
 ### Removed
 - Removed optional from all parameters in register method and replaced them with class properties in Autoload class ([f6f3cd0](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/f6f3cd0))
 - Removed unused parameter $class_fqn in callable method in Autoload class ([11294e3](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/11294e3))
