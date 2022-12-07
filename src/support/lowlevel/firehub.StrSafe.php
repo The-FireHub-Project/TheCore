@@ -20,10 +20,12 @@ use const PHP_INT_MAX;
 
 use function explode;
 use function implode;
+use function str_contains;
+use function str_ends_with;
 use function str_repeat;
 use function str_replace;
 use function str_ireplace;
-use function str_contains;
+use function str_starts_with;
 use function strip_tags;
 use function stripslashes;
 use function ltrim;
@@ -268,6 +270,44 @@ abstract class StrSafe {
         if (!$case_sensitive && static::firstPosition($value, $string, false)) return true;
 
         return str_contains($string, $value);
+
+    }
+
+    /**
+     * ### Checks if a string starts with a given value
+     * @since 0.1.3.pre-alpha.M1
+     *
+     * @param string $value <p>
+     * The value to search for.
+     * </p>
+     * @param string $string <p>
+     * The string to search in.
+     * </p>
+     *
+     * @return bool True if string starts with value, false otherwise.
+     */
+    public static function startsWith (string $value, string $string):bool {
+
+        return str_starts_with($string, $value);
+
+    }
+
+    /**
+     * ### Checks if a string ends with a given value
+     * @since 0.1.3.pre-alpha.M1
+     *
+     * @param string $value <p>
+     * The value to search for.
+     * </p>
+     * @param string $string <p>
+     * The string to search in.
+     * </p>
+     *
+     * @return bool True if string ends with value, false otherwise.
+     */
+    public static function endsWith (string $value, string $string):bool {
+
+        return str_ends_with($string, $value);
 
     }
 

@@ -18,6 +18,12 @@ use FireHub\TheCore\Support\Enums\ {
     Side, String\Encoding, String\StrCase
 };
 
+use const ENT_QUOTES;
+use const ENT_SUBSTITUTE;
+use const ENT_HTML401;
+
+use function html_entity_decode;
+use function htmlentities;
 use function mb_chr;
 use function mb_detect_encoding;
 use function mb_convert_case;
@@ -493,6 +499,48 @@ final class StrMB extends StrSafe {
         foreach (Encoding::cases() as $case) $cases[] = $case->value;
 
         return mb_detect_encoding($string, $cases, true);
+
+    }
+
+    /**
+     * ### Convert all applicable characters to HTML entities
+     * @since 0.1.3.pre-alpha.M1
+     *
+     * @uses \FireHub\TheCore\Support\Enums\String\Encoding As parameter.
+     *
+     * @param string $string <p>
+     * String to encode.
+     * </p>
+     * @param null|\FireHub\TheCore\Support\Enums\String\Encoding $encoding [optional] <p>
+     * Character encoding. If it is null, the internal character encoding value will be used.
+     * </p>
+     *
+     * @return string The encoded string.
+     */
+    public static function htmlEncode (string $string, ?Encoding $encoding = null):string {
+
+        return htmlentities($string, ENT_QUOTES | ENT_SUBSTITUTE | ENT_HTML401, $encoding?->value);
+
+    }
+
+    /**
+     * ### Convert HTML entities to their corresponding characters
+     * @since 0.1.3.pre-alpha.M1
+     *
+     * @uses \FireHub\TheCore\Support\Enums\String\Encoding As parameter.
+     *
+     * @param string $string <p>
+     * String to decode.
+     * </p>
+     * @param null|\FireHub\TheCore\Support\Enums\String\Encoding $encoding [optional] <p>
+     * Character encoding. If it is null, the internal character encoding value will be used.
+     * </p>
+     *
+     * @return string The decoded string.
+     */
+    public static function htmlDecode (string $string, ?Encoding $encoding = null):string {
+
+        return html_entity_decode($string, ENT_QUOTES | ENT_SUBSTITUTE | ENT_HTML401, $encoding?->value);
 
     }
 
