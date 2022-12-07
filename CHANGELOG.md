@@ -10,6 +10,10 @@
 - Created Arr low level class ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [b31c156](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/b31c156))
 - Created Iterator low level class ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [84cd11c](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/84cd11c))
 - Created Cls and Obj low level classes ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [1bb144a](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/1bb144a))
+- Created Side enum ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [0bb1ead](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/0bb1ead))
+- Created StrCase and Encoding enum ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [bbc2de7](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/bbc2de7))
+- Added treatPhpDocTypesAsCertain to phpstan.neon [cf93638](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/cf93638))
+- Created Str low level classes ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [4d0a4b7](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/4d0a4b7))
 
 ### Removed
 - Removed optional from all parameters in register method and replaced them with class properties in Autoload class ([f6f3cd0](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/f6f3cd0))
