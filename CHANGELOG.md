@@ -6,6 +6,8 @@
 - Created Data Type and TypeType enum ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [d7d06c2](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/d7d06c2))
 - Created Json Encode and Decode enum ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [b9db72d](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/b9db72d))
 - Created Data and DataIs low level classes ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [e4af635](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/e4af635))
+- Created Order and Sort enums ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [ecd94af](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/ecd94af))
+- Created Arr low level class ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [b31c156](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/b31c156))
 
 ### Removed
 - Removed optional from all parameters in register method and replaced them with class properties in Autoload class ([f6f3cd0](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/f6f3cd0))
