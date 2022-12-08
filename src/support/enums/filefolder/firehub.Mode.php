@@ -20,7 +20,7 @@ namespace FireHub\TheCore\Support\Enums\FileFolder;
  *
  * @api
  */
-enum Mode:int {
+enum Mode:string {
 
     /**
      * ### Open for reading only
