@@ -16,6 +16,7 @@
 - Created Str low level classes ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [4d0a4b7](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/4d0a4b7))
 - Created file enums: Lock, Permission and Mode ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [f36e852](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/f36e852))
 - Created File and Folder low level classes ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [143fc77](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/143fc77))
+- Created TimeZone enum ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [b5c8524](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/b5c8524))
 
 ### Removed
 - Removed optional from all parameters in register method and replaced them with class properties in Autoload class ([f6f3cd0](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/f6f3cd0))
