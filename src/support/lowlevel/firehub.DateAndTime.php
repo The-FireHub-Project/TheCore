@@ -105,6 +105,8 @@ final class DateAndTime {
      * ### Gets the default timezone used by all date/time functions in a script
      * @since 0.1.3.pre-alpha.M1
      *
+     * @uses \FireHub\TheCore\Support\Enums\DateTime\TimeZone To check for valid timezone.
+     *
      * @return \FireHub\TheCore\Support\Enums\DateTime\TimeZone|false Timezone, false if timezone doesn't exist.
      */
     public static function getDefaultTimezone ():TimeZone|false {
