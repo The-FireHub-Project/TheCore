@@ -25,39 +25,6 @@ use function define;
 use function dirname;
 
 /**
- * ### System definition for separating folders, platform specific
- *
- * Convert '\' and '/' for different operating systems.
- * This is just shorter version of PHP internal DIRECTORY_SEPARATOR constant.
- * @since 0.1.1.pre-alpha.M1
- *
- * @var string DS
- *
- * @uses DIRECTORY_SEPARATOR To resolve definition for separating folders.
- *
- * @link https://www.php.net/manual/en/dir.constants.php To find more info for DIRECTORY_SEPARATOR constant.
- *
- * @api
- */
-if (!defined('FireHub\TheCore\Initializers\Constants\DS')) define('FireHub\TheCore\Initializers\Constants\DS', DIRECTORY_SEPARATOR);
-
-/**
- * ### System definition for separating file lines, platform specific
- *
- * This is just shorter version of PHP internal PHP_EOL constant.
- * @since 0.1.1.pre-alpha.M1
- *
- * @var string EOL
- *
- * @uses PHP_EOL To resolve separating file lines.
- *
- * @link https://www.php.net/manual/en/reserved.constants.php To find more info for PHP_EOL constant.
- *
- * @api
- */
-if (!defined('FireHub\TheCore\Initializers\Constants\EOL')) define('FireHub\TheCore\Initializers\Constants\EOL', PHP_EOL);
-
-/**
  * ### Root FireHub Core path
  * @since 0.1.1.pre-alpha.M1
  *
