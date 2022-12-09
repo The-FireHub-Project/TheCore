@@ -43,7 +43,7 @@ use function property_exists;
  * @SuppressWarnings(PHPMD.ExcessiveClassComplexity) Support class are not complex.
  * @SuppressWarnings(PHPMD.ExcessiveClassLength) Support class can be long.
  * @SuppressWarnings(PHPMD.ExcessivePublicCount) Support class can have large number of public items.
- * @SuppressWarnings(PHPMD.BooleanArgumentFlag) Low level class can have boolian arguments.
+ * @SuppressWarnings(PHPMD.BooleanArgumentFlag) Low level class can have boolean arguments.
  */
 final class Cls {
 
