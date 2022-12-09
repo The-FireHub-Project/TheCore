@@ -14,9 +14,7 @@
 
 namespace FireHub\TheCore\Support\LowLevel;
 
-use FireHub\TheCore\Support\Enums\DateTime\ {
-    TimeZone
-};
+use FireHub\TheCore\Support\Enums\DateTime\TimeZone;
 
 use function date;
 use function date_default_timezone_get;
