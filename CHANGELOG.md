@@ -2,6 +2,8 @@
 
 ## [Unreleased](https://github.com/The-FireHub-Project/Documentor/compare/develop-pre-alpha-m1...develop-pre-alpha)
 
+## [v0.1.3](https://github.com/The-FireHub-Project/Documentor/compare/v0.1.3-alpha.1...develop-pre-alpha-m1) - (2022-12-09)
+
 ### Added
 - Created Data Type and TypeType enum ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [d7d06c2](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/d7d06c2))
 - Created Json Encode and Decode enum ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [b9db72d](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/b9db72d))
@@ -22,6 +24,7 @@
 - Created comparison enum ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [923dadb](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/923dadb))
 - Created Base and RoundMode enums for numeric values ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [32d0766](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/32d0766))
 - Added varoius math constants ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [ed569bb](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/ed569bb))
+- Created number low level classes ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [786d91f](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/786d91f))
 
 ### Changed
 
