@@ -71,7 +71,7 @@
         </tr>
     </table>
 
-* __Quality Assurance__
+* __Quality Assurance___
     <table>
         <tr>
             <td rowspan="2" valign="center" width="80px">❓</td>
@@ -82,6 +82,6 @@
         </tr>
     </table>
 
-# Other Contributors
+## Other Contributors
 
 Full list of individuals contributors can be found [here](https://github.com/The-FireHub-Project/TheCore/blob/master/.github/CONTRIBUTORS.md).

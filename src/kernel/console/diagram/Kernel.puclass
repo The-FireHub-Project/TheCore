@@ -1,0 +1,11 @@
+@startuml
+
+package FireHub\Kernel\Console <<Node>> #FFEBEE {
+    namespace FireHub\Kernel\Console {
+        class Kernel #D50000;line:9B0000 {
+            + runtime ():string
+        }
+    }
+}
+
+@enduml

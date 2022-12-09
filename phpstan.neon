@@ -3,3 +3,14 @@ parameters:
     paths:
         - src/
     treatPhpDocTypesAsCertain: false
+    checkExplicitMixedMissingReturn: true
+    checkFunctionNameCase: true
+    checkInternalClassCaseSensitivity: true
+    reportMaybesInMethodSignatures: true
+    reportMaybesInPropertyPhpDocTypes: true
+    reportStaticMethodSignatures: true
+    #checkTooWideReturnTypesInProtectedAndPublicMethods: true
+    checkUninitializedProperties: true
+    tipsOfTheDay: false
+    ignoreErrors:
+        - '#PHPDoc tag @var does not specify variable name.#'

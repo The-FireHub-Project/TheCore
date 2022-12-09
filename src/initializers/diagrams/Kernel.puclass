@@ -1,0 +1,11 @@
+@startuml
+
+package FireHub\Initializers <<Node>> #FFEBEE {
+    namespace FireHub\Initializers {
+        abstract class Kernel #D50000;line:9B0000 {
+            # runtime ():string
+        }
+    }
+}
+
+@enduml
