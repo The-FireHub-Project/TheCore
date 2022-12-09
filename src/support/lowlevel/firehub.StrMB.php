@@ -186,6 +186,10 @@ final class StrMB extends StrSafe {
      *
      * @uses \FireHub\TheCore\Support\Enums\Side::RIGHT As parameter.
      * @uses \FireHub\TheCore\Support\Enums\String\Encoding As parameter.
+     * @uses \FireHub\TheCore\Support\LowLevel\Num::max() To get max value.
+     * @uses \FireHub\TheCore\Support\LowLevel\Num::floor() To get floor value.
+     * @uses \FireHub\TheCore\Support\LowLevel\Num::ceil() To get ceil value.
+     * @uses \FireHub\TheCore\Support\LowLevel\DataIs::int() To check if max value is integer.
      * @uses \FireHub\TheCore\Support\LowLevel\StrMB::repeat() To repeat string.
      * @uses \FireHub\TheCore\Support\LowLevel\StrMB::part() To get part of string.
      *
@@ -204,22 +208,17 @@ final class StrMB extends StrSafe {
      * @param null|\FireHub\TheCore\Support\Enums\String\Encoding $encoding [optional] <p>
      * Character encoding. If it is null, the internal character encoding value will be used.
      * </p>
-     *
-     * @todo Replace max, intval, floor and ceil with internal function.
      */
-    public static function pad (string $string, int $length, string $pad = " ", Side $side = Side::RIGHT, ?Encoding $encoding = null):string {
+    public static function pad (string $string, int $length, string $pad = " ", Side $side = Side::RIGHT, ?Encoding $encoding = null):string|false {
 
-        $short = max(0, $length - self::length($string, $encoding));
-        $shortLeft = intval(floor($short / 2));
-        $shortRight = intval(ceil($short / 2));
+        $short = Num::max(0, $length - self::length($string, $encoding));
+        $shortLeft = Num::floor($short / 2);
+        $shortRight = Num::ceil($short / 2);
 
-        /**
-         * @todo Error will go away after implementing math low level
-         */
         return match ($side) {
-            Side::LEFT => $short > 0 ? self::part(self::repeat($pad, $short), 0, $short, $encoding).$string : $string,
-            Side::RIGHT => $short > 0 ? $string.self::part(self::repeat($pad, $short), 0, $short, $encoding) : $string,
-            Side::BOTH => self::part(self::repeat($pad, $shortLeft), 0, $shortLeft, $encoding). $string. self::part(self::repeat($pad, $shortRight), 0, $shortRight, $encoding) # @phpstan-ignore-line
+            Side::LEFT => $short > 0 && DataIs::int($short) ? self::part(self::repeat($pad, $short), 0, $short, $encoding).$string : $string,
+            Side::RIGHT => $short > 0 && DataIs::int($short) ? $string.self::part(self::repeat($pad, $short), 0, $short, $encoding) : $string,
+            Side::BOTH => $shortLeft > 0 && $shortRight > 0 ? self::part(self::repeat($pad, $shortLeft), 0, $shortLeft, $encoding).$string.self::part(self::repeat($pad, $shortRight), 0, $shortRight, $encoding) : false
         };
 
     }

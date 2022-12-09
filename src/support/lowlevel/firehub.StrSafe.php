@@ -414,9 +414,9 @@ abstract class StrSafe {
      * Pad side.
      * </p>
      *
-     * @return string Padded string.
+     * @return string|false Padded string, false otherwise.
      */
-    abstract public static function pad (string $string, int $length, string $pad = " ", Side $side = Side::RIGHT):string;
+    abstract public static function pad (string $string, int $length, string $pad = " ", Side $side = Side::RIGHT):string|false;
 
     /**
      * ### Make a string lowercase
