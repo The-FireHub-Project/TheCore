@@ -17,6 +17,9 @@
 
 namespace FireHub\TheCore\Initializers\Constants;
 
+use const DIRECTORY_SEPARATOR;
+use const PHP_EOL;
+
 use function defined;
 use function define;
 
@@ -28,8 +31,6 @@ use function define;
  * @since 0.1.1.pre-alpha.M1
  *
  * @var string DS
- *
- * @uses DIRECTORY_SEPARATOR To resolve definition for separating folders.
  *
  * @link https://www.php.net/manual/en/dir.constants.php To find more info for DIRECTORY_SEPARATOR constant.
  *
@@ -44,8 +45,6 @@ if (!defined('FireHub\TheCore\Initializers\Constants\DS')) define('FireHub\TheCo
  * @since 0.1.1.pre-alpha.M1
  *
  * @var string EOL
- *
- * @uses PHP_EOL To resolve separating file lines.
  *
  * @link https://www.php.net/manual/en/reserved.constants.php To find more info for PHP_EOL constant.
  *

@@ -30,8 +30,6 @@ use function dirname;
  *
  * @var string CORE_ROOT
  *
- * @uses \Phar To return the full phar URL to the currently executing Phar archive.
- *
  * @link https://php.net/manual/en/class.phar.php To find more info about Phar class.
  *
  * @api
@@ -44,7 +42,6 @@ if (!defined('FireHub\TheCore\Initializers\Constants\CORE_ROOT')) define('FireHu
  *
  * @var string PROJECT_ROOT
  *
- * @uses \Phar To return the full path on disk.
  * @uses \FireHub\TheCore\Initializers\Constants\DS To seperate folders.
  *
  * @api
