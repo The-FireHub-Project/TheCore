@@ -18,6 +18,7 @@
 - Created File and Folder low level classes ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [143fc77](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/143fc77))
 - Created TimeZone enum ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [b5c8524](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/b5c8524))
 - Created DateAndTime and Date low level classes ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [4022c4d](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/4022c4d))
+- Created date and time enums ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [c55169a](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/c55169a))
 
 ### Removed
 - Removed optional from all parameters in register method and replaced them with class properties in Autoload class ([f6f3cd0](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/f6f3cd0))
