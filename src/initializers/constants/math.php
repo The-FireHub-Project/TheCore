@@ -4,7 +4,7 @@
  * This file is part of FireHub Web Application Framework package
  *
  * This file contains all math definitions. This file is required to be loaded.
- * @since 0.1.1.pre-alpha.M1
+ * @since 0.1.3.pre-alpha.M1
  *
  * @author Danijel Galić <danijel.galic@outlook.com>
  * @copyright 2023 FireHub Web Application Framework

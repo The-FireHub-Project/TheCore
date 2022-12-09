@@ -20,6 +20,12 @@
 - Created DateAndTime and Date low level classes ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [4022c4d](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/4022c4d))
 - Created date and time enums ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [c55169a](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/c55169a))
 - Created comparison enum ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [923dadb](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/923dadb))
+- Created Base and RoundMode enums for numeric values ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [32d0766](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/32d0766))
+- Added varoius math constants ([#7](https://github.com/The-FireHub-Project/FireHub/issues/7), [ed569bb](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/ed569bb))
+
+### Changed
+
+- Some system constants now have new file ([3e5bf69](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/3e5bf69))
 
 ### Removed
 - Removed optional from all parameters in register method and replaced them with class properties in Autoload class ([f6f3cd0](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/f6f3cd0))
