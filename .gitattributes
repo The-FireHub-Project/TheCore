@@ -5,7 +5,15 @@
 * ident
 
 # files and directories that won’t be added to archive files
-/*.* export-ignore
+/.editorconfig export-ignore
+/.gitattributes export-ignore
+/.gitignore export-ignore
+/CHANGELOG.md export-ignore
+/CITATION.cff export-ignore
+/LICENCE.md export-ignore
+/phpmd.xml export-ignore
+/phpstan.neon export-ignore
+/README.md export-ignore
 /.github export-ignore
 /docs export-ignore
 /src export-ignore
