@@ -12,7 +12,7 @@
 
 ## About
 
-[![GitHub milestone](https://img.shields.io/github/milestones/progress-percent/The-FireHub-Project/thecore/1?style=flat&labelColor=30363d)](https://github.com/The-FireHub-Project/TheCore/milestone/1)
+[![GitHub milestone](https://img.shields.io/github/milestones/progress-percent/The-FireHub-Project/thecore/2?style=flat&labelColor=30363d)](https://github.com/The-FireHub-Project/TheCore/milestone/2)
 [![GitHub Discussions](https://img.shields.io/github/discussions/The-FireHub-Project/TheCore?style=flat&labelColor=30363d)](https://github.com/orgs/The-FireHub-Project/discussions)
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/The-FireHub-Project/TheCore/develop-pre-alpha-m2?style=flat&labelColor=30363d)
 ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/m/The-FireHub-Project/thecore/develop-pre-alpha-m2?style=flat&labelColor=30363d)
