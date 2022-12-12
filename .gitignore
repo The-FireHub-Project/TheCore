@@ -8,6 +8,7 @@
 
 # Vendor
 /vendor/**
+!/vendor/firehub/**
 
 # Docs
 /docs/cache/
