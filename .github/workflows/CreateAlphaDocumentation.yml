@@ -8,6 +8,9 @@ on:
   push:
     branches:
       - '*develop*alpha*'
+  pull_request:
+    branches:
+      - '*develop*alpha*'
   workflow_dispatch:
 permissions:
   contents: write
@@ -21,10 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-          ref: ${{ github.event.pull_request.head.ref }}
+        uses: actions/checkout@v2
       - name: Cache phpDocumentor build files
         id: phpdocumentor-cache
         uses: actions/cache@v3

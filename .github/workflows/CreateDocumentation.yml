@@ -11,6 +11,12 @@ on:
       - '!master'
       - '!v*'
       - '!*develop*alpha*'
+  pull_request:
+    branches:
+      - '*'
+      - '!master'
+      - '!v*'
+      - '!*develop*alpha*'
   workflow_dispatch:
 permissions:
   contents: write
