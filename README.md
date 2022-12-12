@@ -24,7 +24,6 @@ FireHub is powerful web application framework.
 ## Installation
 
 ![Packagist PHP Version](https://img.shields.io/packagist/dependency-v/firehub/thecore/php?version=v0.1.3-alpha.1)
-![Packagist Dependency Version (specify version)](https://img.shields.io/packagist/dependency-v/firehub/thecore/firehub/documentor?version=v0.1.3-alpha.1)
 ![Packagist Stars](https://img.shields.io/packagist/stars/firehub/thecore)
 ![Packagist Downloads](https://img.shields.io/packagist/dt/firehub/thecore)
 
