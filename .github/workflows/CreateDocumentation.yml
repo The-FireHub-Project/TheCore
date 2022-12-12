@@ -5,12 +5,6 @@ env:
   FIREHUB_APP_VERSION: v0.2
   FIREHUB_BRANCH: v1.0
 on:
-  push:
-    branches:
-      - '*'
-      - '!master'
-      - '!v*'
-      - '!*develop*alpha*'
   pull_request:
     branches:
       - '*'
