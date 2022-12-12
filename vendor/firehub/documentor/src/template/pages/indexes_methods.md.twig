@@ -1,0 +1,196 @@
+{% import "macro.twig" as macro %}{# macro #}
+{% if method.tags.experimental|length > 0 %}{# is experimental #}
+{: .warning }
+>
+> This method has **experimental** flag.
+> This features is still under the development phase and not ready to be deployed into the actual software or product.
+>
+> {{ method.tags.experimental|first.description|raw }}
+
+{% endif %}{# end is experimental #}
+{% if method.deprecated %}{# is deprecated #}
+<h2><a name="{{ method.name|lower }}()"><del># {{ method.name }}()</del></a></h2>
+***
+
+{: .warning }
+{% if method.tags.deprecated|first.version|length > 0 %}
+> This method is deprecated in version {{ method.tags.deprecated|first.version }}
+{% endif %}
+>
+> {{ method.tags.deprecated|first.description|raw }}
+
+{% else %}{# else not deprecated #}
+<h2><a name="{{ method.name|lower }}()"># {{ method.name }}()</a></h2>
+***
+{% endif %}{# end is deprecated #}
+{% if method.line == 0 %}{# is magic #}
+
+{: .note }
+> This method is marked as **magic** and implements the __get() and/or __set() "magic" methods to resolve non-literal properties at run-time.
+
+{% endif %}{# end is magic #}
+{% if method.abstract %}{# abstract method #}
+
+{: .note }
+> This is an **abstract** method that cannot be instantiated directly.
+
+{% endif %}{# end abstract method #}
+{% if method.hasReturnByReference %}{# return by refrence #}
+
+{: .caution }
+> This method is returned by **refrence**.
+
+{% endif %}{# end return by refrence #}
+{% for tagName,tags in method.tags if tagName in ['todo'] %}{# todo tag #}
+{% for tag in tags %}
+
+{: .info-title }
+> Todo
+>
+> {{ tag.description|raw }}
+
+{% endfor %}
+{% endfor %}{# end todo tag #}
+{% for tagName,tags in method.tags if tagName in ['fixme'] %}{# fixme tag #}
+{% for tag in tags %}
+
+{: .info-title }
+> FixMe
+>
+> {{ tag.description|raw }}
+
+{% endfor %}
+{% endfor %}{# end fixme tag #}
+
+```php
+{% autoescape false %}
+{% if method.abstract %}abstract {% endif %}{% if method.final %}final {% endif %}{{ method.visibility }} {% if method.static %}static {% endif %}{{ method.parent.FullyQualifiedStructuralElementName }}::{{ method.hasReturnByReference ? '&' }}{{ method.name }}({% for parameter in method.arguments %}{% if loop.first %}{{ parameter.type|raw }} {{ parameter.byReference ? '&' }}{{ parameter.isVariadic ? '...' }}${{ parameter.name }}{% if parameter.default %} = {{ parameter.default|raw }}{% endif %}{% else %}, {{ parameter.type|raw }} {{ parameter.byReference ? '&' }}{{ parameter.isVariadic ? '...' }}${{ parameter.name }}{% if parameter.default %} = {{ parameter.default|raw }}{% endif %}{% endif %}{% endfor %}){% if method.tags.return|first.type %}:{{ method.tags.return|first.type }}{% endif %}
+{% endautoescape %}
+
+```
+
+{% if method.summary|length > 0 %}{# method summary #}
+### {{ method.summary|raw }}
+
+{% endif %}{# end method summary #}
+{% if macro.inheritedDescription(method)|length > 0 %}{# method description #}
+_{{ macro.inheritedDescription(method)|trim }}_
+
+{% endif %}{# end method description #}
+{% if method.FullyQualifiedStructuralElementName|length > 0 %}{# fully qualified element name #}
+<sub>Fully Qualified Method Name:  **{{method.FullyQualifiedStructuralElementName}}**</sub><br>
+{% endif %}{# end fully qualified element name #}
+{% if node.line is not empty %}{# github #}
+<sub>Source code:  **[{{ 'view source code' }}]({{ 'https://github.com/The-FireHub-Project/' ~ project.settings.custom.app_name ~ '/blob/' ~ project.settings.custom.branch ~ '/' ~ method.file ~ '#L' ~ method.line }})**</sub><br>
+{% endif %}{# end github #}
+{% for tagName,tags in method.tags if tagName in ['since'] %}{# since tag #}
+{% if tags|length > 0 %}
+
+### Changelog:
+{% endif %}
+{% for tag in tags %}
+
+* **{{ tag.version }}** {% if tag.description|length > 0 %}_{{ tag.description|raw }}_{% endif %}
+{% endfor %}
+{% endfor %}{# end since tag #}
+{% for tagName,tags in method.tags if tagName in ['uses'] %}{# uses tag #}
+{% if tags|length > 0 %}
+
+
+### This method uses:
+{% endif %}
+{% for tag in tags %}
+
+* {{ macro.FormatLinkByNameAndOrProperty(tag.reference) }} {% if tag.description|length > 0 %}_{{ tag.description|raw }}_{% endif %}
+{% endfor %}
+{% endfor %}{# end uses tag #}
+{% for tagName,tags in method.tags if tagName in ['used-by'] %}{# used-by tag #}
+{% if tags|length > 0 %}
+
+
+### This method is used by:
+{% endif %}
+{% for tag in tags %}
+
+* *{{ tag.description|raw }}*
+{% endfor %}
+{% endfor %}{# end used-by tag #}
+{% for tagName,tags in method.tags if tagName in ['template'] %}{# templates tag #}
+{% if tags|length > 0 %}
+
+
+### Templates:
+{% endif %}
+{% for tag in tags %}
+
+* *{{ tag.description|raw }}*
+{% endfor %}
+{% endfor %}{# end templates tag #}
+{% if method.arguments|length > 0 %}{# parameters tag #}
+
+
+### Parameters:
+{% for parameter in method.arguments %}
+
+* {{ parameter.byReference ? 'by refrence ' }}{{ parameter.isVariadic ? 'variadic ' }}{{ macro.FormatLinkByTypeNameMultiple(parameter.type) }} ${{ parameter.name }}{% if parameter.default %} = {{ parameter.default|raw }}{% endif %} {% if parameter.description|length > 0 %}_{{ parameter.description|striptags|trim }}_{% endif %}
+{% endfor %}
+{% endif %}{# end parameters tag #}
+{% for tagName,tags in method.tags if tagName in ['throws'] %}{# throws tag #}
+{% if tags|length > 0 %}
+
+
+### Throws:
+{% endif %}
+{% for tag in tags %}
+
+* {{ macro.FormatLinkByTypeNameMultiple(tag.type) }} {% if tag.description|length > 0 %}_{{ tag.description|striptags|trim }}_{% endif %}
+{% endfor %}
+{% endfor %}{# end throws tag #}
+{% if method.return|length > 0 %}{# return tag #}
+
+
+### Returns:
+{% endif %}
+{% for tag in method.return %}
+
+* {{ macro.FormatLinkByTypeNameMultiple(tag.type) }} {% if tag.description|length > 0 %}_{{ tag.description|striptags|trim }}_{% endif %}
+{% endfor %}{# end return tag #}
+{% for tagName,tags in method.tags if tagName in ['example'] %}{# example tag #}
+{% if tags|length > 0 %}
+
+
+### Examples:
+{% endif %}
+{% for tag in tags %}
+
+{{ tag.description|raw }}
+
+{% endfor %}
+{% endfor %}{# end example tag #}
+{% for tagName,tags in method.tags if tagName in ['see'] %}{# see tag #}
+{% if tags|length > 0 %}
+
+
+### See also:
+{% endif %}
+{% for tag in tags %}
+
+* {{ macro.FormatLinkByNameAndOrProperty(tag.reference) }} {% if tag.description|length > 0 %}_{{ tag.description|raw }}_{% endif %}
+{% endfor %}
+{% endfor %}{# end see tag #}
+{% for tagName,tags in method.tags if tagName in ['link'] %}{# link tag #}
+{% if tags|length > 0 %}
+
+
+### Links:
+{% endif %}
+{% for tag in tags %}
+
+* {{ macro.FormatLinkByNameAndOrProperty(tag.link) }} {% if tag.description|length > 0 %}_{{ tag.description|raw }}_{% endif %}
+{% endfor %}
+{% endfor %}{# end link tag #}
+{% if method.author|length > 0 %}{# author tag #}
+
+
+<sub>_This method was created by {% for tag in method.author %}{% if loop.first %}{{ tag.description|raw }}{% else %} and {{ tag.description|raw }}{% endif %}{% endfor %}_</sub><br>
+{% endif %}{# end author tag #}

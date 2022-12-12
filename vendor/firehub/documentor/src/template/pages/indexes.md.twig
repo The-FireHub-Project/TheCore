@@ -1,0 +1,18 @@
+---
+layout: default
+title: {{ node.name }}
+parent: {{ node.package }}
+grand_parent: {{ project.settings.custom.app_name }} {{ project.settings.custom.app_version }}
+has_children: false
+---
+{% block stylesheets %}{# start stylesheets #}
+
+<link rel="stylesheet" type="text/css" href="/css/style.css" />
+
+{% endblock %}{# end stylesheets #}
+{% block content %}{# start content #}
+{% include 'indexes_header.md.twig' %}{# header #}
+
+{% include 'indexes_body.md.twig' %}{# header #}
+
+{% endblock %}{# end content #}

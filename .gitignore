@@ -7,8 +7,9 @@
 !/phar/*.phar.pubkey
 
 # Vendor
-/vendor/**
-!/vendor/firehub/**
+/vendor/*
+!/vendor/firehub/
+/vendor/firehub/documentor/composer.json
 
 # Docs
 /docs/cache/

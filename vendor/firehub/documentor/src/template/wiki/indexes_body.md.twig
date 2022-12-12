@@ -1,0 +1,176 @@
+{% import "macro.twig" as macro %}{# macro #}
+{% for tagName,tags in node.tags if tagName in ['template'] %}{# templates tag #}
+{% if tags|length > 0 %}
+
+
+## Templates
+{% endif %}
+{% for tag in tags %}
+
+* *{{ tag.description|raw }}*
+{% endfor %}
+{% endfor %}{# end templates tag #}
+{% if node.arguments|length > 0 %}{# parameters tag #}
+
+
+## Parameters
+{% for parameter in node.arguments %}
+
+* {{ parameter.byReference ? 'by refrence ' }}{{ parameter.isVariadic ? 'variadic ' }}{{ macro.FormatLinkByTypeNameMultiple(parameter.type) }} ${{ parameter.name }}{% if parameter.default %} = {{ parameter.default|raw }}{% endif %} {% if parameter.description|length > 0 %}_{{ parameter.description|striptags|trim }}_{% endif %}
+{% endfor %}
+{% endif %}{# end parameters tag #}
+{% for tagName,tags in node.tags if tagName in ['throws'] %}{# throws tag #}
+{% if tags|length > 0 %}
+
+
+### Throws
+{% endif %}
+{% for tag in tags %}
+
+* {{ macro.FormatLinkByTypeNameMultiple(tag.type) }} {% if tag.description|length > 0 %}_{{ tag.description|striptags|trim }}_{% endif %}
+{% endfor %}
+{% endfor %}{# end throws tag #}
+{% for tagName,tags in node.tags if tagName in ['return'] %}{# return tag #}
+{% if tags|length > 0 %}
+
+
+### Returns
+{% endif %}
+{% for tag in tags %}
+
+* {{ macro.FormatLinkByTypeNameMultiple(tag.type) }} {% if tag.description|length > 0 %}_{{ tag.description|striptags|trim }}_{% endif %}
+{% endfor %}
+{% endfor %}{# end return tag #}
+{% for tagName,tags in node.tags if tagName in ['see'] %}{# see tag #}
+{% if tags|length > 0 %}
+
+
+## See also
+{% endif %}
+{% for tag in tags %}
+
+* {{ macro.FormatLinkByNameAndOrProperty(tag.reference) }} {% if tag.description|length > 0 %}_{{ tag.description|raw }}_{% endif %}
+{% endfor %}
+{% endfor %}{# end see tag #}
+{% for tagName,tags in node.tags if tagName in ['link'] %}{# link tag #}
+{% if tags|length > 0 %}
+
+
+## Links
+{% endif %}
+{% for tag in tags %}
+
+* {{ macro.FormatLinkByNameAndOrProperty(tag.link) }} {% if tag.description|length > 0 %}_{{ tag.description|raw }}_{% endif %}
+{% endfor %}
+{% endfor %}{# end link tag #}
+{% if macro.RecursiveConstantsTable(node)|trim|length > 0 %}{# if constants exist #}
+
+
+## Constants table
+
+| Type  | Name  | Title | Value |
+| :---  | :---  | :---  | :---  |
+{{ macro.RecursiveConstantsTable(node) }}
+
+{% endif %}{# end if constants exist #}
+{% if node.cases|length > 0 %}{# if cases exist #}
+
+
+## Cases table
+
+| Name  | Title | Value |
+| :---  | :---  | :---  |
+{% for case in cases(node) %}{# loop over cases #}
+{% if not case.deprecated %}{# if not deprecated #}
+|<a href="#{{ case.name|lower }}">{{ case.name }}</a>|{{ case.summary|raw }}|{{ case.value }}|
+{% elseif case.deprecated %}{# end not deprecated #}
+|<a href="#{{ case.name|lower }}()">~~{{ case.name }}~~</a><br><sub>@deprecated</sub>|{{ case.summary|raw }}|{{ case.value }}|
+{% endif %}{# end only not deprecated #}
+{% endfor %}{# end loop over cases #}
+{% endif %}{# end if cases exist #}
+{% if node.properties|length > 0 %}{# if properties exist #}
+
+
+## Properties table
+
+| Type  | Name  | Title | Default |
+| :---  | :---  | :---  | :---    |
+{% for property in properties(node) %}{# loop over properties #}
+{% if not property.deprecated %}{# if not deprecated #}
+|{% if property.writeOnly %}writeonly {% endif %}{% if property.readOnly %}readonly {% endif %}{% if property.static or property.description.bodyTemplate starts with '{static}' %}static {% endif %}{{ macro.FormatLinkByTypeNameMultiple(property.type) }}|<a href="#${{ property.name|lower }}">{{ property.name }}</a>|{{ property.summary|raw }}|{{ property.default }}|
+{% elseif property.deprecated %}{# end not deprecated #}
+|{% if property.writeOnly %}writeonly {% endif %}{% if property.readOnly %}readonly {% endif %}{% if property.static %}static {% endif %}{{ macro.FormatLinkByTypeNameMultiple(property.type) }}|<a href="#${{ property.name|lower }}">~~{{ property.name }}~~</a><br><sub>@deprecated</sub>|{{ property.summary|raw }}|{{ property.default }}|
+{% endif %}{# end only not deprecated #}
+{% endfor %}{# end loop over properties #}
+{% endif %}{# end if properties exist #}
+{% if node.methods|length > 0 %}{# if methods exist #}
+
+
+## Methods table
+
+| Type  | Name  | Title |
+| :---  | :---  | :---  |
+{% for method in methods(node) %}{# loop over methods #}
+{% if not method.deprecated %}{# if not deprecated #}
+|{% if method.static %}static {% endif %}|<a href="#{{ method.name|lower }}()">{{ method.name }}</a>|{{ method.summary|raw }}|
+{% elseif method.deprecated %}{# end not deprecated #}
+|{% if method.static %}static {% endif %}|<a href="#{{ method.name|lower }}()">~~{{ method.name }}~~</a><br><sub>@deprecated</sub>|{{ method.summary|raw }}|
+{% endif %}{# end only not deprecated #}
+{% endfor %}{# end loop over methods #}
+{% endif %}{# end if methods exist #}
+{% for tagName,tags in node.tags if tagName in ['example'] %}{# example tag #}
+{% if tags|length > 0 %}
+
+
+## Examples
+{% endif %}
+{% for tag in tags %}
+
+{{ tag.description|raw }}
+
+{% endfor %}
+{% endfor %}
+{# end example tag #}
+{% if macro.RecursiveConstants(node)|trim|length > 0 %}{# if constants exist #}
+
+
+# Constants
+
+{{ macro.RecursiveConstants(node) }}
+
+{% endif %}{# end if constants exist #}
+{% if node.cases|length > 0 %}{# if cases exist #}
+
+
+# Cases
+
+{% for case in cases(node) %}{# loop over cases #}
+
+{% include 'indexes_cases.md.twig' %}
+
+{% endfor %}{# end loop over cases #}
+{% endif %}{# end if cases exist #}
+{% if node.properties|length > 0 %}{# if properties exist #}
+
+
+# Properties
+
+{% for property in properties(node) %}{# loop over properties #}
+
+{% include 'indexes_properties.md.twig' %}
+
+{% endfor %}{# end loop over properties #}
+
+{% endif %}{# end if properties exist #}
+{% if node.methods|length > 0 %}{# if methods exist #}
+
+
+# Methods
+
+{% for method in methods(node) %}{# loop over methods #}
+
+{% include 'indexes_methods.md.twig' %}
+
+{% endfor %}{# end loop over methods #}
+
+{% endif %}{# end if methods exist #}

@@ -1,0 +1,131 @@
+{% import "macro.twig" as macro %}{# macro #}
+{% if constant.tags.experimental|length > 0 %}{# is experimental #}
+{: .warning }
+>
+> This constant has **experimental** flag.
+> This features is still under the development phase and not ready to be deployed into the actual software or product.
+>
+> {{ constant.tags.experimental|first.description|raw }}
+
+{% endif %}{# end is experimental #}
+{% if constant.deprecated %}{# is deprecated #}
+<h2><a name="{{ constant.name|lower }}"><del># {{ constant.name }}</del></a></h2>
+***
+
+{: .warning }
+{% if constant.tags.deprecated|first.version|length > 0 %}
+> This constant is deprecated in version {{ constant.tags.deprecated|first.version }}
+{% endif %}
+>
+> {{ constant.tags.deprecated|first.description|raw }}
+
+{% else %}{# else not deprecated #}
+<h2><a name="{{ constant.name|lower }}"># {{ constant.name }}</a></h2>
+***
+{% endif %}{# end is deprecated #}
+{% if constant.final %}{# final constant #}
+
+{: .note }
+> This constant is marked as **final** and can't be subclassed.
+
+{% endif %}{# end final constant #}
+{% for tagName,tags in constant.tags if tagName in ['todo'] %}{# todo tag #}
+{% for tag in tags %}
+
+{: .info-title }
+> Todo
+>
+> {{ tag.description|raw }}
+
+{% endfor %}
+{% endfor %}{# end todo tag #}
+
+```php
+{% if constant.final %}{{ 'final' }} {% endif %}{{ constant.visibility }} {{ macro.varType(constant) }} {{ constant.FullyQualifiedStructuralElementName }} = {{ constant.value|raw }}
+```
+
+{% if constant.summary|length > 0 %}{# constant summary #}
+### {{ constant.summary|raw }}
+
+{% endif %}{# end constant summary #}
+{% if macro.inheritedDescription(constant)|length > 0 %}{# constant description #}
+_{{ macro.inheritedDescription(constant)|trim }}_
+
+{% endif %}{# end constant description #}
+{% if constant.FullyQualifiedStructuralElementName|length > 0 %}{# fully qualified element name #}
+<sub>Fully Qualified Constant Name:  **{{constant.FullyQualifiedStructuralElementName}}**</sub><br>
+{% endif %}{# end fully qualified element name #}
+{% if node.line is not empty %}{# github #}
+<sub>Source code:  **[{{ 'view source code' }}]({{ 'https://github.com/The-FireHub-Project/' ~ project.settings.custom.app_name ~ '/blob/' ~ project.settings.custom.branch ~ '/' ~ constant.file ~ '#L' ~ constant.line }})**</sub><br>
+{% endif %}{# end github #}
+{% for tagName,tags in constant.tags if tagName in ['since'] %}{# since tag #}
+{% if tags|length > 0 %}
+
+### Changelog:
+{% endif %}
+{% for tag in tags %}
+
+* **{{ tag.version }}** {% if tag.description|length > 0 %}_{{ tag.description|raw }}_{% endif %}
+{% endfor %}
+{% endfor %}{# end since tag #}
+{% for tagName,tags in constant.tags if tagName in ['uses'] %}{# uses tag #}
+{% if tags|length > 0 %}
+
+
+### This constant uses:
+{% endif %}
+{% for tag in tags %}
+
+* {{ macro.FormatLinkByNameAndOrProperty(tag.reference) }} {% if tag.description|length > 0 %}_{{ tag.description|raw }}_{% endif %}
+{% endfor %}
+{% endfor %}{# end uses tag #}
+{% for tagName,tags in constant.tags if tagName in ['used-by'] %}{# uses tag #}
+{% if tags|length > 0 %}
+
+
+### This constant is used by:
+{% endif %}
+{% for tag in tags %}
+
+* *{{ tag.description|raw }}*
+{% endfor %}
+{% endfor %}{# end used-by tag #}
+{% for tagName,tags in constant.tags if tagName in ['example'] %}{# example tag #}
+{% if tags|length > 0 %}
+
+
+### Examples:
+{% endif %}
+{% for tag in tags %}
+
+{{ tag.description|raw }}
+
+{% endfor %}
+{% endfor %}{# end example tag #}
+{% for tagName,tags in constant.tags if tagName in ['see'] %}{# see tag #}
+{% if tags|length > 0 %}
+
+
+### See also:
+{% endif %}
+{% for tag in tags %}
+
+* {{ macro.FormatLinkByNameAndOrProperty(tag.reference) }} {% if tag.description|length > 0 %}_{{ tag.description|raw }}_{% endif %}
+{% endfor %}
+{% endfor %}{# end see tag #}
+{% for tagName,tags in constant.tags if tagName in ['link'] %}{# link tag #}
+{% if tags|length > 0 %}
+
+
+### Links:
+{% endif %}
+{% for tag in tags %}
+
+* {{ macro.FormatLinkByNameAndOrProperty(tag.link) }} {% if tag.description|length > 0 %}_{{ tag.description|raw }}_{% endif %}
+{% endfor %}
+{% endfor %}{# end link tag #}
+{% if constant.author|length > 0 %}{# author tag #}
+
+
+<sub>_This constant was created by {% for tag in constant.author %}{% if loop.first %}{{ tag.description|raw }}{% else %} and {{ tag.description|raw }}{% endif %}{% endfor %}_</sub><br>
+{% endif %}{# end author tag #}

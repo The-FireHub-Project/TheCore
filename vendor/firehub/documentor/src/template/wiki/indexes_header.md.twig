@@ -1,0 +1,55 @@
+{% import "macro.twig" as macro %}{# macro #}
+{% if node.tags.experimental|length > 0 %}{# is experimental #}
+**Warning:** *this {{ nodetype }} has **experimental** flag.
+This features is still under the development phase and not ready to be deployed into the actual software or product.*<br>
+{% if node.tags.experimental|first.description|length > 0 %}*{{ node.tags.experimental|first.description|raw }}*{% endif %}
+
+{% endif %}{# end is experimental #}
+{% if node.deprecated %}{# is deprecated #}
+**Warning:** *this {{ nodetype }} in **deprecated**{% if node.tags.deprecated|first.version|length > 0 %} in version {{ node.tags.deprecated|first.version }}{% endif %}. {{ node.tags.deprecated|first.description }}*
+
+{% endif %}{# end is deprecated #}
+{% if node.hasReturnByReference %}{# return by refrence #}
+**Caution:** *this {{ nodetype }} is returned by **refrence**.*
+
+{% endif %}{# end return by refrence #}
+
+```php
+{% autoescape false %}
+{{ nodetype }} {% if node.type %}{{ node.type }} {% endif %}{% if nodetype != 'constant' and nodetype != 'enum' and nodetype != 'interface' %}{{ node.namespace }}\{{ node.hasReturnByReference ? '&' }}{{ parameter.isVariadic ? '...' }}{{ node.name }}({% for parameter in node.arguments %}{% if loop.first %}{{ parameter.type|raw }} {{ parameter.byReference ? '&' }}${{ parameter.name }}{% if parameter.default %} = {{ parameter.default|raw }}{% endif %}{% else %}, {{ parameter.type|raw }} {{ parameter.byReference ? '&' }}{{ parameter.isVariadic ? '...' }}${{ parameter.name }}{% if parameter.default %} = {{ parameter.default|raw }}{% endif %}{% endif %}{% endfor %}){% else %}{{ node.FullyQualifiedStructuralElementName }}{% endif %}{% if node.tags.return|first.type %}:{{ node.tags.return|first.type }}{% endif %}{% if node.value %} = {{ node.value|raw }}{% endif %}
+{% endautoescape %}
+
+```
+
+{% if node.summary|length > 0 %}{# node summary #}
+### {{ node.summary|raw }}
+{% endif %}{# end node summary #}
+{% if node.description|length > 0 %}{# node description #}
+
+_{{ node.description|raw }}_
+
+{% endif %}{# end node description #}
+{% if node.FullyQualifiedStructuralElementName|length > 0 %}{# fully qualified element name #}
+<sub>Fully Qualified {{ nodetype|capitalize }} Name:  **{{ node.FullyQualifiedStructuralElementName }}**</sub><br>
+{% endif %}{# end fully qualified element name #}
+{% if node.package|length > 0 %}{# package #}
+<sub>This {{ nodetype }} is part of package:  **{{ node.package|raw }}**</sub><br>
+{% endif %}{# end package #}
+{% if node.line is not empty %}{# github #}
+<sub>Source code:  **[{{ 'view source code' }}]({{ 'https://github.com/The-FireHub-Project/' ~ project.settings.custom.app_name ~ '/blob/' ~ project.settings.custom.branch ~ '/' ~ node.file ~ '#L' ~ node.line }})**</sub><br>
+<sub>Blame:  **[{{ 'view blame' }}]({{ 'https://github.com/The-FireHub-Project/' ~ project.settings.custom.app_name ~ '/blame/' ~ project.settings.custom.branch ~ '/' ~ node.file }})**</sub><br>
+<sub>History:  **[{{ 'view history' }}]({{ 'https://github.com/The-FireHub-Project/' ~ project.settings.custom.app_name ~ '/commits/' ~ project.settings.custom.branch ~ '/' ~ node.file }})**</sub><br>
+{% endif %}{# end github #}
+
+{% if node.file.author|length > 0 %}{# author tag #}
+<sub>_This {{ nodetype }} was created by {% for tag in node.file.author %}{% if loop.first %}{{ tag.description|raw }}{% else %} and {{ tag.description|raw }}{% endif %}{% endfor %}_</sub><br>
+{% endif %}{# end author tag #}
+{% if node.file.tags.copyright|length > 0 %}{# copyright tag #}
+<sub>_{{ node.file.tags.copyright|first.description|raw }}_</sub><br>
+{% endif %}{# end copyright tag #}
+{% if node.file.tags.license|length > 0 %}{# license tag #}
+<sub>_{{ node.file.tags.license|first.description|raw }}_</sub><br>
+{% endif %}{# end license tag #}
+{% if node.file.version|length > 0 %}{# version tag #}
+<sub>_{{ node.file.version|first.version }} {{ node.file.version|first.description|raw }}_</sub><br>
+{% endif %}{# end version tag #}
