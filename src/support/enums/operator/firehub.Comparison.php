@@ -12,7 +12,7 @@
  * @version GIT: $Id$ Blob checksum.
  */
 
-namespace FireHub\Support\Enums\Operator;
+namespace FireHub\TheCore\Enums\Operator;
 
 /**
  * ### Comparison operator enum
