@@ -4,7 +4,7 @@
  * This file is part of FireHub Web Application Framework package
  *
  * This file contains all math definitions. This file is required to be loaded.
- * @since 0.1.3.pre-alpha.M1
+ * @since 0.2.0.pre-alpha.M2
  *
  * @author Danijel Galić <danijel.galic@outlook.com>
  * @copyright 2023 FireHub Web Application Framework
@@ -15,47 +15,44 @@
  * @version GIT: $Id$ Blob checksum.
  */
 
-namespace FireHub\TheCore\Initializers\Constants;
+namespace FireHub\TheCore\Support\Constants;
 
-use const FIREHUB_EULER_CONST;
-use const FIREHUB_EULER_NUM;
-use const FIREHUB_PI;
+use const M_E;
+use const M_PI;
+use const M_EULER;
+
+use function defined;
+use function define;
 
 /**
  * ### Ratio of a circle's circumference to its diameter
+ * @since 0.2.0.pre-alpha.M2
  *
- * @since 0.1.3.pre-alpha.M1
- * @since 0.2.0-pre-alpha.M2 Changed internal definition for constant.
+ * @var string FIREHUB_PI
  *
- * @var string \FireHub\TheCore\Initializers\Constants\PI
- *
- * @api
+ * @internal
  */
-const PI = FIREHUB_PI;
+if (!defined('FIREHUB_PI')) define('FIREHUB_PI', M_PI);
 
 /**
  * ### Euler’s number
  *
  * The term Euler's number (e) refers to a mathematical expression for the base of the natural logarithm.
  * This is represented by a non-repeating number that never ends.
+ * @since 0.2.0.pre-alpha.M2
  *
- * @since 0.1.3.pre-alpha.M1
- * @since 0.2.0-pre-alpha.M2 Changed internal definition for constant.
+ * @var string FIREHUB_EULER_NUM
  *
- * @var string \FireHub\TheCore\Initializers\Constants\EULER_NUM
- *
- * @api
+ * @internal
  */
-const EULER_NUM = FIREHUB_EULER_NUM;
+if (!defined('FIREHUB_EULER_NUM')) define('FIREHUB_EULER_NUM', M_E);
 
 /**
  * ### Euler–Mascheroni constant
+ * @since 0.2.0.pre-alpha.M2
  *
- * @since 0.1.3.pre-alpha.M1
- * @since 0.2.0-pre-alpha.M2 Changed internal definition for constant.
+ * @var string FIREHUB_EULER_CONST
  *
- * @var string \FireHub\TheCore\Initializers\Constants\EULER_CONST
- *
- * @api
+ * @internal
  */
-const EULER_CONST = FIREHUB_EULER_CONST;
+if (!defined('FIREHUB_EULER_CONST')) define('FIREHUB_EULER_CONST', M_EULER);
