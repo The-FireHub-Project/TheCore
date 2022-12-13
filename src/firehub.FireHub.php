@@ -34,7 +34,7 @@ use function implode;
  * components for FireHub bootstrapping.
  *
  * @since 0.1.1.pre-alpha.M1
- * @since 0.1.2 Added kernel parameter parameter and response from Kernel to boot method and created kernel method.
+ * @since 0.1.2.pre-alpha.M1 Added kernel parameter parameter and response from Kernel to boot method and created kernel method.
  * @since 0.1.3.pre-alpha.M1 Removed unused variable $folder.
  * @since 0.2.0-pre-alpha.M2 In registerConstants method, added constant from support.
  */
