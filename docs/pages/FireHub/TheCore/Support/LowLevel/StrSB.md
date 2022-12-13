@@ -439,7 +439,7 @@ __
 
 ### Returns:
 
-* int&lt;0, max&gt; _String length._
+* positive-int or [\FireHub\TheCore\Support\LowLevel\0](/core/v0.2\FireHub\TheCore\Support\LowLevel\0) _String length._
 
 <h2><a name="firstposition()"># firstPosition()</a></h2>
 ***
@@ -989,7 +989,7 @@ If length is given and is negative, then subject will be examined from the start
 ***
 
 ```php
-public static \FireHub\TheCore\Support\LowLevel\StrSB::countWords(string $string, null|string $characters = nulL, int<0, 2> $format):int|array<int,string>|false
+public static \FireHub\TheCore\Support\LowLevel\StrSB::countWords(string $string, null|string $characters = nulL, \FireHub\TheCore\Support\LowLevel\0|\FireHub\TheCore\Support\LowLevel\1|\FireHub\TheCore\Support\LowLevel\2 $format):int|array<int,string>|false
 ```
 
 ### ### Count number of words in string
@@ -1006,7 +1006,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSB::countWords(string $string
 * string $string _A string to search words._
 * null or string $characters = nulL _[optional] 
 A list of additional characters which will be considered as &#039;word&#039;._
-* int&lt;0, 2&gt; $format _[optional] 
+* [\FireHub\TheCore\Support\LowLevel\0](/core/v0.2\FireHub\TheCore\Support\LowLevel\0) or [\FireHub\TheCore\Support\LowLevel\1](/core/v0.2\FireHub\TheCore\Support\LowLevel\1) or [\FireHub\TheCore\Support\LowLevel\2](/core/v0.2\FireHub\TheCore\Support\LowLevel\2) $format _[optional] 
 A string to search words.
 
 0 - returns the number of words found.

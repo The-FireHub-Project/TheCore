@@ -444,7 +444,7 @@ Character encoding. If it is null, the internal character encoding value will be
 
 ### Returns:
 
-* int&lt;0, max&gt; _String length._
+* positive-int or [\FireHub\TheCore\Support\LowLevel\0](/core/v0.2\FireHub\TheCore\Support\LowLevel\0) _String length._
 
 <h2><a name="firstposition()"># firstPosition()</a></h2>
 ***

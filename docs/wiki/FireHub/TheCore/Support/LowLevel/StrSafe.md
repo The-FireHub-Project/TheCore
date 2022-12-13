@@ -315,7 +315,7 @@ static \FireHub\TheCore\Support\LowLevel\StrSafe::endsWith(string $value, string
 <h2><a name="length()"># length()</a></h2>
 
 ```php
-static \FireHub\TheCore\Support\LowLevel\StrSafe::length(string $string):int<0, max>
+static \FireHub\TheCore\Support\LowLevel\StrSafe::length(string $string):positive-int|\FireHub\TheCore\Support\LowLevel\0
 ```
 
 ### ### Get string length
@@ -329,7 +329,7 @@ static \FireHub\TheCore\Support\LowLevel\StrSafe::length(string $string):int<0, 
 
 ### Returns:
 
-* int&lt;0, max&gt; _String length._
+* positive-int or [\FireHub\TheCore\Support\LowLevel\0](./0) _String length._
 
 <h2><a name="firstposition()"># firstPosition()</a></h2>
 

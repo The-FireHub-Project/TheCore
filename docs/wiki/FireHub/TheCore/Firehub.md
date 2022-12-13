@@ -10,7 +10,7 @@ components for FireHub bootstrapping._
 
 <sub>Fully Qualified Class Name:  **\FireHub\TheCore\Firehub**</sub><br>
 <sub>This class is part of package:  **\FireHub**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/firehub.FireHub.php#L40)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/firehub.FireHub.php#L41)**</sub><br>
 <sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/firehub.FireHub.php)**</sub><br>
 <sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/firehub.FireHub.php)**</sub><br>
 
@@ -42,7 +42,7 @@ components for FireHub bootstrapping._
 _This methode serves for instantiating FireHub framework._
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Firehub::boot()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/firehub.FireHub.php#L57)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/firehub.FireHub.php#L58)**</sub><br>
 
 
 ### Parameters:
