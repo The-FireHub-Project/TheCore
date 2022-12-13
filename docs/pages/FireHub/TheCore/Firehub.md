@@ -38,7 +38,7 @@ components for FireHub bootstrapping._
 ***
 
 * **0.1.1.pre-alpha.M1** 
-* **0.1.2** _Added kernel parameter parameter and response from Kernel to boot method and created kernel method._
+* **0.1.2.pre-alpha.M1** _Added kernel parameter parameter and response from Kernel to boot method and created kernel method._
 * **0.1.3.pre-alpha.M1** _Removed unused variable $folder._
 * **0.2.0-pre-alpha.M2** _In registerConstants method, added constant from support._
 
