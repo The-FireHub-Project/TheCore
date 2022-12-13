@@ -22,7 +22,7 @@ final class \FireHub\TheCore\Support\LowLevel\DateAndTime()
 
 <sub>Fully Qualified Class Name:  **\FireHub\TheCore\Support\LowLevel\DateAndTime**</sub><br>
 <sub>This class is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DateAndTime.php#L39)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DateAndTime.php#L37)**</sub><br>
 <sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/lowlevel/firehub.DateAndTime.php)**</sub><br>
 <sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/lowlevel/firehub.DateAndTime.php)**</sub><br>
 
@@ -35,6 +35,7 @@ final class \FireHub\TheCore\Support\LowLevel\DateAndTime()
 ***
 
 * **0.1.3.pre-alpha.M1** 
+* **0.2.1.pre-alpha.M2** _Removed timezone methods._
 
 
 ## Methods table
@@ -45,8 +46,6 @@ final class \FireHub\TheCore\Support\LowLevel\DateAndTime()
 |public static |<a href="#totimestamp()">toTimestamp</a>|### Parse about any English textual datetime description into a Unix timestamp|
 |public static |<a href="#format()">format</a>|### Format a local time/date|
 |public static |<a href="#formatinteger()">formatInteger</a>|### Format a local time/date as integer|
-|public static |<a href="#getdefaulttimezone()">getDefaultTimezone</a>|### Gets the default timezone used by all date/time functions in a script|
-|public static |<a href="#setdefaulttimezone()">setDefaultTimezone</a>|### Sets the default timezone used by all date/time functions in a script|
 |public static |<a href="#suninfo()">sunInfo</a>|### Gets information about sunset/sunrise and twilight begin/end|
 
 
@@ -64,7 +63,7 @@ public static \FireHub\TheCore\Support\LowLevel\DateAndTime::toTimestamp(string 
 ### ### Parse about any English textual datetime description into a Unix timestamp
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DateAndTime::toTimestamp()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DateAndTime.php#L56)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DateAndTime.php#L54)**</sub><br>
 
 ### Changelog:
 
@@ -92,7 +91,7 @@ public static \FireHub\TheCore\Support\LowLevel\DateAndTime::format(string $form
 ### ### Format a local time/date
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DateAndTime::format()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DateAndTime.php#L77)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DateAndTime.php#L75)**</sub><br>
 
 ### Changelog:
 
@@ -123,7 +122,7 @@ public static \FireHub\TheCore\Support\LowLevel\DateAndTime::formatInteger(strin
 ### ### Format a local time/date as integer
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DateAndTime::formatInteger()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DateAndTime.php#L98)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DateAndTime.php#L96)**</sub><br>
 
 ### Changelog:
 
@@ -143,54 +142,6 @@ The optional timestamp parameter is an integer Unix timestamp that defaults to t
 
 * [https://www.php.net/manual/en/function.idate.php](https://www.php.net/manual/en/function.idate.php) 
 
-<h2><a name="getdefaulttimezone()"># getDefaultTimezone()</a></h2>
-***
-
-```php
-public static \FireHub\TheCore\Support\LowLevel\DateAndTime::getDefaultTimezone():\FireHub\TheCore\Support\Enums\DateTime\TimeZone|false
-```
-
-### ### Gets the default timezone used by all date/time functions in a script
-
-<sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DateAndTime::getDefaultTimezone()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DateAndTime.php#L112)**</sub><br>
-
-### Changelog:
-
-* **0.1.3.pre-alpha.M1** 
-
-### This method uses:
-
-* [\FireHub\TheCore\Support\Enums\DateTime\TimeZone](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeZone) _To check for valid timezone._
-
-### Returns:
-
-* [\FireHub\TheCore\Support\Enums\DateTime\TimeZone](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeZone) or false _Timezone, false if timezone doesn&#039;t exist._
-
-<h2><a name="setdefaulttimezone()"># setDefaultTimezone()</a></h2>
-***
-
-```php
-public static \FireHub\TheCore\Support\LowLevel\DateAndTime::setDefaultTimezone(\FireHub\TheCore\Support\Enums\DateTime\TimeZone $time_zone):bool
-```
-
-### ### Sets the default timezone used by all date/time functions in a script
-
-<sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DateAndTime::setDefaultTimezone()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DateAndTime.php#L130)**</sub><br>
-
-### Changelog:
-
-* **0.1.3.pre-alpha.M1** 
-
-### Parameters:
-
-* [\FireHub\TheCore\Support\Enums\DateTime\TimeZone](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeZone) $time_zone _The timezone identifier._
-
-### Returns:
-
-* bool _False if the timezone_identifier isn&#039;t valid, or true otherwise._
-
 <h2><a name="suninfo()"># sunInfo()</a></h2>
 ***
 
@@ -201,7 +152,7 @@ public static \FireHub\TheCore\Support\LowLevel\DateAndTime::sunInfo(int $timest
 ### ### Gets information about sunset/sunrise and twilight begin/end
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DateAndTime::sunInfo()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DateAndTime.php#L162)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DateAndTime.php#L128)**</sub><br>
 
 ### Changelog:
 
