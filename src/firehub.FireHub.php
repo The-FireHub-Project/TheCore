@@ -36,6 +36,7 @@ use function implode;
  * @since 0.1.1.pre-alpha.M1
  * @since 0.1.2 Added kernel parameter parameter and response from Kernel to boot method and created kernel method.
  * @since 0.1.3.pre-alpha.M1 Removed unused variable $folder.
+ * @since 0.2.0-pre-alpha.M2 In registerConstants method, added constant from support.
  */
 final class Firehub {
 
@@ -87,6 +88,7 @@ final class Firehub {
      *
      * @since 0.1.1.pre-alpha.M1
      * @since 0.1.3.pre-alpha.M1 Removed unused variable $folder.
+     * @since 0.2.0-pre-alpha.M2 Added constant from support.
      *
      * @uses DirectoryIterator To find all php files in folder.
      * @uses Throwable To cache error.
@@ -98,6 +100,9 @@ final class Firehub {
     private function registerConstants ():self {
 
         try {
+
+            foreach (new DirectoryIterator(__DIR__.DIRECTORY_SEPARATOR.implode(DIRECTORY_SEPARATOR, ['support', 'constants'])) as $file)
+                if ($file->isFile() && $file->getExtension() === 'php') include $file->getPathname();
 
             foreach (new DirectoryIterator(__DIR__.DIRECTORY_SEPARATOR.implode(DIRECTORY_SEPARATOR, ['initializers', 'constants'])) as $file)
                 if ($file->isFile() && $file->getExtension() === 'php') include $file->getPathname();
