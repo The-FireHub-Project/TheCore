@@ -179,7 +179,7 @@ final class Arr {
      * Count multidimensional items.
      * </p>
      *
-     * @return int<0, max> Number of elements in array.
+     * @return positive-int|0 Number of elements in array.
      *
      * @caution Method can detect recursion to avoid an infinite loop, but will emit an E_WARNING every time it does (in case the array contains itself more than once) and return a count higher than may be expected.
      */
@@ -193,22 +193,19 @@ final class Arr {
      * ### Counts all the values of an array
      * @since 0.1.3.pre-alpha.M1
      *
-     * @template TKey of array-key
-     * @template TValue
-     *
      * @uses \FireHub\TheCore\Support\LowLevel\Arr::isMultiDimensional() To check is array is multidimensional.
      * @uses \FireHub\TheCore\Support\LowLevel\Arr::merge To merge arrays.
      * @uses \FireHub\TheCore\Support\LowLevel\Arr::column() To get the values from a single column.
      * @uses \FireHub\TheCore\Support\LowLevel\DataIs::null() To check if $key is null.
      *
-     * @param array{TKey, TValue} $array <p>
+     * @param array{array-key, mixed} $array <p>
      * The array of values to count.
      * </p>
-     * @param TKey|null $key [optional] <p>
+     * @param null|int|string $key [optional] <p>
      * Key to count if counting multidimensional array.
      * </p>
      *
-     * @return array<TKey, int<1, max>>|false An associative array of values from input as keys and their count as value, false otherwise.
+     * @return array<array-key, int<1, max>>|false An associative array of values from input as keys and their count as value, false otherwise.
      */
     public static function countValues (array $array, null|int|string $key = null):array|false {
 
@@ -1274,7 +1271,7 @@ final class Arr {
      * @param int $start_index <p>
      * The first index of the returned array.
      * </p>
-     * @param int<0, max> $length <p>
+     * @param positive-int|0 $length <p>
      * Number of elements to insert. Must be greater than or equal to zero.
      * </p>
      * @param TValue $value p>

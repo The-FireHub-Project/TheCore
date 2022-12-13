@@ -319,7 +319,7 @@ abstract class StrSafe {
      * The string being measured for length.
      * </p>
      *
-     * @return int<0, max> String length.
+     * @return positive-int|0 String length.
      */
     abstract public static function length (string $string):int;
 

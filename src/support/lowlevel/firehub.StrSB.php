@@ -387,7 +387,7 @@ final class StrSB extends StrSafe {
      * @param null|string $characters [optional] <p>
      * A list of additional characters which will be considered as 'word'.
      * </p>
-     * @param int<0, 2> $format [optional] <p>
+     * @param 0|1|2 $format [optional] <p>
      * A string to search words.
      *
      * 0 - returns the number of words found.
