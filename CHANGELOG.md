@@ -2,6 +2,11 @@
 
 ## [Unreleased](https://github.com/The-FireHub-Project/Documentor/compare/develop-pre-alpha-m1...develop-pre-alpha)
 
+### Changed
+- Constansts refactor ([#9](https://github.com/The-FireHub-Project/FireHub/issues/9), [9ab9b65](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/9ab9b65))
+- Various changed to low level classes ([#9](https://github.com/The-FireHub-Project/FireHub/issues/9), [3d5e5f2](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/3d5e5f2))
+- In registerConstants method, added constant from support ([#9](https://github.com/The-FireHub-Project/FireHub/issues/9), [5604655](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/5604655))
+
 ## [v0.1.3](https://github.com/The-FireHub-Project/Documentor/compare/v0.1.3-alpha.1...develop-pre-alpha-m1) - (2022-12-09)
 
 ### Added
