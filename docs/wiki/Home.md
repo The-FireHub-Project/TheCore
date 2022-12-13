@@ -1,1 +1,0 @@
-# FireHub Web Application Framework
