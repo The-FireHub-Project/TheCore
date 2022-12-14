@@ -26,7 +26,7 @@ enum Format:string {
      * ### Date only format
      * @since 0.1.3.pre-alpha.M1
      *
-     * @example Registiring new autoload implementation.
+     * @example
      * ```php
      * 2022-12-09
      * ```
@@ -37,7 +37,7 @@ enum Format:string {
      * ### Time only format
      * @since 0.1.3.pre-alpha.M1
      *
-     * @example Registiring new autoload implementation.
+     * @example
      * ```php
      * 08:53:18
      * ```
@@ -48,7 +48,7 @@ enum Format:string {
      * ### Time only format with microseconds
      * @since 0.1.3.pre-alpha.M1
      *
-     * @example Registiring new autoload implementation.
+     * @example
      * ```php
      * 08:53:56.844337
      * ```
@@ -59,7 +59,7 @@ enum Format:string {
      * ### Date and time format
      * @since 0.1.3.pre-alpha.M1
      *
-     * @example Registiring new autoload implementation.
+     * @example
      * ```php
      * 2022-12-09 08:55:00
      * ```
@@ -70,7 +70,7 @@ enum Format:string {
      * ### Date and time format with microseconds
      * @since 0.1.3.pre-alpha.M1
      *
-     * @example Registiring new autoload implementation.
+     * @example
      * ```php
      * 2022-12-09 08:55:33.641682
      * ```
@@ -81,7 +81,7 @@ enum Format:string {
      * ### ATOM
      * @since 0.1.3.pre-alpha.M1
      *
-     * @example Registiring new autoload implementation.
+     * @example
      * ```php
      * 2022-12-09T08:58:56+01:00
      * ```
@@ -92,7 +92,7 @@ enum Format:string {
      * ### ATOM_EXTENDED
      * @since 0.1.3.pre-alpha.M1
      *
-     * @example Registiring new autoload implementation.
+     * @example
      * ```php
      * 2022-12-09T08:58:45.038+01:00
      * ```
@@ -103,7 +103,7 @@ enum Format:string {
      * ### COOKIE
      * @since 0.1.3.pre-alpha.M1
      *
-     * @example Registiring new autoload implementation.
+     * @example
      * ```php
      * Friday, 09-Dec-2022 08:58:31 CET
      * ```
@@ -114,7 +114,7 @@ enum Format:string {
      * ### ISO8601
      * @since 0.1.3.pre-alpha.M1
      *
-     * @example Registiring new autoload implementation.
+     * @example
      * ```php
      * 2022-12-09T08:58:18+0100
      * ```
@@ -125,7 +125,7 @@ enum Format:string {
      * ### ISO8601_EXPANDED
      * @since 0.1.3.pre-alpha.M1
      *
-     * @example Registiring new autoload implementation.
+     * @example
      * ```php
      * X-12-09T08:58:03+01:00
      * ```
@@ -136,7 +136,7 @@ enum Format:string {
      * ### RFC822
      * @since 0.1.3.pre-alpha.M1
      *
-     * @example Registiring new autoload implementation.
+     * @example
      * ```php
      * Fri, 09 Dec 22 08:57:30 +0100
      * ```
@@ -147,7 +147,7 @@ enum Format:string {
      * ### RFC850
      * @since 0.1.3.pre-alpha.M1
      *
-     * @example Registiring new autoload implementation.
+     * @example
      * ```php
      * Friday, 09-Dec-22 08:57:46 CET
      * ```
@@ -158,7 +158,7 @@ enum Format:string {
      * ### RFC7231
      * @since 0.1.3.pre-alpha.M1
      *
-     * @example Registiring new autoload implementation.
+     * @example
      * ```php
      * Fri, 09 Dec 2022 08:56:35 GMT
      * ```
@@ -169,7 +169,7 @@ enum Format:string {
      * ### RSS
      * @since 0.1.3.pre-alpha.M1
      *
-     * @example Registiring new autoload implementation.
+     * @example
      * ```php
      * Fri, 09 Dec 2022 08:56:11 +0100
      * ```
