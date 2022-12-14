@@ -11,6 +11,7 @@
 - Various changed to low level classes ([#9](https://github.com/The-FireHub-Project/FireHub/issues/9), [3d5e5f2](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/3d5e5f2))
 - In registerConstants method, added constant from support ([#9](https://github.com/The-FireHub-Project/FireHub/issues/9), [5604655](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/5604655))
 - Transfered timezone methods to seperate low level class ([#10](https://github.com/The-FireHub-Project/FireHub/issues/10), [b0db622](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/b0db622))
+- Changed default $format in format method in DateAndTime low level class ([#10](https://github.com/The-FireHub-Project/FireHub/issues/10), [6163241](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/6163241))
 
 ### Removed
 
