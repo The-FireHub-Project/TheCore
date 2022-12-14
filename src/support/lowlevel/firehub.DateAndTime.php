@@ -23,7 +23,7 @@ use function strtotime;
  * ### Date and time low level class
  *
  * @since 0.1.3.pre-alpha.M1
- * @since 0.2.1.pre-alpha.M2 Removed timezone methods.
+ * @since 0.2.1.pre-alpha.M2 Removed timezone methods, changed default $format in format method.
  *
  * @api
  *
@@ -59,7 +59,9 @@ final class DateAndTime {
 
     /**
      * ### Format a local time/date
+     *
      * @since 0.1.3.pre-alpha.M1
+     * @since 0.2.1.pre-alpha.M2 Changed default $format.
      *
      * @param string $format [optional] <p>
      * The format of the outputted date string.
@@ -72,7 +74,7 @@ final class DateAndTime {
      *
      * @return string Formatted date string.
      */
-    public static function format (string $format = 'd-m-Y H:i:s.u', ?int $timestamp = null):string {
+    public static function format (string $format = 'Y-m-d H:i:s.u', ?int $timestamp = null):string {
 
         return date($format, $timestamp);
 
