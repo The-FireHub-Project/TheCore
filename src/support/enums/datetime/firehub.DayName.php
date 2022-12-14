@@ -23,28 +23,15 @@ namespace FireHub\TheCore\Support\Enums\DateTime;
 enum DayName:string {
 
     /**
-     * @since 0.1.3.pre-alpha.M1
-     */
-    case NOW = 'now';
-
-    /**
+     * ### Date is today and time is set to 00:00:00
      * @since 0.1.3.pre-alpha.M1
      */
     case TODAY = 'today';
 
     /**
+     * ### Date is yesterday and time is set to 00:00:00
      * @since 0.1.3.pre-alpha.M1
      */
     case YESTERDAY = 'yesterday';
-
-    /**
-     * @since 0.1.3.pre-alpha.M1
-     */
-    case FIRST_DAY = 'first day of';
-
-    /**
-     * @since 0.1.3.pre-alpha.M1
-     */
-    case LAST_DAY = 'last day of';
 
 }
