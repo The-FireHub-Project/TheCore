@@ -16,11 +16,19 @@ namespace FireHub\TheCore\Support\Enums\DateTime;
 
 /**
  * ### Time names notations enum
+ *
  * @since 0.1.3.pre-alpha.M1
+ * @since 0.2.1.pre-alpha.M2 Added NOW enum.
  *
  * @api
  */
 enum TimeName:string {
+
+    /**
+     * ### Current time
+     * @since 0.2.1.pre-alpha.M2
+     */
+    case NOW = 'now';
 
     /**
      * ### Middle of the day
