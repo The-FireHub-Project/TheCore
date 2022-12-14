@@ -35,7 +35,7 @@ final class \FireHub\TheCore\Support\LowLevel\DateAndTime()
 ***
 
 * **0.1.3.pre-alpha.M1** 
-* **0.2.1.pre-alpha.M2** _Removed timezone methods._
+* **0.2.1.pre-alpha.M2** _Removed timezone methods, changed default $format in format method._
 
 
 ## Methods table
@@ -85,21 +85,22 @@ public static \FireHub\TheCore\Support\LowLevel\DateAndTime::toTimestamp(string 
 ***
 
 ```php
-public static \FireHub\TheCore\Support\LowLevel\DateAndTime::format(string $format = 'd-m-Y H:i:s.u', int|null $timestamp = null):string
+public static \FireHub\TheCore\Support\LowLevel\DateAndTime::format(string $format = 'Y-m-d H:i:s.u', int|null $timestamp = null):string
 ```
 
 ### ### Format a local time/date
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DateAndTime::format()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DateAndTime.php#L75)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DateAndTime.php#L77)**</sub><br>
 
 ### Changelog:
 
 * **0.1.3.pre-alpha.M1** 
+* **0.2.1.pre-alpha.M2** _Changed default $format._
 
 ### Parameters:
 
-* string $format = 'd-m-Y H:i:s.u' _[optional] 
+* string $format = 'Y-m-d H:i:s.u' _[optional] 
 The format of the outputted date string._
 * int or null $timestamp = null _[optional] 
 The optional timestamp parameter is an integer Unix timestamp that defaults to the current local time if a timestamp is not given._
@@ -122,7 +123,7 @@ public static \FireHub\TheCore\Support\LowLevel\DateAndTime::formatInteger(strin
 ### ### Format a local time/date as integer
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DateAndTime::formatInteger()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DateAndTime.php#L96)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DateAndTime.php#L98)**</sub><br>
 
 ### Changelog:
 
@@ -152,7 +153,7 @@ public static \FireHub\TheCore\Support\LowLevel\DateAndTime::sunInfo(int $timest
 ### ### Gets information about sunset/sunrise and twilight begin/end
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DateAndTime::sunInfo()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DateAndTime.php#L128)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DateAndTime.php#L130)**</sub><br>
 
 ### Changelog:
 
