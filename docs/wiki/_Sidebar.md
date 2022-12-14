@@ -24,8 +24,10 @@
     * [DayName](./DayName)
     * [Format](./Format)
     * [Month](./Month)
+    * [Ordinal](./Ordinal)
     * [TimeName](./TimeName)
     * [TimeZone](./TimeZone)
+    * [Unit](./Unit)
     * [WeekDay](./WeekDay)
 * \FireHub\TheCore\Support\Enums\FileFolder
     * [Lock](./Lock)
