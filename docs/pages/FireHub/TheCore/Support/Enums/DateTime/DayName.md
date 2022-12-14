@@ -18,7 +18,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\DayName
 
 <sub>Fully Qualified Enum Name:  **\FireHub\TheCore\Support\Enums\DateTime\DayName**</sub><br>
 <sub>This enum is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.DayName.php#L23)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.DayName.php#L25)**</sub><br>
 <sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/enums/datetime/firehub.DayName.php)**</sub><br>
 <sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/enums/datetime/firehub.DayName.php)**</sub><br>
 
@@ -31,6 +31,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\DayName
 ***
 
 * **0.1.3.pre-alpha.M1** 
+* **0.2.1.pre-alpha.M2** _Removed FIRST_DAY and LAST_DAY enums._
 
 
 ## Cases table
@@ -56,7 +57,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\DayName
 ### ### Date is today and time is set to 00:00:00
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\DayName::TODAY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.DayName.php#L29)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.DayName.php#L31)**</sub><br>
 
 ### Changelog:
 
@@ -72,7 +73,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\DayName
 ### ### Date is yesterday and time is set to 00:00:00
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\DayName::YESTERDAY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.DayName.php#L35)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.DayName.php#L37)**</sub><br>
 
 ### Changelog:
 
