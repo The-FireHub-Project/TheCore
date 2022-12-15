@@ -24,13 +24,18 @@
     * [TypeType](./TypeType)
 * \FireHub\TheCore\Support\Enums\DateTime
     * [DayName](./DayName)
-    * [Format](./Format)
     * [Month](./Month)
     * [Ordinal](./Ordinal)
     * [TimeName](./TimeName)
     * [TimeZone](./TimeZone)
     * [Unit](./Unit)
     * [WeekDay](./WeekDay)
+* \FireHub\TheCore\Support\Enums\DateTime\Format
+    * [Day](./Day)
+    * [Month](./Month)
+    * [Predefined](./Predefined)
+    * [Week](./Week)
+    * [Year](./Year)
 * \FireHub\TheCore\Support\Enums\FileFolder
     * [Lock](./Lock)
     * [Mode](./Mode)
