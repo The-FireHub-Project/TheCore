@@ -117,6 +117,11 @@ public static \FireHub\TheCore\Support\LowLevel\Data::setType(mixed $value, \Fir
 
 * [\FireHub\TheCore\Support\Enums\Data\Type](/core/v0.2\FireHub\TheCore\Support\Enums\Data\Type) _As parameter._
 
+### This method is used by:
+
+* *To set microtime to other type.*
+
+
 ### Parameters:
 
 * mixed $value _Value to convert._

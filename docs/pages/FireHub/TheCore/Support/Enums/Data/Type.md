@@ -115,6 +115,8 @@ _DataType enum defines the type of data a variable can store._
 
 * *To compare permissions value.*
 
+* *To set microtime as integer.*
+
 
 <h2><a name="t_float"># T_FLOAT</a></h2>
 ***

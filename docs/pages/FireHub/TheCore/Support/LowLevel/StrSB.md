@@ -512,6 +512,11 @@ __
 <sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L135)**</sub><br>
 
 
+### This method is used by:
+
+* *To get par of microtime.*
+
+
 ### Parameters:
 
 * string $string _The string to extract the substring from._
