@@ -58,7 +58,7 @@ final class DateAndTime {
     }
 
     /**
-     * ### Format a local time/date
+     * ### Gets a local time/date
      *
      * @since 0.1.3.pre-alpha.M1
      * @since 0.2.1.pre-alpha.M2 Changed default $format.
@@ -74,14 +74,14 @@ final class DateAndTime {
      *
      * @return string Formatted date string.
      */
-    public static function format (string $format = 'Y-m-d H:i:s.u', ?int $timestamp = null):string {
+    public static function date (string $format = 'Y-m-d H:i:s.u', ?int $timestamp = null):string {
 
         return date($format, $timestamp);
 
     }
 
     /**
-     * ### Format a local time/date as integer
+     * ### Gets a local time/date as integer
      * @since 0.1.3.pre-alpha.M1
      *
      * @param string $format <p>
@@ -95,7 +95,7 @@ final class DateAndTime {
      *
      * @return int|false Formatted date as integer, false otherwise.
      */
-    public static function formatInteger (string $format, ?int $timestamp = null):int|false {
+    public static function dateInteger (string $format, ?int $timestamp = null):int|false {
 
         return idate($format, $timestamp);
 
