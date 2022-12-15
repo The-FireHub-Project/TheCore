@@ -12,15 +12,15 @@
  * @version GIT: $Id$ Blob checksum.
  */
 
-namespace FireHub\TheCore\Support\Enums\DateTime;
+namespace FireHub\TheCore\Support\Enums\DateTime\Format;
 
 /**
- * ### Datetime format enum
+ * ### Predefined datetime format enum
  * @since 0.1.3.pre-alpha.M1
  *
  * @api
  */
-enum Format:string {
+enum Predefined:string implements Format {
 
     /**
      * ### Date only format
