@@ -14,6 +14,9 @@
 
 namespace FireHub\TheCore\Support\LowLevel;
 
+use FireHub\TheCore\Support\Enums\Data\Type;
+
+use function microtime;
 use function time;
 
 /**
@@ -40,6 +43,25 @@ final class Time {
     public static function timestamp ():int {
 
         return time();
+
+    }
+
+    /**
+     * ### Get current Unix microseconds
+     * @since 0.2.1.pre-alpha.M2
+     *
+     * @uses \FireHub\TheCore\Support\LowLevel\StrSB::explode() To split microtime function.
+     * @uses \FireHub\TheCore\Support\LowLevel\Data::setType() To set microtime to other type.
+     * @uses \FireHub\TheCore\Support\Enums\Data\Type::T_INT To set microtime as integer.
+     * @uses \FireHub\TheCore\Support\LowLevel\StrSB::part() To get par of microtime.
+     *
+     * @return int|false Current microseconds, false otherwise.
+     */
+    public static function microtime ():int|false {
+
+        if (!$time_list = StrSB::explode(microtime(), ' ')) return false;
+
+        return Data::setType(StrSB::part($time_list[0], 2, 6), Type::T_INT);
 
     }
 
