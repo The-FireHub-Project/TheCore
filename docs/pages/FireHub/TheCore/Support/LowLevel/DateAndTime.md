@@ -44,8 +44,8 @@ final class \FireHub\TheCore\Support\LowLevel\DateAndTime()
 | Type  | Name  | Title |
 | :---  | :---  | :---  |
 |public static |<a href="#totimestamp()">toTimestamp</a>|### Parse about any English textual datetime description into a Unix timestamp|
-|public static |<a href="#format()">format</a>|### Format a local time/date|
-|public static |<a href="#formatinteger()">formatInteger</a>|### Format a local time/date as integer|
+|public static |<a href="#date()">date</a>|### Gets a local time/date|
+|public static |<a href="#dateinteger()">dateInteger</a>|### Gets a local time/date as integer|
 |public static |<a href="#suninfo()">sunInfo</a>|### Gets information about sunset/sunrise and twilight begin/end|
 
 
@@ -81,16 +81,16 @@ public static \FireHub\TheCore\Support\LowLevel\DateAndTime::toTimestamp(string 
 
 * [https://www.php.net/manual/en/datetime.formats.php](https://www.php.net/manual/en/datetime.formats.php) _To check how to pass $datetime parameter._
 
-<h2><a name="format()"># format()</a></h2>
+<h2><a name="date()"># date()</a></h2>
 ***
 
 ```php
-public static \FireHub\TheCore\Support\LowLevel\DateAndTime::format(string $format = 'Y-m-d H:i:s.u', int|null $timestamp = null):string
+public static \FireHub\TheCore\Support\LowLevel\DateAndTime::date(string $format = 'Y-m-d H:i:s.u', int|null $timestamp = null):string
 ```
 
-### ### Format a local time/date
+### ### Gets a local time/date
 
-<sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DateAndTime::format()**</sub><br>
+<sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DateAndTime::date()**</sub><br>
 <sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DateAndTime.php#L77)**</sub><br>
 
 ### Changelog:
@@ -113,30 +113,21 @@ The optional timestamp parameter is an integer Unix timestamp that defaults to t
 
 * [https://www.php.net/manual/en/datetime.format.php](https://www.php.net/manual/en/datetime.format.php) _To check valid $format formats._
 
-<h2><a name="formatinteger()"># formatInteger()</a></h2>
+<h2><a name="dateinteger()"># dateInteger()</a></h2>
 ***
 
 ```php
-public static \FireHub\TheCore\Support\LowLevel\DateAndTime::formatInteger(string $format, int|null $timestamp = null):int|false
+public static \FireHub\TheCore\Support\LowLevel\DateAndTime::dateInteger(string $format, int|null $timestamp = null):int|false
 ```
 
-### ### Format a local time/date as integer
+### ### Gets a local time/date as integer
 
-<sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DateAndTime::formatInteger()**</sub><br>
+<sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DateAndTime::dateInteger()**</sub><br>
 <sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DateAndTime.php#L98)**</sub><br>
 
 ### Changelog:
 
 * **0.1.3.pre-alpha.M1** 
-
-### This method is used by:
-
-* *To get current month as integer.*
-
-* *To get current month as integer.*
-
-* *To get current month as integer.*
-
 
 ### Parameters:
 
