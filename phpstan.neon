@@ -2,6 +2,9 @@ parameters:
     level: 9
     paths:
         - src/
+    excludePaths:
+        analyse:
+            - src/support/enums/geo/firehub.Country.php # to deep to anaylse
     treatPhpDocTypesAsCertain: false
     checkExplicitMixedMissingReturn: true
     checkFunctionNameCase: true
