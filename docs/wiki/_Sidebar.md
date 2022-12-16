@@ -40,6 +40,9 @@
     * [Lock](./Lock)
     * [Mode](./Mode)
     * [Permission](./Permission)
+* \FireHub\TheCore\Support\Enums\Geo
+    * [Continent](./Continent)
+    * [Country](./Country)
 * \FireHub\TheCore\Support\Enums\Json
     * [Decode](./Decode)
     * [Encode](./Encode)
