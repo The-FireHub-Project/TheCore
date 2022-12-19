@@ -6,9 +6,9 @@ class \FireHub\TheCore\Support\Calendar\Calendar()
 ### ### Calendar support class
 <sub>Fully Qualified Class Name:  **\FireHub\TheCore\Support\Calendar\Calendar**</sub><br>
 <sub>This class is part of package:  **\FireHub\Support\Calendar**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/calendar/firehub.Calendar.php#L31)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/calendar/firehub.Calendar.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/calendar/firehub.Calendar.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/calendar/firehub.Calendar.php#L31)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/calendar/firehub.Calendar.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/calendar/firehub.Calendar.php)**</sub><br>
 
 <sub>_This class was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -45,7 +45,7 @@ class \FireHub\TheCore\Support\Calendar\Calendar()
 
 ### ### Constructor
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\Calendar\Calendar::__construct()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/calendar/firehub.Calendar.php#L53)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/calendar/firehub.Calendar.php#L53)**</sub><br>
 
 
 ### Parameters:
@@ -69,7 +69,7 @@ static \FireHub\TheCore\Support\Calendar\Calendar::now():self
 
 ### ### Set calendar to current date and time
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\Calendar\Calendar::now()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/calendar/firehub.Calendar.php#L75)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/calendar/firehub.Calendar.php#L75)**</sub><br>
 
 
 ### Returns:
@@ -84,7 +84,7 @@ static \FireHub\TheCore\Support\Calendar\Calendar::today(\FireHub\TheCore\Suppor
 
 ### ### Set calendar to current date
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\Calendar\Calendar::today()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/calendar/firehub.Calendar.php#L95)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/calendar/firehub.Calendar.php#L95)**</sub><br>
 
 
 ### Parameters:
@@ -104,7 +104,7 @@ static \FireHub\TheCore\Support\Calendar\Calendar::yesterday(\FireHub\TheCore\Su
 
 ### ### Set calendar to yesterday date
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\Calendar\Calendar::yesterday()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/calendar/firehub.Calendar.php#L115)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/calendar/firehub.Calendar.php#L115)**</sub><br>
 
 
 ### Parameters:
@@ -124,7 +124,7 @@ static \FireHub\TheCore\Support\Calendar\Calendar::relative(int $number, \FireHu
 
 ### ### Set relative time and date
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\Calendar\Calendar::relative()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/calendar/firehub.Calendar.php#L141)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/calendar/firehub.Calendar.php#L141)**</sub><br>
 
 
 ### Parameters:
@@ -146,7 +146,7 @@ static \FireHub\TheCore\Support\Calendar\Calendar::firstDay(\FireHub\TheCore\Sup
 
 ### ### Set calendar to first day of specified month
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\Calendar\Calendar::firstDay()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/calendar/firehub.Calendar.php#L169)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/calendar/firehub.Calendar.php#L169)**</sub><br>
 
 
 ### Parameters:
@@ -170,7 +170,7 @@ static \FireHub\TheCore\Support\Calendar\Calendar::lastDay(\FireHub\TheCore\Supp
 
 ### ### Set datetime to last day of specified month
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\Calendar\Calendar::lastDay()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/calendar/firehub.Calendar.php#L197)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/calendar/firehub.Calendar.php#L197)**</sub><br>
 
 
 ### Parameters:
@@ -194,7 +194,7 @@ static \FireHub\TheCore\Support\Calendar\Calendar::weekDay(\FireHub\TheCore\Supp
 
 ### ### Set datetime by ordinal day of specified weekday name and month
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\Calendar\Calendar::weekDay()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/calendar/firehub.Calendar.php#L231)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/calendar/firehub.Calendar.php#L231)**</sub><br>
 
 
 ### Parameters:
@@ -220,7 +220,7 @@ static \FireHub\TheCore\Support\Calendar\Calendar::fromTimestamp(int $timestamp)
 
 ### ### Set datetime to yesterday date
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\Calendar\Calendar::fromTimestamp()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/calendar/firehub.Calendar.php#L247)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/calendar/firehub.Calendar.php#L247)**</sub><br>
 
 
 ### Parameters:
@@ -239,7 +239,7 @@ static \FireHub\TheCore\Support\Calendar\Calendar::fromTimestamp(int $timestamp)
 
 ### ### Gets current timezone
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\Calendar\Calendar::getTimeZone()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/calendar/firehub.Calendar.php#L264)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/calendar/firehub.Calendar.php#L264)**</sub><br>
 
 
 ### Throws:
@@ -258,7 +258,7 @@ static \FireHub\TheCore\Support\Calendar\Calendar::setTimeZone(\FireHub\TheCore\
 
 ### ### Sets current timezone
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\Calendar\Calendar::setTimeZone()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/calendar/firehub.Calendar.php#L281)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/calendar/firehub.Calendar.php#L281)**</sub><br>
 
 
 ### Parameters:

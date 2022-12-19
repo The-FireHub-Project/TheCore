@@ -6,9 +6,9 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 ### ### Ordinal enum
 <sub>Fully Qualified Enum Name:  **\FireHub\TheCore\Support\Enums\DateTime\Ordinal**</sub><br>
 <sub>This enum is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L23)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/enums/datetime/firehub.Ordinal.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/enums/datetime/firehub.Ordinal.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L23)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/enums/datetime/firehub.Ordinal.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/enums/datetime/firehub.Ordinal.php)**</sub><br>
 
 <sub>_This enum was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -49,7 +49,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Ordinal::FIRST**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L28)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L28)**</sub><br>
 
 
 <h2><a name="second"># SECOND</a></h2>
@@ -59,7 +59,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Ordinal::SECOND**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L33)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L33)**</sub><br>
 
 
 <h2><a name="third"># THIRD</a></h2>
@@ -69,7 +69,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Ordinal::THIRD**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L38)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L38)**</sub><br>
 
 
 <h2><a name="fourth"># FOURTH</a></h2>
@@ -79,7 +79,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Ordinal::FOURTH**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L43)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L43)**</sub><br>
 
 
 <h2><a name="fifth"># FIFTH</a></h2>
@@ -89,7 +89,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Ordinal::FIFTH**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L48)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L48)**</sub><br>
 
 
 <h2><a name="sixth"># SIXTH</a></h2>
@@ -99,7 +99,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Ordinal::SIXTH**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L53)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L53)**</sub><br>
 
 
 <h2><a name="seventh"># SEVENTH</a></h2>
@@ -109,7 +109,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Ordinal::SEVENTH**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L58)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L58)**</sub><br>
 
 
 <h2><a name="eighth"># EIGHTH</a></h2>
@@ -119,7 +119,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Ordinal::EIGHTH**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L63)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L63)**</sub><br>
 
 
 <h2><a name="ninth"># NINTH</a></h2>
@@ -129,7 +129,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Ordinal::NINTH**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L68)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L68)**</sub><br>
 
 
 <h2><a name="tenth"># TENTH</a></h2>
@@ -139,7 +139,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Ordinal::TENTH**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L73)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L73)**</sub><br>
 
 
 <h2><a name="eleventh"># ELEVENTH</a></h2>
@@ -149,7 +149,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Ordinal::ELEVENTH**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L78)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L78)**</sub><br>
 
 
 <h2><a name="twelfth"># TWELFTH</a></h2>
@@ -159,7 +159,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Ordinal::TWELFTH**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L83)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L83)**</sub><br>
 
 
 <h2><a name="next"># NEXT</a></h2>
@@ -169,7 +169,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Ordinal::NEXT**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L88)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L88)**</sub><br>
 
 
 <h2><a name="last"># LAST</a></h2>
@@ -179,7 +179,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Ordinal::LAST**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L93)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L93)**</sub><br>
 
 
 <h2><a name="previous"># PREVIOUS</a></h2>
@@ -189,7 +189,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Ordinal::PREVIOUS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L98)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L98)**</sub><br>
 
 
 <h2><a name="this"># THIS</a></h2>
@@ -199,6 +199,6 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Ordinal::THIS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L103)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.Ordinal.php#L103)**</sub><br>
 
 

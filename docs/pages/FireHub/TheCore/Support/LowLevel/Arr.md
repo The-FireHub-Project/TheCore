@@ -2,7 +2,7 @@
 layout: default
 title: Arr
 parent: \FireHub\Support
-grand_parent: Core v0.2
+grand_parent: TheCore v0.2
 has_children: false
 ---
 
@@ -22,9 +22,9 @@ final class \FireHub\TheCore\Support\LowLevel\Arr()
 
 <sub>Fully Qualified Class Name:  **\FireHub\TheCore\Support\LowLevel\Arr**</sub><br>
 <sub>This class is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L91)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/lowlevel/firehub.Arr.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/lowlevel/firehub.Arr.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L91)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/lowlevel/firehub.Arr.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/lowlevel/firehub.Arr.php)**</sub><br>
 
 <sub>_This class was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -104,7 +104,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::isArray(mixed $value)
 ### ### Checks if value is array
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::isArray()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L105)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L105)**</sub><br>
 
 ### Changelog:
 
@@ -112,7 +112,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::isArray(mixed $value)
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\LowLevel\DataIs::array()](/core/v0.2\FireHub\TheCore\Support\LowLevel\DataIs#array()) _To check if value is array._
+* [\FireHub\TheCore\Support\LowLevel\DataIs::array()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\DataIs#array()) _To check if value is array._
 
 ### This method is used by:
 
@@ -135,7 +135,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::isEmpty(array $array):bool
 ### ### Checks if array is empty
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::isEmpty()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L123)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L123)**</sub><br>
 
 ### Changelog:
 
@@ -143,7 +143,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::isEmpty(array $array):bool
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\LowLevel\Arr::count()](/core/v0.2\FireHub\TheCore\Support\LowLevel\Arr#count()) _To count array elements._
+* [\FireHub\TheCore\Support\LowLevel\Arr::count()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Arr#count()) _To count array elements._
 
 ### This method is used by:
 
@@ -172,7 +172,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::isMultiDimensional(array $a
 ### ### Checks if array is multidimensional
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::isMultiDimensional()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L144)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L144)**</sub><br>
 
 ### Changelog:
 
@@ -180,8 +180,8 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::isMultiDimensional(array $a
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\LowLevel\Arr::count()](/core/v0.2\FireHub\TheCore\Support\LowLevel\Arr#count()) _To count array elements._
-* [\FireHub\TheCore\Support\LowLevel\Arr::filter()](/core/v0.2\FireHub\TheCore\Support\LowLevel\Arr#filter()) _To filter array elements._
+* [\FireHub\TheCore\Support\LowLevel\Arr::count()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Arr#count()) _To count array elements._
+* [\FireHub\TheCore\Support\LowLevel\Arr::filter()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Arr#filter()) _To filter array elements._
 
 ### This method is used by:
 
@@ -206,7 +206,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::isAssociative(array $array)
 ### ### Checks if array is associative
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::isAssociative()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L163)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L163)**</sub><br>
 
 ### Changelog:
 
@@ -214,8 +214,8 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::isAssociative(array $array)
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\LowLevel\Arr::isEmpty()](/core/v0.2\FireHub\TheCore\Support\LowLevel\Arr#isempty()) _To check if array is empty._
-* [\FireHub\TheCore\Support\LowLevel\Arr::range()](/core/v0.2\FireHub\TheCore\Support\LowLevel\Arr#range()) _To create numeric array._
+* [\FireHub\TheCore\Support\LowLevel\Arr::isEmpty()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Arr#isempty()) _To check if array is empty._
+* [\FireHub\TheCore\Support\LowLevel\Arr::range()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Arr#range()) _To create numeric array._
 
 ### Parameters:
 
@@ -235,7 +235,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::count(array $array, bool $m
 ### ### Counts all elements in the array
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::count()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L186)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L186)**</sub><br>
 
 ### Changelog:
 
@@ -258,7 +258,7 @@ Count multidimensional items._
 
 ### Returns:
 
-* positive-int or [\FireHub\TheCore\Support\LowLevel\0](/core/v0.2\FireHub\TheCore\Support\LowLevel\0) _Number of elements in array._
+* positive-int or [\FireHub\TheCore\Support\LowLevel\0](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\0) _Number of elements in array._
 
 <h2><a name="countvalues()"># countValues()</a></h2>
 ***
@@ -270,7 +270,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::countValues(array $array, n
 ### ### Counts all the values of an array
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::countValues()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L210)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L210)**</sub><br>
 
 ### Changelog:
 
@@ -278,10 +278,10 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::countValues(array $array, n
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\LowLevel\Arr::isMultiDimensional()](/core/v0.2\FireHub\TheCore\Support\LowLevel\Arr#ismultidimensional()) _To check is array is multidimensional._
-* [\FireHub\TheCore\Support\LowLevel\Arr::merge](/core/v0.2\FireHub\TheCore\Support\LowLevel\Arr#merge) _To merge arrays._
-* [\FireHub\TheCore\Support\LowLevel\Arr::column()](/core/v0.2\FireHub\TheCore\Support\LowLevel\Arr#column()) _To get the values from a single column._
-* [\FireHub\TheCore\Support\LowLevel\DataIs::null()](/core/v0.2\FireHub\TheCore\Support\LowLevel\DataIs#null()) _To check if $key is null._
+* [\FireHub\TheCore\Support\LowLevel\Arr::isMultiDimensional()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Arr#ismultidimensional()) _To check is array is multidimensional._
+* [\FireHub\TheCore\Support\LowLevel\Arr::merge](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Arr#merge) _To merge arrays._
+* [\FireHub\TheCore\Support\LowLevel\Arr::column()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Arr#column()) _To get the values from a single column._
+* [\FireHub\TheCore\Support\LowLevel\DataIs::null()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\DataIs#null()) _To check if $key is null._
 
 ### Parameters:
 
@@ -303,7 +303,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::inArray(mixed $value, array
 ### ### Checks if a value exists in an array
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::inArray()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L237)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L237)**</sub><br>
 
 ### Changelog:
 
@@ -330,7 +330,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::shift(array &$array):mixed
 ### ### Removes an item at the beginning of an array
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::shift()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L255)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L255)**</sub><br>
 
 ### Changelog:
 
@@ -354,7 +354,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::unshift(array &$array, mixe
 ### ### Prepend elements to the beginning of the array
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::unshift()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L276)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L276)**</sub><br>
 
 ### Changelog:
 
@@ -380,7 +380,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::pop(array &$array):\FireHub
 ### ### Pop the element off the end of array
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::pop()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L295)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L295)**</sub><br>
 
 ### Changelog:
 
@@ -399,7 +399,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::pop(array &$array):\FireHub
 
 ### Returns:
 
-* [\FireHub\TheCore\Support\LowLevel\TValue](/core/v0.2\FireHub\TheCore\Support\LowLevel\TValue) or null _The last value of array. If array is empty (or is not an array), null will be returned._
+* [\FireHub\TheCore\Support\LowLevel\TValue](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\TValue) or null _The last value of array. If array is empty (or is not an array), null will be returned._
 
 <h2><a name="push()"># push()</a></h2>
 ***
@@ -411,7 +411,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::push(array &$array, mixed .
 ### ### Push elements onto the end of array
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::push()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L316)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L316)**</sub><br>
 
 ### Changelog:
 
@@ -437,7 +437,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::column(array $array, int|st
 ### ### Return the values from a single column in the input array
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::column()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L342)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L342)**</sub><br>
 
 ### Changelog:
 
@@ -473,7 +473,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::merge(array ...$arrays)
 ### ### Merges the elements of one or more arrays together
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::merge()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L366)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L366)**</sub><br>
 
 ### Changelog:
 
@@ -500,7 +500,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::mergeRecursive(array ...$ar
 ### ### Merge two or more arrays recursively
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::mergeRecursive()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L384)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L384)**</sub><br>
 
 ### Changelog:
 
@@ -520,7 +520,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::combine(array $keys, array 
 ### ### Creates an array by using one array for keys and another for its values
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::combine()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L412)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L412)**</sub><br>
 
 ### Changelog:
 
@@ -528,7 +528,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::combine(array $keys, array 
 
 ### This method uses:
 
-* [\Throwable](/core/v0.2\Throwable) _To cache error._
+* [\Throwable](/thecore/v0.2\Throwable) _To cache error._
 
 ### This method is used by:
 
@@ -557,7 +557,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::search(mixed $value, array 
 ### ### Searches the array for a given value and returns the first corresponding key if successful
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::search()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L450)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L450)**</sub><br>
 
 ### Changelog:
 
@@ -565,9 +565,9 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::search(mixed $value, array 
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\LowLevel\Arr::combine()](/core/v0.2\FireHub\TheCore\Support\LowLevel\Arr#combine()) _To combine from one array for keys and another for its values._
-* [\FireHub\TheCore\Support\LowLevel\Arr::keys()](/core/v0.2\FireHub\TheCore\Support\LowLevel\Arr#keys()) _To get keys from array.._
-* [\FireHub\TheCore\Support\LowLevel\Arr::column()](/core/v0.2\FireHub\TheCore\Support\LowLevel\Arr#column()) _To get the values from a single column._
+* [\FireHub\TheCore\Support\LowLevel\Arr::combine()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Arr#combine()) _To combine from one array for keys and another for its values._
+* [\FireHub\TheCore\Support\LowLevel\Arr::keys()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Arr#keys()) _To get keys from array.._
+* [\FireHub\TheCore\Support\LowLevel\Arr::column()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Arr#column()) _To get the values from a single column._
 
 ### Parameters:
 
@@ -590,7 +590,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::difference(array $array, ar
 ### ### Computes the difference of arrays
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::difference()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L476)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L476)**</sub><br>
 
 ### Changelog:
 
@@ -618,7 +618,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::differenceKey(array $array,
 ### ### Computes the difference of arrays using keys for comparison
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::differenceKey()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L502)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L502)**</sub><br>
 
 ### Changelog:
 
@@ -646,7 +646,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::differenceAssoc(array $arra
 ### ### Computes the difference of arrays with additional index check
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::differenceAssoc()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L528)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L528)**</sub><br>
 
 ### Changelog:
 
@@ -674,7 +674,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::unique(array $array)
 ### ### Removes duplicate values from an array
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::unique()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L551)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L551)**</sub><br>
 
 ### Changelog:
 
@@ -701,7 +701,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::flip(array $array)
 ### ### Exchanges all keys with their associated values in array
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::flip()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L574)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L574)**</sub><br>
 
 ### Changelog:
 
@@ -728,7 +728,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::pad(array $array, int $size
 ### ### Pad array to the specified length with a value
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::pad()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L600)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L600)**</sub><br>
 
 ### Changelog:
 
@@ -750,7 +750,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::random(array $array, positi
 ### ### Pick one or more random values out of the array
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::random()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L632)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L632)**</sub><br>
 
 ### Changelog:
 
@@ -758,8 +758,8 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::random(array $array, positi
 
 ### This method uses:
 
-* [\Throwable](/core/v0.2\Throwable) _To cache errors._
-* [\FireHub\TheCore\Support\LowLevel\Arr::isArray()](/core/v0.2\FireHub\TheCore\Support\LowLevel\Arr#isarray()) _To check if random value keys are array._
+* [\Throwable](/thecore/v0.2\Throwable) _To cache errors._
+* [\FireHub\TheCore\Support\LowLevel\Arr::isArray()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Arr#isarray()) _To check if random value keys are array._
 
 ### Templates:
 
@@ -786,7 +786,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::reverse(array $array, bool 
 ### ### Reverse the order of array items
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::reverse()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L672)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L672)**</sub><br>
 
 ### Changelog:
 
@@ -815,7 +815,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::intersect(array $array, arr
 ### ### Computes the intersection of arrays
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::intersect()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L700)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L700)**</sub><br>
 
 ### Changelog:
 
@@ -843,7 +843,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::intersectKey(array $array, 
 ### ### Computes the intersection of arrays using keys for comparison
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::intersectKey()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L726)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L726)**</sub><br>
 
 ### Changelog:
 
@@ -871,7 +871,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::intersectAssoc(array $array
 ### ### Computes the intersection of arrays with additional index check
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::intersectAssoc()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L750)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L750)**</sub><br>
 
 ### Changelog:
 
@@ -899,7 +899,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::shuffle(array &$array, bool
 ### ### Shuffle array items
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::shuffle()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L779)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L779)**</sub><br>
 
 ### Changelog:
 
@@ -907,8 +907,8 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::shuffle(array &$array, bool
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\LowLevel\Arr::isEmpty()](/core/v0.2\FireHub\TheCore\Support\LowLevel\Arr#isempty()) _To check if array is empty._
-* [\FireHub\TheCore\Support\LowLevel\Arr::keys()](/core/v0.2\FireHub\TheCore\Support\LowLevel\Arr#keys()) _To get array keys._
+* [\FireHub\TheCore\Support\LowLevel\Arr::isEmpty()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Arr#isempty()) _To check if array is empty._
+* [\FireHub\TheCore\Support\LowLevel\Arr::keys()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Arr#keys()) _To get array keys._
 
 ### Templates:
 
@@ -933,7 +933,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::slice(array $array, int $of
 ### ### Extract a slice of the array
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::slice()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L835)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L835)**</sub><br>
 
 ### Changelog:
 
@@ -969,7 +969,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::splice(array &$array, int $
 ### ### Remove a portion of the array and replace it with something else
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::splice()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L868)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L868)**</sub><br>
 
 ### Changelog:
 
@@ -999,7 +999,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::sort(array &$array, \FireHu
 ### ### Sorts array
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::sort()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L902)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L902)**</sub><br>
 
 ### Changelog:
 
@@ -1007,17 +1007,17 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::sort(array &$array, \FireHu
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\Enums\Order::ASC](/core/v0.2\FireHub\TheCore\Support\Enums\Order#asc) _As paramter._
-* [\FireHub\TheCore\Support\Enums\Sort::SORT_REGULAR](/core/v0.2\FireHub\TheCore\Support\Enums\Sort#sort_regular) _As parameter._
+* [\FireHub\TheCore\Support\Enums\Order::ASC](/thecore/v0.2\FireHub\TheCore\Support\Enums\Order#asc) _As paramter._
+* [\FireHub\TheCore\Support\Enums\Sort::SORT_REGULAR](/thecore/v0.2\FireHub\TheCore\Support\Enums\Sort#sort_regular) _As parameter._
 
 ### Parameters:
 
 * by refrence array $array 
-* [\FireHub\TheCore\Support\Enums\Order](/core/v0.2\FireHub\TheCore\Support\Enums\Order) $order = Order::ASC _[optional] 
+* [\FireHub\TheCore\Support\Enums\Order](/thecore/v0.2\FireHub\TheCore\Support\Enums\Order) $order = Order::ASC _[optional] 
 Order type._
 * bool $preserve_keys = false _[optional] 
 Whether you want to preserve keys from original array or not._
-* [\FireHub\TheCore\Support\Enums\Sort](/core/v0.2\FireHub\TheCore\Support\Enums\Sort) $flag = Sort::SORT_REGULAR _[optional] 
+* [\FireHub\TheCore\Support\Enums\Sort](/thecore/v0.2\FireHub\TheCore\Support\Enums\Sort) $flag = Sort::SORT_REGULAR _[optional] 
 Sorting flag._
 
 ### Returns:
@@ -1034,7 +1034,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::sortByKey(array &$array, \F
 ### ### Sorts array by key
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::sortByKey()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L931)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L931)**</sub><br>
 
 ### Changelog:
 
@@ -1042,12 +1042,12 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::sortByKey(array &$array, \F
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\Enums\Order::ASC](/core/v0.2\FireHub\TheCore\Support\Enums\Order#asc) _As paramter._
+* [\FireHub\TheCore\Support\Enums\Order::ASC](/thecore/v0.2\FireHub\TheCore\Support\Enums\Order#asc) _As paramter._
 
 ### Parameters:
 
 * by refrence array $array 
-* [\FireHub\TheCore\Support\Enums\Order](/core/v0.2\FireHub\TheCore\Support\Enums\Order) $order = Order::ASC _[optional] 
+* [\FireHub\TheCore\Support\Enums\Order](/thecore/v0.2\FireHub\TheCore\Support\Enums\Order) $order = Order::ASC _[optional] 
 Order type._
 
 ### Returns:
@@ -1064,7 +1064,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::sortBy(array &$array, calla
 ### ### Sorts array by values using a user-defined comparison function
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::sortBy()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L956)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L956)**</sub><br>
 
 ### Changelog:
 
@@ -1092,7 +1092,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::sortKeyBy(array &$array, ca
 ### ### Sorts array by key using a user-defined comparison function
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::sortKeyBy()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L979)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L979)**</sub><br>
 
 ### Changelog:
 
@@ -1119,7 +1119,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::sortByMany(array $array, ar
 ### ### Sorts array by multiple fields
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::sortByMany()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L1009)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L1009)**</sub><br>
 
 ### Changelog:
 
@@ -1127,13 +1127,13 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::sortByMany(array $array, ar
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\LowLevel\DataIs::string()](/core/v0.2\FireHub\TheCore\Support\LowLevel\DataIs#string()) _To check if first $field value is string._
-* [\FireHub\TheCore\Support\LowLevel\Arr::isArray()](/core/v0.2\FireHub\TheCore\Support\LowLevel\Arr#isarray()) _To check if column is array._
-* [\FireHub\TheCore\Support\LowLevel\Arr::keyExist()](/core/v0.2\FireHub\TheCore\Support\LowLevel\Arr#keyexist()) _To check is column key exist._
-* [\FireHub\TheCore\Support\LowLevel\Arr::count()](/core/v0.2\FireHub\TheCore\Support\LowLevel\Arr#count()) _To count array elements._
-* [\FireHub\TheCore\Support\LowLevel\Arr::keys()](/core/v0.2\FireHub\TheCore\Support\LowLevel\Arr#keys()) _To get array keys._
-* [\FireHub\TheCore\Support\LowLevel\Arr::column()](/core/v0.2\FireHub\TheCore\Support\LowLevel\Arr#column()) _To get values from a single column in the array._
-* [\FireHub\TheCore\Support\Enums\Order::DESC](/core/v0.2\FireHub\TheCore\Support\Enums\Order#desc) _To check if order is desc on second $field value._
+* [\FireHub\TheCore\Support\LowLevel\DataIs::string()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\DataIs#string()) _To check if first $field value is string._
+* [\FireHub\TheCore\Support\LowLevel\Arr::isArray()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Arr#isarray()) _To check if column is array._
+* [\FireHub\TheCore\Support\LowLevel\Arr::keyExist()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Arr#keyexist()) _To check is column key exist._
+* [\FireHub\TheCore\Support\LowLevel\Arr::count()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Arr#count()) _To count array elements._
+* [\FireHub\TheCore\Support\LowLevel\Arr::keys()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Arr#keys()) _To get array keys._
+* [\FireHub\TheCore\Support\LowLevel\Arr::column()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Arr#column()) _To get values from a single column in the array._
+* [\FireHub\TheCore\Support\Enums\Order::DESC](/thecore/v0.2\FireHub\TheCore\Support\Enums\Order#desc) _To check if order is desc on second $field value._
 
 ### Templates:
 
@@ -1157,7 +1157,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::keyExist(array-key $key, ar
 ### ### Checks if the given key or index exists in the array
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::keyExist()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L1067)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L1067)**</sub><br>
 
 ### Changelog:
 
@@ -1187,7 +1187,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::keys(array $array, \FireHub
 ### ### Return all the keys or a subset of the keys of an array
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::keys()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L1091)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L1091)**</sub><br>
 
 ### Changelog:
 
@@ -1195,7 +1195,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::keys(array $array, \FireHub
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\LowLevel\DataIs::null()](/core/v0.2\FireHub\TheCore\Support\LowLevel\DataIs#null()) _To check if filter is null._
+* [\FireHub\TheCore\Support\LowLevel\DataIs::null()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\DataIs#null()) _To check if filter is null._
 
 ### This method is used by:
 
@@ -1216,7 +1216,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::keys(array $array, \FireHub
 ### Parameters:
 
 * array $array 
-* [\FireHub\TheCore\Support\LowLevel\TValue](/core/v0.2\FireHub\TheCore\Support\LowLevel\TValue) $filter = null _[optional] 
+* [\FireHub\TheCore\Support\LowLevel\TValue](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\TValue) $filter = null _[optional] 
 If specified, then only keys containing these values are returned._
 
 <h2><a name="values()"># values()</a></h2>
@@ -1229,7 +1229,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::values(array $array)
 ### ### Return all the values from array
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::values()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L1113)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L1113)**</sub><br>
 
 ### Changelog:
 
@@ -1254,7 +1254,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::firstKey(array $array):stri
 ### ### Get first key from array
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::firstKey()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L1129)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L1129)**</sub><br>
 
 ### Changelog:
 
@@ -1278,7 +1278,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::lastKey(array $array):strin
 ### ### Get last key from array
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::lastKey()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L1145)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L1145)**</sub><br>
 
 ### Changelog:
 
@@ -1302,7 +1302,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::filter(array $array, null|c
 ### ### Filter elements in an array
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::filter()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L1175)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L1175)**</sub><br>
 
 ### Changelog:
 
@@ -1310,7 +1310,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::filter(array $array, null|c
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\LowLevel\DataIs](/core/v0.2\FireHub\TheCore\Support\LowLevel\DataIs) _To check if last key is null._
+* [\FireHub\TheCore\Support\LowLevel\DataIs](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\DataIs) _To check if last key is null._
 
 ### This method is used by:
 
@@ -1338,7 +1338,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::range(int|float|string $sta
 ### ### Create an array containing a range of elements
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::range()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L1208)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L1208)**</sub><br>
 
 ### Changelog:
 
@@ -1346,7 +1346,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::range(int|float|string $sta
 
 ### This method uses:
 
-* [\Throwable](/core/v0.2\Throwable) _To cache error._
+* [\Throwable](/thecore/v0.2\Throwable) _To cache error._
 
 ### This method is used by:
 
@@ -1375,7 +1375,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::walk(array &$array, callabl
 ### ### Apply a user function to every member of an array
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::walk()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L1240)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L1240)**</sub><br>
 
 ### Changelog:
 
@@ -1412,7 +1412,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::map(array $array, callable 
 ### ### Applies the callback to the elements of the given array
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::map()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L1259)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L1259)**</sub><br>
 
 ### Changelog:
 
@@ -1433,7 +1433,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::fill(int $start_index, posi
 ### ### Fill an array with values
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::fill()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L1283)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L1283)**</sub><br>
 
 ### Changelog:
 
@@ -1447,8 +1447,8 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::fill(int $start_index, posi
 ### Parameters:
 
 * int $start_index _The first index of the returned array._
-* positive-int or [\FireHub\TheCore\Support\LowLevel\0](/core/v0.2\FireHub\TheCore\Support\LowLevel\0) $length _Number of elements to insert. Must be greater than or equal to zero._
-* [\FireHub\TheCore\Support\LowLevel\TValue](/core/v0.2\FireHub\TheCore\Support\LowLevel\TValue) $value _p&gt;
+* positive-int or [\FireHub\TheCore\Support\LowLevel\0](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\0) $length _Number of elements to insert. Must be greater than or equal to zero._
+* [\FireHub\TheCore\Support\LowLevel\TValue](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\TValue) $value _p&gt;
 Value to use for filling._
 
 ### Returns:
@@ -1465,7 +1465,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::fillKeys(array $keys, \Fire
 ### ### Fill an array with values, specifying keys
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Arr::fillKeys()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L1307)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Arr.php#L1307)**</sub><br>
 
 ### Changelog:
 
@@ -1473,7 +1473,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::fillKeys(array $keys, \Fire
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\LowLevel\Arr::isEmpty()](/core/v0.2\FireHub\TheCore\Support\LowLevel\Arr#isempty()) _To check if array is empty._
+* [\FireHub\TheCore\Support\LowLevel\Arr::isEmpty()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Arr#isempty()) _To check if array is empty._
 
 ### Templates:
 
@@ -1485,7 +1485,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::fillKeys(array $keys, \Fire
 ### Parameters:
 
 * array $keys 
-* [\FireHub\TheCore\Support\LowLevel\TValue](/core/v0.2\FireHub\TheCore\Support\LowLevel\TValue) $value _p&gt;
+* [\FireHub\TheCore\Support\LowLevel\TValue](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\TValue) $value _p&gt;
 Value to use for filling._
 
 

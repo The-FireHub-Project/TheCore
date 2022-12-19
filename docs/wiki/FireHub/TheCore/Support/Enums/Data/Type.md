@@ -9,9 +9,9 @@ _DataType enum defines the type of data a variable can store._
 
 <sub>Fully Qualified Enum Name:  **\FireHub\TheCore\Support\Enums\Data\Type**</sub><br>
 <sub>This enum is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/data/firehub.Type.php#L25)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/enums/data/firehub.Type.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/enums/data/firehub.Type.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/data/firehub.Type.php#L25)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/enums/data/firehub.Type.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/enums/data/firehub.Type.php)**</sub><br>
 
 <sub>_This enum was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -53,7 +53,7 @@ _DataType enum defines the type of data a variable can store._
 
 ### ### A bool expresses a truth value, it can be either true or false
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Data\Type::T_BOOL**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/data/firehub.Type.php#L31)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/data/firehub.Type.php#L31)**</sub><br>
 
 
 <h2><a name="t_int"># T_INT</a></h2>
@@ -64,7 +64,7 @@ _DataType enum defines the type of data a variable can store._
 
 ### ### An int is a number of the set ℤ = {..., -2, -1, 0, 1, 2, ...}
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Data\Type::T_INT**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/data/firehub.Type.php#L37)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/data/firehub.Type.php#L37)**</sub><br>
 
 
 <h2><a name="t_float"># T_FLOAT</a></h2>
@@ -75,7 +75,7 @@ _DataType enum defines the type of data a variable can store._
 
 ### ### A floating-point number is represented approximately with a fixed number of significant digits
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Data\Type::T_FLOAT**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/data/firehub.Type.php#L43)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/data/firehub.Type.php#L43)**</sub><br>
 
 
 <h2><a name="t_string"># T_STRING</a></h2>
@@ -86,7 +86,7 @@ _DataType enum defines the type of data a variable can store._
 
 ### ### A string is series of characters, where a character is the same as a byte
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Data\Type::T_STRING**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/data/firehub.Type.php#L49)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/data/firehub.Type.php#L49)**</sub><br>
 
 
 <h2><a name="t_array"># T_ARRAY</a></h2>
@@ -97,7 +97,7 @@ _DataType enum defines the type of data a variable can store._
 
 ### ### An ordered map where map is a type that associates values to keys
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Data\Type::T_ARRAY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/data/firehub.Type.php#L55)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/data/firehub.Type.php#L55)**</sub><br>
 
 
 <h2><a name="t_object"># T_OBJECT</a></h2>
@@ -108,7 +108,7 @@ _DataType enum defines the type of data a variable can store._
 
 ### ### An object is an individual instance of the data structure defined by a class
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Data\Type::T_OBJECT**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/data/firehub.Type.php#L61)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/data/firehub.Type.php#L61)**</sub><br>
 
 
 <h2><a name="t_null"># T_NULL</a></h2>
@@ -119,7 +119,7 @@ _DataType enum defines the type of data a variable can store._
 
 ### ### The special null value represents a variable with no value
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Data\Type::T_NULL**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/data/firehub.Type.php#L67)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/data/firehub.Type.php#L67)**</sub><br>
 
 
 <h2><a name="t_resource"># T_RESOURCE</a></h2>
@@ -130,7 +130,7 @@ _DataType enum defines the type of data a variable can store._
 
 ### ### The special resoure type is used to store references to some function call or to external PHP resources
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Data\Type::T_RESOURCE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/data/firehub.Type.php#L73)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/data/firehub.Type.php#L73)**</sub><br>
 
 
 
@@ -145,7 +145,7 @@ _DataType enum defines the type of data a variable can store._
 
 ### ### Get type of data type
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\Enums\Data\Type::type()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/data/firehub.Type.php#L81)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/data/firehub.Type.php#L81)**</sub><br>
 
 
 ### Returns:
@@ -160,7 +160,7 @@ _DataType enum defines the type of data a variable can store._
 
 ### ### Check if value can be set to data type
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\Enums\Data\Type::settable()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/data/firehub.Type.php#L97)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/data/firehub.Type.php#L97)**</sub><br>
 
 
 ### Returns:

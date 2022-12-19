@@ -2,7 +2,7 @@
 layout: default
 title: DateAndTime
 parent: \FireHub\Support
-grand_parent: Core v0.2
+grand_parent: TheCore v0.2
 has_children: false
 ---
 
@@ -22,9 +22,9 @@ final class \FireHub\TheCore\Support\LowLevel\DateAndTime()
 
 <sub>Fully Qualified Class Name:  **\FireHub\TheCore\Support\LowLevel\DateAndTime**</sub><br>
 <sub>This class is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DateAndTime.php#L37)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/lowlevel/firehub.DateAndTime.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/lowlevel/firehub.DateAndTime.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.DateAndTime.php#L37)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/lowlevel/firehub.DateAndTime.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/lowlevel/firehub.DateAndTime.php)**</sub><br>
 
 <sub>_This class was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -63,7 +63,7 @@ public static \FireHub\TheCore\Support\LowLevel\DateAndTime::toTimestamp(string 
 ### ### Parse about any English textual datetime description into a Unix timestamp
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DateAndTime::toTimestamp()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DateAndTime.php#L54)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.DateAndTime.php#L54)**</sub><br>
 
 ### Changelog:
 
@@ -91,7 +91,7 @@ public static \FireHub\TheCore\Support\LowLevel\DateAndTime::date(string $format
 ### ### Gets a local time/date
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DateAndTime::date()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DateAndTime.php#L77)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.DateAndTime.php#L77)**</sub><br>
 
 ### Changelog:
 
@@ -123,7 +123,7 @@ public static \FireHub\TheCore\Support\LowLevel\DateAndTime::dateInteger(string 
 ### ### Gets a local time/date as integer
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DateAndTime::dateInteger()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DateAndTime.php#L98)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.DateAndTime.php#L98)**</sub><br>
 
 ### Changelog:
 
@@ -153,7 +153,7 @@ public static \FireHub\TheCore\Support\LowLevel\DateAndTime::sunInfo(int $timest
 ### ### Gets information about sunset/sunrise and twilight begin/end
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DateAndTime::sunInfo()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DateAndTime.php#L130)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.DateAndTime.php#L130)**</sub><br>
 
 ### Changelog:
 

@@ -2,7 +2,7 @@
 layout: default
 title: StrSB
 parent: \FireHub\Support
-grand_parent: Core v0.2
+grand_parent: TheCore v0.2
 has_children: false
 ---
 
@@ -22,10 +22,10 @@ final class \FireHub\TheCore\Support\LowLevel\StrSB()
 
 <sub>Fully Qualified Class Name:  **\FireHub\TheCore\Support\LowLevel\StrSB**</sub><br>
 <sub>This class is part of package:  **\FireHub\Support**</sub><br>
-<sub>Parent class:  **[\FireHub\TheCore\Support\LowLevel\StrSafe](/core/v0.2\FireHub\TheCore\Support\LowLevel\StrSafe)**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L60)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/lowlevel/firehub.StrSB.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/lowlevel/firehub.StrSB.php)**</sub><br>
+<sub>Parent class:  **[\FireHub\TheCore\Support\LowLevel\StrSafe](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\StrSafe)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L60)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/lowlevel/firehub.StrSB.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/lowlevel/firehub.StrSB.php)**</sub><br>
 
 <sub>_This class was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -94,7 +94,7 @@ final public static \FireHub\TheCore\Support\LowLevel\StrSafe::isString(mixed $v
 ### ### Checks if value is string
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSafe::isString()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSafe.php#L62)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSafe.php#L62)**</sub><br>
 
 ### Changelog:
 
@@ -102,7 +102,7 @@ final public static \FireHub\TheCore\Support\LowLevel\StrSafe::isString(mixed $v
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\LowLevel\DataIs::string()](/core/v0.2\FireHub\TheCore\Support\LowLevel\DataIs#string()) _To check if value is string._
+* [\FireHub\TheCore\Support\LowLevel\DataIs::string()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\DataIs#string()) _To check if value is string._
 
 ### Parameters:
 
@@ -118,7 +118,7 @@ final public static \FireHub\TheCore\Support\LowLevel\StrSafe::isEmpty(string $v
 ### ### Checks if value is empty
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSafe::isEmpty()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSafe.php#L78)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSafe.php#L78)**</sub><br>
 
 ### Changelog:
 
@@ -140,7 +140,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSafe::replace(string|array $s
 _Note that multibyte characters may not work as expected while $case_sensitive is on._
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSafe::replace()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSafe.php#L109)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSafe.php#L109)**</sub><br>
 
 ### Changelog:
 
@@ -170,7 +170,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSafe::repeat(string $string, 
 ### ### Repeat a string
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSafe::repeat()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSafe.php#L134)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSafe.php#L134)**</sub><br>
 
 ### Changelog:
 
@@ -198,7 +198,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSafe::explode(string $string,
 ### ### Split a string by a string
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSafe::explode()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSafe.php#L158)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSafe.php#L158)**</sub><br>
 
 ### Changelog:
 
@@ -227,7 +227,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSafe::implode(string[] $array
 ### ### Join array elements with a string
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSafe::implode()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSafe.php#L178)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSafe.php#L178)**</sub><br>
 
 ### Changelog:
 
@@ -254,7 +254,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSafe::stripTags(string $strin
 ### ### Strip HTML and PHP tags from a string
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSafe::stripTags()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSafe.php#L197)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSafe.php#L197)**</sub><br>
 
 ### Changelog:
 
@@ -279,7 +279,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSafe::stripSlashes(string $st
 ### ### Un-quotes a quoted string
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSafe::stripSlashes()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSafe.php#L213)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSafe.php#L213)**</sub><br>
 
 ### Changelog:
 
@@ -304,7 +304,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSafe::trim(string $string, \F
 ### ### Strip whitespace (or other characters) from the beginning and end of a string
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSafe::trim()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSafe.php#L240)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSafe.php#L240)**</sub><br>
 
 ### Changelog:
 
@@ -312,9 +312,9 @@ public static \FireHub\TheCore\Support\LowLevel\StrSafe::trim(string $string, \F
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\Enums\Side::BOTH](/core/v0.2\FireHub\TheCore\Support\Enums\Side#both) _As parameter._
-* [\FireHub\TheCore\Support\Enums\Side::LEFT](/core/v0.2\FireHub\TheCore\Support\Enums\Side#left) _If $side parameter is set to left._
-* [\FireHub\TheCore\Support\Enums\Side::RIGHT](/core/v0.2\FireHub\TheCore\Support\Enums\Side#right) _If $side parameter is set to right._
+* [\FireHub\TheCore\Support\Enums\Side::BOTH](/thecore/v0.2\FireHub\TheCore\Support\Enums\Side#both) _As parameter._
+* [\FireHub\TheCore\Support\Enums\Side::LEFT](/thecore/v0.2\FireHub\TheCore\Support\Enums\Side#left) _If $side parameter is set to left._
+* [\FireHub\TheCore\Support\Enums\Side::RIGHT](/thecore/v0.2\FireHub\TheCore\Support\Enums\Side#right) _If $side parameter is set to right._
 
 ### This method is used by:
 
@@ -328,7 +328,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSafe::trim(string $string, \F
 ### Parameters:
 
 * string $string _The string that will be trimmed._
-* [\FireHub\TheCore\Support\Enums\Side](/core/v0.2\FireHub\TheCore\Support\Enums\Side) $side = Side::BOTH _[optional] 
+* [\FireHub\TheCore\Support\Enums\Side](/thecore/v0.2\FireHub\TheCore\Support\Enums\Side) $side = Side::BOTH _[optional] 
 Side to trim string._
 * string $characters = " 
 	 " _[optional] 
@@ -351,7 +351,7 @@ final public static \FireHub\TheCore\Support\LowLevel\StrSafe::contains(string $
 _Performs a case-sensitive check indicating bif $string is contained in $string._
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSafe::contains()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSafe.php#L268)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSafe.php#L268)**</sub><br>
 
 ### Changelog:
 
@@ -378,7 +378,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSafe::startsWith(string $valu
 ### ### Checks if a string starts with a given value
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSafe::startsWith()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSafe.php#L289)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSafe.php#L289)**</sub><br>
 
 ### Changelog:
 
@@ -403,7 +403,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSafe::endsWith(string $value,
 ### ### Checks if a string ends with a given value
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSafe::endsWith()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSafe.php#L308)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSafe.php#L308)**</sub><br>
 
 ### Changelog:
 
@@ -430,7 +430,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSB::length(string $string)
 __
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSB::length()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L65)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L65)**</sub><br>
 
 
 ### Parameters:
@@ -439,7 +439,7 @@ __
 
 ### Returns:
 
-* positive-int or [\FireHub\TheCore\Support\LowLevel\0](/core/v0.2\FireHub\TheCore\Support\LowLevel\0) _String length._
+* positive-int or [\FireHub\TheCore\Support\LowLevel\0](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\0) _String length._
 
 <h2><a name="firstposition()"># firstPosition()</a></h2>
 ***
@@ -453,7 +453,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSB::firstPosition(string $sea
 __
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSB::firstPosition()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L87)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L87)**</sub><br>
 
 
 ### Parameters:
@@ -481,7 +481,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSB::lastPosition(string $sear
 __
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSB::lastPosition()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L111)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L111)**</sub><br>
 
 
 ### Parameters:
@@ -509,7 +509,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSB::part(string $string, int 
 __
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSB::part()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L135)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L135)**</sub><br>
 
 
 ### This method is used by:
@@ -543,7 +543,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSB::partCount(string $string,
 __
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSB::partCount()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L157)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L157)**</sub><br>
 
 
 ### Parameters:
@@ -571,12 +571,12 @@ public static \FireHub\TheCore\Support\LowLevel\StrSB::pad(string $string, int $
 __
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSB::pad()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L168)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L168)**</sub><br>
 
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\Enums\Side::RIGHT](/core/v0.2\FireHub\TheCore\Support\Enums\Side#right) _As parameter._
+* [\FireHub\TheCore\Support\Enums\Side::RIGHT](/thecore/v0.2\FireHub\TheCore\Support\Enums\Side#right) _As parameter._
 
 ### Parameters:
 
@@ -584,7 +584,7 @@ __
 * int $length _If the value of pad_length is negative, less than, or equal to the length of the input string, no padding takes place._
 * string $pad = " " _[optional] 
 The pad_string may be truncated if the required number of padding characters can&#039;t be evenly divided by the pad_string&#039;s length._
-* [\FireHub\TheCore\Support\Enums\Side](/core/v0.2\FireHub\TheCore\Support\Enums\Side) $side = Side::RIGHT _[optional] 
+* [\FireHub\TheCore\Support\Enums\Side](/thecore/v0.2\FireHub\TheCore\Support\Enums\Side) $side = Side::RIGHT _[optional] 
 Pad side._
 
 ### Returns:
@@ -603,7 +603,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSB::toLower(string $string)
 __
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSB::toLower()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L177)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L177)**</sub><br>
 
 
 ### Parameters:
@@ -626,7 +626,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSB::toUpper(string $string)
 __
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSB::toUpper()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L186)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L186)**</sub><br>
 
 
 ### This method is used by:
@@ -654,7 +654,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSB::toTitle(string $string)
 __
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSB::toTitle()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L195)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L195)**</sub><br>
 
 
 ### Parameters:
@@ -677,7 +677,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSB::capitalize(string $string
 __
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSB::capitalize()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L204)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L204)**</sub><br>
 
 
 ### Parameters:
@@ -700,7 +700,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSB::deCapitalize(string $stri
 __
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSB::deCapitalize()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L213)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L213)**</sub><br>
 
 
 ### Parameters:
@@ -723,7 +723,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSB::split(string $string, int
 __
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSB::split()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L222)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L222)**</sub><br>
 
 
 ### Parameters:
@@ -748,7 +748,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSB::firstPart(string $find, s
 __
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSB::firstPart()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L231)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L231)**</sub><br>
 
 
 ### Parameters:
@@ -776,7 +776,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSB::lastPart(string $find, st
 __
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSB::lastPart()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L242)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L242)**</sub><br>
 
 
 ### Parameters:
@@ -801,7 +801,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSB::wrap(string $string, int 
 __
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSB::wrap()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L251)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L251)**</sub><br>
 
 
 ### Parameters:
@@ -832,7 +832,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSB::chr(int $number)
 __
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSB::chr()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L260)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L260)**</sub><br>
 
 
 ### Parameters:
@@ -855,7 +855,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSB::ord(string $string)
 __
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSB::ord()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L269)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L269)**</sub><br>
 
 
 ### Parameters:
@@ -876,7 +876,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSB::partFrom(string $characte
 ### ### Find part of a string with characters
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSB::partFrom()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L290)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L290)**</sub><br>
 
 ### Changelog:
 
@@ -903,7 +903,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSB::compare(string $string_1,
 ### ### Compare two strings
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSB::compare()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L314)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L314)**</sub><br>
 
 ### Changelog:
 
@@ -911,7 +911,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSB::compare(string $string_1,
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\LowLevel\StrSB::toUpper()](/core/v0.2\FireHub\TheCore\Support\LowLevel\StrSB#toupper()) _To convert both strings to uppercase._
+* [\FireHub\TheCore\Support\LowLevel\StrSB::toUpper()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\StrSB#toupper()) _To convert both strings to uppercase._
 
 ### Parameters:
 
@@ -934,7 +934,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSB::segmentMatching(string $s
 ### ### Finds the length of the initial segment of a string consisting entirely of characters contained within a given mask
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSB::segmentMatching()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L345)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L345)**</sub><br>
 
 ### Changelog:
 
@@ -967,7 +967,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSB::segmentNotMatching(string
 ### ### Find length of initial segment not matching mask
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSB::segmentNotMatching()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L374)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L374)**</sub><br>
 
 ### Changelog:
 
@@ -1000,7 +1000,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSB::countWords(string $string
 ### ### Count number of words in string
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSB::countWords()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L402)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L402)**</sub><br>
 
 ### Changelog:
 
@@ -1011,7 +1011,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSB::countWords(string $string
 * string $string _A string to search words._
 * null or string $characters = nulL _[optional] 
 A list of additional characters which will be considered as &#039;word&#039;._
-* [\FireHub\TheCore\Support\LowLevel\0](/core/v0.2\FireHub\TheCore\Support\LowLevel\0) or [\FireHub\TheCore\Support\LowLevel\1](/core/v0.2\FireHub\TheCore\Support\LowLevel\1) or [\FireHub\TheCore\Support\LowLevel\2](/core/v0.2\FireHub\TheCore\Support\LowLevel\2) $format _[optional] 
+* [\FireHub\TheCore\Support\LowLevel\0](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\0) or [\FireHub\TheCore\Support\LowLevel\1](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\1) or [\FireHub\TheCore\Support\LowLevel\2](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\2) $format _[optional] 
 A string to search words.
 
 0 - returns the number of words found.
@@ -1034,7 +1034,7 @@ public static \FireHub\TheCore\Support\LowLevel\StrSB::translate(string $string,
 ### ### Translate a string
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSB::translate()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L421)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L421)**</sub><br>
 
 ### Changelog:
 

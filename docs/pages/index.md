@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Core v0.2
+title: TheCore v0.2
 has_children: true
 ---
 

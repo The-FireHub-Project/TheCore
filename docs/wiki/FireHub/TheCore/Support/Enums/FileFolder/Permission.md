@@ -6,9 +6,9 @@ enum \FireHub\TheCore\Support\Enums\FileFolder\Permission
 ### ### File permission enum
 <sub>Fully Qualified Enum Name:  **\FireHub\TheCore\Support\Enums\FileFolder\Permission**</sub><br>
 <sub>This enum is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/filefolder/firehub.Permission.php#L23)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/enums/filefolder/firehub.Permission.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/enums/filefolder/firehub.Permission.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/filefolder/firehub.Permission.php#L23)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/enums/filefolder/firehub.Permission.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/enums/filefolder/firehub.Permission.php)**</sub><br>
 
 <sub>_This enum was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -42,7 +42,7 @@ enum \FireHub\TheCore\Support\Enums\FileFolder\Permission
 
 ### ### User has no permissions
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\FileFolder\Permission::NOTHING**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/filefolder/firehub.Permission.php#L29)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/filefolder/firehub.Permission.php#L29)**</sub><br>
 
 
 <h2><a name="execute"># EXECUTE</a></h2>
@@ -53,7 +53,7 @@ enum \FireHub\TheCore\Support\Enums\FileFolder\Permission
 
 ### ### User with execute permissions can run a file as a program
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\FileFolder\Permission::EXECUTE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/filefolder/firehub.Permission.php#L35)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/filefolder/firehub.Permission.php#L35)**</sub><br>
 
 
 <h2><a name="write"># WRITE</a></h2>
@@ -64,7 +64,7 @@ enum \FireHub\TheCore\Support\Enums\FileFolder\Permission
 
 ### ### Grants the capability to modify, or remove the content of the file
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\FileFolder\Permission::WRITE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/filefolder/firehub.Permission.php#L41)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/filefolder/firehub.Permission.php#L41)**</sub><br>
 
 
 <h2><a name="write_execute"># WRITE_EXECUTE</a></h2>
@@ -75,7 +75,7 @@ enum \FireHub\TheCore\Support\Enums\FileFolder\Permission
 
 ### ### Combination of write and execute permissions
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\FileFolder\Permission::WRITE_EXECUTE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/filefolder/firehub.Permission.php#L47)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/filefolder/firehub.Permission.php#L47)**</sub><br>
 
 
 <h2><a name="read"># READ</a></h2>
@@ -86,7 +86,7 @@ enum \FireHub\TheCore\Support\Enums\FileFolder\Permission
 
 ### ### Grants the capability to read, i.e., view the contents of the file
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\FileFolder\Permission::READ**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/filefolder/firehub.Permission.php#L53)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/filefolder/firehub.Permission.php#L53)**</sub><br>
 
 
 <h2><a name="read_execute"># READ_EXECUTE</a></h2>
@@ -97,7 +97,7 @@ enum \FireHub\TheCore\Support\Enums\FileFolder\Permission
 
 ### ### Combination of read and execute permissions
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\FileFolder\Permission::READ_EXECUTE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/filefolder/firehub.Permission.php#L59)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/filefolder/firehub.Permission.php#L59)**</sub><br>
 
 
 <h2><a name="read_write"># READ_WRITE</a></h2>
@@ -108,7 +108,7 @@ enum \FireHub\TheCore\Support\Enums\FileFolder\Permission
 
 ### ### Combination of read and write permissions
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\FileFolder\Permission::READ_WRITE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/filefolder/firehub.Permission.php#L65)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/filefolder/firehub.Permission.php#L65)**</sub><br>
 
 
 <h2><a name="all"># ALL</a></h2>
@@ -119,6 +119,6 @@ enum \FireHub\TheCore\Support\Enums\FileFolder\Permission
 
 ### ### User has all permissions: read, write and execute
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\FileFolder\Permission::ALL**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/filefolder/firehub.Permission.php#L71)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/filefolder/firehub.Permission.php#L71)**</sub><br>
 
 

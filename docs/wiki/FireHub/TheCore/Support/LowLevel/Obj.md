@@ -6,9 +6,9 @@ class \FireHub\TheCore\Support\LowLevel\Obj()
 ### ### Object low level class
 <sub>Fully Qualified Class Name:  **\FireHub\TheCore\Support\LowLevel\Obj**</sub><br>
 <sub>This class is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Obj.php#L47)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/lowlevel/firehub.Obj.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/lowlevel/firehub.Obj.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Obj.php#L47)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/lowlevel/firehub.Obj.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/lowlevel/firehub.Obj.php)**</sub><br>
 
 <sub>_This class was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -49,7 +49,7 @@ static \FireHub\TheCore\Support\LowLevel\Obj::isObject(mixed $value)
 
 ### ### Checks if value is object
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Obj::isObject()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Obj.php#L61)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Obj.php#L61)**</sub><br>
 
 
 ### Parameters:
@@ -64,7 +64,7 @@ static \FireHub\TheCore\Support\LowLevel\Obj::isEnum(object $object):bool
 
 ### ### Checks if object is enumerator
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Obj::isEnum()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Obj.php#L77)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Obj.php#L77)**</sub><br>
 
 
 ### Parameters:
@@ -83,7 +83,7 @@ static \FireHub\TheCore\Support\LowLevel\Obj::ofClass(object $value, class-strin
 
 ### ### Checks if the object is of this class or has this class as one of its parents
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Obj::ofClass()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Obj.php#L96)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Obj.php#L96)**</sub><br>
 
 
 ### Parameters:
@@ -103,7 +103,7 @@ static \FireHub\TheCore\Support\LowLevel\Obj::subClassOf(object $object, class-s
 
 ### ### Checks if the object has this class as one of its parents or implements it
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Obj::subClassOf()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Obj.php#L115)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Obj.php#L115)**</sub><br>
 
 
 ### Parameters:
@@ -123,7 +123,7 @@ static \FireHub\TheCore\Support\LowLevel\Obj::parentClass(object $object):string
 
 ### ### Retrieves the parent class name for object
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Obj::parentClass()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Obj.php#L131)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Obj.php#L131)**</sub><br>
 
 
 ### Parameters:
@@ -142,7 +142,7 @@ static \FireHub\TheCore\Support\LowLevel\Obj::implements(object $object):array<s
 
 ### ### Return the interfaces which are implemented by the given object or its parents
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Obj::implements()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Obj.php#L147)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Obj.php#L147)**</sub><br>
 
 
 ### Parameters:
@@ -161,7 +161,7 @@ static \FireHub\TheCore\Support\LowLevel\Obj::parents(object $object):array<stri
 
 ### ### Return the parent classes of the given object
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Obj::parents()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Obj.php#L163)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Obj.php#L163)**</sub><br>
 
 
 ### Parameters:
@@ -180,7 +180,7 @@ static \FireHub\TheCore\Support\LowLevel\Obj::traits(object $object, bool $inclu
 
 ### ### Return the traits of the given object
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Obj::traits()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Obj.php#L185)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Obj.php#L185)**</sub><br>
 
 
 ### Parameters:
@@ -201,7 +201,7 @@ static \FireHub\TheCore\Support\LowLevel\Obj::methods(object $object):array<int,
 
 ### ### Gets the object methods names
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Obj::methods()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Obj.php#L211)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Obj.php#L211)**</sub><br>
 
 
 ### Parameters:
@@ -220,7 +220,7 @@ static \FireHub\TheCore\Support\LowLevel\Obj::properties(object $object, bool $m
 
 ### ### Gets the class public property values
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Obj::properties()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Obj.php#L234)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Obj.php#L234)**</sub><br>
 
 
 ### Parameters:
@@ -243,7 +243,7 @@ static \FireHub\TheCore\Support\LowLevel\Obj::methodExist(string $method, object
 
 ### ### Checks if the class method exists
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Obj::methodExist()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Obj.php#L255)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Obj.php#L255)**</sub><br>
 
 
 ### Parameters:
@@ -263,7 +263,7 @@ static \FireHub\TheCore\Support\LowLevel\Obj::propertyExist(string $property, ob
 
 ### ### Checks if the class property exists
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Obj::propertyExist()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Obj.php#L277)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Obj.php#L277)**</sub><br>
 
 
 ### Parameters:
@@ -283,7 +283,7 @@ static \FireHub\TheCore\Support\LowLevel\Obj::className(object $object):class-st
 
 ### ### Returns the name of the class of an object
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Obj::className()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Obj.php#L293)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Obj.php#L293)**</sub><br>
 
 
 ### Parameters:
@@ -302,7 +302,7 @@ static \FireHub\TheCore\Support\LowLevel\Obj::id(object $object):int
 
 ### ### Checks object ID
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Obj::id()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Obj.php#L311)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Obj.php#L311)**</sub><br>
 
 
 ### Parameters:
@@ -321,7 +321,7 @@ static \FireHub\TheCore\Support\LowLevel\Obj::hash(object $object):string
 
 ### ### Checks object hash
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Obj::hash()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Obj.php#L329)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Obj.php#L329)**</sub><br>
 
 
 ### Parameters:

@@ -6,9 +6,9 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ### ### Time zones enum
 <sub>Fully Qualified Enum Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone**</sub><br>
 <sub>This enum is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L23)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/enums/datetime/firehub.TimeZone.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/enums/datetime/firehub.TimeZone.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L23)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/enums/datetime/firehub.TimeZone.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/enums/datetime/firehub.TimeZone.php)**</sub><br>
 
 <sub>_This enum was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -458,7 +458,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_ABIDJAN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L25)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L25)**</sub><br>
 
 
 <h2><a name="africa_accra"># AFRICA_ACCRA</a></h2>
@@ -468,7 +468,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_ACCRA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L26)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L26)**</sub><br>
 
 
 <h2><a name="africa_addis_ababa"># AFRICA_ADDIS_ABABA</a></h2>
@@ -478,7 +478,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_ADDIS_ABABA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L27)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L27)**</sub><br>
 
 
 <h2><a name="africa_algiers"># AFRICA_ALGIERS</a></h2>
@@ -488,7 +488,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_ALGIERS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L28)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L28)**</sub><br>
 
 
 <h2><a name="africa_asmara"># AFRICA_ASMARA</a></h2>
@@ -498,7 +498,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_ASMARA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L29)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L29)**</sub><br>
 
 
 <h2><a name="africa_bamako"># AFRICA_BAMAKO</a></h2>
@@ -508,7 +508,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_BAMAKO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L30)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L30)**</sub><br>
 
 
 <h2><a name="africa_bangui"># AFRICA_BANGUI</a></h2>
@@ -518,7 +518,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_BANGUI**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L31)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L31)**</sub><br>
 
 
 <h2><a name="africa_banjul"># AFRICA_BANJUL</a></h2>
@@ -528,7 +528,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_BANJUL**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L32)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L32)**</sub><br>
 
 
 <h2><a name="africa_bissau"># AFRICA_BISSAU</a></h2>
@@ -538,7 +538,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_BISSAU**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L33)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L33)**</sub><br>
 
 
 <h2><a name="africa_blantyre"># AFRICA_BLANTYRE</a></h2>
@@ -548,7 +548,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_BLANTYRE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L34)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L34)**</sub><br>
 
 
 <h2><a name="africa_brazzaville"># AFRICA_BRAZZAVILLE</a></h2>
@@ -558,7 +558,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_BRAZZAVILLE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L35)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L35)**</sub><br>
 
 
 <h2><a name="africa_bujumbura"># AFRICA_BUJUMBURA</a></h2>
@@ -568,7 +568,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_BUJUMBURA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L36)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L36)**</sub><br>
 
 
 <h2><a name="africa_cairo"># AFRICA_CAIRO</a></h2>
@@ -578,7 +578,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_CAIRO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L37)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L37)**</sub><br>
 
 
 <h2><a name="africa_casablanca"># AFRICA_CASABLANCA</a></h2>
@@ -588,7 +588,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_CASABLANCA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L38)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L38)**</sub><br>
 
 
 <h2><a name="africa_ceuta"># AFRICA_CEUTA</a></h2>
@@ -598,7 +598,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_CEUTA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L39)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L39)**</sub><br>
 
 
 <h2><a name="africa_conakry"># AFRICA_CONAKRY</a></h2>
@@ -608,7 +608,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_CONAKRY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L40)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L40)**</sub><br>
 
 
 <h2><a name="africa_dakar"># AFRICA_DAKAR</a></h2>
@@ -618,7 +618,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_DAKAR**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L41)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L41)**</sub><br>
 
 
 <h2><a name="africa_dar_es_salaam"># AFRICA_DAR_ES_SALAAM</a></h2>
@@ -628,7 +628,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_DAR_ES_SALAAM**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L42)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L42)**</sub><br>
 
 
 <h2><a name="africa_djibouti"># AFRICA_DJIBOUTI</a></h2>
@@ -638,7 +638,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_DJIBOUTI**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L43)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L43)**</sub><br>
 
 
 <h2><a name="africa_douala"># AFRICA_DOUALA</a></h2>
@@ -648,7 +648,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_DOUALA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L44)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L44)**</sub><br>
 
 
 <h2><a name="africa_el_aaiun"># AFRICA_EL_AAIUN</a></h2>
@@ -658,7 +658,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_EL_AAIUN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L45)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L45)**</sub><br>
 
 
 <h2><a name="africa_freetown"># AFRICA_FREETOWN</a></h2>
@@ -668,7 +668,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_FREETOWN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L46)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L46)**</sub><br>
 
 
 <h2><a name="africa_gaborone"># AFRICA_GABORONE</a></h2>
@@ -678,7 +678,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_GABORONE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L47)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L47)**</sub><br>
 
 
 <h2><a name="africa_harare"># AFRICA_HARARE</a></h2>
@@ -688,7 +688,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_HARARE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L48)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L48)**</sub><br>
 
 
 <h2><a name="africa_johannesburg"># AFRICA_JOHANNESBURG</a></h2>
@@ -698,7 +698,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_JOHANNESBURG**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L49)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L49)**</sub><br>
 
 
 <h2><a name="africa_juba"># AFRICA_JUBA</a></h2>
@@ -708,7 +708,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_JUBA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L50)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L50)**</sub><br>
 
 
 <h2><a name="africa_kampala"># AFRICA_KAMPALA</a></h2>
@@ -718,7 +718,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_KAMPALA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L51)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L51)**</sub><br>
 
 
 <h2><a name="africa_khartoum"># AFRICA_KHARTOUM</a></h2>
@@ -728,7 +728,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_KHARTOUM**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L52)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L52)**</sub><br>
 
 
 <h2><a name="africa_kigali"># AFRICA_KIGALI</a></h2>
@@ -738,7 +738,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_KIGALI**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L53)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L53)**</sub><br>
 
 
 <h2><a name="africa_kinshasa"># AFRICA_KINSHASA</a></h2>
@@ -748,7 +748,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_KINSHASA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L54)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L54)**</sub><br>
 
 
 <h2><a name="africa_lagos"># AFRICA_LAGOS</a></h2>
@@ -758,7 +758,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_LAGOS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L55)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L55)**</sub><br>
 
 
 <h2><a name="africa_libreville"># AFRICA_LIBREVILLE</a></h2>
@@ -768,7 +768,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_LIBREVILLE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L56)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L56)**</sub><br>
 
 
 <h2><a name="africa_lome"># AFRICA_LOME</a></h2>
@@ -778,7 +778,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_LOME**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L57)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L57)**</sub><br>
 
 
 <h2><a name="africa_luanda"># AFRICA_LUANDA</a></h2>
@@ -788,7 +788,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_LUANDA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L58)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L58)**</sub><br>
 
 
 <h2><a name="africa_lubumbashi"># AFRICA_LUBUMBASHI</a></h2>
@@ -798,7 +798,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_LUBUMBASHI**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L59)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L59)**</sub><br>
 
 
 <h2><a name="africa_lusaka"># AFRICA_LUSAKA</a></h2>
@@ -808,7 +808,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_LUSAKA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L60)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L60)**</sub><br>
 
 
 <h2><a name="africa_malabo"># AFRICA_MALABO</a></h2>
@@ -818,7 +818,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_MALABO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L61)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L61)**</sub><br>
 
 
 <h2><a name="africa_maputo"># AFRICA_MAPUTO</a></h2>
@@ -828,7 +828,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_MAPUTO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L62)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L62)**</sub><br>
 
 
 <h2><a name="africa_maseru"># AFRICA_MASERU</a></h2>
@@ -838,7 +838,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_MASERU**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L63)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L63)**</sub><br>
 
 
 <h2><a name="africa_mbabane"># AFRICA_MBABANE</a></h2>
@@ -848,7 +848,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_MBABANE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L64)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L64)**</sub><br>
 
 
 <h2><a name="africa_mogadishu"># AFRICA_MOGADISHU</a></h2>
@@ -858,7 +858,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_MOGADISHU**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L65)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L65)**</sub><br>
 
 
 <h2><a name="africa_monrovia"># AFRICA_MONROVIA</a></h2>
@@ -868,7 +868,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_MONROVIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L66)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L66)**</sub><br>
 
 
 <h2><a name="africa_nairobi"># AFRICA_NAIROBI</a></h2>
@@ -878,7 +878,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_NAIROBI**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L67)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L67)**</sub><br>
 
 
 <h2><a name="africa_ndjamena"># AFRICA_NDJAMENA</a></h2>
@@ -888,7 +888,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_NDJAMENA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L68)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L68)**</sub><br>
 
 
 <h2><a name="africa_niamey"># AFRICA_NIAMEY</a></h2>
@@ -898,7 +898,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_NIAMEY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L69)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L69)**</sub><br>
 
 
 <h2><a name="africa_nouakchott"># AFRICA_NOUAKCHOTT</a></h2>
@@ -908,7 +908,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_NOUAKCHOTT**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L70)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L70)**</sub><br>
 
 
 <h2><a name="africa_ouagadougou"># AFRICA_OUAGADOUGOU</a></h2>
@@ -918,7 +918,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_OUAGADOUGOU**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L71)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L71)**</sub><br>
 
 
 <h2><a name="africa_porto_novo"># AFRICA_PORTO_NOVO</a></h2>
@@ -928,7 +928,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_PORTO_NOVO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L72)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L72)**</sub><br>
 
 
 <h2><a name="africa_sao_tome"># AFRICA_SAO_TOME</a></h2>
@@ -938,7 +938,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_SAO_TOME**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L73)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L73)**</sub><br>
 
 
 <h2><a name="africa_tripoli"># AFRICA_TRIPOLI</a></h2>
@@ -948,7 +948,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_TRIPOLI**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L74)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L74)**</sub><br>
 
 
 <h2><a name="africa_tunis"># AFRICA_TUNIS</a></h2>
@@ -958,7 +958,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_TUNIS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L75)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L75)**</sub><br>
 
 
 <h2><a name="africa_windhoek"># AFRICA_WINDHOEK</a></h2>
@@ -968,7 +968,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AFRICA_WINDHOEK**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L76)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L76)**</sub><br>
 
 
 <h2><a name="america_adak"># AMERICA_ADAK</a></h2>
@@ -978,7 +978,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_ADAK**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L77)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L77)**</sub><br>
 
 
 <h2><a name="america_anchorage"># AMERICA_ANCHORAGE</a></h2>
@@ -988,7 +988,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_ANCHORAGE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L78)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L78)**</sub><br>
 
 
 <h2><a name="america_anguilla"># AMERICA_ANGUILLA</a></h2>
@@ -998,7 +998,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_ANGUILLA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L79)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L79)**</sub><br>
 
 
 <h2><a name="america_antigua"># AMERICA_ANTIGUA</a></h2>
@@ -1008,7 +1008,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_ANTIGUA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L80)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L80)**</sub><br>
 
 
 <h2><a name="america_araguaina"># AMERICA_ARAGUAINA</a></h2>
@@ -1018,7 +1018,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_ARAGUAINA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L81)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L81)**</sub><br>
 
 
 <h2><a name="america_argentina_buenos_aires"># AMERICA_ARGENTINA_BUENOS_AIRES</a></h2>
@@ -1028,7 +1028,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_ARGENTINA_BUENOS_AIRES**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L82)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L82)**</sub><br>
 
 
 <h2><a name="america_argentina_catamarca"># AMERICA_ARGENTINA_CATAMARCA</a></h2>
@@ -1038,7 +1038,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_ARGENTINA_CATAMARCA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L83)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L83)**</sub><br>
 
 
 <h2><a name="america_argentina_cordoba"># AMERICA_ARGENTINA_CORDOBA</a></h2>
@@ -1048,7 +1048,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_ARGENTINA_CORDOBA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L84)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L84)**</sub><br>
 
 
 <h2><a name="america_argentina_jujuy"># AMERICA_ARGENTINA_JUJUY</a></h2>
@@ -1058,7 +1058,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_ARGENTINA_JUJUY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L85)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L85)**</sub><br>
 
 
 <h2><a name="america_argentina_la_rioja"># AMERICA_ARGENTINA_LA_RIOJA</a></h2>
@@ -1068,7 +1068,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_ARGENTINA_LA_RIOJA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L86)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L86)**</sub><br>
 
 
 <h2><a name="america_argentina_mendoza"># AMERICA_ARGENTINA_MENDOZA</a></h2>
@@ -1078,7 +1078,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_ARGENTINA_MENDOZA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L87)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L87)**</sub><br>
 
 
 <h2><a name="america_argentina_rio_gallegos"># AMERICA_ARGENTINA_RIO_GALLEGOS</a></h2>
@@ -1088,7 +1088,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_ARGENTINA_RIO_GALLEGOS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L88)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L88)**</sub><br>
 
 
 <h2><a name="america_argentina_salta"># AMERICA_ARGENTINA_SALTA</a></h2>
@@ -1098,7 +1098,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_ARGENTINA_SALTA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L89)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L89)**</sub><br>
 
 
 <h2><a name="america_argentina_san_juan"># AMERICA_ARGENTINA_SAN_JUAN</a></h2>
@@ -1108,7 +1108,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_ARGENTINA_SAN_JUAN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L90)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L90)**</sub><br>
 
 
 <h2><a name="america_argentina_san_luis"># AMERICA_ARGENTINA_SAN_LUIS</a></h2>
@@ -1118,7 +1118,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_ARGENTINA_SAN_LUIS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L91)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L91)**</sub><br>
 
 
 <h2><a name="america_argentina_tucuman"># AMERICA_ARGENTINA_TUCUMAN</a></h2>
@@ -1128,7 +1128,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_ARGENTINA_TUCUMAN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L92)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L92)**</sub><br>
 
 
 <h2><a name="america_argentina_ushuaia"># AMERICA_ARGENTINA_USHUAIA</a></h2>
@@ -1138,7 +1138,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_ARGENTINA_USHUAIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L93)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L93)**</sub><br>
 
 
 <h2><a name="america_aruba"># AMERICA_ARUBA</a></h2>
@@ -1148,7 +1148,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_ARUBA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L94)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L94)**</sub><br>
 
 
 <h2><a name="america_asuncion"># AMERICA_ASUNCION</a></h2>
@@ -1158,7 +1158,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_ASUNCION**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L95)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L95)**</sub><br>
 
 
 <h2><a name="america_atikokan"># AMERICA_ATIKOKAN</a></h2>
@@ -1168,7 +1168,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_ATIKOKAN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L96)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L96)**</sub><br>
 
 
 <h2><a name="america_bahia"># AMERICA_BAHIA</a></h2>
@@ -1178,7 +1178,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_BAHIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L97)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L97)**</sub><br>
 
 
 <h2><a name="america_bahia_banderas"># AMERICA_BAHIA_BANDERAS</a></h2>
@@ -1188,7 +1188,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_BAHIA_BANDERAS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L98)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L98)**</sub><br>
 
 
 <h2><a name="america_barbados"># AMERICA_BARBADOS</a></h2>
@@ -1198,7 +1198,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_BARBADOS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L99)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L99)**</sub><br>
 
 
 <h2><a name="america_belem"># AMERICA_BELEM</a></h2>
@@ -1208,7 +1208,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_BELEM**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L100)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L100)**</sub><br>
 
 
 <h2><a name="america_belize"># AMERICA_BELIZE</a></h2>
@@ -1218,7 +1218,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_BELIZE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L101)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L101)**</sub><br>
 
 
 <h2><a name="america_blanc_sablon"># AMERICA_BLANC_SABLON</a></h2>
@@ -1228,7 +1228,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_BLANC_SABLON**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L102)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L102)**</sub><br>
 
 
 <h2><a name="america_boa_vista"># AMERICA_BOA_VISTA</a></h2>
@@ -1238,7 +1238,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_BOA_VISTA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L103)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L103)**</sub><br>
 
 
 <h2><a name="america_bogota"># AMERICA_BOGOTA</a></h2>
@@ -1248,7 +1248,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_BOGOTA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L104)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L104)**</sub><br>
 
 
 <h2><a name="america_boise"># AMERICA_BOISE</a></h2>
@@ -1258,7 +1258,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_BOISE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L105)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L105)**</sub><br>
 
 
 <h2><a name="america_cambridge_bay"># AMERICA_CAMBRIDGE_BAY</a></h2>
@@ -1268,7 +1268,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_CAMBRIDGE_BAY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L106)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L106)**</sub><br>
 
 
 <h2><a name="america_campo_grande"># AMERICA_CAMPO_GRANDE</a></h2>
@@ -1278,7 +1278,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_CAMPO_GRANDE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L107)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L107)**</sub><br>
 
 
 <h2><a name="america_cancun"># AMERICA_CANCUN</a></h2>
@@ -1288,7 +1288,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_CANCUN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L108)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L108)**</sub><br>
 
 
 <h2><a name="america_caracas"># AMERICA_CARACAS</a></h2>
@@ -1298,7 +1298,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_CARACAS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L109)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L109)**</sub><br>
 
 
 <h2><a name="america_cayenne"># AMERICA_CAYENNE</a></h2>
@@ -1308,7 +1308,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_CAYENNE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L110)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L110)**</sub><br>
 
 
 <h2><a name="america_cayman"># AMERICA_CAYMAN</a></h2>
@@ -1318,7 +1318,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_CAYMAN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L111)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L111)**</sub><br>
 
 
 <h2><a name="america_chicago"># AMERICA_CHICAGO</a></h2>
@@ -1328,7 +1328,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_CHICAGO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L112)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L112)**</sub><br>
 
 
 <h2><a name="america_chihuahua"># AMERICA_CHIHUAHUA</a></h2>
@@ -1338,7 +1338,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_CHIHUAHUA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L113)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L113)**</sub><br>
 
 
 <h2><a name="america_costa_rica"># AMERICA_COSTA_RICA</a></h2>
@@ -1348,7 +1348,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_COSTA_RICA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L114)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L114)**</sub><br>
 
 
 <h2><a name="america_creston"># AMERICA_CRESTON</a></h2>
@@ -1358,7 +1358,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_CRESTON**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L115)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L115)**</sub><br>
 
 
 <h2><a name="america_cuiaba"># AMERICA_CUIABA</a></h2>
@@ -1368,7 +1368,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_CUIABA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L116)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L116)**</sub><br>
 
 
 <h2><a name="america_curacao"># AMERICA_CURACAO</a></h2>
@@ -1378,7 +1378,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_CURACAO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L117)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L117)**</sub><br>
 
 
 <h2><a name="america_danmarkshavn"># AMERICA_DANMARKSHAVN</a></h2>
@@ -1388,7 +1388,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_DANMARKSHAVN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L118)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L118)**</sub><br>
 
 
 <h2><a name="america_dawson"># AMERICA_DAWSON</a></h2>
@@ -1398,7 +1398,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_DAWSON**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L119)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L119)**</sub><br>
 
 
 <h2><a name="america_dawson_creek"># AMERICA_DAWSON_CREEK</a></h2>
@@ -1408,7 +1408,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_DAWSON_CREEK**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L120)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L120)**</sub><br>
 
 
 <h2><a name="america_denver"># AMERICA_DENVER</a></h2>
@@ -1418,7 +1418,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_DENVER**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L121)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L121)**</sub><br>
 
 
 <h2><a name="america_detroit"># AMERICA_DETROIT</a></h2>
@@ -1428,7 +1428,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_DETROIT**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L122)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L122)**</sub><br>
 
 
 <h2><a name="america_dominica"># AMERICA_DOMINICA</a></h2>
@@ -1438,7 +1438,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_DOMINICA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L123)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L123)**</sub><br>
 
 
 <h2><a name="america_edmonton"># AMERICA_EDMONTON</a></h2>
@@ -1448,7 +1448,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_EDMONTON**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L124)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L124)**</sub><br>
 
 
 <h2><a name="america_eirunepe"># AMERICA_EIRUNEPE</a></h2>
@@ -1458,7 +1458,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_EIRUNEPE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L125)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L125)**</sub><br>
 
 
 <h2><a name="america_el_salvador"># AMERICA_EL_SALVADOR</a></h2>
@@ -1468,7 +1468,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_EL_SALVADOR**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L126)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L126)**</sub><br>
 
 
 <h2><a name="america_fort_nelson"># AMERICA_FORT_NELSON</a></h2>
@@ -1478,7 +1478,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_FORT_NELSON**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L127)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L127)**</sub><br>
 
 
 <h2><a name="america_fortaleza"># AMERICA_FORTALEZA</a></h2>
@@ -1488,7 +1488,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_FORTALEZA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L128)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L128)**</sub><br>
 
 
 <h2><a name="america_glace_bay"># AMERICA_GLACE_BAY</a></h2>
@@ -1498,7 +1498,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_GLACE_BAY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L129)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L129)**</sub><br>
 
 
 <h2><a name="america_goose_bay"># AMERICA_GOOSE_BAY</a></h2>
@@ -1508,7 +1508,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_GOOSE_BAY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L130)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L130)**</sub><br>
 
 
 <h2><a name="america_grand_turk"># AMERICA_GRAND_TURK</a></h2>
@@ -1518,7 +1518,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_GRAND_TURK**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L131)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L131)**</sub><br>
 
 
 <h2><a name="america_grenada"># AMERICA_GRENADA</a></h2>
@@ -1528,7 +1528,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_GRENADA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L132)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L132)**</sub><br>
 
 
 <h2><a name="america_guadeloupe"># AMERICA_GUADELOUPE</a></h2>
@@ -1538,7 +1538,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_GUADELOUPE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L133)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L133)**</sub><br>
 
 
 <h2><a name="america_guatemala"># AMERICA_GUATEMALA</a></h2>
@@ -1548,7 +1548,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_GUATEMALA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L134)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L134)**</sub><br>
 
 
 <h2><a name="america_guayaquil"># AMERICA_GUAYAQUIL</a></h2>
@@ -1558,7 +1558,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_GUAYAQUIL**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L135)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L135)**</sub><br>
 
 
 <h2><a name="america_guyana"># AMERICA_GUYANA</a></h2>
@@ -1568,7 +1568,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_GUYANA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L136)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L136)**</sub><br>
 
 
 <h2><a name="america_halifax"># AMERICA_HALIFAX</a></h2>
@@ -1578,7 +1578,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_HALIFAX**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L137)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L137)**</sub><br>
 
 
 <h2><a name="america_havana"># AMERICA_HAVANA</a></h2>
@@ -1588,7 +1588,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_HAVANA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L138)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L138)**</sub><br>
 
 
 <h2><a name="america_hermosillo"># AMERICA_HERMOSILLO</a></h2>
@@ -1598,7 +1598,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_HERMOSILLO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L139)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L139)**</sub><br>
 
 
 <h2><a name="america_indiana_indianapolis"># AMERICA_INDIANA_INDIANAPOLIS</a></h2>
@@ -1608,7 +1608,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_INDIANA_INDIANAPOLIS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L140)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L140)**</sub><br>
 
 
 <h2><a name="america_indiana_knox"># AMERICA_INDIANA_KNOX</a></h2>
@@ -1618,7 +1618,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_INDIANA_KNOX**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L141)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L141)**</sub><br>
 
 
 <h2><a name="america_indiana_marengo"># AMERICA_INDIANA_MARENGO</a></h2>
@@ -1628,7 +1628,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_INDIANA_MARENGO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L142)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L142)**</sub><br>
 
 
 <h2><a name="america_indiana_petersburg"># AMERICA_INDIANA_PETERSBURG</a></h2>
@@ -1638,7 +1638,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_INDIANA_PETERSBURG**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L143)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L143)**</sub><br>
 
 
 <h2><a name="america_indiana_tell_city"># AMERICA_INDIANA_TELL_CITY</a></h2>
@@ -1648,7 +1648,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_INDIANA_TELL_CITY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L144)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L144)**</sub><br>
 
 
 <h2><a name="america_indiana_vevay"># AMERICA_INDIANA_VEVAY</a></h2>
@@ -1658,7 +1658,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_INDIANA_VEVAY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L145)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L145)**</sub><br>
 
 
 <h2><a name="america_indiana_vincennes"># AMERICA_INDIANA_VINCENNES</a></h2>
@@ -1668,7 +1668,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_INDIANA_VINCENNES**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L146)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L146)**</sub><br>
 
 
 <h2><a name="america_indiana_winamac"># AMERICA_INDIANA_WINAMAC</a></h2>
@@ -1678,7 +1678,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_INDIANA_WINAMAC**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L147)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L147)**</sub><br>
 
 
 <h2><a name="america_inuvik"># AMERICA_INUVIK</a></h2>
@@ -1688,7 +1688,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_INUVIK**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L148)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L148)**</sub><br>
 
 
 <h2><a name="america_iqaluit"># AMERICA_IQALUIT</a></h2>
@@ -1698,7 +1698,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_IQALUIT**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L149)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L149)**</sub><br>
 
 
 <h2><a name="america_jamaica"># AMERICA_JAMAICA</a></h2>
@@ -1708,7 +1708,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_JAMAICA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L150)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L150)**</sub><br>
 
 
 <h2><a name="america_juneau"># AMERICA_JUNEAU</a></h2>
@@ -1718,7 +1718,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_JUNEAU**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L151)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L151)**</sub><br>
 
 
 <h2><a name="america_kentucky_louisville"># AMERICA_KENTUCKY_LOUISVILLE</a></h2>
@@ -1728,7 +1728,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_KENTUCKY_LOUISVILLE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L152)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L152)**</sub><br>
 
 
 <h2><a name="america_kentucky_monticello"># AMERICA_KENTUCKY_MONTICELLO</a></h2>
@@ -1738,7 +1738,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_KENTUCKY_MONTICELLO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L153)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L153)**</sub><br>
 
 
 <h2><a name="america_kralendijk"># AMERICA_KRALENDIJK</a></h2>
@@ -1748,7 +1748,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_KRALENDIJK**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L154)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L154)**</sub><br>
 
 
 <h2><a name="america_la_paz"># AMERICA_LA_PAZ</a></h2>
@@ -1758,7 +1758,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_LA_PAZ**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L155)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L155)**</sub><br>
 
 
 <h2><a name="america_lima"># AMERICA_LIMA</a></h2>
@@ -1768,7 +1768,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_LIMA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L156)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L156)**</sub><br>
 
 
 <h2><a name="america_los_angeles"># AMERICA_LOS_ANGELES</a></h2>
@@ -1778,7 +1778,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_LOS_ANGELES**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L157)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L157)**</sub><br>
 
 
 <h2><a name="america_lower_princes"># AMERICA_LOWER_PRINCES</a></h2>
@@ -1788,7 +1788,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_LOWER_PRINCES**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L158)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L158)**</sub><br>
 
 
 <h2><a name="america_maceio"># AMERICA_MACEIO</a></h2>
@@ -1798,7 +1798,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_MACEIO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L159)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L159)**</sub><br>
 
 
 <h2><a name="america_managua"># AMERICA_MANAGUA</a></h2>
@@ -1808,7 +1808,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_MANAGUA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L160)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L160)**</sub><br>
 
 
 <h2><a name="america_manaus"># AMERICA_MANAUS</a></h2>
@@ -1818,7 +1818,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_MANAUS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L161)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L161)**</sub><br>
 
 
 <h2><a name="america_marigot"># AMERICA_MARIGOT</a></h2>
@@ -1828,7 +1828,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_MARIGOT**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L162)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L162)**</sub><br>
 
 
 <h2><a name="america_martinique"># AMERICA_MARTINIQUE</a></h2>
@@ -1838,7 +1838,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_MARTINIQUE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L163)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L163)**</sub><br>
 
 
 <h2><a name="america_matamoros"># AMERICA_MATAMOROS</a></h2>
@@ -1848,7 +1848,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_MATAMOROS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L164)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L164)**</sub><br>
 
 
 <h2><a name="america_mazatlan"># AMERICA_MAZATLAN</a></h2>
@@ -1858,7 +1858,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_MAZATLAN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L165)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L165)**</sub><br>
 
 
 <h2><a name="america_menominee"># AMERICA_MENOMINEE</a></h2>
@@ -1868,7 +1868,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_MENOMINEE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L166)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L166)**</sub><br>
 
 
 <h2><a name="america_merida"># AMERICA_MERIDA</a></h2>
@@ -1878,7 +1878,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_MERIDA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L167)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L167)**</sub><br>
 
 
 <h2><a name="america_metlakatla"># AMERICA_METLAKATLA</a></h2>
@@ -1888,7 +1888,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_METLAKATLA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L168)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L168)**</sub><br>
 
 
 <h2><a name="america_mexico_city"># AMERICA_MEXICO_CITY</a></h2>
@@ -1898,7 +1898,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_MEXICO_CITY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L169)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L169)**</sub><br>
 
 
 <h2><a name="america_miquelon"># AMERICA_MIQUELON</a></h2>
@@ -1908,7 +1908,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_MIQUELON**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L170)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L170)**</sub><br>
 
 
 <h2><a name="america_moncton"># AMERICA_MONCTON</a></h2>
@@ -1918,7 +1918,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_MONCTON**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L171)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L171)**</sub><br>
 
 
 <h2><a name="america_monterrey"># AMERICA_MONTERREY</a></h2>
@@ -1928,7 +1928,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_MONTERREY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L172)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L172)**</sub><br>
 
 
 <h2><a name="america_montevideo"># AMERICA_MONTEVIDEO</a></h2>
@@ -1938,7 +1938,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_MONTEVIDEO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L173)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L173)**</sub><br>
 
 
 <h2><a name="america_montserrat"># AMERICA_MONTSERRAT</a></h2>
@@ -1948,7 +1948,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_MONTSERRAT**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L174)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L174)**</sub><br>
 
 
 <h2><a name="america_nassau"># AMERICA_NASSAU</a></h2>
@@ -1958,7 +1958,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_NASSAU**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L175)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L175)**</sub><br>
 
 
 <h2><a name="america_new_york"># AMERICA_NEW_YORK</a></h2>
@@ -1968,7 +1968,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_NEW_YORK**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L176)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L176)**</sub><br>
 
 
 <h2><a name="america_nipigon"># AMERICA_NIPIGON</a></h2>
@@ -1978,7 +1978,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_NIPIGON**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L177)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L177)**</sub><br>
 
 
 <h2><a name="america_nome"># AMERICA_NOME</a></h2>
@@ -1988,7 +1988,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_NOME**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L178)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L178)**</sub><br>
 
 
 <h2><a name="america_noronha"># AMERICA_NORONHA</a></h2>
@@ -1998,7 +1998,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_NORONHA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L179)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L179)**</sub><br>
 
 
 <h2><a name="america_north_dakota_beulah"># AMERICA_NORTH_DAKOTA_BEULAH</a></h2>
@@ -2008,7 +2008,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_NORTH_DAKOTA_BEULAH**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L180)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L180)**</sub><br>
 
 
 <h2><a name="america_north_dakota_center"># AMERICA_NORTH_DAKOTA_CENTER</a></h2>
@@ -2018,7 +2018,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_NORTH_DAKOTA_CENTER**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L181)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L181)**</sub><br>
 
 
 <h2><a name="america_north_dakota_new_salem"># AMERICA_NORTH_DAKOTA_NEW_SALEM</a></h2>
@@ -2028,7 +2028,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_NORTH_DAKOTA_NEW_SALEM**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L182)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L182)**</sub><br>
 
 
 <h2><a name="america_nuuk"># AMERICA_NUUK</a></h2>
@@ -2038,7 +2038,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_NUUK**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L183)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L183)**</sub><br>
 
 
 <h2><a name="america_ojinaga"># AMERICA_OJINAGA</a></h2>
@@ -2048,7 +2048,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_OJINAGA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L184)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L184)**</sub><br>
 
 
 <h2><a name="america_panama"># AMERICA_PANAMA</a></h2>
@@ -2058,7 +2058,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_PANAMA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L185)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L185)**</sub><br>
 
 
 <h2><a name="america_pangnirtung"># AMERICA_PANGNIRTUNG</a></h2>
@@ -2068,7 +2068,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_PANGNIRTUNG**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L186)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L186)**</sub><br>
 
 
 <h2><a name="america_paramaribo"># AMERICA_PARAMARIBO</a></h2>
@@ -2078,7 +2078,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_PARAMARIBO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L187)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L187)**</sub><br>
 
 
 <h2><a name="america_phoenix"># AMERICA_PHOENIX</a></h2>
@@ -2088,7 +2088,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_PHOENIX**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L188)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L188)**</sub><br>
 
 
 <h2><a name="america_port_au_prince"># AMERICA_PORT_AU_PRINCE</a></h2>
@@ -2098,7 +2098,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_PORT_AU_PRINCE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L189)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L189)**</sub><br>
 
 
 <h2><a name="america_port_of_spain"># AMERICA_PORT_OF_SPAIN</a></h2>
@@ -2108,7 +2108,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_PORT_OF_SPAIN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L190)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L190)**</sub><br>
 
 
 <h2><a name="america_porto_velho"># AMERICA_PORTO_VELHO</a></h2>
@@ -2118,7 +2118,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_PORTO_VELHO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L191)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L191)**</sub><br>
 
 
 <h2><a name="america_puerto_rico"># AMERICA_PUERTO_RICO</a></h2>
@@ -2128,7 +2128,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_PUERTO_RICO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L192)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L192)**</sub><br>
 
 
 <h2><a name="america_punta_arenas"># AMERICA_PUNTA_ARENAS</a></h2>
@@ -2138,7 +2138,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_PUNTA_ARENAS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L193)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L193)**</sub><br>
 
 
 <h2><a name="america_rainy_river"># AMERICA_RAINY_RIVER</a></h2>
@@ -2148,7 +2148,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_RAINY_RIVER**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L194)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L194)**</sub><br>
 
 
 <h2><a name="america_rankin_inlet"># AMERICA_RANKIN_INLET</a></h2>
@@ -2158,7 +2158,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_RANKIN_INLET**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L195)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L195)**</sub><br>
 
 
 <h2><a name="america_recife"># AMERICA_RECIFE</a></h2>
@@ -2168,7 +2168,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_RECIFE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L196)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L196)**</sub><br>
 
 
 <h2><a name="america_regina"># AMERICA_REGINA</a></h2>
@@ -2178,7 +2178,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_REGINA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L197)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L197)**</sub><br>
 
 
 <h2><a name="america_resolute"># AMERICA_RESOLUTE</a></h2>
@@ -2188,7 +2188,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_RESOLUTE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L198)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L198)**</sub><br>
 
 
 <h2><a name="america_rio_branco"># AMERICA_RIO_BRANCO</a></h2>
@@ -2198,7 +2198,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_RIO_BRANCO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L199)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L199)**</sub><br>
 
 
 <h2><a name="america_santarem"># AMERICA_SANTAREM</a></h2>
@@ -2208,7 +2208,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_SANTAREM**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L200)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L200)**</sub><br>
 
 
 <h2><a name="america_santiago"># AMERICA_SANTIAGO</a></h2>
@@ -2218,7 +2218,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_SANTIAGO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L201)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L201)**</sub><br>
 
 
 <h2><a name="america_santo_domingo"># AMERICA_SANTO_DOMINGO</a></h2>
@@ -2228,7 +2228,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_SANTO_DOMINGO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L202)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L202)**</sub><br>
 
 
 <h2><a name="america_sao_paulo"># AMERICA_SAO_PAULO</a></h2>
@@ -2238,7 +2238,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_SAO_PAULO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L203)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L203)**</sub><br>
 
 
 <h2><a name="america_scoresbysund"># AMERICA_SCORESBYSUND</a></h2>
@@ -2248,7 +2248,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_SCORESBYSUND**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L204)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L204)**</sub><br>
 
 
 <h2><a name="america_sitka"># AMERICA_SITKA</a></h2>
@@ -2258,7 +2258,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_SITKA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L205)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L205)**</sub><br>
 
 
 <h2><a name="america_st_barthelemy"># AMERICA_ST_BARTHELEMY</a></h2>
@@ -2268,7 +2268,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_ST_BARTHELEMY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L206)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L206)**</sub><br>
 
 
 <h2><a name="america_st_johns"># AMERICA_ST_JOHNS</a></h2>
@@ -2278,7 +2278,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_ST_JOHNS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L207)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L207)**</sub><br>
 
 
 <h2><a name="america_st_kitts"># AMERICA_ST_KITTS</a></h2>
@@ -2288,7 +2288,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_ST_KITTS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L208)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L208)**</sub><br>
 
 
 <h2><a name="america_st_lucia"># AMERICA_ST_LUCIA</a></h2>
@@ -2298,7 +2298,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_ST_LUCIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L209)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L209)**</sub><br>
 
 
 <h2><a name="america_st_thomas"># AMERICA_ST_THOMAS</a></h2>
@@ -2308,7 +2308,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_ST_THOMAS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L210)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L210)**</sub><br>
 
 
 <h2><a name="america_st_vincent"># AMERICA_ST_VINCENT</a></h2>
@@ -2318,7 +2318,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_ST_VINCENT**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L211)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L211)**</sub><br>
 
 
 <h2><a name="america_swift_current"># AMERICA_SWIFT_CURRENT</a></h2>
@@ -2328,7 +2328,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_SWIFT_CURRENT**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L212)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L212)**</sub><br>
 
 
 <h2><a name="america_tegucigalpa"># AMERICA_TEGUCIGALPA</a></h2>
@@ -2338,7 +2338,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_TEGUCIGALPA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L213)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L213)**</sub><br>
 
 
 <h2><a name="america_thule"># AMERICA_THULE</a></h2>
@@ -2348,7 +2348,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_THULE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L214)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L214)**</sub><br>
 
 
 <h2><a name="america_thunder_bay"># AMERICA_THUNDER_BAY</a></h2>
@@ -2358,7 +2358,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_THUNDER_BAY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L215)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L215)**</sub><br>
 
 
 <h2><a name="america_tijuana"># AMERICA_TIJUANA</a></h2>
@@ -2368,7 +2368,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_TIJUANA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L216)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L216)**</sub><br>
 
 
 <h2><a name="america_toronto"># AMERICA_TORONTO</a></h2>
@@ -2378,7 +2378,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_TORONTO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L217)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L217)**</sub><br>
 
 
 <h2><a name="america_tortola"># AMERICA_TORTOLA</a></h2>
@@ -2388,7 +2388,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_TORTOLA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L218)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L218)**</sub><br>
 
 
 <h2><a name="america_vancouver"># AMERICA_VANCOUVER</a></h2>
@@ -2398,7 +2398,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_VANCOUVER**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L219)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L219)**</sub><br>
 
 
 <h2><a name="america_whitehorse"># AMERICA_WHITEHORSE</a></h2>
@@ -2408,7 +2408,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_WHITEHORSE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L220)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L220)**</sub><br>
 
 
 <h2><a name="america_winnipeg"># AMERICA_WINNIPEG</a></h2>
@@ -2418,7 +2418,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_WINNIPEG**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L221)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L221)**</sub><br>
 
 
 <h2><a name="america_yakutat"># AMERICA_YAKUTAT</a></h2>
@@ -2428,7 +2428,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_YAKUTAT**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L222)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L222)**</sub><br>
 
 
 <h2><a name="america_yellowknife"># AMERICA_YELLOWKNIFE</a></h2>
@@ -2438,7 +2438,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AMERICA_YELLOWKNIFE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L223)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L223)**</sub><br>
 
 
 <h2><a name="antarctica_casey"># ANTARCTICA_CASEY</a></h2>
@@ -2448,7 +2448,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ANTARCTICA_CASEY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L224)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L224)**</sub><br>
 
 
 <h2><a name="antarctica_davis"># ANTARCTICA_DAVIS</a></h2>
@@ -2458,7 +2458,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ANTARCTICA_DAVIS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L225)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L225)**</sub><br>
 
 
 <h2><a name="antarctica_dumontdurville"># ANTARCTICA_DUMONTDURVILLE</a></h2>
@@ -2468,7 +2468,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ANTARCTICA_DUMONTDURVILLE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L226)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L226)**</sub><br>
 
 
 <h2><a name="antarctica_macquarie"># ANTARCTICA_MACQUARIE</a></h2>
@@ -2478,7 +2478,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ANTARCTICA_MACQUARIE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L227)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L227)**</sub><br>
 
 
 <h2><a name="antarctica_mawson"># ANTARCTICA_MAWSON</a></h2>
@@ -2488,7 +2488,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ANTARCTICA_MAWSON**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L228)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L228)**</sub><br>
 
 
 <h2><a name="antarctica_mcmurdo"># ANTARCTICA_MCMURDO</a></h2>
@@ -2498,7 +2498,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ANTARCTICA_MCMURDO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L229)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L229)**</sub><br>
 
 
 <h2><a name="antarctica_palmer"># ANTARCTICA_PALMER</a></h2>
@@ -2508,7 +2508,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ANTARCTICA_PALMER**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L230)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L230)**</sub><br>
 
 
 <h2><a name="antarctica_rothera"># ANTARCTICA_ROTHERA</a></h2>
@@ -2518,7 +2518,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ANTARCTICA_ROTHERA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L231)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L231)**</sub><br>
 
 
 <h2><a name="antarctica_syowa"># ANTARCTICA_SYOWA</a></h2>
@@ -2528,7 +2528,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ANTARCTICA_SYOWA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L232)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L232)**</sub><br>
 
 
 <h2><a name="antarctica_troll"># ANTARCTICA_TROLL</a></h2>
@@ -2538,7 +2538,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ANTARCTICA_TROLL**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L233)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L233)**</sub><br>
 
 
 <h2><a name="antarctica_vostok"># ANTARCTICA_VOSTOK</a></h2>
@@ -2548,7 +2548,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ANTARCTICA_VOSTOK**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L234)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L234)**</sub><br>
 
 
 <h2><a name="arctic_longyearbyen"># ARCTIC_LONGYEARBYEN</a></h2>
@@ -2558,7 +2558,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ARCTIC_LONGYEARBYEN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L235)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L235)**</sub><br>
 
 
 <h2><a name="asia_aden"># ASIA_ADEN</a></h2>
@@ -2568,7 +2568,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_ADEN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L236)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L236)**</sub><br>
 
 
 <h2><a name="asia_almaty"># ASIA_ALMATY</a></h2>
@@ -2578,7 +2578,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_ALMATY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L237)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L237)**</sub><br>
 
 
 <h2><a name="asia_amman"># ASIA_AMMAN</a></h2>
@@ -2588,7 +2588,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_AMMAN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L238)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L238)**</sub><br>
 
 
 <h2><a name="asia_anadyr"># ASIA_ANADYR</a></h2>
@@ -2598,7 +2598,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_ANADYR**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L239)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L239)**</sub><br>
 
 
 <h2><a name="asia_aqtau"># ASIA_AQTAU</a></h2>
@@ -2608,7 +2608,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_AQTAU**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L240)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L240)**</sub><br>
 
 
 <h2><a name="asia_aqtobe"># ASIA_AQTOBE</a></h2>
@@ -2618,7 +2618,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_AQTOBE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L241)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L241)**</sub><br>
 
 
 <h2><a name="asia_ashgabat"># ASIA_ASHGABAT</a></h2>
@@ -2628,7 +2628,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_ASHGABAT**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L242)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L242)**</sub><br>
 
 
 <h2><a name="asia_atyrau"># ASIA_ATYRAU</a></h2>
@@ -2638,7 +2638,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_ATYRAU**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L243)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L243)**</sub><br>
 
 
 <h2><a name="asia_baghdad"># ASIA_BAGHDAD</a></h2>
@@ -2648,7 +2648,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_BAGHDAD**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L244)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L244)**</sub><br>
 
 
 <h2><a name="asia_bahrain"># ASIA_BAHRAIN</a></h2>
@@ -2658,7 +2658,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_BAHRAIN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L245)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L245)**</sub><br>
 
 
 <h2><a name="asia_baku"># ASIA_BAKU</a></h2>
@@ -2668,7 +2668,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_BAKU**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L246)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L246)**</sub><br>
 
 
 <h2><a name="asia_bangkok"># ASIA_BANGKOK</a></h2>
@@ -2678,7 +2678,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_BANGKOK**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L247)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L247)**</sub><br>
 
 
 <h2><a name="asia_barnaul"># ASIA_BARNAUL</a></h2>
@@ -2688,7 +2688,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_BARNAUL**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L248)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L248)**</sub><br>
 
 
 <h2><a name="asia_beirut"># ASIA_BEIRUT</a></h2>
@@ -2698,7 +2698,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_BEIRUT**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L249)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L249)**</sub><br>
 
 
 <h2><a name="asia_bishkek"># ASIA_BISHKEK</a></h2>
@@ -2708,7 +2708,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_BISHKEK**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L250)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L250)**</sub><br>
 
 
 <h2><a name="asia_brunei"># ASIA_BRUNEI</a></h2>
@@ -2718,7 +2718,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_BRUNEI**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L251)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L251)**</sub><br>
 
 
 <h2><a name="asia_chita"># ASIA_CHITA</a></h2>
@@ -2728,7 +2728,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_CHITA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L252)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L252)**</sub><br>
 
 
 <h2><a name="asia_choibalsan"># ASIA_CHOIBALSAN</a></h2>
@@ -2738,7 +2738,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_CHOIBALSAN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L253)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L253)**</sub><br>
 
 
 <h2><a name="asia_colombo"># ASIA_COLOMBO</a></h2>
@@ -2748,7 +2748,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_COLOMBO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L254)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L254)**</sub><br>
 
 
 <h2><a name="asia_damascus"># ASIA_DAMASCUS</a></h2>
@@ -2758,7 +2758,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_DAMASCUS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L255)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L255)**</sub><br>
 
 
 <h2><a name="asia_dhaka"># ASIA_DHAKA</a></h2>
@@ -2768,7 +2768,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_DHAKA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L256)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L256)**</sub><br>
 
 
 <h2><a name="asia_dili"># ASIA_DILI</a></h2>
@@ -2778,7 +2778,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_DILI**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L257)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L257)**</sub><br>
 
 
 <h2><a name="asia_dubai"># ASIA_DUBAI</a></h2>
@@ -2788,7 +2788,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_DUBAI**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L258)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L258)**</sub><br>
 
 
 <h2><a name="asia_dushanbe"># ASIA_DUSHANBE</a></h2>
@@ -2798,7 +2798,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_DUSHANBE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L259)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L259)**</sub><br>
 
 
 <h2><a name="asia_famagusta"># ASIA_FAMAGUSTA</a></h2>
@@ -2808,7 +2808,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_FAMAGUSTA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L260)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L260)**</sub><br>
 
 
 <h2><a name="asia_gaza"># ASIA_GAZA</a></h2>
@@ -2818,7 +2818,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_GAZA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L261)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L261)**</sub><br>
 
 
 <h2><a name="asia_hebron"># ASIA_HEBRON</a></h2>
@@ -2828,7 +2828,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_HEBRON**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L262)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L262)**</sub><br>
 
 
 <h2><a name="asia_ho_chi_minh"># ASIA_HO_CHI_MINH</a></h2>
@@ -2838,7 +2838,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_HO_CHI_MINH**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L263)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L263)**</sub><br>
 
 
 <h2><a name="asia_hong_kong"># ASIA_HONG_KONG</a></h2>
@@ -2848,7 +2848,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_HONG_KONG**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L264)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L264)**</sub><br>
 
 
 <h2><a name="asia_hovd"># ASIA_HOVD</a></h2>
@@ -2858,7 +2858,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_HOVD**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L265)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L265)**</sub><br>
 
 
 <h2><a name="asia_irkutsk"># ASIA_IRKUTSK</a></h2>
@@ -2868,7 +2868,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_IRKUTSK**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L266)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L266)**</sub><br>
 
 
 <h2><a name="asia_jakarta"># ASIA_JAKARTA</a></h2>
@@ -2878,7 +2878,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_JAKARTA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L267)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L267)**</sub><br>
 
 
 <h2><a name="asia_jayapura"># ASIA_JAYAPURA</a></h2>
@@ -2888,7 +2888,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_JAYAPURA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L268)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L268)**</sub><br>
 
 
 <h2><a name="asia_jerusalem"># ASIA_JERUSALEM</a></h2>
@@ -2898,7 +2898,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_JERUSALEM**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L269)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L269)**</sub><br>
 
 
 <h2><a name="asia_kabul"># ASIA_KABUL</a></h2>
@@ -2908,7 +2908,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_KABUL**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L270)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L270)**</sub><br>
 
 
 <h2><a name="asia_kamchatka"># ASIA_KAMCHATKA</a></h2>
@@ -2918,7 +2918,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_KAMCHATKA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L271)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L271)**</sub><br>
 
 
 <h2><a name="asia_karachi"># ASIA_KARACHI</a></h2>
@@ -2928,7 +2928,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_KARACHI**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L272)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L272)**</sub><br>
 
 
 <h2><a name="asia_kathmandu"># ASIA_KATHMANDU</a></h2>
@@ -2938,7 +2938,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_KATHMANDU**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L273)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L273)**</sub><br>
 
 
 <h2><a name="asia_khandyga"># ASIA_KHANDYGA</a></h2>
@@ -2948,7 +2948,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_KHANDYGA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L274)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L274)**</sub><br>
 
 
 <h2><a name="asia_kolkata"># ASIA_KOLKATA</a></h2>
@@ -2958,7 +2958,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_KOLKATA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L275)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L275)**</sub><br>
 
 
 <h2><a name="asia_krasnoyarsk"># ASIA_KRASNOYARSK</a></h2>
@@ -2968,7 +2968,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_KRASNOYARSK**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L276)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L276)**</sub><br>
 
 
 <h2><a name="asia_kuala_lumpur"># ASIA_KUALA_LUMPUR</a></h2>
@@ -2978,7 +2978,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_KUALA_LUMPUR**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L277)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L277)**</sub><br>
 
 
 <h2><a name="asia_kuching"># ASIA_KUCHING</a></h2>
@@ -2988,7 +2988,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_KUCHING**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L278)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L278)**</sub><br>
 
 
 <h2><a name="asia_kuwait"># ASIA_KUWAIT</a></h2>
@@ -2998,7 +2998,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_KUWAIT**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L279)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L279)**</sub><br>
 
 
 <h2><a name="asia_macau"># ASIA_MACAU</a></h2>
@@ -3008,7 +3008,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_MACAU**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L280)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L280)**</sub><br>
 
 
 <h2><a name="asia_magadan"># ASIA_MAGADAN</a></h2>
@@ -3018,7 +3018,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_MAGADAN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L281)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L281)**</sub><br>
 
 
 <h2><a name="asia_makassar"># ASIA_MAKASSAR</a></h2>
@@ -3028,7 +3028,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_MAKASSAR**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L282)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L282)**</sub><br>
 
 
 <h2><a name="asia_manila"># ASIA_MANILA</a></h2>
@@ -3038,7 +3038,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_MANILA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L283)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L283)**</sub><br>
 
 
 <h2><a name="asia_muscat"># ASIA_MUSCAT</a></h2>
@@ -3048,7 +3048,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_MUSCAT**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L284)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L284)**</sub><br>
 
 
 <h2><a name="asia_nicosia"># ASIA_NICOSIA</a></h2>
@@ -3058,7 +3058,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_NICOSIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L285)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L285)**</sub><br>
 
 
 <h2><a name="asia_novokuznetsk"># ASIA_NOVOKUZNETSK</a></h2>
@@ -3068,7 +3068,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_NOVOKUZNETSK**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L286)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L286)**</sub><br>
 
 
 <h2><a name="asia_novosibirsk"># ASIA_NOVOSIBIRSK</a></h2>
@@ -3078,7 +3078,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_NOVOSIBIRSK**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L287)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L287)**</sub><br>
 
 
 <h2><a name="asia_omsk"># ASIA_OMSK</a></h2>
@@ -3088,7 +3088,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_OMSK**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L288)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L288)**</sub><br>
 
 
 <h2><a name="asia_oral"># ASIA_ORAL</a></h2>
@@ -3098,7 +3098,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_ORAL**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L289)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L289)**</sub><br>
 
 
 <h2><a name="asia_phnom_penh"># ASIA_PHNOM_PENH</a></h2>
@@ -3108,7 +3108,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_PHNOM_PENH**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L290)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L290)**</sub><br>
 
 
 <h2><a name="asia_pontianak"># ASIA_PONTIANAK</a></h2>
@@ -3118,7 +3118,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_PONTIANAK**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L291)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L291)**</sub><br>
 
 
 <h2><a name="asia_pyongyang"># ASIA_PYONGYANG</a></h2>
@@ -3128,7 +3128,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_PYONGYANG**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L292)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L292)**</sub><br>
 
 
 <h2><a name="asia_qatar"># ASIA_QATAR</a></h2>
@@ -3138,7 +3138,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_QATAR**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L293)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L293)**</sub><br>
 
 
 <h2><a name="asia_qostanay"># ASIA_QOSTANAY</a></h2>
@@ -3148,7 +3148,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_QOSTANAY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L294)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L294)**</sub><br>
 
 
 <h2><a name="asia_qyzylorda"># ASIA_QYZYLORDA</a></h2>
@@ -3158,7 +3158,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_QYZYLORDA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L295)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L295)**</sub><br>
 
 
 <h2><a name="asia_riyadh"># ASIA_RIYADH</a></h2>
@@ -3168,7 +3168,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_RIYADH**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L296)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L296)**</sub><br>
 
 
 <h2><a name="asia_sakhalin"># ASIA_SAKHALIN</a></h2>
@@ -3178,7 +3178,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_SAKHALIN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L297)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L297)**</sub><br>
 
 
 <h2><a name="asia_samarkand"># ASIA_SAMARKAND</a></h2>
@@ -3188,7 +3188,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_SAMARKAND**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L298)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L298)**</sub><br>
 
 
 <h2><a name="asia_seoul"># ASIA_SEOUL</a></h2>
@@ -3198,7 +3198,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_SEOUL**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L299)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L299)**</sub><br>
 
 
 <h2><a name="asia_shanghai"># ASIA_SHANGHAI</a></h2>
@@ -3208,7 +3208,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_SHANGHAI**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L300)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L300)**</sub><br>
 
 
 <h2><a name="asia_singapore"># ASIA_SINGAPORE</a></h2>
@@ -3218,7 +3218,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_SINGAPORE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L301)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L301)**</sub><br>
 
 
 <h2><a name="asia_srednekolymsk"># ASIA_SREDNEKOLYMSK</a></h2>
@@ -3228,7 +3228,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_SREDNEKOLYMSK**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L302)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L302)**</sub><br>
 
 
 <h2><a name="asia_taipei"># ASIA_TAIPEI</a></h2>
@@ -3238,7 +3238,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_TAIPEI**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L303)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L303)**</sub><br>
 
 
 <h2><a name="asia_tashkent"># ASIA_TASHKENT</a></h2>
@@ -3248,7 +3248,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_TASHKENT**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L304)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L304)**</sub><br>
 
 
 <h2><a name="asia_tbilisi"># ASIA_TBILISI</a></h2>
@@ -3258,7 +3258,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_TBILISI**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L305)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L305)**</sub><br>
 
 
 <h2><a name="asia_tehran"># ASIA_TEHRAN</a></h2>
@@ -3268,7 +3268,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_TEHRAN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L306)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L306)**</sub><br>
 
 
 <h2><a name="asia_thimphu"># ASIA_THIMPHU</a></h2>
@@ -3278,7 +3278,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_THIMPHU**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L307)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L307)**</sub><br>
 
 
 <h2><a name="asia_tokyo"># ASIA_TOKYO</a></h2>
@@ -3288,7 +3288,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_TOKYO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L308)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L308)**</sub><br>
 
 
 <h2><a name="asia_tomsk"># ASIA_TOMSK</a></h2>
@@ -3298,7 +3298,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_TOMSK**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L309)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L309)**</sub><br>
 
 
 <h2><a name="asia_ulaanbaatar"># ASIA_ULAANBAATAR</a></h2>
@@ -3308,7 +3308,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_ULAANBAATAR**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L310)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L310)**</sub><br>
 
 
 <h2><a name="asia_urumqi"># ASIA_URUMQI</a></h2>
@@ -3318,7 +3318,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_URUMQI**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L311)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L311)**</sub><br>
 
 
 <h2><a name="asia_ust_nera"># ASIA_UST_NERA</a></h2>
@@ -3328,7 +3328,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_UST_NERA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L312)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L312)**</sub><br>
 
 
 <h2><a name="asia_vientiane"># ASIA_VIENTIANE</a></h2>
@@ -3338,7 +3338,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_VIENTIANE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L313)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L313)**</sub><br>
 
 
 <h2><a name="asia_vladivostok"># ASIA_VLADIVOSTOK</a></h2>
@@ -3348,7 +3348,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_VLADIVOSTOK**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L314)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L314)**</sub><br>
 
 
 <h2><a name="asia_yakutsk"># ASIA_YAKUTSK</a></h2>
@@ -3358,7 +3358,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_YAKUTSK**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L315)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L315)**</sub><br>
 
 
 <h2><a name="asia_yangon"># ASIA_YANGON</a></h2>
@@ -3368,7 +3368,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_YANGON**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L316)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L316)**</sub><br>
 
 
 <h2><a name="asia_yekaterinburg"># ASIA_YEKATERINBURG</a></h2>
@@ -3378,7 +3378,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_YEKATERINBURG**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L317)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L317)**</sub><br>
 
 
 <h2><a name="asia_yerevan"># ASIA_YEREVAN</a></h2>
@@ -3388,7 +3388,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ASIA_YEREVAN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L318)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L318)**</sub><br>
 
 
 <h2><a name="atlantic_azores"># ATLANTIC_AZORES</a></h2>
@@ -3398,7 +3398,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ATLANTIC_AZORES**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L319)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L319)**</sub><br>
 
 
 <h2><a name="atlantic_bermuda"># ATLANTIC_BERMUDA</a></h2>
@@ -3408,7 +3408,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ATLANTIC_BERMUDA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L320)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L320)**</sub><br>
 
 
 <h2><a name="atlantic_canary"># ATLANTIC_CANARY</a></h2>
@@ -3418,7 +3418,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ATLANTIC_CANARY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L321)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L321)**</sub><br>
 
 
 <h2><a name="atlantic_cape_verde"># ATLANTIC_CAPE_VERDE</a></h2>
@@ -3428,7 +3428,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ATLANTIC_CAPE_VERDE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L322)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L322)**</sub><br>
 
 
 <h2><a name="atlantic_faroe"># ATLANTIC_FAROE</a></h2>
@@ -3438,7 +3438,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ATLANTIC_FAROE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L323)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L323)**</sub><br>
 
 
 <h2><a name="atlantic_madeira"># ATLANTIC_MADEIRA</a></h2>
@@ -3448,7 +3448,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ATLANTIC_MADEIRA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L324)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L324)**</sub><br>
 
 
 <h2><a name="atlantic_reykjavik"># ATLANTIC_REYKJAVIK</a></h2>
@@ -3458,7 +3458,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ATLANTIC_REYKJAVIK**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L325)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L325)**</sub><br>
 
 
 <h2><a name="atlantic_south_georgia"># ATLANTIC_SOUTH_GEORGIA</a></h2>
@@ -3468,7 +3468,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ATLANTIC_SOUTH_GEORGIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L326)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L326)**</sub><br>
 
 
 <h2><a name="atlantic_st_helena"># ATLANTIC_ST_HELENA</a></h2>
@@ -3478,7 +3478,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ATLANTIC_ST_HELENA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L327)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L327)**</sub><br>
 
 
 <h2><a name="atlantic_stanley"># ATLANTIC_STANLEY</a></h2>
@@ -3488,7 +3488,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::ATLANTIC_STANLEY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L328)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L328)**</sub><br>
 
 
 <h2><a name="australia_adelaide"># AUSTRALIA_ADELAIDE</a></h2>
@@ -3498,7 +3498,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AUSTRALIA_ADELAIDE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L329)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L329)**</sub><br>
 
 
 <h2><a name="australia_brisbane"># AUSTRALIA_BRISBANE</a></h2>
@@ -3508,7 +3508,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AUSTRALIA_BRISBANE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L330)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L330)**</sub><br>
 
 
 <h2><a name="australia_broken_hill"># AUSTRALIA_BROKEN_HILL</a></h2>
@@ -3518,7 +3518,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AUSTRALIA_BROKEN_HILL**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L331)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L331)**</sub><br>
 
 
 <h2><a name="australia_darwin"># AUSTRALIA_DARWIN</a></h2>
@@ -3528,7 +3528,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AUSTRALIA_DARWIN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L332)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L332)**</sub><br>
 
 
 <h2><a name="australia_eucla"># AUSTRALIA_EUCLA</a></h2>
@@ -3538,7 +3538,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AUSTRALIA_EUCLA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L333)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L333)**</sub><br>
 
 
 <h2><a name="australia_hobart"># AUSTRALIA_HOBART</a></h2>
@@ -3548,7 +3548,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AUSTRALIA_HOBART**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L334)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L334)**</sub><br>
 
 
 <h2><a name="australia_lindeman"># AUSTRALIA_LINDEMAN</a></h2>
@@ -3558,7 +3558,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AUSTRALIA_LINDEMAN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L335)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L335)**</sub><br>
 
 
 <h2><a name="australia_lord_howe"># AUSTRALIA_LORD_HOWE</a></h2>
@@ -3568,7 +3568,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AUSTRALIA_LORD_HOWE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L336)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L336)**</sub><br>
 
 
 <h2><a name="australia_melbourne"># AUSTRALIA_MELBOURNE</a></h2>
@@ -3578,7 +3578,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AUSTRALIA_MELBOURNE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L337)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L337)**</sub><br>
 
 
 <h2><a name="australia_perth"># AUSTRALIA_PERTH</a></h2>
@@ -3588,7 +3588,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AUSTRALIA_PERTH**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L338)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L338)**</sub><br>
 
 
 <h2><a name="australia_sydney"># AUSTRALIA_SYDNEY</a></h2>
@@ -3598,7 +3598,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::AUSTRALIA_SYDNEY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L339)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L339)**</sub><br>
 
 
 <h2><a name="europe_amsterdam"># EUROPE_AMSTERDAM</a></h2>
@@ -3608,7 +3608,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_AMSTERDAM**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L340)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L340)**</sub><br>
 
 
 <h2><a name="europe_andorra"># EUROPE_ANDORRA</a></h2>
@@ -3618,7 +3618,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_ANDORRA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L341)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L341)**</sub><br>
 
 
 <h2><a name="europe_astrakhan"># EUROPE_ASTRAKHAN</a></h2>
@@ -3628,7 +3628,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_ASTRAKHAN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L342)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L342)**</sub><br>
 
 
 <h2><a name="europe_athens"># EUROPE_ATHENS</a></h2>
@@ -3638,7 +3638,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_ATHENS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L343)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L343)**</sub><br>
 
 
 <h2><a name="europe_belgrade"># EUROPE_BELGRADE</a></h2>
@@ -3648,7 +3648,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_BELGRADE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L344)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L344)**</sub><br>
 
 
 <h2><a name="europe_berlin"># EUROPE_BERLIN</a></h2>
@@ -3658,7 +3658,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_BERLIN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L345)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L345)**</sub><br>
 
 
 <h2><a name="europe_bratislava"># EUROPE_BRATISLAVA</a></h2>
@@ -3668,7 +3668,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_BRATISLAVA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L346)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L346)**</sub><br>
 
 
 <h2><a name="europe_brussels"># EUROPE_BRUSSELS</a></h2>
@@ -3678,7 +3678,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_BRUSSELS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L347)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L347)**</sub><br>
 
 
 <h2><a name="europe_bucharest"># EUROPE_BUCHAREST</a></h2>
@@ -3688,7 +3688,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_BUCHAREST**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L348)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L348)**</sub><br>
 
 
 <h2><a name="europe_budapest"># EUROPE_BUDAPEST</a></h2>
@@ -3698,7 +3698,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_BUDAPEST**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L349)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L349)**</sub><br>
 
 
 <h2><a name="europe_busingen"># EUROPE_BUSINGEN</a></h2>
@@ -3708,7 +3708,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_BUSINGEN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L350)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L350)**</sub><br>
 
 
 <h2><a name="europe_chisinau"># EUROPE_CHISINAU</a></h2>
@@ -3718,7 +3718,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_CHISINAU**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L351)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L351)**</sub><br>
 
 
 <h2><a name="europe_copenhagen"># EUROPE_COPENHAGEN</a></h2>
@@ -3728,7 +3728,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_COPENHAGEN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L352)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L352)**</sub><br>
 
 
 <h2><a name="europe_dublin"># EUROPE_DUBLIN</a></h2>
@@ -3738,7 +3738,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_DUBLIN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L353)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L353)**</sub><br>
 
 
 <h2><a name="europe_gibraltar"># EUROPE_GIBRALTAR</a></h2>
@@ -3748,7 +3748,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_GIBRALTAR**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L354)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L354)**</sub><br>
 
 
 <h2><a name="europe_guernsey"># EUROPE_GUERNSEY</a></h2>
@@ -3758,7 +3758,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_GUERNSEY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L355)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L355)**</sub><br>
 
 
 <h2><a name="europe_helsinki"># EUROPE_HELSINKI</a></h2>
@@ -3768,7 +3768,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_HELSINKI**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L356)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L356)**</sub><br>
 
 
 <h2><a name="europe_isle_of_man"># EUROPE_ISLE_OF_MAN</a></h2>
@@ -3778,7 +3778,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_ISLE_OF_MAN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L357)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L357)**</sub><br>
 
 
 <h2><a name="europe_istanbul"># EUROPE_ISTANBUL</a></h2>
@@ -3788,7 +3788,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_ISTANBUL**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L358)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L358)**</sub><br>
 
 
 <h2><a name="europe_jersey"># EUROPE_JERSEY</a></h2>
@@ -3798,7 +3798,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_JERSEY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L359)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L359)**</sub><br>
 
 
 <h2><a name="europe_kaliningrad"># EUROPE_KALININGRAD</a></h2>
@@ -3808,7 +3808,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_KALININGRAD**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L360)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L360)**</sub><br>
 
 
 <h2><a name="europe_kiev"># EUROPE_KIEV</a></h2>
@@ -3818,7 +3818,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_KIEV**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L361)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L361)**</sub><br>
 
 
 <h2><a name="europe_kirov"># EUROPE_KIROV</a></h2>
@@ -3828,7 +3828,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_KIROV**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L362)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L362)**</sub><br>
 
 
 <h2><a name="europe_lisbon"># EUROPE_LISBON</a></h2>
@@ -3838,7 +3838,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_LISBON**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L363)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L363)**</sub><br>
 
 
 <h2><a name="europe_ljubljana"># EUROPE_LJUBLJANA</a></h2>
@@ -3848,7 +3848,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_LJUBLJANA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L364)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L364)**</sub><br>
 
 
 <h2><a name="europe_london"># EUROPE_LONDON</a></h2>
@@ -3858,7 +3858,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_LONDON**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L365)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L365)**</sub><br>
 
 
 <h2><a name="europe_luxembourg"># EUROPE_LUXEMBOURG</a></h2>
@@ -3868,7 +3868,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_LUXEMBOURG**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L366)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L366)**</sub><br>
 
 
 <h2><a name="europe_madrid"># EUROPE_MADRID</a></h2>
@@ -3878,7 +3878,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_MADRID**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L367)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L367)**</sub><br>
 
 
 <h2><a name="europe_malta"># EUROPE_MALTA</a></h2>
@@ -3888,7 +3888,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_MALTA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L368)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L368)**</sub><br>
 
 
 <h2><a name="europe_mariehamn"># EUROPE_MARIEHAMN</a></h2>
@@ -3898,7 +3898,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_MARIEHAMN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L369)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L369)**</sub><br>
 
 
 <h2><a name="europe_minsk"># EUROPE_MINSK</a></h2>
@@ -3908,7 +3908,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_MINSK**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L370)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L370)**</sub><br>
 
 
 <h2><a name="europe_monaco"># EUROPE_MONACO</a></h2>
@@ -3918,7 +3918,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_MONACO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L371)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L371)**</sub><br>
 
 
 <h2><a name="europe_moscow"># EUROPE_MOSCOW</a></h2>
@@ -3928,7 +3928,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_MOSCOW**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L372)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L372)**</sub><br>
 
 
 <h2><a name="europe_oslo"># EUROPE_OSLO</a></h2>
@@ -3938,7 +3938,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_OSLO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L373)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L373)**</sub><br>
 
 
 <h2><a name="europe_paris"># EUROPE_PARIS</a></h2>
@@ -3948,7 +3948,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_PARIS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L374)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L374)**</sub><br>
 
 
 <h2><a name="europe_podgorica"># EUROPE_PODGORICA</a></h2>
@@ -3958,7 +3958,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_PODGORICA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L375)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L375)**</sub><br>
 
 
 <h2><a name="europe_prague"># EUROPE_PRAGUE</a></h2>
@@ -3968,7 +3968,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_PRAGUE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L376)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L376)**</sub><br>
 
 
 <h2><a name="europe_riga"># EUROPE_RIGA</a></h2>
@@ -3978,7 +3978,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_RIGA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L377)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L377)**</sub><br>
 
 
 <h2><a name="europe_rome"># EUROPE_ROME</a></h2>
@@ -3988,7 +3988,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_ROME**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L378)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L378)**</sub><br>
 
 
 <h2><a name="europe_samara"># EUROPE_SAMARA</a></h2>
@@ -3998,7 +3998,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_SAMARA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L379)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L379)**</sub><br>
 
 
 <h2><a name="europe_san_marino"># EUROPE_SAN_MARINO</a></h2>
@@ -4008,7 +4008,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_SAN_MARINO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L380)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L380)**</sub><br>
 
 
 <h2><a name="europe_sarajevo"># EUROPE_SARAJEVO</a></h2>
@@ -4018,7 +4018,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_SARAJEVO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L381)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L381)**</sub><br>
 
 
 <h2><a name="europe_saratov"># EUROPE_SARATOV</a></h2>
@@ -4028,7 +4028,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_SARATOV**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L382)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L382)**</sub><br>
 
 
 <h2><a name="europe_simferopol"># EUROPE_SIMFEROPOL</a></h2>
@@ -4038,7 +4038,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_SIMFEROPOL**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L383)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L383)**</sub><br>
 
 
 <h2><a name="europe_skopje"># EUROPE_SKOPJE</a></h2>
@@ -4048,7 +4048,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_SKOPJE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L384)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L384)**</sub><br>
 
 
 <h2><a name="europe_sofia"># EUROPE_SOFIA</a></h2>
@@ -4058,7 +4058,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_SOFIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L385)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L385)**</sub><br>
 
 
 <h2><a name="europe_stockholm"># EUROPE_STOCKHOLM</a></h2>
@@ -4068,7 +4068,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_STOCKHOLM**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L386)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L386)**</sub><br>
 
 
 <h2><a name="europe_tallinn"># EUROPE_TALLINN</a></h2>
@@ -4078,7 +4078,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_TALLINN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L387)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L387)**</sub><br>
 
 
 <h2><a name="europe_tirane"># EUROPE_TIRANE</a></h2>
@@ -4088,7 +4088,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_TIRANE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L388)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L388)**</sub><br>
 
 
 <h2><a name="europe_ulyanovsk"># EUROPE_ULYANOVSK</a></h2>
@@ -4098,7 +4098,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_ULYANOVSK**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L389)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L389)**</sub><br>
 
 
 <h2><a name="europe_uzhgorod"># EUROPE_UZHGOROD</a></h2>
@@ -4108,7 +4108,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_UZHGOROD**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L390)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L390)**</sub><br>
 
 
 <h2><a name="europe_vaduz"># EUROPE_VADUZ</a></h2>
@@ -4118,7 +4118,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_VADUZ**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L391)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L391)**</sub><br>
 
 
 <h2><a name="europe_vatican"># EUROPE_VATICAN</a></h2>
@@ -4128,7 +4128,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_VATICAN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L392)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L392)**</sub><br>
 
 
 <h2><a name="europe_vienna"># EUROPE_VIENNA</a></h2>
@@ -4138,7 +4138,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_VIENNA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L393)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L393)**</sub><br>
 
 
 <h2><a name="europe_vilnius"># EUROPE_VILNIUS</a></h2>
@@ -4148,7 +4148,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_VILNIUS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L394)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L394)**</sub><br>
 
 
 <h2><a name="europe_volgograd"># EUROPE_VOLGOGRAD</a></h2>
@@ -4158,7 +4158,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_VOLGOGRAD**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L395)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L395)**</sub><br>
 
 
 <h2><a name="europe_warsaw"># EUROPE_WARSAW</a></h2>
@@ -4168,7 +4168,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_WARSAW**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L396)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L396)**</sub><br>
 
 
 <h2><a name="europe_zagreb"># EUROPE_ZAGREB</a></h2>
@@ -4178,7 +4178,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_ZAGREB**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L397)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L397)**</sub><br>
 
 
 <h2><a name="europe_zaporozhye"># EUROPE_ZAPOROZHYE</a></h2>
@@ -4188,7 +4188,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_ZAPOROZHYE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L398)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L398)**</sub><br>
 
 
 <h2><a name="europe_zurich"># EUROPE_ZURICH</a></h2>
@@ -4198,7 +4198,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::EUROPE_ZURICH**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L399)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L399)**</sub><br>
 
 
 <h2><a name="indian_antananarivo"># INDIAN_ANTANANARIVO</a></h2>
@@ -4208,7 +4208,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::INDIAN_ANTANANARIVO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L400)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L400)**</sub><br>
 
 
 <h2><a name="indian_chagos"># INDIAN_CHAGOS</a></h2>
@@ -4218,7 +4218,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::INDIAN_CHAGOS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L401)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L401)**</sub><br>
 
 
 <h2><a name="indian_christmas"># INDIAN_CHRISTMAS</a></h2>
@@ -4228,7 +4228,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::INDIAN_CHRISTMAS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L402)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L402)**</sub><br>
 
 
 <h2><a name="indian_cocos"># INDIAN_COCOS</a></h2>
@@ -4238,7 +4238,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::INDIAN_COCOS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L403)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L403)**</sub><br>
 
 
 <h2><a name="indian_comoro"># INDIAN_COMORO</a></h2>
@@ -4248,7 +4248,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::INDIAN_COMORO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L404)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L404)**</sub><br>
 
 
 <h2><a name="indian_kerguelen"># INDIAN_KERGUELEN</a></h2>
@@ -4258,7 +4258,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::INDIAN_KERGUELEN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L405)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L405)**</sub><br>
 
 
 <h2><a name="indian_mahe"># INDIAN_MAHE</a></h2>
@@ -4268,7 +4268,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::INDIAN_MAHE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L406)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L406)**</sub><br>
 
 
 <h2><a name="indian_maldives"># INDIAN_MALDIVES</a></h2>
@@ -4278,7 +4278,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::INDIAN_MALDIVES**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L407)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L407)**</sub><br>
 
 
 <h2><a name="indian_mauritius"># INDIAN_MAURITIUS</a></h2>
@@ -4288,7 +4288,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::INDIAN_MAURITIUS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L408)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L408)**</sub><br>
 
 
 <h2><a name="indian_mayotte"># INDIAN_MAYOTTE</a></h2>
@@ -4298,7 +4298,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::INDIAN_MAYOTTE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L409)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L409)**</sub><br>
 
 
 <h2><a name="indian_reunion"># INDIAN_REUNION</a></h2>
@@ -4308,7 +4308,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::INDIAN_REUNION**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L410)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L410)**</sub><br>
 
 
 <h2><a name="pacific_apia"># PACIFIC_APIA</a></h2>
@@ -4318,7 +4318,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_APIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L411)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L411)**</sub><br>
 
 
 <h2><a name="pacific_auckland"># PACIFIC_AUCKLAND</a></h2>
@@ -4328,7 +4328,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_AUCKLAND**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L412)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L412)**</sub><br>
 
 
 <h2><a name="pacific_bougainville"># PACIFIC_BOUGAINVILLE</a></h2>
@@ -4338,7 +4338,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_BOUGAINVILLE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L413)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L413)**</sub><br>
 
 
 <h2><a name="pacific_chatham"># PACIFIC_CHATHAM</a></h2>
@@ -4348,7 +4348,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_CHATHAM**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L414)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L414)**</sub><br>
 
 
 <h2><a name="pacific_chuuk"># PACIFIC_CHUUK</a></h2>
@@ -4358,7 +4358,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_CHUUK**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L415)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L415)**</sub><br>
 
 
 <h2><a name="pacific_easter"># PACIFIC_EASTER</a></h2>
@@ -4368,7 +4368,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_EASTER**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L416)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L416)**</sub><br>
 
 
 <h2><a name="pacific_efate"># PACIFIC_EFATE</a></h2>
@@ -4378,7 +4378,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_EFATE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L417)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L417)**</sub><br>
 
 
 <h2><a name="pacific_fakaofo"># PACIFIC_FAKAOFO</a></h2>
@@ -4388,7 +4388,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_FAKAOFO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L418)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L418)**</sub><br>
 
 
 <h2><a name="pacific_fiji"># PACIFIC_FIJI</a></h2>
@@ -4398,7 +4398,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_FIJI**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L419)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L419)**</sub><br>
 
 
 <h2><a name="pacific_funafuti"># PACIFIC_FUNAFUTI</a></h2>
@@ -4408,7 +4408,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_FUNAFUTI**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L420)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L420)**</sub><br>
 
 
 <h2><a name="pacific_galapagos"># PACIFIC_GALAPAGOS</a></h2>
@@ -4418,7 +4418,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_GALAPAGOS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L421)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L421)**</sub><br>
 
 
 <h2><a name="pacific_gambier"># PACIFIC_GAMBIER</a></h2>
@@ -4428,7 +4428,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_GAMBIER**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L422)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L422)**</sub><br>
 
 
 <h2><a name="pacific_guadalcanal"># PACIFIC_GUADALCANAL</a></h2>
@@ -4438,7 +4438,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_GUADALCANAL**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L423)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L423)**</sub><br>
 
 
 <h2><a name="pacific_guam"># PACIFIC_GUAM</a></h2>
@@ -4448,7 +4448,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_GUAM**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L424)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L424)**</sub><br>
 
 
 <h2><a name="pacific_honolulu"># PACIFIC_HONOLULU</a></h2>
@@ -4458,7 +4458,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_HONOLULU**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L425)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L425)**</sub><br>
 
 
 <h2><a name="pacific_kanton"># PACIFIC_KANTON</a></h2>
@@ -4468,7 +4468,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_KANTON**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L426)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L426)**</sub><br>
 
 
 <h2><a name="pacific_kiritimati"># PACIFIC_KIRITIMATI</a></h2>
@@ -4478,7 +4478,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_KIRITIMATI**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L427)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L427)**</sub><br>
 
 
 <h2><a name="pacific_kosrae"># PACIFIC_KOSRAE</a></h2>
@@ -4488,7 +4488,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_KOSRAE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L428)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L428)**</sub><br>
 
 
 <h2><a name="pacific_kwajalein"># PACIFIC_KWAJALEIN</a></h2>
@@ -4498,7 +4498,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_KWAJALEIN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L429)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L429)**</sub><br>
 
 
 <h2><a name="pacific_majuro"># PACIFIC_MAJURO</a></h2>
@@ -4508,7 +4508,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_MAJURO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L430)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L430)**</sub><br>
 
 
 <h2><a name="pacific_marquesas"># PACIFIC_MARQUESAS</a></h2>
@@ -4518,7 +4518,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_MARQUESAS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L431)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L431)**</sub><br>
 
 
 <h2><a name="pacific_midway"># PACIFIC_MIDWAY</a></h2>
@@ -4528,7 +4528,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_MIDWAY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L432)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L432)**</sub><br>
 
 
 <h2><a name="pacific_nauru"># PACIFIC_NAURU</a></h2>
@@ -4538,7 +4538,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_NAURU**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L433)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L433)**</sub><br>
 
 
 <h2><a name="pacific_niue"># PACIFIC_NIUE</a></h2>
@@ -4548,7 +4548,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_NIUE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L434)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L434)**</sub><br>
 
 
 <h2><a name="pacific_norfolk"># PACIFIC_NORFOLK</a></h2>
@@ -4558,7 +4558,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_NORFOLK**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L435)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L435)**</sub><br>
 
 
 <h2><a name="pacific_noumea"># PACIFIC_NOUMEA</a></h2>
@@ -4568,7 +4568,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_NOUMEA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L436)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L436)**</sub><br>
 
 
 <h2><a name="pacific_pago_pago"># PACIFIC_PAGO_PAGO</a></h2>
@@ -4578,7 +4578,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_PAGO_PAGO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L437)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L437)**</sub><br>
 
 
 <h2><a name="pacific_palau"># PACIFIC_PALAU</a></h2>
@@ -4588,7 +4588,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_PALAU**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L438)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L438)**</sub><br>
 
 
 <h2><a name="pacific_pitcairn"># PACIFIC_PITCAIRN</a></h2>
@@ -4598,7 +4598,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_PITCAIRN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L439)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L439)**</sub><br>
 
 
 <h2><a name="pacific_pohnpei"># PACIFIC_POHNPEI</a></h2>
@@ -4608,7 +4608,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_POHNPEI**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L440)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L440)**</sub><br>
 
 
 <h2><a name="pacific_port_moresby"># PACIFIC_PORT_MORESBY</a></h2>
@@ -4618,7 +4618,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_PORT_MORESBY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L441)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L441)**</sub><br>
 
 
 <h2><a name="pacific_rarotonga"># PACIFIC_RAROTONGA</a></h2>
@@ -4628,7 +4628,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_RAROTONGA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L442)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L442)**</sub><br>
 
 
 <h2><a name="pacific_saipan"># PACIFIC_SAIPAN</a></h2>
@@ -4638,7 +4638,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_SAIPAN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L443)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L443)**</sub><br>
 
 
 <h2><a name="pacific_tahiti"># PACIFIC_TAHITI</a></h2>
@@ -4648,7 +4648,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_TAHITI**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L444)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L444)**</sub><br>
 
 
 <h2><a name="pacific_tarawa"># PACIFIC_TARAWA</a></h2>
@@ -4658,7 +4658,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_TARAWA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L445)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L445)**</sub><br>
 
 
 <h2><a name="pacific_tongatapu"># PACIFIC_TONGATAPU</a></h2>
@@ -4668,7 +4668,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_TONGATAPU**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L446)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L446)**</sub><br>
 
 
 <h2><a name="pacific_wake"># PACIFIC_WAKE</a></h2>
@@ -4678,7 +4678,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_WAKE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L447)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L447)**</sub><br>
 
 
 <h2><a name="pacific_wallis"># PACIFIC_WALLIS</a></h2>
@@ -4688,7 +4688,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::PACIFIC_WALLIS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L448)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L448)**</sub><br>
 
 
 <h2><a name="utc"># UTC</a></h2>
@@ -4698,6 +4698,6 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\TimeZone::UTC**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L449)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.TimeZone.php#L449)**</sub><br>
 
 

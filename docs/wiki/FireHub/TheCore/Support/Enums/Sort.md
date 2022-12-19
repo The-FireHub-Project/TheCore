@@ -6,9 +6,9 @@ enum \FireHub\TheCore\Support\Enums\Sort
 ### ### Sorting enum
 <sub>Fully Qualified Enum Name:  **\FireHub\TheCore\Support\Enums\Sort**</sub><br>
 <sub>This enum is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/firehub.Sort.php#L23)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/enums/firehub.Sort.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/enums/firehub.Sort.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/firehub.Sort.php#L23)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/enums/firehub.Sort.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/enums/firehub.Sort.php)**</sub><br>
 
 <sub>_This enum was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -41,7 +41,7 @@ enum \FireHub\TheCore\Support\Enums\Sort
 
 ### ### Compare items normally
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Sort::SORT_REGULAR**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/firehub.Sort.php#L29)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/firehub.Sort.php#L29)**</sub><br>
 
 
 <h2><a name="sort_numeric"># SORT_NUMERIC</a></h2>
@@ -52,7 +52,7 @@ enum \FireHub\TheCore\Support\Enums\Sort
 
 ### ### Compare items numerically
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Sort::SORT_NUMERIC**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/firehub.Sort.php#L35)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/firehub.Sort.php#L35)**</sub><br>
 
 
 <h2><a name="sort_string"># SORT_STRING</a></h2>
@@ -63,7 +63,7 @@ enum \FireHub\TheCore\Support\Enums\Sort
 
 ### ### Compare items as strings
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Sort::SORT_STRING**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/firehub.Sort.php#L41)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/firehub.Sort.php#L41)**</sub><br>
 
 
 <h2><a name="sort_locale_string"># SORT_LOCALE_STRING</a></h2>
@@ -74,7 +74,7 @@ enum \FireHub\TheCore\Support\Enums\Sort
 
 ### ### Compare items as strings, based on the current locale. It uses the locale, which can be changed using setlocale()
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Sort::SORT_LOCALE_STRING**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/firehub.Sort.php#L47)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/firehub.Sort.php#L47)**</sub><br>
 
 
 <h2><a name="sort_natural"># SORT_NATURAL</a></h2>
@@ -85,7 +85,7 @@ enum \FireHub\TheCore\Support\Enums\Sort
 
 ### ### Compare items as strings using "natural ordering" like natsort()
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Sort::SORT_NATURAL**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/firehub.Sort.php#L53)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/firehub.Sort.php#L53)**</sub><br>
 
 
 <h2><a name="sort_string_flag_case"># SORT_STRING_FLAG_CASE</a></h2>
@@ -96,7 +96,7 @@ enum \FireHub\TheCore\Support\Enums\Sort
 
 ### ### Sort strings case-insensitively
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Sort::SORT_STRING_FLAG_CASE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/firehub.Sort.php#L59)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/firehub.Sort.php#L59)**</sub><br>
 
 
 <h2><a name="sort_natural_flag_case"># SORT_NATURAL_FLAG_CASE</a></h2>
@@ -107,6 +107,6 @@ enum \FireHub\TheCore\Support\Enums\Sort
 
 ### ### Sort natural case-insensitively
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Sort::SORT_NATURAL_FLAG_CASE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/firehub.Sort.php#L65)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/firehub.Sort.php#L65)**</sub><br>
 
 

@@ -6,9 +6,9 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Format\Day
 ### ### Day format enum
 <sub>Fully Qualified Enum Name:  **\FireHub\TheCore\Support\Enums\DateTime\Format\Day**</sub><br>
 <sub>This enum is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/format/firehub.Day.php#L23)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/enums/datetime/format/firehub.Day.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/enums/datetime/format/firehub.Day.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Day.php#L23)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/enums/datetime/format/firehub.Day.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/enums/datetime/format/firehub.Day.php)**</sub><br>
 
 <sub>_This enum was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -42,7 +42,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Format\Day
 
 ### ### The day of the year (starting from 0)
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Format\Day::NUMBER**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/format/firehub.Day.php#L34)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Day.php#L34)**</sub><br>
 
 
 ### Examples:
@@ -61,7 +61,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Format\Day
 
 ### ### Day of the month, 2 digits with leading zeros
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Format\Day::NUMERIC_IN_MONTH_LONG**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/format/firehub.Day.php#L45)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Day.php#L45)**</sub><br>
 
 
 ### Examples:
@@ -80,7 +80,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Format\Day
 
 ### ### Day of the month without leading zeros
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Format\Day::NUMERIC_IN_MONTH_SHORT**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/format/firehub.Day.php#L56)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Day.php#L56)**</sub><br>
 
 
 ### Examples:
@@ -99,7 +99,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Format\Day
 
 ### ### Full textual representation of the day of the week
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Format\Day::TEXTUAL_IN_WEEK_LONG**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/format/firehub.Day.php#L67)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Day.php#L67)**</sub><br>
 
 
 ### Examples:
@@ -118,7 +118,7 @@ Sunday through Saturday
 
 ### ### Textual representation of a day, three letters
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Format\Day::TEXTUAL_IN_WEEK_SHORT**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/format/firehub.Day.php#L78)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Day.php#L78)**</sub><br>
 
 
 ### Examples:
@@ -137,7 +137,7 @@ Mon through Sun
 
 ### ### Numeric representation of the day of the week
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Format\Day::NUMERIC_IN_WEEK**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/format/firehub.Day.php#L89)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Day.php#L89)**</sub><br>
 
 
 ### Examples:
@@ -156,7 +156,7 @@ Mon through Sun
 
 ### ### ISO 8601 numeric representation of the day of the weeK
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Format\Day::NUMERIC_IN_WEEK_ISO_8601**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/format/firehub.Day.php#L100)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Day.php#L100)**</sub><br>
 
 
 ### Examples:
@@ -175,7 +175,7 @@ Mon through Sun
 
 ### ### English ordinal suffix for the day of the month, 2 characters
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Format\Day::SUFFIX**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/format/firehub.Day.php#L113)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Day.php#L113)**</sub><br>
 
 
 ### Examples:

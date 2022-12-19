@@ -10,9 +10,9 @@ call main Firehub classes and its components._
 
 <sub>Fully Qualified Class Name:  **\FireHub\TheCore\Initializers\Autoload**</sub><br>
 <sub>This class is part of package:  **\FireHub\Initializers**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/initializers/firehub.Autoload.php#L51)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/initializers/firehub.Autoload.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/initializers/firehub.Autoload.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/initializers/firehub.Autoload.php#L51)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/initializers/firehub.Autoload.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/initializers/firehub.Autoload.php)**</sub><br>
 
 <sub>_This class was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -42,7 +42,7 @@ call main Firehub classes and its components._
 
 ### ### Register new autoload implementation
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Initializers\Autoload::register()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/initializers/firehub.Autoload.php#L121)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/initializers/firehub.Autoload.php#L121)**</sub><br>
 
 
 ### Parameters:
@@ -103,7 +103,7 @@ $autoload->register(
 
 ### ### Unregister all autoload implementations
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Initializers\Autoload::unregister()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/initializers/firehub.Autoload.php#L142)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/initializers/firehub.Autoload.php#L142)**</sub><br>
 
 
 ### Returns:
@@ -118,7 +118,7 @@ $autoload->register(
 
 ### ### Get all autoload implementations
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Initializers\Autoload::functions()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/initializers/firehub.Autoload.php#L154)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/initializers/firehub.Autoload.php#L154)**</sub><br>
 
 
 ### Returns:
@@ -133,7 +133,7 @@ $autoload->register(
 
 ### ### Try to load class from registered auto-loaders
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Initializers\Autoload::load()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/initializers/firehub.Autoload.php#L175)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/initializers/firehub.Autoload.php#L175)**</sub><br>
 
 
 ### Parameters:

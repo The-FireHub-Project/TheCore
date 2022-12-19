@@ -2,7 +2,7 @@
 layout: default
 title: Calendar
 parent: \FireHub\Support\Calendar
-grand_parent: Core v0.2
+grand_parent: TheCore v0.2
 has_children: false
 ---
 
@@ -22,9 +22,9 @@ final class \FireHub\TheCore\Support\Calendar\Calendar()
 
 <sub>Fully Qualified Class Name:  **\FireHub\TheCore\Support\Calendar\Calendar**</sub><br>
 <sub>This class is part of package:  **\FireHub\Support\Calendar**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/calendar/firehub.Calendar.php#L31)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/calendar/firehub.Calendar.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/calendar/firehub.Calendar.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/calendar/firehub.Calendar.php#L31)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/calendar/firehub.Calendar.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/calendar/firehub.Calendar.php)**</sub><br>
 
 <sub>_This class was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -42,7 +42,7 @@ final class \FireHub\TheCore\Support\Calendar\Calendar()
 
 | Type  | Name  | Title | Default |
 | :---  | :---  | :---  | :---    |
-|private [\DateTime](/core/v0.2\DateTime)|<a href="#$datetime">dateTime</a>|### Base DateTime object||
+|private [\DateTime](/thecore/v0.2\DateTime)|<a href="#$datetime">dateTime</a>|### Base DateTime object||
 
 
 ## Methods table
@@ -77,7 +77,7 @@ private \DateTime \FireHub\TheCore\Support\Calendar\Calendar::$dateTime
 ### ### Base DateTime object
 
 <sub>Fully Qualified Property Name:  **\FireHub\TheCore\Support\Calendar\Calendar::$dateTime**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/calendar/firehub.Calendar.php#L39)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/calendar/firehub.Calendar.php#L39)**</sub><br>
 
 ### Changelog:
 
@@ -99,7 +99,7 @@ public \FireHub\TheCore\Support\Calendar\Calendar::__construct(string $datetime 
 ### ### Constructor
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\Calendar\Calendar::__construct()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/calendar/firehub.Calendar.php#L53)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/calendar/firehub.Calendar.php#L53)**</sub><br>
 
 ### Changelog:
 
@@ -112,7 +112,7 @@ A date/time string._
 
 ### Throws:
 
-* [\Error](/core/v0.2\Error) _If $datetime is not in valid format._
+* [\Error](/thecore/v0.2\Error) _If $datetime is not in valid format._
 
 ### See also:
 
@@ -128,7 +128,7 @@ public static \FireHub\TheCore\Support\Calendar\Calendar::now():self
 ### ### Set calendar to current date and time
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\Calendar\Calendar::now()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/calendar/firehub.Calendar.php#L75)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/calendar/firehub.Calendar.php#L75)**</sub><br>
 
 ### Changelog:
 
@@ -136,7 +136,7 @@ public static \FireHub\TheCore\Support\Calendar\Calendar::now():self
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\Enums\DateTime\TimeName::NOW](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeName#now) _To get current date and time._
+* [\FireHub\TheCore\Support\Enums\DateTime\TimeName::NOW](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeName#now) _To get current date and time._
 
 ### Returns:
 
@@ -152,7 +152,7 @@ public static \FireHub\TheCore\Support\Calendar\Calendar::today(\FireHub\TheCore
 ### ### Set calendar to current date
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\Calendar\Calendar::today()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/calendar/firehub.Calendar.php#L95)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/calendar/firehub.Calendar.php#L95)**</sub><br>
 
 ### Changelog:
 
@@ -160,13 +160,13 @@ public static \FireHub\TheCore\Support\Calendar\Calendar::today(\FireHub\TheCore
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\Enums\DateTime\TimeName::MIDNIGHT](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeName#midnight) _As default parametar._
-* [\FireHub\TheCore\Support\Enums\DateTime\DayName::TODAY](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\DayName#today) _To get current date._
-* [\FireHub\TheCore\Support\LowLevel\DataIs::string()](/core/v0.2\FireHub\TheCore\Support\LowLevel\DataIs#string()) _To check if $at is a string._
+* [\FireHub\TheCore\Support\Enums\DateTime\TimeName::MIDNIGHT](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeName#midnight) _As default parametar._
+* [\FireHub\TheCore\Support\Enums\DateTime\DayName::TODAY](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\DayName#today) _To get current date._
+* [\FireHub\TheCore\Support\LowLevel\DataIs::string()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\DataIs#string()) _To check if $at is a string._
 
 ### Parameters:
 
-* [\FireHub\TheCore\Support\Enums\DateTime\TimeName](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeName) or string $at = TimeName::MIDNIGHT _[optional] 
+* [\FireHub\TheCore\Support\Enums\DateTime\TimeName](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeName) or string $at = TimeName::MIDNIGHT _[optional] 
 Sets time for datetime timestamp._
 
 ### Returns:
@@ -183,7 +183,7 @@ public static \FireHub\TheCore\Support\Calendar\Calendar::yesterday(\FireHub\The
 ### ### Set calendar to yesterday date
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\Calendar\Calendar::yesterday()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/calendar/firehub.Calendar.php#L115)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/calendar/firehub.Calendar.php#L115)**</sub><br>
 
 ### Changelog:
 
@@ -191,13 +191,13 @@ public static \FireHub\TheCore\Support\Calendar\Calendar::yesterday(\FireHub\The
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\Enums\DateTime\TimeName::MIDNIGHT](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeName#midnight) _As default parametar._
-* [\FireHub\TheCore\Support\Enums\DateTime\DayName::YESTERDAY](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\DayName#yesterday) _To get yesterday's date._
-* [\FireHub\TheCore\Support\LowLevel\DataIs::string()](/core/v0.2\FireHub\TheCore\Support\LowLevel\DataIs#string()) _To check if $at is a string._
+* [\FireHub\TheCore\Support\Enums\DateTime\TimeName::MIDNIGHT](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeName#midnight) _As default parametar._
+* [\FireHub\TheCore\Support\Enums\DateTime\DayName::YESTERDAY](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\DayName#yesterday) _To get yesterday's date._
+* [\FireHub\TheCore\Support\LowLevel\DataIs::string()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\DataIs#string()) _To check if $at is a string._
 
 ### Parameters:
 
-* [\FireHub\TheCore\Support\Enums\DateTime\TimeName](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeName) or string $at = TimeName::MIDNIGHT _[optional] 
+* [\FireHub\TheCore\Support\Enums\DateTime\TimeName](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeName) or string $at = TimeName::MIDNIGHT _[optional] 
 Sets time for datetime timestamp._
 
 ### Returns:
@@ -214,7 +214,7 @@ public static \FireHub\TheCore\Support\Calendar\Calendar::relative(int $number, 
 ### ### Set relative time and date
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\Calendar\Calendar::relative()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/calendar/firehub.Calendar.php#L141)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/calendar/firehub.Calendar.php#L141)**</sub><br>
 
 ### Changelog:
 
@@ -222,15 +222,15 @@ public static \FireHub\TheCore\Support\Calendar\Calendar::relative(int $number, 
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\Enums\DateTime\Unit](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\Unit) _As parametar._
-* [\FireHub\TheCore\Support\Enums\DateTime\TimeName::NOW](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeName#now) _As default parametar._
-* [\FireHub\TheCore\Support\LowLevel\DataIs::string()](/core/v0.2\FireHub\TheCore\Support\LowLevel\DataIs#string()) _To check if $at is a string._
+* [\FireHub\TheCore\Support\Enums\DateTime\Unit](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\Unit) _As parametar._
+* [\FireHub\TheCore\Support\Enums\DateTime\TimeName::NOW](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeName#now) _As default parametar._
+* [\FireHub\TheCore\Support\LowLevel\DataIs::string()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\DataIs#string()) _To check if $at is a string._
 
 ### Parameters:
 
 * int $number _Number, positive or negative._
-* [\FireHub\TheCore\Support\Enums\DateTime\Unit](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\Unit) $unit _Unit to use._
-* [\FireHub\TheCore\Support\Enums\DateTime\TimeName](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeName) or string $at = TimeName::NOW _[optional] 
+* [\FireHub\TheCore\Support\Enums\DateTime\Unit](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\Unit) $unit _Unit to use._
+* [\FireHub\TheCore\Support\Enums\DateTime\TimeName](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeName) or string $at = TimeName::NOW _[optional] 
 Sets time for datetime timestamp._
 
 ### Returns:
@@ -247,7 +247,7 @@ public static \FireHub\TheCore\Support\Calendar\Calendar::firstDay(\FireHub\TheC
 ### ### Set calendar to first day of specified month
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\Calendar\Calendar::firstDay()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/calendar/firehub.Calendar.php#L169)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/calendar/firehub.Calendar.php#L169)**</sub><br>
 
 ### Changelog:
 
@@ -255,19 +255,19 @@ public static \FireHub\TheCore\Support\Calendar\Calendar::firstDay(\FireHub\TheC
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\Enums\DateTime\Month](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\Month) _As parametar._
-* [\FireHub\TheCore\Support\Enums\DateTime\TimeName::MIDNIGHT](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeName#midnight) _As default parametar._
-* [\FireHub\TheCore\Support\Enums\DateTime\Ordinal::FIRST](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\Ordinal#first) _To get first day of the first of the selected month._
-* [\FireHub\TheCore\Support\LowLevel\DateAndTime::formatInteger()](/core/v0.2\FireHub\TheCore\Support\LowLevel\DateAndTime#formatinteger()) _To get current month as integer._
-* [\FireHub\TheCore\Support\LowLevel\DataIs::string()](/core/v0.2\FireHub\TheCore\Support\LowLevel\DataIs#string()) _To check if $at is a string._
+* [\FireHub\TheCore\Support\Enums\DateTime\Month](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\Month) _As parametar._
+* [\FireHub\TheCore\Support\Enums\DateTime\TimeName::MIDNIGHT](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeName#midnight) _As default parametar._
+* [\FireHub\TheCore\Support\Enums\DateTime\Ordinal::FIRST](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\Ordinal#first) _To get first day of the first of the selected month._
+* [\FireHub\TheCore\Support\LowLevel\DateAndTime::formatInteger()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\DateAndTime#formatinteger()) _To get current month as integer._
+* [\FireHub\TheCore\Support\LowLevel\DataIs::string()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\DataIs#string()) _To check if $at is a string._
 
 ### Parameters:
 
-* [\FireHub\TheCore\Support\Enums\DateTime\Month](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\Month) or null $month = null _[optional] 
+* [\FireHub\TheCore\Support\Enums\DateTime\Month](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\Month) or null $month = null _[optional] 
 Sets month for datetime, or current month if null._
 * int or null $year = null _[optional] 
 Sets year for datetime, or current year if null._
-* [\FireHub\TheCore\Support\Enums\DateTime\TimeName](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeName) or string $at = TimeName::MIDNIGHT _[optional] 
+* [\FireHub\TheCore\Support\Enums\DateTime\TimeName](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeName) or string $at = TimeName::MIDNIGHT _[optional] 
 Sets time for datetime timestamp._
 
 ### Returns:
@@ -284,7 +284,7 @@ public static \FireHub\TheCore\Support\Calendar\Calendar::lastDay(\FireHub\TheCo
 ### ### Set datetime to last day of specified month
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\Calendar\Calendar::lastDay()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/calendar/firehub.Calendar.php#L197)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/calendar/firehub.Calendar.php#L197)**</sub><br>
 
 ### Changelog:
 
@@ -292,19 +292,19 @@ public static \FireHub\TheCore\Support\Calendar\Calendar::lastDay(\FireHub\TheCo
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\Enums\DateTime\MonthAs](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\MonthAs) _parametar._
-* [\FireHub\TheCore\Support\Enums\DateTime\TimeName::MIDNIGHT](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeName#midnight) _As default parametar._
-* [\FireHub\TheCore\Support\Enums\DateTime\Ordinal::LAST](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\Ordinal#last) _To get last day of the first of the selected month._
-* [\FireHub\TheCore\Support\LowLevel\DateAndTime::formatInteger()](/core/v0.2\FireHub\TheCore\Support\LowLevel\DateAndTime#formatinteger()) _To get current month as integer._
-* [\FireHub\TheCore\Support\LowLevel\DataIs::string()](/core/v0.2\FireHub\TheCore\Support\LowLevel\DataIs#string()) _To check if $at is a string._
+* [\FireHub\TheCore\Support\Enums\DateTime\MonthAs](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\MonthAs) _parametar._
+* [\FireHub\TheCore\Support\Enums\DateTime\TimeName::MIDNIGHT](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeName#midnight) _As default parametar._
+* [\FireHub\TheCore\Support\Enums\DateTime\Ordinal::LAST](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\Ordinal#last) _To get last day of the first of the selected month._
+* [\FireHub\TheCore\Support\LowLevel\DateAndTime::formatInteger()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\DateAndTime#formatinteger()) _To get current month as integer._
+* [\FireHub\TheCore\Support\LowLevel\DataIs::string()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\DataIs#string()) _To check if $at is a string._
 
 ### Parameters:
 
-* [\FireHub\TheCore\Support\Enums\DateTime\Month](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\Month) or null $month _[optional] 
+* [\FireHub\TheCore\Support\Enums\DateTime\Month](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\Month) or null $month _[optional] 
 Sets month for datetime, or current month if null._
 * int or null $year = null _[optional] 
 Sets year for datetime, or current year if null._
-* [\FireHub\TheCore\Support\Enums\DateTime\TimeName](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeName) or string $at = TimeName::MIDNIGHT _[optional] 
+* [\FireHub\TheCore\Support\Enums\DateTime\TimeName](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeName) or string $at = TimeName::MIDNIGHT _[optional] 
 Sets time for datetime timestamp._
 
 ### Returns:
@@ -321,7 +321,7 @@ public static \FireHub\TheCore\Support\Calendar\Calendar::weekDay(\FireHub\TheCo
 ### ### Set datetime by ordinal day of specified weekday name and month
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\Calendar\Calendar::weekDay()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/calendar/firehub.Calendar.php#L231)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/calendar/firehub.Calendar.php#L231)**</sub><br>
 
 ### Changelog:
 
@@ -329,21 +329,21 @@ public static \FireHub\TheCore\Support\Calendar\Calendar::weekDay(\FireHub\TheCo
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\Enums\DateTime\WeekDay](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\WeekDay) _As parametar._
-* [\FireHub\TheCore\Support\Enums\DateTime\Month](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\Month) _As parametar._
-* [\FireHub\TheCore\Support\Enums\DateTime\TimeName::MIDNIGHT](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeName#midnight) _As default parametar._
-* [\FireHub\TheCore\Support\LowLevel\DateAndTime::formatInteger()](/core/v0.2\FireHub\TheCore\Support\LowLevel\DateAndTime#formatinteger()) _To get current month as integer._
-* [\FireHub\TheCore\Support\LowLevel\DataIs::string()](/core/v0.2\FireHub\TheCore\Support\LowLevel\DataIs#string()) _To check if $at is a string._
+* [\FireHub\TheCore\Support\Enums\DateTime\WeekDay](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\WeekDay) _As parametar._
+* [\FireHub\TheCore\Support\Enums\DateTime\Month](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\Month) _As parametar._
+* [\FireHub\TheCore\Support\Enums\DateTime\TimeName::MIDNIGHT](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeName#midnight) _As default parametar._
+* [\FireHub\TheCore\Support\LowLevel\DateAndTime::formatInteger()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\DateAndTime#formatinteger()) _To get current month as integer._
+* [\FireHub\TheCore\Support\LowLevel\DataIs::string()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\DataIs#string()) _To check if $at is a string._
 
 ### Parameters:
 
-* [\FireHub\TheCore\Support\Enums\DateTime\Ordinal](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\Ordinal) $ordinal _Sets ordinal value for datetime._
-* [\FireHub\TheCore\Support\Enums\DateTime\WeekDay](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\WeekDay) $weekday _Sets weekday name for datetime._
-* [\FireHub\TheCore\Support\Enums\DateTime\Month](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\Month) or null $month = null _[optional] 
+* [\FireHub\TheCore\Support\Enums\DateTime\Ordinal](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\Ordinal) $ordinal _Sets ordinal value for datetime._
+* [\FireHub\TheCore\Support\Enums\DateTime\WeekDay](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\WeekDay) $weekday _Sets weekday name for datetime._
+* [\FireHub\TheCore\Support\Enums\DateTime\Month](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\Month) or null $month = null _[optional] 
 Sets month for datetime, or current month if null._
 * int or null $year = null _[optional] 
 Sets year for datetime, or current year if null._
-* [\FireHub\TheCore\Support\Enums\DateTime\TimeName](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeName) or string $at = TimeName::MIDNIGHT _[optional] 
+* [\FireHub\TheCore\Support\Enums\DateTime\TimeName](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeName) or string $at = TimeName::MIDNIGHT _[optional] 
 Sets time for datetime timestamp._
 
 ### Returns:
@@ -360,7 +360,7 @@ public static \FireHub\TheCore\Support\Calendar\Calendar::fromTimestamp(int $tim
 ### ### Set datetime to yesterday date
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\Calendar\Calendar::fromTimestamp()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/calendar/firehub.Calendar.php#L247)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/calendar/firehub.Calendar.php#L247)**</sub><br>
 
 ### Changelog:
 
@@ -384,7 +384,7 @@ public \FireHub\TheCore\Support\Calendar\Calendar::getTimeZone():\FireHub\TheCor
 ### ### Gets current timezone
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\Calendar\Calendar::getTimeZone()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/calendar/firehub.Calendar.php#L264)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/calendar/firehub.Calendar.php#L264)**</sub><br>
 
 ### Changelog:
 
@@ -392,16 +392,16 @@ public \FireHub\TheCore\Support\Calendar\Calendar::getTimeZone():\FireHub\TheCor
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\Enums\DateTime\TimeZone](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeZone) _As return._
-* [\FireHub\TheCore\Support\LowLevel\TimeZone::getDefaultTimezone()](/core/v0.2\FireHub\TheCore\Support\LowLevel\TimeZone#getdefaulttimezone()) _To get default timezone._
+* [\FireHub\TheCore\Support\Enums\DateTime\TimeZone](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeZone) _As return._
+* [\FireHub\TheCore\Support\LowLevel\TimeZone::getDefaultTimezone()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\TimeZone#getdefaulttimezone()) _To get default timezone._
 
 ### Throws:
 
-* [\Error](/core/v0.2\Error) _If system could not get current timezone._
+* [\Error](/thecore/v0.2\Error) _If system could not get current timezone._
 
 ### Returns:
 
-* [\FireHub\TheCore\Support\Enums\DateTime\TimeZone](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeZone) _Current timezone._
+* [\FireHub\TheCore\Support\Enums\DateTime\TimeZone](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeZone) _Current timezone._
 
 <h2><a name="settimezone()"># setTimeZone()</a></h2>
 ***
@@ -413,7 +413,7 @@ public static \FireHub\TheCore\Support\Calendar\Calendar::setTimeZone(\FireHub\T
 ### ### Sets current timezone
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\Calendar\Calendar::setTimeZone()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/calendar/firehub.Calendar.php#L281)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/calendar/firehub.Calendar.php#L281)**</sub><br>
 
 ### Changelog:
 
@@ -421,16 +421,16 @@ public static \FireHub\TheCore\Support\Calendar\Calendar::setTimeZone(\FireHub\T
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\Enums\DateTime\TimeZone](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeZone) _As parameter._
-* [\FireHub\TheCore\Support\LowLevel\TimeZone::setDefaultTimezone()](/core/v0.2\FireHub\TheCore\Support\LowLevel\TimeZone#setdefaulttimezone()) _To set default timezone._
+* [\FireHub\TheCore\Support\Enums\DateTime\TimeZone](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeZone) _As parameter._
+* [\FireHub\TheCore\Support\LowLevel\TimeZone::setDefaultTimezone()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\TimeZone#setdefaulttimezone()) _To set default timezone._
 
 ### Parameters:
 
-* [\FireHub\TheCore\Support\Enums\DateTime\TimeZone](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeZone) $time_zone 
+* [\FireHub\TheCore\Support\Enums\DateTime\TimeZone](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeZone) $time_zone 
 
 ### Throws:
 
-* [\Error](/core/v0.2\Error) _If system could not set timezone._
+* [\Error](/thecore/v0.2\Error) _If system could not set timezone._
 
 ### Returns:
 

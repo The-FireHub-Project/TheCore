@@ -2,7 +2,7 @@
 layout: default
 title: Side
 parent: \FireHub\Support
-grand_parent: Core v0.2
+grand_parent: TheCore v0.2
 has_children: false
 ---
 
@@ -18,9 +18,9 @@ enum \FireHub\TheCore\Support\Enums\Side
 
 <sub>Fully Qualified Enum Name:  **\FireHub\TheCore\Support\Enums\Side**</sub><br>
 <sub>This enum is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/firehub.Side.php#L23)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/enums/firehub.Side.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/enums/firehub.Side.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/firehub.Side.php#L23)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/enums/firehub.Side.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/enums/firehub.Side.php)**</sub><br>
 
 <sub>_This enum was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -57,7 +57,7 @@ enum \FireHub\TheCore\Support\Enums\Side
 ### ### Use left side
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Side::LEFT**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/firehub.Side.php#L29)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/firehub.Side.php#L29)**</sub><br>
 
 ### Changelog:
 
@@ -78,7 +78,7 @@ enum \FireHub\TheCore\Support\Enums\Side
 ### ### Use right side
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Side::RIGHT**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/firehub.Side.php#L35)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/firehub.Side.php#L35)**</sub><br>
 
 ### Changelog:
 
@@ -105,7 +105,7 @@ enum \FireHub\TheCore\Support\Enums\Side
 ### ### Use both sides
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Side::BOTH**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/firehub.Side.php#L41)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/firehub.Side.php#L41)**</sub><br>
 
 ### Changelog:
 

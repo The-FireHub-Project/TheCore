@@ -9,9 +9,9 @@ _This low level support class is for manipulating data._
 
 <sub>Fully Qualified Class Name:  **\FireHub\TheCore\Support\LowLevel\Data**</sub><br>
 <sub>This class is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Data.php#L45)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/lowlevel/firehub.Data.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/lowlevel/firehub.Data.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Data.php#L45)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/lowlevel/firehub.Data.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/lowlevel/firehub.Data.php)**</sub><br>
 
 <sub>_This class was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -43,7 +43,7 @@ static \FireHub\TheCore\Support\LowLevel\Data::getType(mixed $value):\FireHub\Th
 
 ### ### Get data type
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Data::getType()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Data.php#L59)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Data.php#L59)**</sub><br>
 
 
 ### Parameters:
@@ -62,7 +62,7 @@ static \FireHub\TheCore\Support\LowLevel\Data::setType(mixed $value, \FireHub\Th
 
 ### ### Convert data to type
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Data::setType()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Data.php#L97)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Data.php#L97)**</sub><br>
 
 
 ### Parameters:
@@ -79,7 +79,7 @@ static \FireHub\TheCore\Support\LowLevel\Data::serialize(string|int|float|bool|a
 
 ### ### Generates storable representation of data
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Data::serialize()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Data.php#L122)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Data.php#L122)**</sub><br>
 
 
 ### Parameters:
@@ -98,7 +98,7 @@ static \FireHub\TheCore\Support\LowLevel\Data::unserialize(string $data, bool|ar
 
 ### ### Creates a PHP value from a stored representation
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Data::unserialize()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Data.php#L152)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Data.php#L152)**</sub><br>
 
 
 ### Parameters:
@@ -116,7 +116,7 @@ static \FireHub\TheCore\Support\LowLevel\Data::jsonEncode(mixed $value, \FireHub
 
 ### ### Returns JSON representation of a value
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Data::jsonEncode()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Data.php#L183)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Data.php#L183)**</sub><br>
 
 
 ### Parameters:
@@ -137,7 +137,7 @@ static \FireHub\TheCore\Support\LowLevel\Data::jsonDecode(string $json, positive
 
 ### ### Decodes JSON string
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Data::jsonDecode()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Data.php#L216)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Data.php#L216)**</sub><br>
 
 
 ### Parameters:

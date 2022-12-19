@@ -2,7 +2,7 @@
 layout: default
 title: Firehub
 parent: \FireHub
-grand_parent: Core v0.2
+grand_parent: TheCore v0.2
 has_children: false
 ---
 
@@ -25,9 +25,9 @@ components for FireHub bootstrapping._
 
 <sub>Fully Qualified Class Name:  **\FireHub\TheCore\Firehub**</sub><br>
 <sub>This class is part of package:  **\FireHub**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/firehub.FireHub.php#L41)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/firehub.FireHub.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/firehub.FireHub.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/firehub.FireHub.php#L41)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/firehub.FireHub.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/firehub.FireHub.php)**</sub><br>
 
 <sub>_This class was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -71,7 +71,7 @@ public \FireHub\TheCore\Firehub::boot(\FireHub\TheCore\Initializers\Enums\Kernel
 _This methode serves for instantiating FireHub framework._
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Firehub::boot()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/firehub.FireHub.php#L58)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/firehub.FireHub.php#L58)**</sub><br>
 
 ### Changelog:
 
@@ -80,7 +80,7 @@ _This methode serves for instantiating FireHub framework._
 
 ### Parameters:
 
-* [\FireHub\TheCore\Initializers\Enums\Kernel](/core/v0.2\FireHub\TheCore\Initializers\Enums\Kernel) $kernel _Pick Kernel from Kernel enum, process your
+* [\FireHub\TheCore\Initializers\Enums\Kernel](/thecore/v0.2\FireHub\TheCore\Initializers\Enums\Kernel) $kernel _Pick Kernel from Kernel enum, process your
 request and return appropriate response._
 
 ### Returns:
@@ -100,7 +100,7 @@ _Load series of bootloaders required for
 booting FireHub framework._
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Firehub::bootloaders()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/firehub.FireHub.php#L75)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/firehub.FireHub.php#L75)**</sub><br>
 
 ### Changelog:
 
@@ -123,7 +123,7 @@ _This method will scan FireHub\Initializers\Constants folder
 and automatically include all PHP files._
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Firehub::registerConstants()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/firehub.FireHub.php#L100)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/firehub.FireHub.php#L100)**</sub><br>
 
 ### Changelog:
 
@@ -133,12 +133,12 @@ and automatically include all PHP files._
 
 ### This method uses:
 
-* [\DirectoryIterator](/core/v0.2\DirectoryIterator) _To find all php files in folder._
-* [\Throwable](/core/v0.2\Throwable) _To cache error._
+* [\DirectoryIterator](/thecore/v0.2\DirectoryIterator) _To find all php files in folder._
+* [\Throwable](/thecore/v0.2\Throwable) _To cache error._
 
 ### Throws:
 
-* [\Error](/core/v0.2\Error) _If FireHub cannot load constant files._
+* [\Error](/thecore/v0.2\Error) _If FireHub cannot load constant files._
 
 ### Returns:
 
@@ -157,7 +157,7 @@ _This file contains definitions and series of functions
 needed for calling classes._
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Firehub::autoload()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/firehub.FireHub.php#L138)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/firehub.FireHub.php#L138)**</sub><br>
 
 ### Changelog:
 
@@ -165,16 +165,16 @@ needed for calling classes._
 
 ### This method uses:
 
-* [\FireHub\TheCore\Initializers\Constants\CORE_ROOT](/core/v0.2\FireHub\TheCore\Initializers\Constants\CORE_ROOT) _To find FireHub framework root path._
-* [\FireHub\TheCore\Initializers\Constants\VENDOR_ROOT](/core/v0.2\FireHub\TheCore\Initializers\Constants\VENDOR_ROOT) _To find vendor root path._
-* [\FireHub\TheCore\Initializers\Constants\PROJECT_ROOT](/core/v0.2\FireHub\TheCore\Initializers\Constants\PROJECT_ROOT) _To find project root path._
-* [\FireHub\TheCore\Initializers\Constants\DS](/core/v0.2\FireHub\TheCore\Initializers\Constants\DS) _To seperate folders._
-* [\FireHub\TheCore\Initializers\Autoload](/core/v0.2\FireHub\TheCore\Initializers\Autoload) _To autoload called classes._
-* [\FireHub\TheCore\Initializers\Autoload::register()](/core/v0.2\FireHub\TheCore\Initializers\Autoload#register()) _To register autoload implementations._
+* [\FireHub\TheCore\Initializers\Constants\CORE_ROOT](/thecore/v0.2\FireHub\TheCore\Initializers\Constants\CORE_ROOT) _To find FireHub framework root path._
+* [\FireHub\TheCore\Initializers\Constants\VENDOR_ROOT](/thecore/v0.2\FireHub\TheCore\Initializers\Constants\VENDOR_ROOT) _To find vendor root path._
+* [\FireHub\TheCore\Initializers\Constants\PROJECT_ROOT](/thecore/v0.2\FireHub\TheCore\Initializers\Constants\PROJECT_ROOT) _To find project root path._
+* [\FireHub\TheCore\Initializers\Constants\DS](/thecore/v0.2\FireHub\TheCore\Initializers\Constants\DS) _To seperate folders._
+* [\FireHub\TheCore\Initializers\Autoload](/thecore/v0.2\FireHub\TheCore\Initializers\Autoload) _To autoload called classes._
+* [\FireHub\TheCore\Initializers\Autoload::register()](/thecore/v0.2\FireHub\TheCore\Initializers\Autoload#register()) _To register autoload implementations._
 
 ### Throws:
 
-* [\Error](/core/v0.2\Error) _If FireHub cannot load Autoload file._
+* [\Error](/thecore/v0.2\Error) _If FireHub cannot load Autoload file._
 
 ### Returns:
 
@@ -190,7 +190,7 @@ private \FireHub\TheCore\Firehub::kernel(\FireHub\TheCore\Initializers\Kernel $k
 ### ### Process Kernel
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Firehub::kernel()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/firehub.FireHub.php#L192)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/firehub.FireHub.php#L192)**</sub><br>
 
 ### Changelog:
 
@@ -198,7 +198,7 @@ private \FireHub\TheCore\Firehub::kernel(\FireHub\TheCore\Initializers\Kernel $k
 
 ### Parameters:
 
-* [\FireHub\TheCore\Initializers\Kernel](/core/v0.2\FireHub\TheCore\Initializers\Kernel) $kernel _Picked Kernel from Kernel enum, process your
+* [\FireHub\TheCore\Initializers\Kernel](/thecore/v0.2\FireHub\TheCore\Initializers\Kernel) $kernel _Picked Kernel from Kernel enum, process your
 request and return appropriate response._
 
 ### Returns:

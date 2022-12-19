@@ -6,9 +6,9 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ### ### Supported character encodings enum
 <sub>Fully Qualified Enum Name:  **\FireHub\TheCore\Support\Enums\String\Encoding**</sub><br>
 <sub>This enum is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L23)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/enums/string/firehub.Encoding.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/enums/string/firehub.Encoding.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L23)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/enums/string/firehub.Encoding.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/enums/string/firehub.Encoding.php)**</sub><br>
 
 <sub>_This enum was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -110,7 +110,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::BASE64**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L25)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L25)**</sub><br>
 
 
 <h2><a name="uuencode"># UUENCODE</a></h2>
@@ -120,7 +120,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::UUENCODE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L26)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L26)**</sub><br>
 
 
 <h2><a name="html_entities"># HTML_ENTITIES</a></h2>
@@ -130,7 +130,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::HTML_ENTITIES**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L27)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L27)**</sub><br>
 
 
 <h2><a name="quoted_printable"># QUOTED_PRINTABLE</a></h2>
@@ -140,7 +140,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::QUOTED_PRINTABLE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L28)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L28)**</sub><br>
 
 
 <h2><a name="seven_bit"># SEVEN_BIT</a></h2>
@@ -150,7 +150,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::SEVEN_BIT**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L29)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L29)**</sub><br>
 
 
 <h2><a name="eight_bit"># EIGHT_BIT</a></h2>
@@ -160,7 +160,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::EIGHT_BIT**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L30)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L30)**</sub><br>
 
 
 <h2><a name="ucs_4"># UCS_4</a></h2>
@@ -170,7 +170,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::UCS_4**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L31)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L31)**</sub><br>
 
 
 <h2><a name="ucs_4be"># UCS_4BE</a></h2>
@@ -180,7 +180,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::UCS_4BE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L32)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L32)**</sub><br>
 
 
 <h2><a name="ucs_4le"># UCS_4LE</a></h2>
@@ -190,7 +190,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::UCS_4LE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L33)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L33)**</sub><br>
 
 
 <h2><a name="ucs_2"># UCS_2</a></h2>
@@ -200,7 +200,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::UCS_2**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L34)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L34)**</sub><br>
 
 
 <h2><a name="ucs_2be"># UCS_2BE</a></h2>
@@ -210,7 +210,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::UCS_2BE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L35)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L35)**</sub><br>
 
 
 <h2><a name="ucs_2le"># UCS_2LE</a></h2>
@@ -220,7 +220,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::UCS_2LE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L36)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L36)**</sub><br>
 
 
 <h2><a name="utf_32"># UTF_32</a></h2>
@@ -230,7 +230,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::UTF_32**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L37)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L37)**</sub><br>
 
 
 <h2><a name="utf_32be"># UTF_32BE</a></h2>
@@ -240,7 +240,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::UTF_32BE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L38)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L38)**</sub><br>
 
 
 <h2><a name="utf_32le"># UTF_32LE</a></h2>
@@ -250,7 +250,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::UTF_32LE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L39)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L39)**</sub><br>
 
 
 <h2><a name="utf_16"># UTF_16</a></h2>
@@ -260,7 +260,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::UTF_16**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L40)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L40)**</sub><br>
 
 
 <h2><a name="utf_16be"># UTF_16BE</a></h2>
@@ -270,7 +270,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::UTF_16BE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L41)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L41)**</sub><br>
 
 
 <h2><a name="utf_16le"># UTF_16LE</a></h2>
@@ -280,7 +280,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::UTF_16LE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L42)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L42)**</sub><br>
 
 
 <h2><a name="utf_8"># UTF_8</a></h2>
@@ -290,7 +290,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::UTF_8**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L43)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L43)**</sub><br>
 
 
 <h2><a name="utf_7"># UTF_7</a></h2>
@@ -300,7 +300,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::UTF_7**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L44)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L44)**</sub><br>
 
 
 <h2><a name="utf7_imap"># UTF7_IMAP</a></h2>
@@ -310,7 +310,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::UTF7_IMAP**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L45)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L45)**</sub><br>
 
 
 <h2><a name="ascii"># ASCII</a></h2>
@@ -320,7 +320,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::ASCII**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L46)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L46)**</sub><br>
 
 
 <h2><a name="euc_jp"># EUC_JP</a></h2>
@@ -330,7 +330,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::EUC_JP**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L47)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L47)**</sub><br>
 
 
 <h2><a name="sjis"># SJIS</a></h2>
@@ -340,7 +340,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::SJIS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L48)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L48)**</sub><br>
 
 
 <h2><a name="eucjp_win"># EUCJP_WIN</a></h2>
@@ -350,7 +350,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::EUCJP_WIN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L49)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L49)**</sub><br>
 
 
 <h2><a name="euc_jp_2004"># EUC_JP_2004</a></h2>
@@ -360,7 +360,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::EUC_JP_2004**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L50)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L50)**</sub><br>
 
 
 <h2><a name="sjis_mobile_docomo"># SJIS_MOBILE_DOCOMO</a></h2>
@@ -370,7 +370,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::SJIS_MOBILE_DOCOMO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L51)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L51)**</sub><br>
 
 
 <h2><a name="sjis_mobile_kddi"># SJIS_MOBILE_KDDI</a></h2>
@@ -380,7 +380,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::SJIS_MOBILE_KDDI**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L52)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L52)**</sub><br>
 
 
 <h2><a name="sjis_mobile_softbank"># SJIS_MOBILE_SOFTBANK</a></h2>
@@ -390,7 +390,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::SJIS_MOBILE_SOFTBANK**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L53)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L53)**</sub><br>
 
 
 <h2><a name="sjis_mac"># SJIS_MAC</a></h2>
@@ -400,7 +400,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::SJIS_MAC**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L54)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L54)**</sub><br>
 
 
 <h2><a name="sjis_2004"># SJIS_2004</a></h2>
@@ -410,7 +410,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::SJIS_2004**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L55)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L55)**</sub><br>
 
 
 <h2><a name="utf_8_mobile_docomo"># UTF_8_MOBILE_DOCOMO</a></h2>
@@ -420,7 +420,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::UTF_8_MOBILE_DOCOMO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L56)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L56)**</sub><br>
 
 
 <h2><a name="utf_8_mobile_kddi_a"># UTF_8_MOBILE_KDDI_A</a></h2>
@@ -430,7 +430,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::UTF_8_MOBILE_KDDI_A**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L57)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L57)**</sub><br>
 
 
 <h2><a name="utf_8_mobile_kddi_b"># UTF_8_MOBILE_KDDI_B</a></h2>
@@ -440,7 +440,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::UTF_8_MOBILE_KDDI_B**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L58)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L58)**</sub><br>
 
 
 <h2><a name="utf_8_mobile_softbank"># UTF_8_MOBILE_SOFTBANK</a></h2>
@@ -450,7 +450,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::UTF_8_MOBILE_SOFTBANK**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L59)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L59)**</sub><br>
 
 
 <h2><a name="cp932"># CP932</a></h2>
@@ -460,7 +460,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::CP932**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L60)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L60)**</sub><br>
 
 
 <h2><a name="cp51932"># CP51932</a></h2>
@@ -470,7 +470,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::CP51932**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L61)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L61)**</sub><br>
 
 
 <h2><a name="jis"># JIS</a></h2>
@@ -480,7 +480,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::JIS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L62)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L62)**</sub><br>
 
 
 <h2><a name="iso_2022_jp"># ISO_2022_JP</a></h2>
@@ -490,7 +490,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::ISO_2022_JP**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L63)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L63)**</sub><br>
 
 
 <h2><a name="iso_2022_jp_ms"># ISO_2022_JP_MS</a></h2>
@@ -500,7 +500,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::ISO_2022_JP_MS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L64)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L64)**</sub><br>
 
 
 <h2><a name="gb18030"># GB18030</a></h2>
@@ -510,7 +510,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::GB18030**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L65)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L65)**</sub><br>
 
 
 <h2><a name="windows_1252"># WINDOWS_1252</a></h2>
@@ -520,7 +520,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::WINDOWS_1252**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L66)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L66)**</sub><br>
 
 
 <h2><a name="windows_1254"># WINDOWS_1254</a></h2>
@@ -530,7 +530,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::WINDOWS_1254**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L67)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L67)**</sub><br>
 
 
 <h2><a name="iso_8859_1"># ISO_8859_1</a></h2>
@@ -540,7 +540,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::ISO_8859_1**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L68)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L68)**</sub><br>
 
 
 <h2><a name="iso_8859_2"># ISO_8859_2</a></h2>
@@ -550,7 +550,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::ISO_8859_2**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L69)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L69)**</sub><br>
 
 
 <h2><a name="iso_8859_3"># ISO_8859_3</a></h2>
@@ -560,7 +560,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::ISO_8859_3**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L70)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L70)**</sub><br>
 
 
 <h2><a name="iso_8859_4"># ISO_8859_4</a></h2>
@@ -570,7 +570,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::ISO_8859_4**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L71)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L71)**</sub><br>
 
 
 <h2><a name="iso_8859_5"># ISO_8859_5</a></h2>
@@ -580,7 +580,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::ISO_8859_5**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L72)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L72)**</sub><br>
 
 
 <h2><a name="iso_8859_6"># ISO_8859_6</a></h2>
@@ -590,7 +590,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::ISO_8859_6**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L73)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L73)**</sub><br>
 
 
 <h2><a name="iso_8859_7"># ISO_8859_7</a></h2>
@@ -600,7 +600,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::ISO_8859_7**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L74)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L74)**</sub><br>
 
 
 <h2><a name="iso_8859_8"># ISO_8859_8</a></h2>
@@ -610,7 +610,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::ISO_8859_8**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L75)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L75)**</sub><br>
 
 
 <h2><a name="iso_8859_9"># ISO_8859_9</a></h2>
@@ -620,7 +620,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::ISO_8859_9**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L76)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L76)**</sub><br>
 
 
 <h2><a name="iso_8859_10"># ISO_8859_10</a></h2>
@@ -630,7 +630,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::ISO_8859_10**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L77)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L77)**</sub><br>
 
 
 <h2><a name="iso_8859_13"># ISO_8859_13</a></h2>
@@ -640,7 +640,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::ISO_8859_13**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L78)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L78)**</sub><br>
 
 
 <h2><a name="iso_8859_14"># ISO_8859_14</a></h2>
@@ -650,7 +650,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::ISO_8859_14**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L79)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L79)**</sub><br>
 
 
 <h2><a name="iso_8859_15"># ISO_8859_15</a></h2>
@@ -660,7 +660,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::ISO_8859_15**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L80)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L80)**</sub><br>
 
 
 <h2><a name="iso_8859_16"># ISO_8859_16</a></h2>
@@ -670,7 +670,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::ISO_8859_16**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L81)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L81)**</sub><br>
 
 
 <h2><a name="euc_cn"># EUC_CN</a></h2>
@@ -680,7 +680,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::EUC_CN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L82)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L82)**</sub><br>
 
 
 <h2><a name="cp936"># CP936</a></h2>
@@ -690,7 +690,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::CP936**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L83)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L83)**</sub><br>
 
 
 <h2><a name="hz"># HZ</a></h2>
@@ -700,7 +700,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::HZ**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L84)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L84)**</sub><br>
 
 
 <h2><a name="euc_tw"># EUC_TW</a></h2>
@@ -710,7 +710,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::EUC_TW**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L85)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L85)**</sub><br>
 
 
 <h2><a name="big_5"># BIG_5</a></h2>
@@ -720,7 +720,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::BIG_5**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L86)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L86)**</sub><br>
 
 
 <h2><a name="cp950"># CP950</a></h2>
@@ -730,7 +730,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::CP950**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L87)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L87)**</sub><br>
 
 
 <h2><a name="euc_kr"># EUC_KR</a></h2>
@@ -740,7 +740,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::EUC_KR**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L88)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L88)**</sub><br>
 
 
 <h2><a name="uhc"># UHC</a></h2>
@@ -750,7 +750,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::UHC**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L89)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L89)**</sub><br>
 
 
 <h2><a name="iso_2022_kr"># ISO_2022_KR</a></h2>
@@ -760,7 +760,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::ISO_2022_KR**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L90)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L90)**</sub><br>
 
 
 <h2><a name="windows_1251"># WINDOWS_1251</a></h2>
@@ -770,7 +770,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::WINDOWS_1251**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L91)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L91)**</sub><br>
 
 
 <h2><a name="cp866"># CP866</a></h2>
@@ -780,7 +780,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::CP866**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L92)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L92)**</sub><br>
 
 
 <h2><a name="koi8_r"># KOI8_R</a></h2>
@@ -790,7 +790,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::KOI8_R**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L93)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L93)**</sub><br>
 
 
 <h2><a name="koi8_u"># KOI8_U</a></h2>
@@ -800,7 +800,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::KOI8_U**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L94)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L94)**</sub><br>
 
 
 <h2><a name="arm_scii_8"># ARM_SCII_8</a></h2>
@@ -810,7 +810,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::ARM_SCII_8**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L95)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L95)**</sub><br>
 
 
 <h2><a name="cp850"># CP850</a></h2>
@@ -820,7 +820,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::CP850**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L96)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L96)**</sub><br>
 
 
 <h2><a name="iso_2022_jp_2004"># ISO_2022_JP_2004</a></h2>
@@ -830,7 +830,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::ISO_2022_JP_2004**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L97)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L97)**</sub><br>
 
 
 <h2><a name="iso_2022_jp_mobile_kddi"># ISO_2022_JP_MOBILE_KDDI</a></h2>
@@ -840,7 +840,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::ISO_2022_JP_MOBILE_KDDI**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L98)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L98)**</sub><br>
 
 
 <h2><a name="cp50220"># CP50220</a></h2>
@@ -850,7 +850,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::CP50220**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L99)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L99)**</sub><br>
 
 
 <h2><a name="cp50221"># CP50221</a></h2>
@@ -860,7 +860,7 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::CP50221**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L100)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L100)**</sub><br>
 
 
 <h2><a name="cp50222"># CP50222</a></h2>
@@ -870,6 +870,6 @@ enum \FireHub\TheCore\Support\Enums\String\Encoding
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\Encoding::CP50222**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L101)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.Encoding.php#L101)**</sub><br>
 
 

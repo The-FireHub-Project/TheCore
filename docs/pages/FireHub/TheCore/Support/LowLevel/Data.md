@@ -2,7 +2,7 @@
 layout: default
 title: Data
 parent: \FireHub\Support
-grand_parent: Core v0.2
+grand_parent: TheCore v0.2
 has_children: false
 ---
 
@@ -24,9 +24,9 @@ _This low level support class is for manipulating data._
 
 <sub>Fully Qualified Class Name:  **\FireHub\TheCore\Support\LowLevel\Data**</sub><br>
 <sub>This class is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Data.php#L45)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/lowlevel/firehub.Data.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/lowlevel/firehub.Data.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Data.php#L45)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/lowlevel/firehub.Data.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/lowlevel/firehub.Data.php)**</sub><br>
 
 <sub>_This class was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -66,7 +66,7 @@ public static \FireHub\TheCore\Support\LowLevel\Data::getType(mixed $value):\Fir
 ### ### Get data type
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Data::getType()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Data.php#L59)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Data.php#L59)**</sub><br>
 
 ### Changelog:
 
@@ -74,7 +74,7 @@ public static \FireHub\TheCore\Support\LowLevel\Data::getType(mixed $value):\Fir
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\Enums\Data\Type](/core/v0.2\FireHub\TheCore\Support\Enums\Data\Type) _As return._
+* [\FireHub\TheCore\Support\Enums\Data\Type](/thecore/v0.2\FireHub\TheCore\Support\Enums\Data\Type) _As return._
 
 ### This method is used by:
 
@@ -95,7 +95,7 @@ public static \FireHub\TheCore\Support\LowLevel\Data::getType(mixed $value):\Fir
 
 ### Returns:
 
-* [\FireHub\TheCore\Support\Enums\Data\Type](/core/v0.2\FireHub\TheCore\Support\Enums\Data\Type) _Data type._
+* [\FireHub\TheCore\Support\Enums\Data\Type](/thecore/v0.2\FireHub\TheCore\Support\Enums\Data\Type) _Data type._
 
 <h2><a name="settype()"># setType()</a></h2>
 ***
@@ -107,7 +107,7 @@ public static \FireHub\TheCore\Support\LowLevel\Data::setType(mixed $value, \Fir
 ### ### Convert data to type
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Data::setType()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Data.php#L97)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Data.php#L97)**</sub><br>
 
 ### Changelog:
 
@@ -115,7 +115,7 @@ public static \FireHub\TheCore\Support\LowLevel\Data::setType(mixed $value, \Fir
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\Enums\Data\Type](/core/v0.2\FireHub\TheCore\Support\Enums\Data\Type) _As parameter._
+* [\FireHub\TheCore\Support\Enums\Data\Type](/thecore/v0.2\FireHub\TheCore\Support\Enums\Data\Type) _As parameter._
 
 ### This method is used by:
 
@@ -125,7 +125,7 @@ public static \FireHub\TheCore\Support\LowLevel\Data::setType(mixed $value, \Fir
 ### Parameters:
 
 * mixed $value _Value to convert._
-* [\FireHub\TheCore\Support\Enums\Data\Type](/core/v0.2\FireHub\TheCore\Support\Enums\Data\Type) $type _Type to convert data to.
+* [\FireHub\TheCore\Support\Enums\Data\Type](/thecore/v0.2\FireHub\TheCore\Support\Enums\Data\Type) $type _Type to convert data to.
 ._
 
 <h2><a name="serialize()"># serialize()</a></h2>
@@ -138,7 +138,7 @@ public static \FireHub\TheCore\Support\LowLevel\Data::serialize(string|int|float
 ### ### Generates storable representation of data
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Data::serialize()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Data.php#L122)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Data.php#L122)**</sub><br>
 
 ### Changelog:
 
@@ -146,7 +146,7 @@ public static \FireHub\TheCore\Support\LowLevel\Data::serialize(string|int|float
 
 ### This method uses:
 
-* [\Throwable](/core/v0.2\Throwable) _To cache error._
+* [\Throwable](/thecore/v0.2\Throwable) _To cache error._
 
 ### Parameters:
 
@@ -166,7 +166,7 @@ public static \FireHub\TheCore\Support\LowLevel\Data::unserialize(string $data, 
 ### ### Creates a PHP value from a stored representation
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Data::unserialize()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Data.php#L152)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Data.php#L152)**</sub><br>
 
 ### Changelog:
 
@@ -189,7 +189,7 @@ public static \FireHub\TheCore\Support\LowLevel\Data::jsonEncode(mixed $value, \
 ### ### Returns JSON representation of a value
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Data::jsonEncode()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Data.php#L183)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Data.php#L183)**</sub><br>
 
 ### Changelog:
 
@@ -197,14 +197,14 @@ public static \FireHub\TheCore\Support\LowLevel\Data::jsonEncode(mixed $value, \
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\Enums\Json\Encode](/core/v0.2\FireHub\TheCore\Support\Enums\Json\Encode) _As parameter._
-* [\FireHub\TheCore\Support\LowLevel\Arr::walk()](/core/v0.2\FireHub\TheCore\Support\LowLevel\Arr#walk()) _To replace array value from json encode enum with enum values._
-* [\FireHub\TheCore\Support\LowLevel\Arr::unique()](/core/v0.2\FireHub\TheCore\Support\LowLevel\Arr#unique()) _To remove duplicated enum values._
+* [\FireHub\TheCore\Support\Enums\Json\Encode](/thecore/v0.2\FireHub\TheCore\Support\Enums\Json\Encode) _As parameter._
+* [\FireHub\TheCore\Support\LowLevel\Arr::walk()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Arr#walk()) _To replace array value from json encode enum with enum values._
+* [\FireHub\TheCore\Support\LowLevel\Arr::unique()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Arr#unique()) _To remove duplicated enum values._
 
 ### Parameters:
 
 * mixed $value _The value being encoded._
-* variadic [\FireHub\TheCore\Support\Enums\Json\Encode](/core/v0.2\FireHub\TheCore\Support\Enums\Json\Encode) $flags _[optional] 
+* variadic [\FireHub\TheCore\Support\Enums\Json\Encode](/thecore/v0.2\FireHub\TheCore\Support\Enums\Json\Encode) $flags _[optional] 
 Bitmask consisting of JSON encode flags._
 
 ### Returns:
@@ -221,7 +221,7 @@ public static \FireHub\TheCore\Support\LowLevel\Data::jsonDecode(string $json, p
 ### ### Decodes JSON string
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Data::jsonDecode()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Data.php#L216)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Data.php#L216)**</sub><br>
 
 ### Changelog:
 
@@ -229,16 +229,16 @@ public static \FireHub\TheCore\Support\LowLevel\Data::jsonDecode(string $json, p
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\Enums\Json\Decode](/core/v0.2\FireHub\TheCore\Support\Enums\Json\Decode) _As parameter._
-* [\FireHub\TheCore\Support\LowLevel\Arr::walk()](/core/v0.2\FireHub\TheCore\Support\LowLevel\Arr#walk()) _To replace array value from json encode enum with enum values._
-* [\FireHub\TheCore\Support\LowLevel\Arr::unique()](/core/v0.2\FireHub\TheCore\Support\LowLevel\Arr#unique()) _To remove duplicated enum values._
+* [\FireHub\TheCore\Support\Enums\Json\Decode](/thecore/v0.2\FireHub\TheCore\Support\Enums\Json\Decode) _As parameter._
+* [\FireHub\TheCore\Support\LowLevel\Arr::walk()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Arr#walk()) _To replace array value from json encode enum with enum values._
+* [\FireHub\TheCore\Support\LowLevel\Arr::unique()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Arr#unique()) _To remove duplicated enum values._
 
 ### Parameters:
 
 * string $json _The json string being decoded._
 * positive-int $max_depth = 512 _[optional] 
 User specified recursion depth._
-* variadic [\FireHub\TheCore\Support\Enums\Json\Decode](/core/v0.2\FireHub\TheCore\Support\Enums\Json\Decode) $flags _[optional] 
+* variadic [\FireHub\TheCore\Support\Enums\Json\Decode](/thecore/v0.2\FireHub\TheCore\Support\Enums\Json\Decode) $flags _[optional] 
 Bitmask consisting of JSON decode flags._
 
 ### Returns:

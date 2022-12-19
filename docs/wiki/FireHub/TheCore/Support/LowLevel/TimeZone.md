@@ -6,9 +6,9 @@ class \FireHub\TheCore\Support\LowLevel\TimeZone()
 ### ### TimeZone low level class
 <sub>Fully Qualified Class Name:  **\FireHub\TheCore\Support\LowLevel\TimeZone**</sub><br>
 <sub>This class is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.TimeZone.php#L35)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/lowlevel/firehub.TimeZone.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/lowlevel/firehub.TimeZone.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.TimeZone.php#L35)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/lowlevel/firehub.TimeZone.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/lowlevel/firehub.TimeZone.php)**</sub><br>
 
 <sub>_This class was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -36,7 +36,7 @@ static \FireHub\TheCore\Support\LowLevel\TimeZone::getDefaultTimezone():\FireHub
 
 ### ### Gets the default timezone used by all date/time functions in a script
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\TimeZone::getDefaultTimezone()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.TimeZone.php#L45)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.TimeZone.php#L45)**</sub><br>
 
 
 ### Returns:
@@ -51,7 +51,7 @@ static \FireHub\TheCore\Support\LowLevel\TimeZone::setDefaultTimezone(\FireHub\T
 
 ### ### Sets the default timezone used by all date/time functions in a script
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\TimeZone::setDefaultTimezone()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.TimeZone.php#L63)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.TimeZone.php#L63)**</sub><br>
 
 
 ### Parameters:

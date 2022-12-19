@@ -2,7 +2,7 @@
 layout: default
 title: Country
 parent: \FireHub\Support
-grand_parent: Core v0.2
+grand_parent: TheCore v0.2
 has_children: false
 ---
 
@@ -18,9 +18,9 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 
 <sub>Fully Qualified Enum Name:  **\FireHub\TheCore\Support\Enums\Geo\Country**</sub><br>
 <sub>This enum is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L23)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/enums/geo/firehub.Country.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/enums/geo/firehub.Country.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L23)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/enums/geo/firehub.Country.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/enums/geo/firehub.Country.php)**</sub><br>
 
 <sub>_This enum was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -322,7 +322,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::AFGHANISTAN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L25)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L25)**</sub><br>
 
 
 <h2><a name="aland_islands"># ALAND_ISLANDS</a></h2>
@@ -333,7 +333,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::ALAND_ISLANDS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L26)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L26)**</sub><br>
 
 
 <h2><a name="albania"># ALBANIA</a></h2>
@@ -344,7 +344,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::ALBANIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L27)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L27)**</sub><br>
 
 
 <h2><a name="algeria"># ALGERIA</a></h2>
@@ -355,7 +355,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::ALGERIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L28)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L28)**</sub><br>
 
 
 <h2><a name="american_samoa"># AMERICAN_SAMOA</a></h2>
@@ -366,7 +366,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::AMERICAN_SAMOA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L29)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L29)**</sub><br>
 
 
 <h2><a name="andorra"># ANDORRA</a></h2>
@@ -377,7 +377,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::ANDORRA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L30)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L30)**</sub><br>
 
 
 <h2><a name="angola"># ANGOLA</a></h2>
@@ -388,7 +388,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::ANGOLA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L31)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L31)**</sub><br>
 
 
 <h2><a name="anguilla"># ANGUILLA</a></h2>
@@ -399,7 +399,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::ANGUILLA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L32)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L32)**</sub><br>
 
 
 <h2><a name="antarctica"># ANTARCTICA</a></h2>
@@ -410,7 +410,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::ANTARCTICA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L33)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L33)**</sub><br>
 
 
 <h2><a name="antigua_and_barbuda"># ANTIGUA_AND_BARBUDA</a></h2>
@@ -421,7 +421,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::ANTIGUA_AND_BARBUDA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L34)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L34)**</sub><br>
 
 
 <h2><a name="argentina"># ARGENTINA</a></h2>
@@ -432,7 +432,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::ARGENTINA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L35)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L35)**</sub><br>
 
 
 <h2><a name="armenia"># ARMENIA</a></h2>
@@ -443,7 +443,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::ARMENIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L36)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L36)**</sub><br>
 
 
 <h2><a name="aruba"># ARUBA</a></h2>
@@ -454,7 +454,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::ARUBA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L37)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L37)**</sub><br>
 
 
 <h2><a name="australia"># AUSTRALIA</a></h2>
@@ -465,7 +465,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::AUSTRALIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L38)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L38)**</sub><br>
 
 
 <h2><a name="austria"># AUSTRIA</a></h2>
@@ -476,7 +476,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::AUSTRIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L39)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L39)**</sub><br>
 
 
 <h2><a name="azerbaijan"># AZERBAIJAN</a></h2>
@@ -487,7 +487,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::AZERBAIJAN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L40)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L40)**</sub><br>
 
 
 <h2><a name="bahamas"># BAHAMAS</a></h2>
@@ -498,7 +498,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::BAHAMAS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L41)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L41)**</sub><br>
 
 
 <h2><a name="bahrain"># BAHRAIN</a></h2>
@@ -509,7 +509,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::BAHRAIN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L42)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L42)**</sub><br>
 
 
 <h2><a name="bangladesh"># BANGLADESH</a></h2>
@@ -520,7 +520,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::BANGLADESH**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L43)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L43)**</sub><br>
 
 
 <h2><a name="barbados"># BARBADOS</a></h2>
@@ -531,7 +531,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::BARBADOS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L44)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L44)**</sub><br>
 
 
 <h2><a name="belarus"># BELARUS</a></h2>
@@ -542,7 +542,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::BELARUS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L45)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L45)**</sub><br>
 
 
 <h2><a name="belgium"># BELGIUM</a></h2>
@@ -553,7 +553,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::BELGIUM**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L46)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L46)**</sub><br>
 
 
 <h2><a name="belize"># BELIZE</a></h2>
@@ -564,7 +564,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::BELIZE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L47)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L47)**</sub><br>
 
 
 <h2><a name="benin"># BENIN</a></h2>
@@ -575,7 +575,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::BENIN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L48)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L48)**</sub><br>
 
 
 <h2><a name="bermuda"># BERMUDA</a></h2>
@@ -586,7 +586,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::BERMUDA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L49)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L49)**</sub><br>
 
 
 <h2><a name="bhutan"># BHUTAN</a></h2>
@@ -597,7 +597,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::BHUTAN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L50)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L50)**</sub><br>
 
 
 <h2><a name="bolivia"># BOLIVIA</a></h2>
@@ -608,7 +608,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::BOLIVIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L51)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L51)**</sub><br>
 
 
 <h2><a name="bosnia_and_herzegovina"># BOSNIA_AND_HERZEGOVINA</a></h2>
@@ -619,7 +619,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::BOSNIA_AND_HERZEGOVINA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L52)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L52)**</sub><br>
 
 
 <h2><a name="botswana"># BOTSWANA</a></h2>
@@ -630,7 +630,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::BOTSWANA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L53)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L53)**</sub><br>
 
 
 <h2><a name="bouvet_island"># BOUVET_ISLAND</a></h2>
@@ -641,7 +641,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::BOUVET_ISLAND**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L54)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L54)**</sub><br>
 
 
 <h2><a name="brazil"># BRAZIL</a></h2>
@@ -652,7 +652,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::BRAZIL**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L55)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L55)**</sub><br>
 
 
 <h2><a name="british_antarctic_territory"># BRITISH_ANTARCTIC_TERRITORY</a></h2>
@@ -663,7 +663,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::BRITISH_ANTARCTIC_TERRITORY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L56)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L56)**</sub><br>
 
 
 <h2><a name="british_indian_ocean_territory"># BRITISH_INDIAN_OCEAN_TERRITORY</a></h2>
@@ -674,7 +674,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::BRITISH_INDIAN_OCEAN_TERRITORY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L57)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L57)**</sub><br>
 
 
 <h2><a name="british_virgin_islands"># BRITISH_VIRGIN_ISLANDS</a></h2>
@@ -685,7 +685,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::BRITISH_VIRGIN_ISLANDS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L58)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L58)**</sub><br>
 
 
 <h2><a name="brunei"># BRUNEI</a></h2>
@@ -696,7 +696,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::BRUNEI**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L59)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L59)**</sub><br>
 
 
 <h2><a name="bulgaria"># BULGARIA</a></h2>
@@ -707,7 +707,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::BULGARIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L60)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L60)**</sub><br>
 
 
 <h2><a name="burkina_faso"># BURKINA_FASO</a></h2>
@@ -718,7 +718,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::BURKINA_FASO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L61)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L61)**</sub><br>
 
 
 <h2><a name="burundi"># BURUNDI</a></h2>
@@ -729,7 +729,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::BURUNDI**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L62)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L62)**</sub><br>
 
 
 <h2><a name="cambodia"># CAMBODIA</a></h2>
@@ -740,7 +740,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::CAMBODIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L63)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L63)**</sub><br>
 
 
 <h2><a name="cameroon"># CAMEROON</a></h2>
@@ -751,7 +751,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::CAMEROON**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L64)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L64)**</sub><br>
 
 
 <h2><a name="canada"># CANADA</a></h2>
@@ -762,7 +762,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::CANADA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L65)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L65)**</sub><br>
 
 
 <h2><a name="canton_and_enderbury_islands"># CANTON_AND_ENDERBURY_ISLANDS</a></h2>
@@ -773,7 +773,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::CANTON_AND_ENDERBURY_ISLANDS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L66)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L66)**</sub><br>
 
 
 <h2><a name="cape_verde"># CAPE_VERDE</a></h2>
@@ -784,7 +784,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::CAPE_VERDE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L67)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L67)**</sub><br>
 
 
 <h2><a name="cayman_islands"># CAYMAN_ISLANDS</a></h2>
@@ -795,7 +795,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::CAYMAN_ISLANDS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L68)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L68)**</sub><br>
 
 
 <h2><a name="central_african_republic"># CENTRAL_AFRICAN_REPUBLIC</a></h2>
@@ -806,7 +806,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::CENTRAL_AFRICAN_REPUBLIC**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L69)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L69)**</sub><br>
 
 
 <h2><a name="chad"># CHAD</a></h2>
@@ -817,7 +817,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::CHAD**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L70)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L70)**</sub><br>
 
 
 <h2><a name="chile"># CHILE</a></h2>
@@ -828,7 +828,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::CHILE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L71)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L71)**</sub><br>
 
 
 <h2><a name="china"># CHINA</a></h2>
@@ -839,7 +839,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::CHINA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L72)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L72)**</sub><br>
 
 
 <h2><a name="christmas_island"># CHRISTMAS_ISLAND</a></h2>
@@ -850,7 +850,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::CHRISTMAS_ISLAND**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L73)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L73)**</sub><br>
 
 
 <h2><a name="cocos_keeling_islands"># COCOS_KEELING_ISLANDS</a></h2>
@@ -861,7 +861,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::COCOS_KEELING_ISLANDS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L74)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L74)**</sub><br>
 
 
 <h2><a name="colombia"># COLOMBIA</a></h2>
@@ -872,7 +872,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::COLOMBIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L75)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L75)**</sub><br>
 
 
 <h2><a name="comoros"># COMOROS</a></h2>
@@ -883,7 +883,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::COMOROS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L76)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L76)**</sub><br>
 
 
 <h2><a name="congo_brazzaville"># CONGO_BRAZZAVILLE</a></h2>
@@ -894,7 +894,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::CONGO_BRAZZAVILLE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L77)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L77)**</sub><br>
 
 
 <h2><a name="congo_kinshasa"># CONGO_KINSHASA</a></h2>
@@ -905,7 +905,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::CONGO_KINSHASA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L78)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L78)**</sub><br>
 
 
 <h2><a name="cook_islands"># COOK_ISLANDS</a></h2>
@@ -916,7 +916,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::COOK_ISLANDS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L79)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L79)**</sub><br>
 
 
 <h2><a name="costa_rica"># COSTA_RICA</a></h2>
@@ -927,7 +927,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::COSTA_RICA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L80)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L80)**</sub><br>
 
 
 <h2><a name="croatia"># CROATIA</a></h2>
@@ -938,7 +938,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::CROATIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L81)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L81)**</sub><br>
 
 
 <h2><a name="cuba"># CUBA</a></h2>
@@ -949,7 +949,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::CUBA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L82)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L82)**</sub><br>
 
 
 <h2><a name="cyprus"># CYPRUS</a></h2>
@@ -960,7 +960,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::CYPRUS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L83)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L83)**</sub><br>
 
 
 <h2><a name="czech_republic"># CZECH_REPUBLIC</a></h2>
@@ -971,7 +971,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::CZECH_REPUBLIC**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L84)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L84)**</sub><br>
 
 
 <h2><a name="cote_divoire"># COTE_DIVOIRE</a></h2>
@@ -982,7 +982,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::COTE_DIVOIRE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L85)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L85)**</sub><br>
 
 
 <h2><a name="denmark"># DENMARK</a></h2>
@@ -993,7 +993,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::DENMARK**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L86)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L86)**</sub><br>
 
 
 <h2><a name="djibouti"># DJIBOUTI</a></h2>
@@ -1004,7 +1004,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::DJIBOUTI**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L87)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L87)**</sub><br>
 
 
 <h2><a name="dominica"># DOMINICA</a></h2>
@@ -1015,7 +1015,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::DOMINICA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L88)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L88)**</sub><br>
 
 
 <h2><a name="dominican_republic"># DOMINICAN_REPUBLIC</a></h2>
@@ -1026,7 +1026,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::DOMINICAN_REPUBLIC**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L89)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L89)**</sub><br>
 
 
 <h2><a name="dronning_maud_land"># DRONNING_MAUD_LAND</a></h2>
@@ -1037,7 +1037,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::DRONNING_MAUD_LAND**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L90)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L90)**</sub><br>
 
 
 <h2><a name="east_germany"># EAST_GERMANY</a></h2>
@@ -1048,7 +1048,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::EAST_GERMANY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L91)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L91)**</sub><br>
 
 
 <h2><a name="ecuador"># ECUADOR</a></h2>
@@ -1059,7 +1059,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::ECUADOR**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L92)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L92)**</sub><br>
 
 
 <h2><a name="egypt"># EGYPT</a></h2>
@@ -1070,7 +1070,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::EGYPT**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L93)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L93)**</sub><br>
 
 
 <h2><a name="el_salvador"># EL_SALVADOR</a></h2>
@@ -1081,7 +1081,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::EL_SALVADOR**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L94)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L94)**</sub><br>
 
 
 <h2><a name="equatorial_guinea"># EQUATORIAL_GUINEA</a></h2>
@@ -1092,7 +1092,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::EQUATORIAL_GUINEA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L95)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L95)**</sub><br>
 
 
 <h2><a name="eritrea"># ERITREA</a></h2>
@@ -1103,7 +1103,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::ERITREA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L96)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L96)**</sub><br>
 
 
 <h2><a name="estonia"># ESTONIA</a></h2>
@@ -1114,7 +1114,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::ESTONIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L97)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L97)**</sub><br>
 
 
 <h2><a name="ethiopia"># ETHIOPIA</a></h2>
@@ -1125,7 +1125,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::ETHIOPIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L98)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L98)**</sub><br>
 
 
 <h2><a name="falkland_islands"># FALKLAND_ISLANDS</a></h2>
@@ -1136,7 +1136,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::FALKLAND_ISLANDS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L99)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L99)**</sub><br>
 
 
 <h2><a name="faroe_islands"># FAROE_ISLANDS</a></h2>
@@ -1147,7 +1147,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::FAROE_ISLANDS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L100)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L100)**</sub><br>
 
 
 <h2><a name="fiji"># FIJI</a></h2>
@@ -1158,7 +1158,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::FIJI**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L101)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L101)**</sub><br>
 
 
 <h2><a name="finland"># FINLAND</a></h2>
@@ -1169,7 +1169,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::FINLAND**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L102)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L102)**</sub><br>
 
 
 <h2><a name="france"># FRANCE</a></h2>
@@ -1180,7 +1180,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::FRANCE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L103)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L103)**</sub><br>
 
 
 <h2><a name="french_guiana"># FRENCH_GUIANA</a></h2>
@@ -1191,7 +1191,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::FRENCH_GUIANA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L104)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L104)**</sub><br>
 
 
 <h2><a name="french_polynesia"># FRENCH_POLYNESIA</a></h2>
@@ -1202,7 +1202,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::FRENCH_POLYNESIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L105)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L105)**</sub><br>
 
 
 <h2><a name="french_southern_territories"># FRENCH_SOUTHERN_TERRITORIES</a></h2>
@@ -1213,7 +1213,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::FRENCH_SOUTHERN_TERRITORIES**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L106)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L106)**</sub><br>
 
 
 <h2><a name="french_southern_and_antarctic_territories"># FRENCH_SOUTHERN_AND_ANTARCTIC_TERRITORIES</a></h2>
@@ -1224,7 +1224,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::FRENCH_SOUTHERN_AND_ANTARCTIC_TERRITORIES**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L107)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L107)**</sub><br>
 
 
 <h2><a name="gabon"># GABON</a></h2>
@@ -1235,7 +1235,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::GABON**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L108)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L108)**</sub><br>
 
 
 <h2><a name="gambia"># GAMBIA</a></h2>
@@ -1246,7 +1246,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::GAMBIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L109)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L109)**</sub><br>
 
 
 <h2><a name="georgia"># GEORGIA</a></h2>
@@ -1257,7 +1257,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::GEORGIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L110)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L110)**</sub><br>
 
 
 <h2><a name="germany"># GERMANY</a></h2>
@@ -1268,7 +1268,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::GERMANY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L111)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L111)**</sub><br>
 
 
 <h2><a name="ghana"># GHANA</a></h2>
@@ -1279,7 +1279,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::GHANA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L112)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L112)**</sub><br>
 
 
 <h2><a name="gibraltar"># GIBRALTAR</a></h2>
@@ -1290,7 +1290,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::GIBRALTAR**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L113)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L113)**</sub><br>
 
 
 <h2><a name="greece"># GREECE</a></h2>
@@ -1301,7 +1301,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::GREECE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L114)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L114)**</sub><br>
 
 
 <h2><a name="greenland"># GREENLAND</a></h2>
@@ -1312,7 +1312,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::GREENLAND**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L115)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L115)**</sub><br>
 
 
 <h2><a name="grenada"># GRENADA</a></h2>
@@ -1323,7 +1323,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::GRENADA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L116)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L116)**</sub><br>
 
 
 <h2><a name="guadeloupe"># GUADELOUPE</a></h2>
@@ -1334,7 +1334,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::GUADELOUPE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L117)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L117)**</sub><br>
 
 
 <h2><a name="guam"># GUAM</a></h2>
@@ -1345,7 +1345,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::GUAM**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L118)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L118)**</sub><br>
 
 
 <h2><a name="guatemala"># GUATEMALA</a></h2>
@@ -1356,7 +1356,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::GUATEMALA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L119)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L119)**</sub><br>
 
 
 <h2><a name="guernsey"># GUERNSEY</a></h2>
@@ -1367,7 +1367,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::GUERNSEY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L120)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L120)**</sub><br>
 
 
 <h2><a name="guinea"># GUINEA</a></h2>
@@ -1378,7 +1378,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::GUINEA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L121)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L121)**</sub><br>
 
 
 <h2><a name="guinea_bissau"># GUINEA_BISSAU</a></h2>
@@ -1389,7 +1389,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::GUINEA_BISSAU**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L122)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L122)**</sub><br>
 
 
 <h2><a name="guyana"># GUYANA</a></h2>
@@ -1400,7 +1400,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::GUYANA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L123)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L123)**</sub><br>
 
 
 <h2><a name="haiti"># HAITI</a></h2>
@@ -1411,7 +1411,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::HAITI**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L124)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L124)**</sub><br>
 
 
 <h2><a name="heard_island_and_mcdonald_islands"># HEARD_ISLAND_AND_MCDONALD_ISLANDS</a></h2>
@@ -1422,7 +1422,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::HEARD_ISLAND_AND_MCDONALD_ISLANDS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L125)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L125)**</sub><br>
 
 
 <h2><a name="honduras"># HONDURAS</a></h2>
@@ -1433,7 +1433,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::HONDURAS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L126)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L126)**</sub><br>
 
 
 <h2><a name="hong_kong_sar_china"># HONG_KONG_SAR_CHINA</a></h2>
@@ -1444,7 +1444,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::HONG_KONG_SAR_CHINA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L127)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L127)**</sub><br>
 
 
 <h2><a name="hungary"># HUNGARY</a></h2>
@@ -1455,7 +1455,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::HUNGARY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L128)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L128)**</sub><br>
 
 
 <h2><a name="iceland"># ICELAND</a></h2>
@@ -1466,7 +1466,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::ICELAND**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L129)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L129)**</sub><br>
 
 
 <h2><a name="india"># INDIA</a></h2>
@@ -1477,7 +1477,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::INDIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L130)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L130)**</sub><br>
 
 
 <h2><a name="indonesia"># INDONESIA</a></h2>
@@ -1488,7 +1488,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::INDONESIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L131)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L131)**</sub><br>
 
 
 <h2><a name="iran"># IRAN</a></h2>
@@ -1499,7 +1499,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::IRAN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L132)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L132)**</sub><br>
 
 
 <h2><a name="iraq"># IRAQ</a></h2>
@@ -1510,7 +1510,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::IRAQ**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L133)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L133)**</sub><br>
 
 
 <h2><a name="ireland"># IRELAND</a></h2>
@@ -1521,7 +1521,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::IRELAND**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L134)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L134)**</sub><br>
 
 
 <h2><a name="isle_of_man"># ISLE_OF_MAN</a></h2>
@@ -1532,7 +1532,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::ISLE_OF_MAN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L135)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L135)**</sub><br>
 
 
 <h2><a name="israel"># ISRAEL</a></h2>
@@ -1543,7 +1543,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::ISRAEL**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L136)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L136)**</sub><br>
 
 
 <h2><a name="italy"># ITALY</a></h2>
@@ -1554,7 +1554,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::ITALY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L137)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L137)**</sub><br>
 
 
 <h2><a name="jamaica"># JAMAICA</a></h2>
@@ -1565,7 +1565,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::JAMAICA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L138)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L138)**</sub><br>
 
 
 <h2><a name="japan"># JAPAN</a></h2>
@@ -1576,7 +1576,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::JAPAN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L139)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L139)**</sub><br>
 
 
 <h2><a name="jersey"># JERSEY</a></h2>
@@ -1587,7 +1587,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::JERSEY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L140)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L140)**</sub><br>
 
 
 <h2><a name="johnston_island"># JOHNSTON_ISLAND</a></h2>
@@ -1598,7 +1598,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::JOHNSTON_ISLAND**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L141)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L141)**</sub><br>
 
 
 <h2><a name="jordan"># JORDAN</a></h2>
@@ -1609,7 +1609,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::JORDAN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L142)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L142)**</sub><br>
 
 
 <h2><a name="kazakhstan"># KAZAKHSTAN</a></h2>
@@ -1620,7 +1620,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::KAZAKHSTAN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L143)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L143)**</sub><br>
 
 
 <h2><a name="kenya"># KENYA</a></h2>
@@ -1631,7 +1631,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::KENYA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L144)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L144)**</sub><br>
 
 
 <h2><a name="kiribati"># KIRIBATI</a></h2>
@@ -1642,7 +1642,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::KIRIBATI**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L145)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L145)**</sub><br>
 
 
 <h2><a name="kuwait"># KUWAIT</a></h2>
@@ -1653,7 +1653,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::KUWAIT**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L146)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L146)**</sub><br>
 
 
 <h2><a name="kyrgyzstan"># KYRGYZSTAN</a></h2>
@@ -1664,7 +1664,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::KYRGYZSTAN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L147)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L147)**</sub><br>
 
 
 <h2><a name="laos"># LAOS</a></h2>
@@ -1675,7 +1675,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::LAOS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L148)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L148)**</sub><br>
 
 
 <h2><a name="latvia"># LATVIA</a></h2>
@@ -1686,7 +1686,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::LATVIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L149)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L149)**</sub><br>
 
 
 <h2><a name="lebanon"># LEBANON</a></h2>
@@ -1697,7 +1697,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::LEBANON**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L150)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L150)**</sub><br>
 
 
 <h2><a name="lesotho"># LESOTHO</a></h2>
@@ -1708,7 +1708,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::LESOTHO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L151)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L151)**</sub><br>
 
 
 <h2><a name="liberia"># LIBERIA</a></h2>
@@ -1719,7 +1719,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::LIBERIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L152)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L152)**</sub><br>
 
 
 <h2><a name="libya"># LIBYA</a></h2>
@@ -1730,7 +1730,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::LIBYA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L153)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L153)**</sub><br>
 
 
 <h2><a name="liechtenstein"># LIECHTENSTEIN</a></h2>
@@ -1741,7 +1741,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::LIECHTENSTEIN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L154)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L154)**</sub><br>
 
 
 <h2><a name="lithuania"># LITHUANIA</a></h2>
@@ -1752,7 +1752,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::LITHUANIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L155)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L155)**</sub><br>
 
 
 <h2><a name="luxembourg"># LUXEMBOURG</a></h2>
@@ -1763,7 +1763,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::LUXEMBOURG**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L156)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L156)**</sub><br>
 
 
 <h2><a name="macau_sar_china"># MACAU_SAR_CHINA</a></h2>
@@ -1774,7 +1774,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::MACAU_SAR_CHINA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L157)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L157)**</sub><br>
 
 
 <h2><a name="macedonia"># MACEDONIA</a></h2>
@@ -1785,7 +1785,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::MACEDONIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L158)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L158)**</sub><br>
 
 
 <h2><a name="madagascar"># MADAGASCAR</a></h2>
@@ -1796,7 +1796,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::MADAGASCAR**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L159)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L159)**</sub><br>
 
 
 <h2><a name="malawi"># MALAWI</a></h2>
@@ -1807,7 +1807,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::MALAWI**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L160)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L160)**</sub><br>
 
 
 <h2><a name="malaysia"># MALAYSIA</a></h2>
@@ -1818,7 +1818,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::MALAYSIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L161)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L161)**</sub><br>
 
 
 <h2><a name="maldives"># MALDIVES</a></h2>
@@ -1829,7 +1829,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::MALDIVES**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L162)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L162)**</sub><br>
 
 
 <h2><a name="mali"># MALI</a></h2>
@@ -1840,7 +1840,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::MALI**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L163)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L163)**</sub><br>
 
 
 <h2><a name="malta"># MALTA</a></h2>
@@ -1851,7 +1851,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::MALTA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L164)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L164)**</sub><br>
 
 
 <h2><a name="marshall_islands"># MARSHALL_ISLANDS</a></h2>
@@ -1862,7 +1862,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::MARSHALL_ISLANDS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L165)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L165)**</sub><br>
 
 
 <h2><a name="martinique"># MARTINIQUE</a></h2>
@@ -1873,7 +1873,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::MARTINIQUE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L166)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L166)**</sub><br>
 
 
 <h2><a name="mauritania"># MAURITANIA</a></h2>
@@ -1884,7 +1884,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::MAURITANIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L167)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L167)**</sub><br>
 
 
 <h2><a name="mauritius"># MAURITIUS</a></h2>
@@ -1895,7 +1895,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::MAURITIUS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L168)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L168)**</sub><br>
 
 
 <h2><a name="mayotte"># MAYOTTE</a></h2>
@@ -1906,7 +1906,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::MAYOTTE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L169)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L169)**</sub><br>
 
 
 <h2><a name="metropolitan_france"># METROPOLITAN_FRANCE</a></h2>
@@ -1917,7 +1917,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::METROPOLITAN_FRANCE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L170)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L170)**</sub><br>
 
 
 <h2><a name="mexico"># MEXICO</a></h2>
@@ -1928,7 +1928,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::MEXICO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L171)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L171)**</sub><br>
 
 
 <h2><a name="micronesia"># MICRONESIA</a></h2>
@@ -1939,7 +1939,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::MICRONESIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L172)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L172)**</sub><br>
 
 
 <h2><a name="midway_islands"># MIDWAY_ISLANDS</a></h2>
@@ -1950,7 +1950,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::MIDWAY_ISLANDS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L173)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L173)**</sub><br>
 
 
 <h2><a name="moldova"># MOLDOVA</a></h2>
@@ -1961,7 +1961,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::MOLDOVA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L174)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L174)**</sub><br>
 
 
 <h2><a name="monaco"># MONACO</a></h2>
@@ -1972,7 +1972,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::MONACO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L175)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L175)**</sub><br>
 
 
 <h2><a name="mongolia"># MONGOLIA</a></h2>
@@ -1983,7 +1983,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::MONGOLIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L176)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L176)**</sub><br>
 
 
 <h2><a name="montenegro"># MONTENEGRO</a></h2>
@@ -1994,7 +1994,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::MONTENEGRO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L177)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L177)**</sub><br>
 
 
 <h2><a name="montserrat"># MONTSERRAT</a></h2>
@@ -2005,7 +2005,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::MONTSERRAT**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L178)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L178)**</sub><br>
 
 
 <h2><a name="morocco"># MOROCCO</a></h2>
@@ -2016,7 +2016,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::MOROCCO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L179)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L179)**</sub><br>
 
 
 <h2><a name="mozambique"># MOZAMBIQUE</a></h2>
@@ -2027,7 +2027,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::MOZAMBIQUE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L180)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L180)**</sub><br>
 
 
 <h2><a name="myanmar_burma"># MYANMAR_BURMA</a></h2>
@@ -2038,7 +2038,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::MYANMAR_BURMA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L181)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L181)**</sub><br>
 
 
 <h2><a name="namibia"># NAMIBIA</a></h2>
@@ -2049,7 +2049,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::NAMIBIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L182)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L182)**</sub><br>
 
 
 <h2><a name="nauru"># NAURU</a></h2>
@@ -2060,7 +2060,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::NAURU**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L183)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L183)**</sub><br>
 
 
 <h2><a name="nepal"># NEPAL</a></h2>
@@ -2071,7 +2071,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::NEPAL**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L184)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L184)**</sub><br>
 
 
 <h2><a name="netherlands"># NETHERLANDS</a></h2>
@@ -2082,7 +2082,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::NETHERLANDS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L185)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L185)**</sub><br>
 
 
 <h2><a name="netherlands_antilles"># NETHERLANDS_ANTILLES</a></h2>
@@ -2093,7 +2093,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::NETHERLANDS_ANTILLES**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L186)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L186)**</sub><br>
 
 
 <h2><a name="new_caledonia"># NEW_CALEDONIA</a></h2>
@@ -2104,7 +2104,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::NEW_CALEDONIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L187)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L187)**</sub><br>
 
 
 <h2><a name="new_zealand"># NEW_ZEALAND</a></h2>
@@ -2115,7 +2115,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::NEW_ZEALAND**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L188)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L188)**</sub><br>
 
 
 <h2><a name="nicaragua"># NICARAGUA</a></h2>
@@ -2126,7 +2126,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::NICARAGUA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L189)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L189)**</sub><br>
 
 
 <h2><a name="niger"># NIGER</a></h2>
@@ -2137,7 +2137,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::NIGER**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L190)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L190)**</sub><br>
 
 
 <h2><a name="nigeria"># NIGERIA</a></h2>
@@ -2148,7 +2148,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::NIGERIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L191)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L191)**</sub><br>
 
 
 <h2><a name="niue"># NIUE</a></h2>
@@ -2159,7 +2159,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::NIUE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L192)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L192)**</sub><br>
 
 
 <h2><a name="norfolk_island"># NORFOLK_ISLAND</a></h2>
@@ -2170,7 +2170,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::NORFOLK_ISLAND**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L193)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L193)**</sub><br>
 
 
 <h2><a name="north_korea"># NORTH_KOREA</a></h2>
@@ -2181,7 +2181,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::NORTH_KOREA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L194)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L194)**</sub><br>
 
 
 <h2><a name="north_vietnam"># NORTH_VIETNAM</a></h2>
@@ -2192,7 +2192,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::NORTH_VIETNAM**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L195)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L195)**</sub><br>
 
 
 <h2><a name="northern_mariana_islands"># NORTHERN_MARIANA_ISLANDS</a></h2>
@@ -2203,7 +2203,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::NORTHERN_MARIANA_ISLANDS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L196)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L196)**</sub><br>
 
 
 <h2><a name="norway"># NORWAY</a></h2>
@@ -2214,7 +2214,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::NORWAY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L197)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L197)**</sub><br>
 
 
 <h2><a name="oman"># OMAN</a></h2>
@@ -2225,7 +2225,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::OMAN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L198)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L198)**</sub><br>
 
 
 <h2><a name="pacific_islands_trust_territory"># PACIFIC_ISLANDS_TRUST_TERRITORY</a></h2>
@@ -2236,7 +2236,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::PACIFIC_ISLANDS_TRUST_TERRITORY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L199)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L199)**</sub><br>
 
 
 <h2><a name="pakistan"># PAKISTAN</a></h2>
@@ -2247,7 +2247,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::PAKISTAN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L200)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L200)**</sub><br>
 
 
 <h2><a name="palau"># PALAU</a></h2>
@@ -2258,7 +2258,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::PALAU**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L201)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L201)**</sub><br>
 
 
 <h2><a name="palestinian_territories"># PALESTINIAN_TERRITORIES</a></h2>
@@ -2269,7 +2269,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::PALESTINIAN_TERRITORIES**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L202)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L202)**</sub><br>
 
 
 <h2><a name="panama"># PANAMA</a></h2>
@@ -2280,7 +2280,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::PANAMA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L203)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L203)**</sub><br>
 
 
 <h2><a name="panama_canal_zone"># PANAMA_CANAL_ZONE</a></h2>
@@ -2291,7 +2291,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::PANAMA_CANAL_ZONE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L204)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L204)**</sub><br>
 
 
 <h2><a name="papua_new_guinea"># PAPUA_NEW_GUINEA</a></h2>
@@ -2302,7 +2302,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::PAPUA_NEW_GUINEA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L205)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L205)**</sub><br>
 
 
 <h2><a name="paraguay"># PARAGUAY</a></h2>
@@ -2313,7 +2313,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::PARAGUAY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L206)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L206)**</sub><br>
 
 
 <h2><a name="peoples_democratic_republic_of_yemen"># PEOPLES_DEMOCRATIC_REPUBLIC_OF_YEMEN</a></h2>
@@ -2324,7 +2324,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::PEOPLES_DEMOCRATIC_REPUBLIC_OF_YEMEN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L207)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L207)**</sub><br>
 
 
 <h2><a name="peru"># PERU</a></h2>
@@ -2335,7 +2335,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::PERU**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L208)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L208)**</sub><br>
 
 
 <h2><a name="philippines"># PHILIPPINES</a></h2>
@@ -2346,7 +2346,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::PHILIPPINES**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L209)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L209)**</sub><br>
 
 
 <h2><a name="pitcairn_islands"># PITCAIRN_ISLANDS</a></h2>
@@ -2357,7 +2357,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::PITCAIRN_ISLANDS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L210)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L210)**</sub><br>
 
 
 <h2><a name="poland"># POLAND</a></h2>
@@ -2368,7 +2368,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::POLAND**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L211)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L211)**</sub><br>
 
 
 <h2><a name="portugal"># PORTUGAL</a></h2>
@@ -2379,7 +2379,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::PORTUGAL**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L212)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L212)**</sub><br>
 
 
 <h2><a name="puerto_rico"># PUERTO_RICO</a></h2>
@@ -2390,7 +2390,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::PUERTO_RICO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L213)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L213)**</sub><br>
 
 
 <h2><a name="qatar"># QATAR</a></h2>
@@ -2401,7 +2401,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::QATAR**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L214)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L214)**</sub><br>
 
 
 <h2><a name="romania"># ROMANIA</a></h2>
@@ -2412,7 +2412,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::ROMANIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L215)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L215)**</sub><br>
 
 
 <h2><a name="russia"># RUSSIA</a></h2>
@@ -2423,7 +2423,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::RUSSIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L216)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L216)**</sub><br>
 
 
 <h2><a name="rwanda"># RWANDA</a></h2>
@@ -2434,7 +2434,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::RWANDA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L217)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L217)**</sub><br>
 
 
 <h2><a name="reunion"># REUNION</a></h2>
@@ -2445,7 +2445,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::REUNION**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L218)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L218)**</sub><br>
 
 
 <h2><a name="saint_barthelemy"># SAINT_BARTHELEMY</a></h2>
@@ -2456,7 +2456,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::SAINT_BARTHELEMY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L219)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L219)**</sub><br>
 
 
 <h2><a name="saint_helena"># SAINT_HELENA</a></h2>
@@ -2467,7 +2467,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::SAINT_HELENA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L220)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L220)**</sub><br>
 
 
 <h2><a name="saint_kitts_and_nevis"># SAINT_KITTS_AND_NEVIS</a></h2>
@@ -2478,7 +2478,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::SAINT_KITTS_AND_NEVIS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L221)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L221)**</sub><br>
 
 
 <h2><a name="saint_lucia"># SAINT_LUCIA</a></h2>
@@ -2489,7 +2489,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::SAINT_LUCIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L222)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L222)**</sub><br>
 
 
 <h2><a name="saint_martin"># SAINT_MARTIN</a></h2>
@@ -2500,7 +2500,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::SAINT_MARTIN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L223)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L223)**</sub><br>
 
 
 <h2><a name="saint_pierre_and_miquelon"># SAINT_PIERRE_AND_MIQUELON</a></h2>
@@ -2511,7 +2511,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::SAINT_PIERRE_AND_MIQUELON**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L224)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L224)**</sub><br>
 
 
 <h2><a name="saint_vincent_and_the_grenadines"># SAINT_VINCENT_AND_THE_GRENADINES</a></h2>
@@ -2522,7 +2522,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::SAINT_VINCENT_AND_THE_GRENADINES**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L225)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L225)**</sub><br>
 
 
 <h2><a name="samoa"># SAMOA</a></h2>
@@ -2533,7 +2533,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::SAMOA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L226)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L226)**</sub><br>
 
 
 <h2><a name="san_marino"># SAN_MARINO</a></h2>
@@ -2544,7 +2544,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::SAN_MARINO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L227)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L227)**</sub><br>
 
 
 <h2><a name="saudi_arabia"># SAUDI_ARABIA</a></h2>
@@ -2555,7 +2555,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::SAUDI_ARABIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L228)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L228)**</sub><br>
 
 
 <h2><a name="senegal"># SENEGAL</a></h2>
@@ -2566,7 +2566,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::SENEGAL**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L229)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L229)**</sub><br>
 
 
 <h2><a name="serbia"># SERBIA</a></h2>
@@ -2577,7 +2577,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::SERBIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L230)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L230)**</sub><br>
 
 
 <h2><a name="serbia_and_montenegro"># SERBIA_AND_MONTENEGRO</a></h2>
@@ -2588,7 +2588,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::SERBIA_AND_MONTENEGRO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L231)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L231)**</sub><br>
 
 
 <h2><a name="seychelles"># SEYCHELLES</a></h2>
@@ -2599,7 +2599,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::SEYCHELLES**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L232)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L232)**</sub><br>
 
 
 <h2><a name="sierra_leone"># SIERRA_LEONE</a></h2>
@@ -2610,7 +2610,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::SIERRA_LEONE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L233)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L233)**</sub><br>
 
 
 <h2><a name="singapore"># SINGAPORE</a></h2>
@@ -2621,7 +2621,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::SINGAPORE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L234)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L234)**</sub><br>
 
 
 <h2><a name="slovakia"># SLOVAKIA</a></h2>
@@ -2632,7 +2632,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::SLOVAKIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L235)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L235)**</sub><br>
 
 
 <h2><a name="slovenia"># SLOVENIA</a></h2>
@@ -2643,7 +2643,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::SLOVENIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L236)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L236)**</sub><br>
 
 
 <h2><a name="solomon_islands"># SOLOMON_ISLANDS</a></h2>
@@ -2654,7 +2654,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::SOLOMON_ISLANDS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L237)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L237)**</sub><br>
 
 
 <h2><a name="somalia"># SOMALIA</a></h2>
@@ -2665,7 +2665,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::SOMALIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L238)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L238)**</sub><br>
 
 
 <h2><a name="south_africa"># SOUTH_AFRICA</a></h2>
@@ -2676,7 +2676,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::SOUTH_AFRICA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L239)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L239)**</sub><br>
 
 
 <h2><a name="south_georgia_and_the_south_sandwich_islands"># SOUTH_GEORGIA_AND_THE_SOUTH_SANDWICH_ISLANDS</a></h2>
@@ -2687,7 +2687,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::SOUTH_GEORGIA_AND_THE_SOUTH_SANDWICH_ISLANDS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L240)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L240)**</sub><br>
 
 
 <h2><a name="south_korea"># SOUTH_KOREA</a></h2>
@@ -2698,7 +2698,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::SOUTH_KOREA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L241)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L241)**</sub><br>
 
 
 <h2><a name="spain"># SPAIN</a></h2>
@@ -2709,7 +2709,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::SPAIN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L242)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L242)**</sub><br>
 
 
 <h2><a name="sri_lanka"># SRI_LANKA</a></h2>
@@ -2720,7 +2720,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::SRI_LANKA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L243)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L243)**</sub><br>
 
 
 <h2><a name="sudan"># SUDAN</a></h2>
@@ -2731,7 +2731,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::SUDAN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L244)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L244)**</sub><br>
 
 
 <h2><a name="suriname"># SURINAME</a></h2>
@@ -2742,7 +2742,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::SURINAME**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L245)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L245)**</sub><br>
 
 
 <h2><a name="svalbard_and_jan_mayen"># SVALBARD_AND_JAN_MAYEN</a></h2>
@@ -2753,7 +2753,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::SVALBARD_AND_JAN_MAYEN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L246)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L246)**</sub><br>
 
 
 <h2><a name="swaziland"># SWAZILAND</a></h2>
@@ -2764,7 +2764,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::SWAZILAND**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L247)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L247)**</sub><br>
 
 
 <h2><a name="sweden"># SWEDEN</a></h2>
@@ -2775,7 +2775,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::SWEDEN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L248)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L248)**</sub><br>
 
 
 <h2><a name="switzerland"># SWITZERLAND</a></h2>
@@ -2786,7 +2786,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::SWITZERLAND**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L249)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L249)**</sub><br>
 
 
 <h2><a name="syria"># SYRIA</a></h2>
@@ -2797,7 +2797,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::SYRIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L250)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L250)**</sub><br>
 
 
 <h2><a name="sao_tome_and_principe"># SAO_TOME_AND_PRINCIPE</a></h2>
@@ -2808,7 +2808,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::SAO_TOME_AND_PRINCIPE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L251)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L251)**</sub><br>
 
 
 <h2><a name="taiwan"># TAIWAN</a></h2>
@@ -2819,7 +2819,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::TAIWAN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L252)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L252)**</sub><br>
 
 
 <h2><a name="tajikistan"># TAJIKISTAN</a></h2>
@@ -2830,7 +2830,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::TAJIKISTAN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L253)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L253)**</sub><br>
 
 
 <h2><a name="tanzania"># TANZANIA</a></h2>
@@ -2841,7 +2841,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::TANZANIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L254)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L254)**</sub><br>
 
 
 <h2><a name="thailand"># THAILAND</a></h2>
@@ -2852,7 +2852,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::THAILAND**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L255)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L255)**</sub><br>
 
 
 <h2><a name="timor_leste"># TIMOR_LESTE</a></h2>
@@ -2863,7 +2863,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::TIMOR_LESTE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L256)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L256)**</sub><br>
 
 
 <h2><a name="togo"># TOGO</a></h2>
@@ -2874,7 +2874,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::TOGO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L257)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L257)**</sub><br>
 
 
 <h2><a name="tokelau"># TOKELAU</a></h2>
@@ -2885,7 +2885,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::TOKELAU**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L258)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L258)**</sub><br>
 
 
 <h2><a name="tonga"># TONGA</a></h2>
@@ -2896,7 +2896,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::TONGA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L259)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L259)**</sub><br>
 
 
 <h2><a name="trinidad_and_tobago"># TRINIDAD_AND_TOBAGO</a></h2>
@@ -2907,7 +2907,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::TRINIDAD_AND_TOBAGO**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L260)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L260)**</sub><br>
 
 
 <h2><a name="tunisia"># TUNISIA</a></h2>
@@ -2918,7 +2918,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::TUNISIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L261)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L261)**</sub><br>
 
 
 <h2><a name="turkey"># TURKEY</a></h2>
@@ -2929,7 +2929,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::TURKEY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L262)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L262)**</sub><br>
 
 
 <h2><a name="turkmenistan"># TURKMENISTAN</a></h2>
@@ -2940,7 +2940,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::TURKMENISTAN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L263)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L263)**</sub><br>
 
 
 <h2><a name="turks_and_caicos_islands"># TURKS_AND_CAICOS_ISLANDS</a></h2>
@@ -2951,7 +2951,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::TURKS_AND_CAICOS_ISLANDS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L264)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L264)**</sub><br>
 
 
 <h2><a name="tuvalu"># TUVALU</a></h2>
@@ -2962,7 +2962,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::TUVALU**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L265)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L265)**</sub><br>
 
 
 <h2><a name="us_minor_outlying_islands"># US_MINOR_OUTLYING_ISLANDS</a></h2>
@@ -2973,7 +2973,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::US_MINOR_OUTLYING_ISLANDS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L266)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L266)**</sub><br>
 
 
 <h2><a name="us_miscellaneous_pacific_islands"># US_MISCELLANEOUS_PACIFIC_ISLANDS</a></h2>
@@ -2984,7 +2984,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::US_MISCELLANEOUS_PACIFIC_ISLANDS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L267)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L267)**</sub><br>
 
 
 <h2><a name="us_virgin_islands"># US_VIRGIN_ISLANDS</a></h2>
@@ -2995,7 +2995,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::US_VIRGIN_ISLANDS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L268)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L268)**</sub><br>
 
 
 <h2><a name="uganda"># UGANDA</a></h2>
@@ -3006,7 +3006,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::UGANDA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L269)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L269)**</sub><br>
 
 
 <h2><a name="ukraine"># UKRAINE</a></h2>
@@ -3017,7 +3017,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::UKRAINE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L270)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L270)**</sub><br>
 
 
 <h2><a name="union_of_soviet_socialist_republics"># UNION_OF_SOVIET_SOCIALIST_REPUBLICS</a></h2>
@@ -3028,7 +3028,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::UNION_OF_SOVIET_SOCIALIST_REPUBLICS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L271)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L271)**</sub><br>
 
 
 <h2><a name="united_arab_emirates"># UNITED_ARAB_EMIRATES</a></h2>
@@ -3039,7 +3039,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::UNITED_ARAB_EMIRATES**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L272)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L272)**</sub><br>
 
 
 <h2><a name="united_kingdom"># UNITED_KINGDOM</a></h2>
@@ -3050,7 +3050,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::UNITED_KINGDOM**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L273)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L273)**</sub><br>
 
 
 <h2><a name="united_states"># UNITED_STATES</a></h2>
@@ -3061,7 +3061,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::UNITED_STATES**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L274)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L274)**</sub><br>
 
 
 <h2><a name="uruguay"># URUGUAY</a></h2>
@@ -3072,7 +3072,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::URUGUAY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L275)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L275)**</sub><br>
 
 
 <h2><a name="uzbekistan"># UZBEKISTAN</a></h2>
@@ -3083,7 +3083,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::UZBEKISTAN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L276)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L276)**</sub><br>
 
 
 <h2><a name="vanuatu"># VANUATU</a></h2>
@@ -3094,7 +3094,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::VANUATU**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L277)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L277)**</sub><br>
 
 
 <h2><a name="vatican_city"># VATICAN_CITY</a></h2>
@@ -3105,7 +3105,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::VATICAN_CITY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L278)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L278)**</sub><br>
 
 
 <h2><a name="venezuela"># VENEZUELA</a></h2>
@@ -3116,7 +3116,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::VENEZUELA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L279)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L279)**</sub><br>
 
 
 <h2><a name="vietnam"># VIETNAM</a></h2>
@@ -3127,7 +3127,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::VIETNAM**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L280)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L280)**</sub><br>
 
 
 <h2><a name="wake_island"># WAKE_ISLAND</a></h2>
@@ -3138,7 +3138,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::WAKE_ISLAND**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L281)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L281)**</sub><br>
 
 
 <h2><a name="wallis_and_futuna"># WALLIS_AND_FUTUNA</a></h2>
@@ -3149,7 +3149,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::WALLIS_AND_FUTUNA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L282)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L282)**</sub><br>
 
 
 <h2><a name="western_sahara"># WESTERN_SAHARA</a></h2>
@@ -3160,7 +3160,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::WESTERN_SAHARA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L283)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L283)**</sub><br>
 
 
 <h2><a name="yemen"># YEMEN</a></h2>
@@ -3171,7 +3171,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::YEMEN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L284)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L284)**</sub><br>
 
 
 <h2><a name="zambia"># ZAMBIA</a></h2>
@@ -3182,7 +3182,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::ZAMBIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L285)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L285)**</sub><br>
 
 
 <h2><a name="zimbabwe"># ZIMBABWE</a></h2>
@@ -3193,7 +3193,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::ZIMBABWE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L286)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L286)**</sub><br>
 
 
 
@@ -3211,7 +3211,7 @@ public \FireHub\TheCore\Support\Enums\Geo\Country::continent():\FireHub\TheCore\
 ### ### Gets continent for country
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\Enums\Geo\Country::continent()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Country.php#L294)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Country.php#L294)**</sub><br>
 
 ### Changelog:
 
@@ -3219,6 +3219,6 @@ public \FireHub\TheCore\Support\Enums\Geo\Country::continent():\FireHub\TheCore\
 
 ### Returns:
 
-* [\FireHub\TheCore\Support\Enums\Geo\Continent](/core/v0.2\FireHub\TheCore\Support\Enums\Geo\Continent) _Continent enum of selected country._
+* [\FireHub\TheCore\Support\Enums\Geo\Continent](/thecore/v0.2\FireHub\TheCore\Support\Enums\Geo\Continent) _Continent enum of selected country._
 
 

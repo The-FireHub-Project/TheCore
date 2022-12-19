@@ -2,7 +2,7 @@
 layout: default
 title: Continent
 parent: \FireHub\Support
-grand_parent: Core v0.2
+grand_parent: TheCore v0.2
 has_children: false
 ---
 
@@ -18,9 +18,9 @@ enum \FireHub\TheCore\Support\Enums\Geo\Continent
 
 <sub>Fully Qualified Enum Name:  **\FireHub\TheCore\Support\Enums\Geo\Continent**</sub><br>
 <sub>This enum is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Continent.php#L23)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/enums/geo/firehub.Continent.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/enums/geo/firehub.Continent.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Continent.php#L23)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/enums/geo/firehub.Continent.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/enums/geo/firehub.Continent.php)**</sub><br>
 
 <sub>_This enum was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -59,7 +59,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Continent
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Continent::AFRICA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Continent.php#L25)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Continent.php#L25)**</sub><br>
 
 
 <h2><a name="antarctica"># ANTARCTICA</a></h2>
@@ -70,7 +70,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Continent
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Continent::ANTARCTICA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Continent.php#L26)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Continent.php#L26)**</sub><br>
 
 
 <h2><a name="asia"># ASIA</a></h2>
@@ -81,7 +81,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Continent
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Continent::ASIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Continent.php#L27)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Continent.php#L27)**</sub><br>
 
 
 <h2><a name="europe"># EUROPE</a></h2>
@@ -92,7 +92,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Continent
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Continent::EUROPE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Continent.php#L28)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Continent.php#L28)**</sub><br>
 
 
 <h2><a name="north_america"># NORTH_AMERICA</a></h2>
@@ -103,7 +103,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Continent
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Continent::NORTH_AMERICA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Continent.php#L29)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Continent.php#L29)**</sub><br>
 
 
 <h2><a name="oceania"># OCEANIA</a></h2>
@@ -114,7 +114,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Continent
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Continent::OCEANIA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Continent.php#L30)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Continent.php#L30)**</sub><br>
 
 
 <h2><a name="south_america"># SOUTH_AMERICA</a></h2>
@@ -125,6 +125,6 @@ enum \FireHub\TheCore\Support\Enums\Geo\Continent
 ```
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Geo\Continent::SOUTH_AMERICA**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/geo/firehub.Continent.php#L31)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/geo/firehub.Continent.php#L31)**</sub><br>
 
 

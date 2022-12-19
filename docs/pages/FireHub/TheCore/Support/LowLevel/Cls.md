@@ -2,7 +2,7 @@
 layout: default
 title: Cls
 parent: \FireHub\Support
-grand_parent: Core v0.2
+grand_parent: TheCore v0.2
 has_children: false
 ---
 
@@ -22,9 +22,9 @@ final class \FireHub\TheCore\Support\LowLevel\Cls()
 
 <sub>Fully Qualified Class Name:  **\FireHub\TheCore\Support\LowLevel\Cls**</sub><br>
 <sub>This class is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L48)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/lowlevel/firehub.Cls.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/lowlevel/firehub.Cls.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L48)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/lowlevel/firehub.Cls.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/lowlevel/firehub.Cls.php)**</sub><br>
 
 <sub>_This class was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -75,7 +75,7 @@ public static \FireHub\TheCore\Support\LowLevel\Cls::isClass(class-string $name,
 ### ### Checks if class name exist
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Cls::isClass()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L63)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L63)**</sub><br>
 
 ### Changelog:
 
@@ -108,7 +108,7 @@ public static \FireHub\TheCore\Support\LowLevel\Cls::isInterface(class-string $n
 ### ### Checks if interface name exist
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Cls::isInterface()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L82)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L82)**</sub><br>
 
 ### Changelog:
 
@@ -134,7 +134,7 @@ public static \FireHub\TheCore\Support\LowLevel\Cls::isEnum(class-string $name, 
 ### ### Checks if enum name exist
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Cls::isEnum()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L101)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L101)**</sub><br>
 
 ### Changelog:
 
@@ -160,7 +160,7 @@ public static \FireHub\TheCore\Support\LowLevel\Cls::ofClass(class-string $value
 ### ### Checks if class is of this class or has this class as one of its parents
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Cls::ofClass()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L123)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L123)**</sub><br>
 
 ### Changelog:
 
@@ -187,7 +187,7 @@ public static \FireHub\TheCore\Support\LowLevel\Cls::subClassOf(class-string $va
 ### ### Checks if class has this class as one of its parents or implements it
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Cls::subClassOf()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L145)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L145)**</sub><br>
 
 ### Changelog:
 
@@ -214,7 +214,7 @@ public static \FireHub\TheCore\Support\LowLevel\Cls::parentClass(class-string $c
 ### ### Retrieves the parent class name for class
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Cls::parentClass()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L161)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L161)**</sub><br>
 
 ### Changelog:
 
@@ -243,7 +243,7 @@ public static \FireHub\TheCore\Support\LowLevel\Cls::implements(class-string $cl
 ### ### Return the interfaces which are implemented by the given class or its parents
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Cls::implements()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L180)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L180)**</sub><br>
 
 ### Changelog:
 
@@ -269,7 +269,7 @@ public static \FireHub\TheCore\Support\LowLevel\Cls::parents(class-string $class
 ### ### Return the parent classes of the given class
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Cls::parents()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L199)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L199)**</sub><br>
 
 ### Changelog:
 
@@ -295,7 +295,7 @@ public static \FireHub\TheCore\Support\LowLevel\Cls::traits(class-string $class,
 ### ### Return the traits of the given class
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Cls::traits()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L225)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L225)**</sub><br>
 
 ### Changelog:
 
@@ -303,9 +303,9 @@ public static \FireHub\TheCore\Support\LowLevel\Cls::traits(class-string $class,
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\LowLevel\Cls::parentClass()](/core/v0.2\FireHub\TheCore\Support\LowLevel\Cls#parentclass()) _To get class parent._
-* [\FireHub\TheCore\Support\LowLevel\Cls::traits()](/core/v0.2\FireHub\TheCore\Support\LowLevel\Cls#traits()) _To get class traits._
-* [\FireHub\TheCore\Support\LowLevel\Arr::merge()](/core/v0.2\FireHub\TheCore\Support\LowLevel\Arr#merge()) _To merge parent traits with ones in class._
+* [\FireHub\TheCore\Support\LowLevel\Cls::parentClass()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Cls#parentclass()) _To get class parent._
+* [\FireHub\TheCore\Support\LowLevel\Cls::traits()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Cls#traits()) _To get class traits._
+* [\FireHub\TheCore\Support\LowLevel\Arr::merge()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Arr#merge()) _To merge parent traits with ones in class._
 
 ### This method is used by:
 
@@ -336,7 +336,7 @@ public static \FireHub\TheCore\Support\LowLevel\Cls::alias(class-string $class, 
 ### ### Creates an alias for a class
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Cls::alias()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L255)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L255)**</sub><br>
 
 ### Changelog:
 
@@ -363,7 +363,7 @@ public static \FireHub\TheCore\Support\LowLevel\Cls::methods(class-string $class
 ### ### Gets the class methods names
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Cls::methods()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L276)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L276)**</sub><br>
 
 ### Changelog:
 
@@ -371,7 +371,7 @@ public static \FireHub\TheCore\Support\LowLevel\Cls::methods(class-string $class
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\LowLevel\Cls::isClass()](/core/v0.2\FireHub\TheCore\Support\LowLevel\Cls#isclass()) _To check if $class is class._
+* [\FireHub\TheCore\Support\LowLevel\Cls::isClass()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Cls#isclass()) _To check if $class is class._
 
 ### Parameters:
 
@@ -391,7 +391,7 @@ public static \FireHub\TheCore\Support\LowLevel\Cls::properties(class-string $cl
 ### ### Gets the class public property values
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Cls::properties()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L297)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L297)**</sub><br>
 
 ### Changelog:
 
@@ -399,7 +399,7 @@ public static \FireHub\TheCore\Support\LowLevel\Cls::properties(class-string $cl
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\LowLevel\Cls::isClass()](/core/v0.2\FireHub\TheCore\Support\LowLevel\Cls#isclass()) _To check if $class is class._
+* [\FireHub\TheCore\Support\LowLevel\Cls::isClass()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Cls#isclass()) _To check if $class is class._
 
 ### Parameters:
 
@@ -419,7 +419,7 @@ public static \FireHub\TheCore\Support\LowLevel\Cls::declaredClasses():array<int
 ### ### Gets the declared classes
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Cls::declaredClasses()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L309)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L309)**</sub><br>
 
 ### Changelog:
 
@@ -439,7 +439,7 @@ public static \FireHub\TheCore\Support\LowLevel\Cls::declaredInterfaces():array<
 ### ### Gets the declared interfaces
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Cls::declaredInterfaces()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L321)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L321)**</sub><br>
 
 ### Changelog:
 
@@ -459,7 +459,7 @@ public static \FireHub\TheCore\Support\LowLevel\Cls::declaredTraits():array<int,
 ### ### Gets the declared traits
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Cls::declaredTraits()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L333)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L333)**</sub><br>
 
 ### Changelog:
 
@@ -479,7 +479,7 @@ public static \FireHub\TheCore\Support\LowLevel\Cls::methodExist(string $method,
 ### ### Checks if the class method exists
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Cls::methodExist()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L354)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L354)**</sub><br>
 
 ### Changelog:
 
@@ -504,7 +504,7 @@ public static \FireHub\TheCore\Support\LowLevel\Cls::propertyExist(string $prope
 ### ### Checks if the class property exists
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Cls::propertyExist()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L376)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Cls.php#L376)**</sub><br>
 
 ### Changelog:
 

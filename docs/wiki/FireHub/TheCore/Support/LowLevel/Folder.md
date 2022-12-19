@@ -9,9 +9,9 @@ _This low level support class is for manipulating data._
 
 <sub>Fully Qualified Class Name:  **\FireHub\TheCore\Support\LowLevel\Folder**</sub><br>
 <sub>This class is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L58)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/lowlevel/firehub.Folder.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/lowlevel/firehub.Folder.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L58)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/lowlevel/firehub.Folder.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/lowlevel/firehub.Folder.php)**</sub><br>
 
 <sub>_This class was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -55,7 +55,7 @@ static \FireHub\TheCore\Support\LowLevel\Folder::isFolder(string $path):bool
 
 ### ### Checks if path is a folder
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Folder::isFolder()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L72)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L72)**</sub><br>
 
 
 ### Parameters:
@@ -74,7 +74,7 @@ static \FireHub\TheCore\Support\LowLevel\Folder::isEmpty(string $path):bool
 
 ### ### Checks if folder is empty
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Folder::isEmpty()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L88)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L88)**</sub><br>
 
 
 ### Parameters:
@@ -93,7 +93,7 @@ static \FireHub\TheCore\Support\LowLevel\Folder::parentFolder(string $path, int<
 
 ### ### Returns parent folder name component of path
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Folder::parentFolder()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L111)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L111)**</sub><br>
 
 
 ### Parameters:
@@ -114,7 +114,7 @@ static \FireHub\TheCore\Support\LowLevel\Folder::basename(string $path):string|f
 
 ### ### Returns base name component of path
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Folder::basename()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L129)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L129)**</sub><br>
 
 
 ### Parameters:
@@ -133,7 +133,7 @@ static \FireHub\TheCore\Support\LowLevel\Folder::getPermissions(string $path):st
 
 ### ### Gets folder permissions
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Folder::getPermissions()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L150)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L150)**</sub><br>
 
 
 ### Parameters:
@@ -152,7 +152,7 @@ static \FireHub\TheCore\Support\LowLevel\Folder::setPermissions(string $path, \F
 
 ### ### Sets folder permissions
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Folder::setPermissions()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L189)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L189)**</sub><br>
 
 
 ### Parameters:
@@ -174,7 +174,7 @@ static \FireHub\TheCore\Support\LowLevel\Folder::create(string $path, \FireHub\T
 
 ### ### Creates folder
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Folder::create()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L232)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L232)**</sub><br>
 
 
 ### Parameters:
@@ -205,7 +205,7 @@ static \FireHub\TheCore\Support\LowLevel\Folder::delete(string $path):bool
 
 ### ### Deletes folder
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Folder::delete()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L258)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L258)**</sub><br>
 
 
 ### Parameters:
@@ -224,7 +224,7 @@ static \FireHub\TheCore\Support\LowLevel\Folder::copy(string $source, string $de
 
 ### ### Copies source folder to destination
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Folder::copy()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L288)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L288)**</sub><br>
 
 
 ### Parameters:
@@ -246,7 +246,7 @@ static \FireHub\TheCore\Support\LowLevel\Folder::move(string $source, string $de
 
 ### ### Moves folder
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Folder::move()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L321)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L321)**</sub><br>
 
 
 ### Parameters:
@@ -266,7 +266,7 @@ static \FireHub\TheCore\Support\LowLevel\Folder::rename(string $source, string $
 
 ### ### Renames folder
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Folder::rename()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L344)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L344)**</sub><br>
 
 
 ### Parameters:
@@ -287,7 +287,7 @@ static \FireHub\TheCore\Support\LowLevel\Folder::list(string $path, null|\FireHu
 
 ### ### List files and directories inside the specified path
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Folder::list()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L369)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L369)**</sub><br>
 
 
 ### Parameters:
@@ -306,7 +306,7 @@ static \FireHub\TheCore\Support\LowLevel\Folder::lastAccessed(string $path):int|
 
 ### ### Gets last access time of folder
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Folder::lastAccessed()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L395)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L395)**</sub><br>
 
 
 ### Parameters:
@@ -328,7 +328,7 @@ static \FireHub\TheCore\Support\LowLevel\Folder::lastModified(string $path):int|
 _Represents when the data or content is changed or modified, not including that of metadata such as ownership or owner group._
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Folder::lastModified()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L413)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L413)**</sub><br>
 
 
 ### Parameters:
@@ -347,7 +347,7 @@ static \FireHub\TheCore\Support\LowLevel\Folder::setLastAccessedAndModification(
 
 ### ### Sets last access and modification time of folder
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Folder::setLastAccessedAndModification()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L436)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L436)**</sub><br>
 
 
 ### Parameters:
@@ -372,7 +372,7 @@ static \FireHub\TheCore\Support\LowLevel\Folder::lastChanged(string $path):int|f
 _Represents the time when the metadata or inode data of a file is altered, such as the change of permissions, ownership or group._
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Folder::lastChanged()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L456)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L456)**</sub><br>
 
 
 ### Parameters:
@@ -391,7 +391,7 @@ static \FireHub\TheCore\Support\LowLevel\Folder::totalSpace(string $path):float|
 
 ### ### Gets total size of a filesystem or disk partition
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Folder::totalSpace()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L472)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L472)**</sub><br>
 
 
 ### Parameters:
@@ -410,7 +410,7 @@ static \FireHub\TheCore\Support\LowLevel\Folder::freeSpace(string $path):float|f
 
 ### ### Gets free space of a filesystem or disk partition
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Folder::freeSpace()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L488)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Folder.php#L488)**</sub><br>
 
 
 ### Parameters:

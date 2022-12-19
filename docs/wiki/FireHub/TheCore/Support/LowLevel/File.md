@@ -9,9 +9,9 @@ _This low level support class is for manipulating data._
 
 <sub>Fully Qualified Class Name:  **\FireHub\TheCore\Support\LowLevel\File**</sub><br>
 <sub>This class is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.File.php#L71)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/lowlevel/firehub.File.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/lowlevel/firehub.File.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.File.php#L71)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/lowlevel/firehub.File.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/lowlevel/firehub.File.php)**</sub><br>
 
 <sub>_This class was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -67,7 +67,7 @@ static \FireHub\TheCore\Support\LowLevel\File::isFile(string $path):bool
 
 ### ### Checks if path is a file
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\File::isFile()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.File.php#L85)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.File.php#L85)**</sub><br>
 
 
 ### Parameters:
@@ -86,7 +86,7 @@ static \FireHub\TheCore\Support\LowLevel\File::isEmpty(string $path):bool
 
 ### ### Checks if file is empty
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\File::isEmpty()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.File.php#L103)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.File.php#L103)**</sub><br>
 
 
 ### Parameters:
@@ -105,7 +105,7 @@ static \FireHub\TheCore\Support\LowLevel\File::parentFolder(string $path):string
 
 ### ### Returns parent folder name component of path
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\File::parentFolder()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.File.php#L121)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.File.php#L121)**</sub><br>
 
 
 ### Parameters:
@@ -124,7 +124,7 @@ static \FireHub\TheCore\Support\LowLevel\File::basename(string $path):string|fal
 
 ### ### Returns base name component of path
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\File::basename()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.File.php#L139)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.File.php#L139)**</sub><br>
 
 
 ### Parameters:
@@ -143,7 +143,7 @@ static \FireHub\TheCore\Support\LowLevel\File::filename(string $path):string|fal
 
 ### ### Get file name component of path
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\File::filename()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.File.php#L157)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.File.php#L157)**</sub><br>
 
 
 ### Parameters:
@@ -162,7 +162,7 @@ static \FireHub\TheCore\Support\LowLevel\File::extension(string $path):string|fa
 
 ### ### Get extension name component of path
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\File::extension()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.File.php#L175)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.File.php#L175)**</sub><br>
 
 
 ### Parameters:
@@ -181,7 +181,7 @@ static \FireHub\TheCore\Support\LowLevel\File::getPermissions(string $path):stri
 
 ### ### Gets file permissions
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\File::getPermissions()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.File.php#L196)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.File.php#L196)**</sub><br>
 
 
 ### Parameters:
@@ -200,7 +200,7 @@ static \FireHub\TheCore\Support\LowLevel\File::setPermissions(string $path, \Fir
 
 ### ### Sets file permissions
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\File::setPermissions()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.File.php#L232)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.File.php#L232)**</sub><br>
 
 
 ### Parameters:
@@ -222,7 +222,7 @@ static \FireHub\TheCore\Support\LowLevel\File::create(string $path):bool
 
 ### ### Creates file
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\File::create()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.File.php#L259)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.File.php#L259)**</sub><br>
 
 
 ### Parameters:
@@ -241,7 +241,7 @@ static \FireHub\TheCore\Support\LowLevel\File::delete(string $path):bool
 
 ### ### Deletes file
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\File::delete()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.File.php#L277)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.File.php#L277)**</sub><br>
 
 
 ### Parameters:
@@ -260,7 +260,7 @@ static \FireHub\TheCore\Support\LowLevel\File::copy(string $path, string $to, bo
 
 ### ### Copies file
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\File::copy()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.File.php#L304)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.File.php#L304)**</sub><br>
 
 
 ### Parameters:
@@ -283,7 +283,7 @@ static \FireHub\TheCore\Support\LowLevel\File::move(string $path, string $to, bo
 
 ### ### Moves file
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\File::move()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.File.php#L332)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.File.php#L332)**</sub><br>
 
 
 ### Parameters:
@@ -305,7 +305,7 @@ static \FireHub\TheCore\Support\LowLevel\File::rename(string $path, string $new_
 
 ### ### Renames file
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\File::rename()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.File.php#L361)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.File.php#L361)**</sub><br>
 
 
 ### Parameters:
@@ -329,7 +329,7 @@ static \FireHub\TheCore\Support\LowLevel\File::getContent(string $path):string|f
 
 ### ### Reads entire file into a string
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\File::getContent()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.File.php#L379)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.File.php#L379)**</sub><br>
 
 
 ### Parameters:
@@ -348,7 +348,7 @@ static \FireHub\TheCore\Support\LowLevel\File::putContent(string $path, string|a
 
 ### ### Write data to a file
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\File::putContent()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.File.php#L407)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.File.php#L407)**</sub><br>
 
 
 ### Parameters:
@@ -374,7 +374,7 @@ static \FireHub\TheCore\Support\LowLevel\File::size(string $path):int|false
 
 ### ### Gets file size
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\File::size()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.File.php#L440)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.File.php#L440)**</sub><br>
 
 
 ### Parameters:
@@ -393,7 +393,7 @@ static \FireHub\TheCore\Support\LowLevel\File::lastAccessed(string $path):int|fa
 
 ### ### Gets last access time of file
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\File::lastAccessed()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.File.php#L460)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.File.php#L460)**</sub><br>
 
 
 ### Parameters:
@@ -415,7 +415,7 @@ static \FireHub\TheCore\Support\LowLevel\File::lastModified(string $path):int|fa
 _Represents when the data or content is changed or modified, not including that of metadata such as ownership or owner group._
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\File::lastModified()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.File.php#L478)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.File.php#L478)**</sub><br>
 
 
 ### Parameters:
@@ -434,7 +434,7 @@ static \FireHub\TheCore\Support\LowLevel\File::setLastAccessedAndModification(st
 
 ### ### Sets last access and modification time of file
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\File::setLastAccessedAndModification()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.File.php#L501)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.File.php#L501)**</sub><br>
 
 
 ### Parameters:
@@ -459,7 +459,7 @@ static \FireHub\TheCore\Support\LowLevel\File::lastChanged(string $path):int|fal
 _Represents the time when the metadata or inode data of a file is altered, such as the change of permissions, ownership or group._
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\File::lastChanged()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.File.php#L521)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.File.php#L521)**</sub><br>
 
 
 ### Parameters:
@@ -478,7 +478,7 @@ static \FireHub\TheCore\Support\LowLevel\File::open(string $filename, \FireHub\T
 
 ### ### Open file
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\File::open()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.File.php#L540)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.File.php#L540)**</sub><br>
 
 
 ### Parameters:
@@ -498,7 +498,7 @@ static \FireHub\TheCore\Support\LowLevel\File::write(resource $filename, string 
 
 ### ### Write to the file
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\File::write()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.File.php#L559)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.File.php#L559)**</sub><br>
 
 
 ### Parameters:
@@ -518,7 +518,7 @@ static \FireHub\TheCore\Support\LowLevel\File::close(resource $filename):bool
 
 ### ### Close the file
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\File::close()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.File.php#L575)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.File.php#L575)**</sub><br>
 
 
 ### Parameters:
@@ -537,7 +537,7 @@ static \FireHub\TheCore\Support\LowLevel\File::eol(resource $filename):bool
 
 ### ### Tests for end-of-file on a file pointer
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\File::eol()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.File.php#L591)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.File.php#L591)**</sub><br>
 
 
 ### Parameters:
@@ -556,7 +556,7 @@ static \FireHub\TheCore\Support\LowLevel\File::character(resource $filename):str
 
 ### ### Gets character from file pointer
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\File::character()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.File.php#L607)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.File.php#L607)**</sub><br>
 
 
 ### Parameters:
@@ -575,7 +575,7 @@ static \FireHub\TheCore\Support\LowLevel\File::line(resource $filename):string|f
 
 ### ### Gets line from file pointer
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\File::line()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.File.php#L626)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.File.php#L626)**</sub><br>
 
 
 ### Parameters:
@@ -594,7 +594,7 @@ static \FireHub\TheCore\Support\LowLevel\File::lines(string $path):array<int,str
 
 ### ### Reads entire file into an array
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\File::lines()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.File.php#L648)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.File.php#L648)**</sub><br>
 
 
 ### Parameters:
@@ -613,7 +613,7 @@ static \FireHub\TheCore\Support\LowLevel\File::lazyLines(string $path):\Generato
 
 ### ### Reads entire file into an array
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\File::lazyLines()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.File.php#L677)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.File.php#L677)**</sub><br>
 
 
 ### Parameters:
@@ -632,7 +632,7 @@ static \FireHub\TheCore\Support\LowLevel\File::lock(resource $filename, \FireHub
 
 ### ### Portable advisory file locking
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\File::lock()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.File.php#L697)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.File.php#L697)**</sub><br>
 
 
 ### Parameters:
@@ -652,7 +652,7 @@ static \FireHub\TheCore\Support\LowLevel\File::moveUploaded(string $from, string
 
 ### ### Moves an uploaded file to a new location
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\File::moveUploaded()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.File.php#L716)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.File.php#L716)**</sub><br>
 
 
 ### Parameters:

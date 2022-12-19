@@ -6,9 +6,9 @@ class \FireHub\TheCore\Support\LowLevel\IntNum()
 ### ### Integer low level class
 <sub>Fully Qualified Class Name:  **\FireHub\TheCore\Support\LowLevel\IntNum**</sub><br>
 <sub>This class is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.IntNum.php#L32)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/lowlevel/firehub.IntNum.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/lowlevel/firehub.IntNum.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.IntNum.php#L32)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/lowlevel/firehub.IntNum.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/lowlevel/firehub.IntNum.php)**</sub><br>
 
 <sub>_This class was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -44,7 +44,7 @@ static \FireHub\TheCore\Support\LowLevel\Num::numeric(mixed $value)
 
 ### ### Checks if value is numeric
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Num::numeric()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Num.php#L54)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Num.php#L54)**</sub><br>
 
 
 ### Parameters:
@@ -59,7 +59,7 @@ static \FireHub\TheCore\Support\LowLevel\Num::absolute(int|float $number)
 
 ### ### Get absolute value
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Num::absolute()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Num.php#L70)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Num.php#L70)**</sub><br>
 
 
 ### Parameters:
@@ -74,7 +74,7 @@ static \FireHub\TheCore\Support\LowLevel\Num::round(int|float $number, int $prec
 
 ### ### Rounds a float
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Num::round()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Num.php#L94)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Num.php#L94)**</sub><br>
 
 
 ### Parameters:
@@ -93,7 +93,7 @@ static \FireHub\TheCore\Support\LowLevel\Num::ceil(int|float $number):int
 
 ### ### Round fractions up
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Num::ceil()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Num.php#L112)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Num.php#L112)**</sub><br>
 
 
 ### Parameters:
@@ -112,7 +112,7 @@ static \FireHub\TheCore\Support\LowLevel\Num::floor(int|float $number):int
 
 ### ### Round fractions down
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Num::floor()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Num.php#L128)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Num.php#L128)**</sub><br>
 
 
 ### Parameters:
@@ -131,7 +131,7 @@ static \FireHub\TheCore\Support\LowLevel\Num::max(mixed $value, mixed ...$values
 
 ### ### Find highest value
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Num::max()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Num.php#L147)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Num.php#L147)**</sub><br>
 
 
 ### Parameters:
@@ -151,7 +151,7 @@ static \FireHub\TheCore\Support\LowLevel\Num::min(mixed $value, mixed ...$values
 
 ### ### Find lowest value
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Num::min()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Num.php#L166)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Num.php#L166)**</sub><br>
 
 
 ### Parameters:
@@ -171,7 +171,7 @@ static \FireHub\TheCore\Support\LowLevel\Num::power(int|float $base, int|float $
 
 ### ### Exponential expression
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Num::power()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Num.php#L185)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Num.php#L185)**</sub><br>
 
 
 ### Parameters:
@@ -191,7 +191,7 @@ static \FireHub\TheCore\Support\LowLevel\IntNum::isInt(mixed $value)
 
 ### ### Checks if value is integer
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\IntNum::isInt()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.IntNum.php#L46)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.IntNum.php#L46)**</sub><br>
 
 
 ### Parameters:
@@ -206,7 +206,7 @@ static \FireHub\TheCore\Support\LowLevel\IntNum::divide(int $dividend, int $divi
 
 ### ### Integer division
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\IntNum::divide()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.IntNum.php#L65)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.IntNum.php#L65)**</sub><br>
 
 
 ### Parameters:

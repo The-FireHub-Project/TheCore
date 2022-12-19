@@ -6,9 +6,9 @@ enum \FireHub\TheCore\Support\Enums\Number\RoundMode
 ### ### Round mode number enum
 <sub>Fully Qualified Enum Name:  **\FireHub\TheCore\Support\Enums\Number\RoundMode**</sub><br>
 <sub>This enum is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/number/firehub.RoundMode.php#L23)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/enums/number/firehub.RoundMode.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/enums/number/firehub.RoundMode.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/number/firehub.RoundMode.php#L23)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/enums/number/firehub.RoundMode.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/enums/number/firehub.RoundMode.php)**</sub><br>
 
 <sub>_This enum was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -38,7 +38,7 @@ enum \FireHub\TheCore\Support\Enums\Number\RoundMode
 
 ### ### Rounds number away from zero when it is half way there, making 1.5 into 2 and -1.5 into -2
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Number\RoundMode::PHP_ROUND_HALF_UP**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/number/firehub.RoundMode.php#L29)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/number/firehub.RoundMode.php#L29)**</sub><br>
 
 
 <h2><a name="php_round_half_down"># PHP_ROUND_HALF_DOWN</a></h2>
@@ -49,7 +49,7 @@ enum \FireHub\TheCore\Support\Enums\Number\RoundMode
 
 ### ### Rounds number towards zero when it is half way there, making 1.5 into 1 and -1.5 into -1
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Number\RoundMode::PHP_ROUND_HALF_DOWN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/number/firehub.RoundMode.php#L35)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/number/firehub.RoundMode.php#L35)**</sub><br>
 
 
 <h2><a name="php_round_half_even"># PHP_ROUND_HALF_EVEN</a></h2>
@@ -60,7 +60,7 @@ enum \FireHub\TheCore\Support\Enums\Number\RoundMode
 
 ### ### towards the nearest even value when it is half way there, making both 1.5 and 2.5 into 2
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Number\RoundMode::PHP_ROUND_HALF_EVEN**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/number/firehub.RoundMode.php#L41)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/number/firehub.RoundMode.php#L41)**</sub><br>
 
 
 <h2><a name="php_round_half_odd"># PHP_ROUND_HALF_ODD</a></h2>
@@ -71,6 +71,6 @@ enum \FireHub\TheCore\Support\Enums\Number\RoundMode
 
 ### ### Rounds number towards the nearest odd value when it is half way there, making 1.5 into 1 and 2.5 into 3
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Number\RoundMode::PHP_ROUND_HALF_ODD**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/number/firehub.RoundMode.php#L47)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/number/firehub.RoundMode.php#L47)**</sub><br>
 
 

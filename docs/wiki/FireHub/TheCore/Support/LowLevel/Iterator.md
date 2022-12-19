@@ -6,9 +6,9 @@ class \FireHub\TheCore\Support\LowLevel\Iterator()
 ### ### Iterator low level class
 <sub>Fully Qualified Class Name:  **\FireHub\TheCore\Support\LowLevel\Iterator**</sub><br>
 <sub>This class is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Iterator.php#L38)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/lowlevel/firehub.Iterator.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/lowlevel/firehub.Iterator.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Iterator.php#L38)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/lowlevel/firehub.Iterator.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/lowlevel/firehub.Iterator.php)**</sub><br>
 
 <sub>_This class was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -39,7 +39,7 @@ static \FireHub\TheCore\Support\LowLevel\Iterator::isIterator(mixed $value)
 
 ### ### Checks if value is iterator
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Iterator::isIterator()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Iterator.php#L52)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Iterator.php#L52)**</sub><br>
 
 
 ### Parameters:
@@ -54,7 +54,7 @@ static \FireHub\TheCore\Support\LowLevel\Iterator::isEmpty(\Traversable<array-ke
 
 ### ### Checks if iterator is empty
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Iterator::isEmpty()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Iterator.php#L68)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Iterator.php#L68)**</sub><br>
 
 
 ### Parameters:
@@ -73,7 +73,7 @@ static \FireHub\TheCore\Support\LowLevel\Iterator::count(\Traversable<array-key,
 
 ### ### Count the elements in an iterator
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Iterator::count()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Iterator.php#L84)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Iterator.php#L84)**</sub><br>
 
 
 ### Parameters:
@@ -92,7 +92,7 @@ static \FireHub\TheCore\Support\LowLevel\Iterator::toArray(\Traversable<\FireHub
 
 ### ### Copy the iterator into an array
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Iterator::toArray()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Iterator.php#L108)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Iterator.php#L108)**</sub><br>
 
 
 ### Templates:
@@ -116,7 +116,7 @@ static \FireHub\TheCore\Support\LowLevel\Iterator::apply(\Traversable<array-key,
 
 ### ### Call a function for every element in an iterator
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Iterator::apply()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Iterator.php#L128)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Iterator.php#L128)**</sub><br>
 
 
 ### Parameters:

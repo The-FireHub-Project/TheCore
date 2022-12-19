@@ -2,7 +2,7 @@
 layout: default
 title: Kernel
 parent: \FireHub\Kernel\HTTP
-grand_parent: Core v0.2
+grand_parent: TheCore v0.2
 has_children: false
 ---
 
@@ -25,10 +25,10 @@ and give client appropriate response._
 
 <sub>Fully Qualified Class Name:  **\FireHub\TheCore\Kernel\HTTP\Kernel**</sub><br>
 <sub>This class is part of package:  **\FireHub\Kernel\HTTP**</sub><br>
-<sub>Parent class:  **[\FireHub\TheCore\Initializers\Kernel](/core/v0.2\FireHub\TheCore\Initializers\Kernel)**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/kernel/http/firehub.Kernel.php#L26)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/kernel/http/firehub.Kernel.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/kernel/http/firehub.Kernel.php)**</sub><br>
+<sub>Parent class:  **[\FireHub\TheCore\Initializers\Kernel](/thecore/v0.2\FireHub\TheCore\Initializers\Kernel)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/kernel/http/firehub.Kernel.php#L26)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/kernel/http/firehub.Kernel.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/kernel/http/firehub.Kernel.php)**</sub><br>
 
 <sub>_This class was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -65,7 +65,7 @@ public \FireHub\TheCore\Kernel\HTTP\Kernel::runtime()
 __
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Kernel\HTTP\Kernel::runtime()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/kernel/http/firehub.Kernel.php#L31)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/kernel/http/firehub.Kernel.php#L31)**</sub><br>
 
 
 ### Returns:

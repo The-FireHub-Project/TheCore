@@ -2,7 +2,7 @@
 layout: default
 title: FloatNum
 parent: \FireHub\Support
-grand_parent: Core v0.2
+grand_parent: TheCore v0.2
 has_children: false
 ---
 
@@ -22,10 +22,10 @@ final class \FireHub\TheCore\Support\LowLevel\FloatNum()
 
 <sub>Fully Qualified Class Name:  **\FireHub\TheCore\Support\LowLevel\FloatNum**</sub><br>
 <sub>This class is part of package:  **\FireHub\Support**</sub><br>
-<sub>Parent class:  **[\FireHub\TheCore\Support\LowLevel\Num](/core/v0.2\FireHub\TheCore\Support\LowLevel\Num)**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L51)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/lowlevel/firehub.FloatNum.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/lowlevel/firehub.FloatNum.php)**</sub><br>
+<sub>Parent class:  **[\FireHub\TheCore\Support\LowLevel\Num](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Num)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L51)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/lowlevel/firehub.FloatNum.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/lowlevel/firehub.FloatNum.php)**</sub><br>
 
 <sub>_This class was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -87,7 +87,7 @@ public static \FireHub\TheCore\Support\LowLevel\Num::numeric(mixed $value)
 ### ### Checks if value is numeric
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Num::numeric()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Num.php#L54)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Num.php#L54)**</sub><br>
 
 ### Changelog:
 
@@ -95,7 +95,7 @@ public static \FireHub\TheCore\Support\LowLevel\Num::numeric(mixed $value)
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\LowLevel\DataIs::numeric()](/core/v0.2\FireHub\TheCore\Support\LowLevel\DataIs#numeric()) _To check if value is numeric._
+* [\FireHub\TheCore\Support\LowLevel\DataIs::numeric()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\DataIs#numeric()) _To check if value is numeric._
 
 ### Parameters:
 
@@ -111,7 +111,7 @@ final public static \FireHub\TheCore\Support\LowLevel\Num::absolute(int|float $n
 ### ### Get absolute value
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Num::absolute()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Num.php#L70)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Num.php#L70)**</sub><br>
 
 ### Changelog:
 
@@ -131,7 +131,7 @@ final public static \FireHub\TheCore\Support\LowLevel\Num::round(int|float $numb
 ### ### Rounds a float
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Num::round()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Num.php#L94)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Num.php#L94)**</sub><br>
 
 ### Changelog:
 
@@ -139,14 +139,14 @@ final public static \FireHub\TheCore\Support\LowLevel\Num::round(int|float $numb
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\Enums\Number\RoundMode::PHP_ROUND_HALF_UP](/core/v0.2\FireHub\TheCore\Support\Enums\Number\RoundMode#php_round_half_up) _To round numbers away from zero when it is half way there._
+* [\FireHub\TheCore\Support\Enums\Number\RoundMode::PHP_ROUND_HALF_UP](/thecore/v0.2\FireHub\TheCore\Support\Enums\Number\RoundMode#php_round_half_up) _To round numbers away from zero when it is half way there._
 
 ### Parameters:
 
 * int or float $number _The value to round._
 * int $precision _[optional] 
 Number of decimal digits to round to._
-* [\FireHub\TheCore\Support\Enums\Number\RoundMode](/core/v0.2\FireHub\TheCore\Support\Enums\Number\RoundMode) $round_mode = RoundMode::PHP_ROUND_HALF_UP _[optional] 
+* [\FireHub\TheCore\Support\Enums\Number\RoundMode](/thecore/v0.2\FireHub\TheCore\Support\Enums\Number\RoundMode) $round_mode = RoundMode::PHP_ROUND_HALF_UP _[optional] 
 Specify the mode in which rounding occurs._
 
 <h2><a name="ceil()"># ceil()</a></h2>
@@ -159,7 +159,7 @@ final public static \FireHub\TheCore\Support\LowLevel\Num::ceil(int|float $numbe
 ### ### Round fractions up
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Num::ceil()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Num.php#L112)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Num.php#L112)**</sub><br>
 
 ### Changelog:
 
@@ -188,7 +188,7 @@ final public static \FireHub\TheCore\Support\LowLevel\Num::floor(int|float $numb
 ### ### Round fractions down
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Num::floor()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Num.php#L128)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Num.php#L128)**</sub><br>
 
 ### Changelog:
 
@@ -217,7 +217,7 @@ final public static \FireHub\TheCore\Support\LowLevel\Num::max(mixed $value, mix
 ### ### Find highest value
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Num::max()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Num.php#L147)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Num.php#L147)**</sub><br>
 
 ### Changelog:
 
@@ -247,7 +247,7 @@ final public static \FireHub\TheCore\Support\LowLevel\Num::min(mixed $value, mix
 ### ### Find lowest value
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Num::min()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Num.php#L166)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Num.php#L166)**</sub><br>
 
 ### Changelog:
 
@@ -272,7 +272,7 @@ final public static \FireHub\TheCore\Support\LowLevel\Num::power(int|float $base
 ### ### Exponential expression
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Num::power()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Num.php#L185)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Num.php#L185)**</sub><br>
 
 ### Changelog:
 
@@ -297,7 +297,7 @@ public static \FireHub\TheCore\Support\LowLevel\FloatNum::isFloat(mixed $value)
 ### ### Checks if value is float
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\FloatNum::isFloat()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L65)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L65)**</sub><br>
 
 ### Changelog:
 
@@ -305,7 +305,7 @@ public static \FireHub\TheCore\Support\LowLevel\FloatNum::isFloat(mixed $value)
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\LowLevel\DataIs::float()](/core/v0.2\FireHub\TheCore\Support\LowLevel\DataIs#float()) _To check if value is float._
+* [\FireHub\TheCore\Support\LowLevel\DataIs::float()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\DataIs#float()) _To check if value is float._
 
 ### Parameters:
 
@@ -321,7 +321,7 @@ public static \FireHub\TheCore\Support\LowLevel\FloatNum::cosine(float $number):
 ### ### Cosine value
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\FloatNum::cosine()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L81)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L81)**</sub><br>
 
 ### Changelog:
 
@@ -345,7 +345,7 @@ public static \FireHub\TheCore\Support\LowLevel\FloatNum::cosineArc(float $numbe
 ### ### Arc cosine value
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\FloatNum::cosineArc()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L97)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L97)**</sub><br>
 
 ### Changelog:
 
@@ -369,7 +369,7 @@ public static \FireHub\TheCore\Support\LowLevel\FloatNum::cosineHyperbolic(float
 ### ### Hyperbolic cosine
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\FloatNum::cosineHyperbolic()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L113)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L113)**</sub><br>
 
 ### Changelog:
 
@@ -393,7 +393,7 @@ public static \FireHub\TheCore\Support\LowLevel\FloatNum::cosineInverseHyperboli
 ### ### Inverse hyperbolic cosine
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\FloatNum::cosineInverseHyperbolic()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L129)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L129)**</sub><br>
 
 ### Changelog:
 
@@ -417,7 +417,7 @@ public static \FireHub\TheCore\Support\LowLevel\FloatNum::sine(float $number):fl
 ### ### Sine
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\FloatNum::sine()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L145)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L145)**</sub><br>
 
 ### Changelog:
 
@@ -441,7 +441,7 @@ public static \FireHub\TheCore\Support\LowLevel\FloatNum::sineArc(float $number)
 ### ### Arc sine
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\FloatNum::sineArc()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L161)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L161)**</sub><br>
 
 ### Changelog:
 
@@ -465,7 +465,7 @@ public static \FireHub\TheCore\Support\LowLevel\FloatNum::sineHyperbolic(float $
 ### ### Hyperbolic sine
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\FloatNum::sineHyperbolic()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L177)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L177)**</sub><br>
 
 ### Changelog:
 
@@ -489,7 +489,7 @@ public static \FireHub\TheCore\Support\LowLevel\FloatNum::sineHyperbolicInverse(
 ### ### Inverse hyperbolic sine
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\FloatNum::sineHyperbolicInverse()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L193)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L193)**</sub><br>
 
 ### Changelog:
 
@@ -513,7 +513,7 @@ public static \FireHub\TheCore\Support\LowLevel\FloatNum::tangent(float $number)
 ### ### Tangent
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\FloatNum::tangent()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L209)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L209)**</sub><br>
 
 ### Changelog:
 
@@ -537,7 +537,7 @@ public static \FireHub\TheCore\Support\LowLevel\FloatNum::tangentArc(float $numb
 ### ### Arc tangent
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\FloatNum::tangentArc()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L225)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L225)**</sub><br>
 
 ### Changelog:
 
@@ -564,7 +564,7 @@ _This method calculates the arc tangent of the two variables x and y.
 It is similar to calculating the arc tangent of y / x, except that the signs of both arguments are used to determine the quadrant of the result._
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\FloatNum::tangentArc2()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L247)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L247)**</sub><br>
 
 ### Changelog:
 
@@ -589,7 +589,7 @@ public static \FireHub\TheCore\Support\LowLevel\FloatNum::tangentHyperbolic(floa
 ### ### Hyperbolic Tangent
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\FloatNum::tangentHyperbolic()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L263)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L263)**</sub><br>
 
 ### Changelog:
 
@@ -613,7 +613,7 @@ public static \FireHub\TheCore\Support\LowLevel\FloatNum::tangentHyperbolicInver
 ### ### Inverse hyperbolic Tangent
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\FloatNum::tangentHyperbolicInverse()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L279)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L279)**</sub><br>
 
 ### Changelog:
 
@@ -637,7 +637,7 @@ public static \FireHub\TheCore\Support\LowLevel\FloatNum::degreesToRadian(float 
 ### ### Converts the number in degrees to the radian equivalent
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\FloatNum::degreesToRadian()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L295)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L295)**</sub><br>
 
 ### Changelog:
 
@@ -661,7 +661,7 @@ public static \FireHub\TheCore\Support\LowLevel\FloatNum::radianTodegrees(float 
 ### ### Converts the radian number to the equivalent number in degrees
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\FloatNum::radianTodegrees()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L311)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L311)**</sub><br>
 
 ### Changelog:
 
@@ -685,7 +685,7 @@ public static \FireHub\TheCore\Support\LowLevel\FloatNum::exponent(float $number
 ### ### Calculates the exponent of e
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\FloatNum::exponent()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L329)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L329)**</sub><br>
 
 ### Changelog:
 
@@ -709,7 +709,7 @@ public static \FireHub\TheCore\Support\LowLevel\FloatNum::divide(float $dividend
 ### ### Divides two numbers, according to IEEE 754
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\FloatNum::divide()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L348)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L348)**</sub><br>
 
 ### Changelog:
 
@@ -734,7 +734,7 @@ public static \FireHub\TheCore\Support\LowLevel\FloatNum::logarithm(float $numbe
 ### ### Natural logarithm
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\FloatNum::logarithm()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L369)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L369)**</sub><br>
 
 ### Changelog:
 
@@ -742,7 +742,7 @@ public static \FireHub\TheCore\Support\LowLevel\FloatNum::logarithm(float $numbe
 
 ### This method uses:
 
-* [\FireHub\TheCore\Initializers\Constants\EULER_NUM](/core/v0.2\FireHub\TheCore\Initializers\Constants\EULER_NUM) _As default parameter._
+* [\FireHub\TheCore\Initializers\Constants\EULER_NUM](/thecore/v0.2\FireHub\TheCore\Initializers\Constants\EULER_NUM) _As default parameter._
 
 ### Parameters:
 
@@ -764,7 +764,7 @@ public static \FireHub\TheCore\Support\LowLevel\FloatNum::squareRoot(float $numb
 ### ### Square root
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\FloatNum::squareRoot()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L385)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.FloatNum.php#L385)**</sub><br>
 
 ### Changelog:
 

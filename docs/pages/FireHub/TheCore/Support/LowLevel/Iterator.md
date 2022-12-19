@@ -2,7 +2,7 @@
 layout: default
 title: Iterator
 parent: \FireHub\Support
-grand_parent: Core v0.2
+grand_parent: TheCore v0.2
 has_children: false
 ---
 
@@ -22,9 +22,9 @@ final class \FireHub\TheCore\Support\LowLevel\Iterator()
 
 <sub>Fully Qualified Class Name:  **\FireHub\TheCore\Support\LowLevel\Iterator**</sub><br>
 <sub>This class is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Iterator.php#L38)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/lowlevel/firehub.Iterator.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/lowlevel/firehub.Iterator.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Iterator.php#L38)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/lowlevel/firehub.Iterator.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/lowlevel/firehub.Iterator.php)**</sub><br>
 
 <sub>_This class was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -64,7 +64,7 @@ public static \FireHub\TheCore\Support\LowLevel\Iterator::isIterator(mixed $valu
 ### ### Checks if value is iterator
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Iterator::isIterator()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Iterator.php#L52)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Iterator.php#L52)**</sub><br>
 
 ### Changelog:
 
@@ -72,7 +72,7 @@ public static \FireHub\TheCore\Support\LowLevel\Iterator::isIterator(mixed $valu
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\LowLevel\DataIs::iterable()](/core/v0.2\FireHub\TheCore\Support\LowLevel\DataIs#iterable()) _To check if value is iterable._
+* [\FireHub\TheCore\Support\LowLevel\DataIs::iterable()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\DataIs#iterable()) _To check if value is iterable._
 
 ### Parameters:
 
@@ -88,7 +88,7 @@ public static \FireHub\TheCore\Support\LowLevel\Iterator::isEmpty(\Traversable<a
 ### ### Checks if iterator is empty
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Iterator::isEmpty()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Iterator.php#L68)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Iterator.php#L68)**</sub><br>
 
 ### Changelog:
 
@@ -96,7 +96,7 @@ public static \FireHub\TheCore\Support\LowLevel\Iterator::isEmpty(\Traversable<a
 
 ### Parameters:
 
-* [\Traversable&lt;array-key,mixed&gt;](/core/v0.2\Traversable&lt;array-key,mixed&gt;) $iterator _Array to check._
+* [\Traversable&lt;array-key,mixed&gt;](/thecore/v0.2\Traversable&lt;array-key,mixed&gt;) $iterator _Array to check._
 
 ### Returns:
 
@@ -112,7 +112,7 @@ public static \FireHub\TheCore\Support\LowLevel\Iterator::count(\Traversable<arr
 ### ### Count the elements in an iterator
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Iterator::count()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Iterator.php#L84)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Iterator.php#L84)**</sub><br>
 
 ### Changelog:
 
@@ -120,11 +120,11 @@ public static \FireHub\TheCore\Support\LowLevel\Iterator::count(\Traversable<arr
 
 ### Parameters:
 
-* [\Traversable&lt;array-key,mixed&gt;](/core/v0.2\Traversable&lt;array-key,mixed&gt;) $iterator _The iterator being counted._
+* [\Traversable&lt;array-key,mixed&gt;](/thecore/v0.2\Traversable&lt;array-key,mixed&gt;) $iterator _The iterator being counted._
 
 ### Returns:
 
-* positive-int or [\FireHub\TheCore\Support\LowLevel\0](/core/v0.2\FireHub\TheCore\Support\LowLevel\0) _Number of elements in array._
+* positive-int or [\FireHub\TheCore\Support\LowLevel\0](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\0) _Number of elements in array._
 
 <h2><a name="toarray()"># toArray()</a></h2>
 ***
@@ -136,7 +136,7 @@ public static \FireHub\TheCore\Support\LowLevel\Iterator::toArray(\Traversable<\
 ### ### Copy the iterator into an array
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Iterator::toArray()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Iterator.php#L108)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Iterator.php#L108)**</sub><br>
 
 ### Changelog:
 
@@ -152,7 +152,7 @@ public static \FireHub\TheCore\Support\LowLevel\Iterator::toArray(\Traversable<\
 
 ### Parameters:
 
-* [\Traversable&lt;\FireHub\TheCore\Support\LowLevel\TKey,\FireHub\TheCore\Support\LowLevel\TValue&gt;](/core/v0.2\Traversable&lt;\FireHub\TheCore\Support\LowLevel\TKey,\FireHub\TheCore\Support\LowLevel\TValue&gt;) $iterator _The iterator being copied._
+* [\Traversable&lt;\FireHub\TheCore\Support\LowLevel\TKey,\FireHub\TheCore\Support\LowLevel\TValue&gt;](/thecore/v0.2\Traversable&lt;\FireHub\TheCore\Support\LowLevel\TKey,\FireHub\TheCore\Support\LowLevel\TValue&gt;) $iterator _The iterator being copied._
 * bool $preserveKeys = true _[optional] 
 Whether to use the iterator element keys as index._
 
@@ -166,7 +166,7 @@ public static \FireHub\TheCore\Support\LowLevel\Iterator::apply(\Traversable<arr
 ### ### Call a function for every element in an iterator
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\Iterator::apply()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.Iterator.php#L128)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.Iterator.php#L128)**</sub><br>
 
 ### Changelog:
 
@@ -174,7 +174,7 @@ public static \FireHub\TheCore\Support\LowLevel\Iterator::apply(\Traversable<arr
 
 ### Parameters:
 
-* [\Traversable&lt;array-key,mixed&gt;](/core/v0.2\Traversable&lt;array-key,mixed&gt;) $iterator _The class to iterate over._
+* [\Traversable&lt;array-key,mixed&gt;](/thecore/v0.2\Traversable&lt;array-key,mixed&gt;) $iterator _The class to iterate over._
 * callable $callback _The callback function to call on every element.
 The function must return true in order to continue iterating over the iterator._
 

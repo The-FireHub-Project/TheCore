@@ -2,7 +2,7 @@
 layout: default
 title: DayName
 parent: \FireHub\Support
-grand_parent: Core v0.2
+grand_parent: TheCore v0.2
 has_children: false
 ---
 
@@ -18,9 +18,9 @@ enum \FireHub\TheCore\Support\Enums\DateTime\DayName
 
 <sub>Fully Qualified Enum Name:  **\FireHub\TheCore\Support\Enums\DateTime\DayName**</sub><br>
 <sub>This enum is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.DayName.php#L25)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/enums/datetime/firehub.DayName.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/enums/datetime/firehub.DayName.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.DayName.php#L25)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/enums/datetime/firehub.DayName.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/enums/datetime/firehub.DayName.php)**</sub><br>
 
 <sub>_This enum was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -57,7 +57,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\DayName
 ### ### Date is today and time is set to 00:00:00
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\DayName::TODAY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.DayName.php#L31)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.DayName.php#L31)**</sub><br>
 
 ### Changelog:
 
@@ -78,7 +78,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\DayName
 ### ### Date is yesterday and time is set to 00:00:00
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\DayName::YESTERDAY**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/datetime/firehub.DayName.php#L37)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/firehub.DayName.php#L37)**</sub><br>
 
 ### Changelog:
 

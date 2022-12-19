@@ -2,7 +2,7 @@
 layout: default
 title: Autoload
 parent: \FireHub\Initializers
-grand_parent: Core v0.2
+grand_parent: TheCore v0.2
 has_children: false
 ---
 
@@ -25,9 +25,9 @@ call main Firehub classes and its components._
 
 <sub>Fully Qualified Class Name:  **\FireHub\TheCore\Initializers\Autoload**</sub><br>
 <sub>This class is part of package:  **\FireHub\Initializers**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/initializers/firehub.Autoload.php#L51)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/initializers/firehub.Autoload.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/initializers/firehub.Autoload.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/initializers/firehub.Autoload.php#L51)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/initializers/firehub.Autoload.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/initializers/firehub.Autoload.php)**</sub><br>
 
 <sub>_This class was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -85,7 +85,7 @@ private bool \FireHub\TheCore\Initializers\Autoload::$prefix = false
 ### ### If true, you can use underscore after class name to add type to class
 
 <sub>Fully Qualified Property Name:  **\FireHub\TheCore\Initializers\Autoload::$prefix**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/initializers/firehub.Autoload.php#L59)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/initializers/firehub.Autoload.php#L59)**</sub><br>
 
 ### Changelog:
 
@@ -101,7 +101,7 @@ private bool \FireHub\TheCore\Initializers\Autoload::$suffix = false
 ### ### If true, you can use underscore after class name to add type to class
 
 <sub>Fully Qualified Property Name:  **\FireHub\TheCore\Initializers\Autoload::$suffix**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/initializers/firehub.Autoload.php#L67)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/initializers/firehub.Autoload.php#L67)**</sub><br>
 
 ### Changelog:
 
@@ -123,7 +123,7 @@ public \FireHub\TheCore\Initializers\Autoload::register(callable|string $path, b
 ### ### Register new autoload implementation
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Initializers\Autoload::register()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/initializers/firehub.Autoload.php#L121)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/initializers/firehub.Autoload.php#L121)**</sub><br>
 
 ### Changelog:
 
@@ -150,7 +150,7 @@ note: Suffix must be listed in \FireHub\Initializers\Enums\Suffix to work._
 
 ### Throws:
 
-* [\Error](/core/v0.2\Error) _If class doesn&#039;t have at least two namespace levels._
+* [\Error](/thecore/v0.2\Error) _If class doesn&#039;t have at least two namespace levels._
 
 ### Returns:
 
@@ -195,7 +195,7 @@ public \FireHub\TheCore\Initializers\Autoload::unregister():void
 ### ### Unregister all autoload implementations
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Initializers\Autoload::unregister()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/initializers/firehub.Autoload.php#L142)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/initializers/firehub.Autoload.php#L142)**</sub><br>
 
 ### Changelog:
 
@@ -215,7 +215,7 @@ public \FireHub\TheCore\Initializers\Autoload::functions():callable[]
 ### ### Get all autoload implementations
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Initializers\Autoload::functions()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/initializers/firehub.Autoload.php#L154)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/initializers/firehub.Autoload.php#L154)**</sub><br>
 
 ### Changelog:
 
@@ -235,7 +235,7 @@ public \FireHub\TheCore\Initializers\Autoload::load(class-string $class, array $
 ### ### Try to load class from registered auto-loaders
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Initializers\Autoload::load()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/initializers/firehub.Autoload.php#L175)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/initializers/firehub.Autoload.php#L175)**</sub><br>
 
 ### Changelog:
 
@@ -248,7 +248,7 @@ public \FireHub\TheCore\Initializers\Autoload::load(class-string $class, array $
 
 ### Throws:
 
-* [\Error](/core/v0.2\Error) _If class does not exist._
+* [\Error](/thecore/v0.2\Error) _If class does not exist._
 
 ### Returns:
 
@@ -264,7 +264,7 @@ private \FireHub\TheCore\Initializers\Autoload::callback(string $path, array $cl
 ### ### The autoload function being registereD
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Initializers\Autoload::callback()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/initializers/firehub.Autoload.php#L215)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/initializers/firehub.Autoload.php#L215)**</sub><br>
 
 ### Changelog:
 
@@ -273,7 +273,7 @@ private \FireHub\TheCore\Initializers\Autoload::callback(string $path, array $cl
 
 ### This method uses:
 
-* [\FireHub\TheCore\Initializers\Constants\DS](/core/v0.2\FireHub\TheCore\Initializers\Constants\DS) _To seperate folders._
+* [\FireHub\TheCore\Initializers\Constants\DS](/thecore/v0.2\FireHub\TheCore\Initializers\Constants\DS) _To seperate folders._
 
 ### Parameters:
 
@@ -301,7 +301,7 @@ private \FireHub\TheCore\Initializers\Autoload::extract(string $class_fqn)
 ### ### Breake class fully-qualified name into usable components
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Initializers\Autoload::extract()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/initializers/firehub.Autoload.php#L251)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/initializers/firehub.Autoload.php#L251)**</sub><br>
 
 ### Changelog:
 
@@ -310,7 +310,7 @@ private \FireHub\TheCore\Initializers\Autoload::extract(string $class_fqn)
 
 ### This method uses:
 
-* [\FireHub\TheCore\Initializers\Constants\DS](/core/v0.2\FireHub\TheCore\Initializers\Constants\DS) _To seperate folders._
+* [\FireHub\TheCore\Initializers\Constants\DS](/thecore/v0.2\FireHub\TheCore\Initializers\Constants\DS) _To seperate folders._
 
 ### Parameters:
 
@@ -318,7 +318,7 @@ private \FireHub\TheCore\Initializers\Autoload::extract(string $class_fqn)
 
 ### Throws:
 
-* [\Error](/core/v0.2\Error) _If class doesn&#039;t have at least two namespace levels._
+* [\Error](/thecore/v0.2\Error) _If class doesn&#039;t have at least two namespace levels._
 
 <h2><a name="prefix()"># prefix()</a></h2>
 ***
@@ -330,7 +330,7 @@ private \FireHub\TheCore\Initializers\Autoload::prefix(string $name):\FireHub\Th
 ### ### Check for valid prefix
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Initializers\Autoload::prefix()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/initializers/firehub.Autoload.php#L295)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/initializers/firehub.Autoload.php#L295)**</sub><br>
 
 ### Changelog:
 
@@ -338,7 +338,7 @@ private \FireHub\TheCore\Initializers\Autoload::prefix(string $name):\FireHub\Th
 
 ### This method uses:
 
-* [\FireHub\TheCore\Initializers\Enums\Prefix](/core/v0.2\FireHub\TheCore\Initializers\Enums\Prefix) _To try to match valid prefix._
+* [\FireHub\TheCore\Initializers\Enums\Prefix](/thecore/v0.2\FireHub\TheCore\Initializers\Enums\Prefix) _To try to match valid prefix._
 
 ### Parameters:
 
@@ -346,7 +346,7 @@ private \FireHub\TheCore\Initializers\Autoload::prefix(string $name):\FireHub\Th
 
 ### Returns:
 
-* [\FireHub\TheCore\Initializers\Enums\Prefix](/core/v0.2\FireHub\TheCore\Initializers\Enums\Prefix) or false _Valid prefix on false is none exist._
+* [\FireHub\TheCore\Initializers\Enums\Prefix](/thecore/v0.2\FireHub\TheCore\Initializers\Enums\Prefix) or false _Valid prefix on false is none exist._
 
 <h2><a name="suffix()"># suffix()</a></h2>
 ***
@@ -358,7 +358,7 @@ private \FireHub\TheCore\Initializers\Autoload::suffix(string $name):\FireHub\Th
 ### ### Check for valid suffix
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Initializers\Autoload::suffix()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/initializers/firehub.Autoload.php#L313)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/initializers/firehub.Autoload.php#L313)**</sub><br>
 
 ### Changelog:
 
@@ -366,7 +366,7 @@ private \FireHub\TheCore\Initializers\Autoload::suffix(string $name):\FireHub\Th
 
 ### This method uses:
 
-* [\FireHub\TheCore\Initializers\Enums\Suffix](/core/v0.2\FireHub\TheCore\Initializers\Enums\Suffix) _To try to match valid suffix._
+* [\FireHub\TheCore\Initializers\Enums\Suffix](/thecore/v0.2\FireHub\TheCore\Initializers\Enums\Suffix) _To try to match valid suffix._
 
 ### Parameters:
 
@@ -374,6 +374,6 @@ private \FireHub\TheCore\Initializers\Autoload::suffix(string $name):\FireHub\Th
 
 ### Returns:
 
-* [\FireHub\TheCore\Initializers\Enums\Suffix](/core/v0.2\FireHub\TheCore\Initializers\Enums\Suffix) or false _Valid suffix on false is none exist._
+* [\FireHub\TheCore\Initializers\Enums\Suffix](/thecore/v0.2\FireHub\TheCore\Initializers\Enums\Suffix) or false _Valid suffix on false is none exist._
 
 

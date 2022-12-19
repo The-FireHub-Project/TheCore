@@ -9,9 +9,9 @@ _This low level support class is for checking data type._
 
 <sub>Fully Qualified Class Name:  **\FireHub\TheCore\Support\LowLevel\DataIs**</sub><br>
 <sub>This class is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L56)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/lowlevel/firehub.DataIs.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/lowlevel/firehub.DataIs.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L56)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/lowlevel/firehub.DataIs.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/lowlevel/firehub.DataIs.php)**</sub><br>
 
 <sub>_This class was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -60,7 +60,7 @@ static \FireHub\TheCore\Support\LowLevel\DataIs::array(mixed $value)
 
 ### ### Checks if value is array
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DataIs::array()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L68)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L68)**</sub><br>
 
 
 ### Parameters:
@@ -75,7 +75,7 @@ static \FireHub\TheCore\Support\LowLevel\DataIs::bool(mixed $value)
 
 ### ### Checks if value is boolean
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DataIs::bool()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L84)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L84)**</sub><br>
 
 
 ### Parameters:
@@ -90,7 +90,7 @@ static \FireHub\TheCore\Support\LowLevel\DataIs::callable(mixed $value)
 
 ### ### Verify that the contents of a variable can be called as a function
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DataIs::callable()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L100)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L100)**</sub><br>
 
 
 ### Parameters:
@@ -105,7 +105,7 @@ static \FireHub\TheCore\Support\LowLevel\DataIs::countable(mixed $value)
 
 ### ### Verify that the contents of a variable is a countable value
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DataIs::countable()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L116)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L116)**</sub><br>
 
 
 ### Parameters:
@@ -120,7 +120,7 @@ static \FireHub\TheCore\Support\LowLevel\DataIs::executable(string $filename):bo
 
 ### ### Tells whether the filename is executable
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DataIs::executable()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L134)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L134)**</sub><br>
 
 
 ### Parameters:
@@ -139,7 +139,7 @@ static \FireHub\TheCore\Support\LowLevel\DataIs::file(string $filename):bool
 
 ### ### Tells whether the given file is a regular file
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DataIs::file()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L152)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L152)**</sub><br>
 
 
 ### Parameters:
@@ -158,7 +158,7 @@ static \FireHub\TheCore\Support\LowLevel\DataIs::finite(float $number):bool
 
 ### ### Finds whether a value is a legal finite number
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DataIs::finite()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L168)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L168)**</sub><br>
 
 
 ### Parameters:
@@ -177,7 +177,7 @@ static \FireHub\TheCore\Support\LowLevel\DataIs::float(mixed $value)
 
 ### ### Finds whether the type of variable is a float
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DataIs::float()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L184)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L184)**</sub><br>
 
 
 ### Parameters:
@@ -192,7 +192,7 @@ static \FireHub\TheCore\Support\LowLevel\DataIs::folder(string $filename):bool
 
 ### ### Tells whether the filename is a folder
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DataIs::folder()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L200)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L200)**</sub><br>
 
 
 ### Parameters:
@@ -211,7 +211,7 @@ static \FireHub\TheCore\Support\LowLevel\DataIs::infinite(float $number):bool
 
 ### ### Finds whether a value is infinite
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DataIs::infinite()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L216)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L216)**</sub><br>
 
 
 ### Parameters:
@@ -230,7 +230,7 @@ static \FireHub\TheCore\Support\LowLevel\DataIs::int(mixed $value)
 
 ### ### Find whether the type of variable is an integer
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DataIs::int()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L232)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L232)**</sub><br>
 
 
 ### Parameters:
@@ -245,7 +245,7 @@ static \FireHub\TheCore\Support\LowLevel\DataIs::iterable(mixed $value)
 
 ### ### Verify that the contents of a variable is an iterable value
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DataIs::iterable()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L248)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L248)**</sub><br>
 
 
 ### Parameters:
@@ -260,7 +260,7 @@ static \FireHub\TheCore\Support\LowLevel\DataIs::link(string $filename):bool
 
 ### ### Tells whether the filename is a symbolic link
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DataIs::link()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L264)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L264)**</sub><br>
 
 
 ### Parameters:
@@ -279,7 +279,7 @@ static \FireHub\TheCore\Support\LowLevel\DataIs::nan(float $number):bool
 
 ### ### Finds whether a value is not a number
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DataIs::nan()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L280)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L280)**</sub><br>
 
 
 ### Parameters:
@@ -298,7 +298,7 @@ static \FireHub\TheCore\Support\LowLevel\DataIs::null(mixed $value)
 
 ### ### Finds whether a variable is null
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DataIs::null()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L296)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L296)**</sub><br>
 
 
 ### Parameters:
@@ -313,7 +313,7 @@ static \FireHub\TheCore\Support\LowLevel\DataIs::numeric(mixed $value)
 
 ### ### Finds whether a variable is a number or a numeric string
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DataIs::numeric()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L312)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L312)**</sub><br>
 
 
 ### Parameters:
@@ -328,7 +328,7 @@ static \FireHub\TheCore\Support\LowLevel\DataIs::object(mixed $value)
 
 ### ### Finds whether a variable is an object
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DataIs::object()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L328)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L328)**</sub><br>
 
 
 ### Parameters:
@@ -343,7 +343,7 @@ static \FireHub\TheCore\Support\LowLevel\DataIs::readable(string $filename):bool
 
 ### ### Tells whether a file exists and is readable
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DataIs::readable()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L344)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L344)**</sub><br>
 
 
 ### Parameters:
@@ -362,7 +362,7 @@ static \FireHub\TheCore\Support\LowLevel\DataIs::resource(mixed $value)
 
 ### ### Finds whether a variable is a resource
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DataIs::resource()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L360)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L360)**</sub><br>
 
 
 ### Parameters:
@@ -377,7 +377,7 @@ static \FireHub\TheCore\Support\LowLevel\DataIs::scalar(mixed $value)
 
 ### ### Finds whether a variable is a scalar
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DataIs::scalar()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L379)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L379)**</sub><br>
 
 
 ### Parameters:
@@ -392,7 +392,7 @@ static \FireHub\TheCore\Support\LowLevel\DataIs::string(mixed $value)
 
 ### ### Find whether the type of variable is a string
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DataIs::string()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L395)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L395)**</sub><br>
 
 
 ### Parameters:
@@ -407,7 +407,7 @@ static \FireHub\TheCore\Support\LowLevel\DataIs::uploadedFile(string $filename):
 
 ### ### Tells whether the file was uploaded via HTTP POST
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DataIs::uploadedFile()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L413)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L413)**</sub><br>
 
 
 ### Parameters:
@@ -426,7 +426,7 @@ static \FireHub\TheCore\Support\LowLevel\DataIs::writable(string $filename):bool
 
 ### ### Tells whether the filename is writable
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\DataIs::writable()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L429)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.DataIs.php#L429)**</sub><br>
 
 
 ### Parameters:

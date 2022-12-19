@@ -2,7 +2,7 @@
 layout: default
 title: TimeZone
 parent: \FireHub\Support
-grand_parent: Core v0.2
+grand_parent: TheCore v0.2
 has_children: false
 ---
 
@@ -22,9 +22,9 @@ final class \FireHub\TheCore\Support\LowLevel\TimeZone()
 
 <sub>Fully Qualified Class Name:  **\FireHub\TheCore\Support\LowLevel\TimeZone**</sub><br>
 <sub>This class is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.TimeZone.php#L35)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/lowlevel/firehub.TimeZone.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/lowlevel/firehub.TimeZone.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.TimeZone.php#L35)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/lowlevel/firehub.TimeZone.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/lowlevel/firehub.TimeZone.php)**</sub><br>
 
 <sub>_This class was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -60,7 +60,7 @@ public static \FireHub\TheCore\Support\LowLevel\TimeZone::getDefaultTimezone():\
 ### ### Gets the default timezone used by all date/time functions in a script
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\TimeZone::getDefaultTimezone()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.TimeZone.php#L45)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.TimeZone.php#L45)**</sub><br>
 
 ### Changelog:
 
@@ -68,7 +68,7 @@ public static \FireHub\TheCore\Support\LowLevel\TimeZone::getDefaultTimezone():\
 
 ### This method uses:
 
-* [\FireHub\TheCore\Support\Enums\DateTime\TimeZone](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeZone) _To check for valid timezone._
+* [\FireHub\TheCore\Support\Enums\DateTime\TimeZone](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeZone) _To check for valid timezone._
 
 ### This method is used by:
 
@@ -77,7 +77,7 @@ public static \FireHub\TheCore\Support\LowLevel\TimeZone::getDefaultTimezone():\
 
 ### Returns:
 
-* [\FireHub\TheCore\Support\Enums\DateTime\TimeZone](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeZone) or false _Timezone, false if timezone doesn&#039;t exist._
+* [\FireHub\TheCore\Support\Enums\DateTime\TimeZone](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeZone) or false _Timezone, false if timezone doesn&#039;t exist._
 
 <h2><a name="setdefaulttimezone()"># setDefaultTimezone()</a></h2>
 ***
@@ -89,7 +89,7 @@ public static \FireHub\TheCore\Support\LowLevel\TimeZone::setDefaultTimezone(\Fi
 ### ### Sets the default timezone used by all date/time functions in a script
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\TimeZone::setDefaultTimezone()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/lowlevel/firehub.TimeZone.php#L63)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.TimeZone.php#L63)**</sub><br>
 
 ### Changelog:
 
@@ -102,7 +102,7 @@ public static \FireHub\TheCore\Support\LowLevel\TimeZone::setDefaultTimezone(\Fi
 
 ### Parameters:
 
-* [\FireHub\TheCore\Support\Enums\DateTime\TimeZone](/core/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeZone) $time_zone _The timezone identifier._
+* [\FireHub\TheCore\Support\Enums\DateTime\TimeZone](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeZone) $time_zone _The timezone identifier._
 
 ### Returns:
 

@@ -2,7 +2,7 @@
 layout: default
 title: TypeType
 parent: \FireHub\Support
-grand_parent: Core v0.2
+grand_parent: TheCore v0.2
 has_children: false
 ---
 
@@ -20,9 +20,9 @@ _DataType enum defines the type of data a variable can store._
 
 <sub>Fully Qualified Enum Name:  **\FireHub\TheCore\Support\Enums\Data\TypeType**</sub><br>
 <sub>This enum is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/data/firehub.TypeType.php#L25)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/enums/data/firehub.TypeType.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/enums/data/firehub.TypeType.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/data/firehub.TypeType.php#L25)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/enums/data/firehub.TypeType.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/enums/data/firehub.TypeType.php)**</sub><br>
 
 <sub>_This enum was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -59,7 +59,7 @@ _DataType enum defines the type of data a variable can store._
 ### ### Scalar (predefined) type
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Data\TypeType::SCALAR**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/data/firehub.TypeType.php#L31)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/data/firehub.TypeType.php#L31)**</sub><br>
 
 ### Changelog:
 
@@ -75,7 +75,7 @@ _DataType enum defines the type of data a variable can store._
 ### ### Compound (user-defined) type
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Data\TypeType::COMPOUND**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/data/firehub.TypeType.php#L37)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/data/firehub.TypeType.php#L37)**</sub><br>
 
 ### Changelog:
 
@@ -91,7 +91,7 @@ _DataType enum defines the type of data a variable can store._
 ### ### Special type
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Data\TypeType::SPECIAL**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/data/firehub.TypeType.php#L43)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/data/firehub.TypeType.php#L43)**</sub><br>
 
 ### Changelog:
 

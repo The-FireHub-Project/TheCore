@@ -2,7 +2,7 @@
 layout: default
 title: StrCase
 parent: \FireHub\Support
-grand_parent: Core v0.2
+grand_parent: TheCore v0.2
 has_children: false
 ---
 
@@ -18,9 +18,9 @@ enum \FireHub\TheCore\Support\Enums\String\StrCase
 
 <sub>Fully Qualified Enum Name:  **\FireHub\TheCore\Support\Enums\String\StrCase**</sub><br>
 <sub>This enum is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.StrCase.php#L23)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/enums/string/firehub.StrCase.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/enums/string/firehub.StrCase.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.StrCase.php#L23)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/enums/string/firehub.StrCase.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/enums/string/firehub.StrCase.php)**</sub><br>
 
 <sub>_This enum was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -64,7 +64,7 @@ enum \FireHub\TheCore\Support\Enums\String\StrCase
 ### ### Performs a full upper-case folding
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\StrCase::UPPER**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.StrCase.php#L29)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.StrCase.php#L29)**</sub><br>
 
 ### Changelog:
 
@@ -80,7 +80,7 @@ enum \FireHub\TheCore\Support\Enums\String\StrCase
 ### ### Performs a full lower-case folding
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\StrCase::LOWER**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.StrCase.php#L35)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.StrCase.php#L35)**</sub><br>
 
 ### Changelog:
 
@@ -96,7 +96,7 @@ enum \FireHub\TheCore\Support\Enums\String\StrCase
 ### ### Performs a full title-case conversion based on the Cased and CaseIgnorable derived Unicode properties. In particular this improves handling of quotes and apostrophes
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\StrCase::TITLE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.StrCase.php#L41)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.StrCase.php#L41)**</sub><br>
 
 ### Changelog:
 
@@ -112,7 +112,7 @@ enum \FireHub\TheCore\Support\Enums\String\StrCase
 ### ### Performs a full case fold conversion which removes case distinctions present in the string. This is used for caseless matching
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\String\StrCase::MB_CASE_FOLD**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/string/firehub.StrCase.php#L47)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/string/firehub.StrCase.php#L47)**</sub><br>
 
 ### Changelog:
 

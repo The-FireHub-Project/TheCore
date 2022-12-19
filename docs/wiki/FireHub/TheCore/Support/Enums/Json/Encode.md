@@ -6,9 +6,9 @@ enum \FireHub\TheCore\Support\Enums\Json\Encode
 ### ### JSON encode flag enum
 <sub>Fully Qualified Enum Name:  **\FireHub\TheCore\Support\Enums\Json\Encode**</sub><br>
 <sub>This enum is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/json/firehub.Encode.php#L23)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/enums/json/firehub.Encode.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/enums/json/firehub.Encode.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/json/firehub.Encode.php#L23)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/enums/json/firehub.Encode.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/enums/json/firehub.Encode.php)**</sub><br>
 
 <sub>_This enum was created by Danijel Galić_</sub><br>
 <sub>_2022 FireHub Web Application Framework_</sub><br>
@@ -49,7 +49,7 @@ enum \FireHub\TheCore\Support\Enums\Json\Encode
 
 ### ### All &lt; and &gt; are converted to \u003C and \u003E
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Json\Encode::JSON_HEX_TAG**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/json/firehub.Encode.php#L29)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/json/firehub.Encode.php#L29)**</sub><br>
 
 
 <h2><a name="json_hex_amp"># JSON_HEX_AMP</a></h2>
@@ -60,7 +60,7 @@ enum \FireHub\TheCore\Support\Enums\Json\Encode
 
 ### ### All &s are converted to \u0026
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Json\Encode::JSON_HEX_AMP**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/json/firehub.Encode.php#L35)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/json/firehub.Encode.php#L35)**</sub><br>
 
 
 <h2><a name="json_hex_apos"># JSON_HEX_APOS</a></h2>
@@ -71,7 +71,7 @@ enum \FireHub\TheCore\Support\Enums\Json\Encode
 
 ### ### All ' are converted to \u0027
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Json\Encode::JSON_HEX_APOS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/json/firehub.Encode.php#L41)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/json/firehub.Encode.php#L41)**</sub><br>
 
 
 <h2><a name="json_hex_quot"># JSON_HEX_QUOT</a></h2>
@@ -82,7 +82,7 @@ enum \FireHub\TheCore\Support\Enums\Json\Encode
 
 ### ### All " are converted to \u0022
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Json\Encode::JSON_HEX_QUOT**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/json/firehub.Encode.php#L47)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/json/firehub.Encode.php#L47)**</sub><br>
 
 
 <h2><a name="json_force_object"># JSON_FORCE_OBJECT</a></h2>
@@ -93,7 +93,7 @@ enum \FireHub\TheCore\Support\Enums\Json\Encode
 
 ### ### Outputs an object rather than an array when a non-associative array is used
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Json\Encode::JSON_FORCE_OBJECT**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/json/firehub.Encode.php#L53)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/json/firehub.Encode.php#L53)**</sub><br>
 
 
 <h2><a name="json_numeric_check"># JSON_NUMERIC_CHECK</a></h2>
@@ -104,7 +104,7 @@ enum \FireHub\TheCore\Support\Enums\Json\Encode
 
 ### ### Encodes numeric strings as numbers
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Json\Encode::JSON_NUMERIC_CHECK**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/json/firehub.Encode.php#L59)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/json/firehub.Encode.php#L59)**</sub><br>
 
 
 <h2><a name="json_unescaped_slashes"># JSON_UNESCAPED_SLASHES</a></h2>
@@ -115,7 +115,7 @@ enum \FireHub\TheCore\Support\Enums\Json\Encode
 
 ### ### Don't escape /
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Json\Encode::JSON_UNESCAPED_SLASHES**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/json/firehub.Encode.php#L65)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/json/firehub.Encode.php#L65)**</sub><br>
 
 
 <h2><a name="json_pretty_print"># JSON_PRETTY_PRINT</a></h2>
@@ -126,7 +126,7 @@ enum \FireHub\TheCore\Support\Enums\Json\Encode
 
 ### ### Use whitespace in returned data to format it
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Json\Encode::JSON_PRETTY_PRINT**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/json/firehub.Encode.php#L71)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/json/firehub.Encode.php#L71)**</sub><br>
 
 
 <h2><a name="json_unescaped_unicode"># JSON_UNESCAPED_UNICODE</a></h2>
@@ -137,7 +137,7 @@ enum \FireHub\TheCore\Support\Enums\Json\Encode
 
 ### ### Encode multibyte Unicode characters literally (default is to escape as \uXXXX)
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Json\Encode::JSON_UNESCAPED_UNICODE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/json/firehub.Encode.php#L77)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/json/firehub.Encode.php#L77)**</sub><br>
 
 
 <h2><a name="json_partial_output_on_error"># JSON_PARTIAL_OUTPUT_ON_ERROR</a></h2>
@@ -148,7 +148,7 @@ enum \FireHub\TheCore\Support\Enums\Json\Encode
 
 ### ### Substitute some un-encodable values instead of failing
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Json\Encode::JSON_PARTIAL_OUTPUT_ON_ERROR**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/json/firehub.Encode.php#L83)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/json/firehub.Encode.php#L83)**</sub><br>
 
 
 <h2><a name="json_preserve_zero_fraction"># JSON_PRESERVE_ZERO_FRACTION</a></h2>
@@ -159,7 +159,7 @@ enum \FireHub\TheCore\Support\Enums\Json\Encode
 
 ### ### Ensures that float values are always encoded as a float value
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Json\Encode::JSON_PRESERVE_ZERO_FRACTION**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/json/firehub.Encode.php#L89)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/json/firehub.Encode.php#L89)**</sub><br>
 
 
 <h2><a name="json_unescaped_line_terminators"># JSON_UNESCAPED_LINE_TERMINATORS</a></h2>
@@ -170,7 +170,7 @@ enum \FireHub\TheCore\Support\Enums\Json\Encode
 
 ### ### The line terminators are kept unescaped when JSON_UNESCAPED_UNICODE is supplied
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Json\Encode::JSON_UNESCAPED_LINE_TERMINATORS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/json/firehub.Encode.php#L95)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/json/firehub.Encode.php#L95)**</sub><br>
 
 
 <h2><a name="json_invalid_utf8_ignore"># JSON_INVALID_UTF8_IGNORE</a></h2>
@@ -181,7 +181,7 @@ enum \FireHub\TheCore\Support\Enums\Json\Encode
 
 ### ### Ignore invalid UTF-8 characters
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Json\Encode::JSON_INVALID_UTF8_IGNORE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/json/firehub.Encode.php#L101)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/json/firehub.Encode.php#L101)**</sub><br>
 
 
 <h2><a name="json_invalid_utf8_substitute"># JSON_INVALID_UTF8_SUBSTITUTE</a></h2>
@@ -192,7 +192,7 @@ enum \FireHub\TheCore\Support\Enums\Json\Encode
 
 ### ### Convert invalid UTF-8 characters to \0xfffd (Unicode Character 'REPLACEMENT CHARACTER')
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Json\Encode::JSON_INVALID_UTF8_SUBSTITUTE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/json/firehub.Encode.php#L107)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/json/firehub.Encode.php#L107)**</sub><br>
 
 
 <h2><a name="json_throw_on_error"># JSON_THROW_ON_ERROR</a></h2>
@@ -203,6 +203,6 @@ enum \FireHub\TheCore\Support\Enums\Json\Encode
 
 ### ### Throws JsonException if an error occurs instead of setting the global error state that is retrieved with json_last_error() and json_last_error_msg()
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\Json\Encode::JSON_THROW_ON_ERROR**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/json/firehub.Encode.php#L113)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/json/firehub.Encode.php#L113)**</sub><br>
 
 

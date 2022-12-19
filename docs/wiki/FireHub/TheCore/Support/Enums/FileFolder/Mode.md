@@ -6,9 +6,9 @@ enum \FireHub\TheCore\Support\Enums\FileFolder\Mode
 ### ### File mode enum
 <sub>Fully Qualified Enum Name:  **\FireHub\TheCore\Support\Enums\FileFolder\Mode**</sub><br>
 <sub>This enum is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/filefolder/firehub.Mode.php#L23)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/support/enums/filefolder/firehub.Mode.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/support/enums/filefolder/firehub.Mode.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/filefolder/firehub.Mode.php#L23)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/enums/filefolder/firehub.Mode.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/enums/filefolder/firehub.Mode.php)**</sub><br>
 
 <sub>_This enum was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -48,7 +48,7 @@ _Place the file pointer at the beginning of the file.
 0.1.3.pre-alpha.M1_
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\FileFolder\Mode::READ**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/filefolder/firehub.Mode.php#L31)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/filefolder/firehub.Mode.php#L31)**</sub><br>
 
 
 <h2><a name="read_write"># READ_WRITE</a></h2>
@@ -63,7 +63,7 @@ _Place the file pointer at the beginning of the file.
 0.1.3.pre-alpha.M1_
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\FileFolder\Mode::READ_WRITE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/filefolder/firehub.Mode.php#L39)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/filefolder/firehub.Mode.php#L39)**</sub><br>
 
 
 <h2><a name="rewrite"># REWRITE</a></h2>
@@ -79,7 +79,7 @@ If the file does not exist, attempt to create it.
 0.1.3.pre-alpha.M1_
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\FileFolder\Mode::REWRITE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/filefolder/firehub.Mode.php#L48)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/filefolder/firehub.Mode.php#L48)**</sub><br>
 
 
 <h2><a name="read_rewrite"># READ_REWRITE</a></h2>
@@ -93,7 +93,7 @@ If the file does not exist, attempt to create it.
 _0.1.3.pre-alpha.M1_
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\FileFolder\Mode::READ_REWRITE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/filefolder/firehub.Mode.php#L54)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/filefolder/firehub.Mode.php#L54)**</sub><br>
 
 
 <h2><a name="write_append"># WRITE_APPEND</a></h2>
@@ -110,7 +110,7 @@ In this mode, fseek() has no effect, writes are always appended.
 0.1.3.pre-alpha.M1_
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\FileFolder\Mode::WRITE_APPEND**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/filefolder/firehub.Mode.php#L64)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/filefolder/firehub.Mode.php#L64)**</sub><br>
 
 
 <h2><a name="read_write_append"># READ_WRITE_APPEND</a></h2>
@@ -127,7 +127,7 @@ In this mode, fseek() only affects the reading position, writes are always appen
 0.1.3.pre-alpha.M1_
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\FileFolder\Mode::READ_WRITE_APPEND**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/filefolder/firehub.Mode.php#L74)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/filefolder/firehub.Mode.php#L74)**</sub><br>
 
 
 <h2><a name="create_write"># CREATE_WRITE</a></h2>
@@ -145,7 +145,7 @@ This is equivalent to specifying O_EXCL|O_CREAT flags for the underlying open(2)
 0.1.3.pre-alpha.M1_
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\FileFolder\Mode::CREATE_WRITE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/filefolder/firehub.Mode.php#L85)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/filefolder/firehub.Mode.php#L85)**</sub><br>
 
 
 <h2><a name="create_read_write"># CREATE_READ_WRITE</a></h2>
@@ -160,7 +160,7 @@ _Otherwise, it has the same behavior as &amp;#039;x&amp;#039;.
 0.1.3.pre-alpha.M1_
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\FileFolder\Mode::CREATE_READ_WRITE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/filefolder/firehub.Mode.php#L93)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/filefolder/firehub.Mode.php#L93)**</sub><br>
 
 
 <h2><a name="check_write"># CHECK_WRITE</a></h2>
@@ -178,7 +178,7 @@ This may be useful if it&amp;#039;s desired to get an advisory lock (see flock()
 0.1.3.pre-alpha.M1_
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\FileFolder\Mode::CHECK_WRITE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/filefolder/firehub.Mode.php#L104)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/filefolder/firehub.Mode.php#L104)**</sub><br>
 
 
 <h2><a name="check_read"># CHECK_READ</a></h2>
@@ -193,6 +193,6 @@ _Otherwise, it has the same behavior as &amp;#039;c&amp;#039;.
 0.1.3.pre-alpha.M1_
 
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\FileFolder\Mode::CHECK_READ**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/support/enums/filefolder/firehub.Mode.php#L112)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/filefolder/firehub.Mode.php#L112)**</sub><br>
 
 

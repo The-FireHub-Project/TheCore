@@ -6,9 +6,9 @@ enum \FireHub\TheCore\Initializers\Enums\Kernel
 ### ### Enum for available Kernel types
 <sub>Fully Qualified Enum Name:  **\FireHub\TheCore\Initializers\Enums\Kernel**</sub><br>
 <sub>This enum is part of package:  **\FireHub\Initializers**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/initializers/enums/firehub.Kernel.php#L30)**</sub><br>
-<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/Core/blame/v1.0/src/initializers/enums/firehub.Kernel.php)**</sub><br>
-<sub>History:  **[view history](https://github.com/The-FireHub-Project/Core/commits/v1.0/src/initializers/enums/firehub.Kernel.php)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/initializers/enums/firehub.Kernel.php#L30)**</sub><br>
+<sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/initializers/enums/firehub.Kernel.php)**</sub><br>
+<sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/initializers/enums/firehub.Kernel.php)**</sub><br>
 
 <sub>_This enum was created by Danijel Galić <danijel.galic@outlook.com>_</sub><br>
 <sub>_2023 FireHub Web Application Framework_</sub><br>
@@ -44,7 +44,7 @@ enum \FireHub\TheCore\Initializers\Enums\Kernel
 
 ### ### Fully functional HTTP Kernel
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Initializers\Enums\Kernel::HTTP**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/initializers/enums/firehub.Kernel.php#L38)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/initializers/enums/firehub.Kernel.php#L38)**</sub><br>
 
 
 ### See also:
@@ -59,7 +59,7 @@ enum \FireHub\TheCore\Initializers\Enums\Kernel
 
 ### ### Simplified Micro HTTP Kernel
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Initializers\Enums\Kernel::MICRO_HTTP**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/initializers/enums/firehub.Kernel.php#L46)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/initializers/enums/firehub.Kernel.php#L46)**</sub><br>
 
 
 ### See also:
@@ -74,7 +74,7 @@ enum \FireHub\TheCore\Initializers\Enums\Kernel
 
 ### ### Console Kernel
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Initializers\Enums\Kernel::CONSOLE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/initializers/enums/firehub.Kernel.php#L54)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/initializers/enums/firehub.Kernel.php#L54)**</sub><br>
 
 
 ### See also:
@@ -93,7 +93,7 @@ enum \FireHub\TheCore\Initializers\Enums\Kernel
 
 ### ### Run selected Kernel
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Initializers\Enums\Kernel::run()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/Core/blob/v1.0/src/initializers/enums/firehub.Kernel.php#L66)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/initializers/enums/firehub.Kernel.php#L66)**</sub><br>
 
 
 ### Returns:
