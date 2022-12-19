@@ -34,6 +34,8 @@
     * [Day](./Day)
     * [Month](./Month)
     * [Predefined](./Predefined)
+    * [Time](./Time)
+    * [TimeZone](./TimeZone)
     * [Week](./Week)
     * [Year](./Year)
 * \FireHub\TheCore\Support\Enums\FileFolder
