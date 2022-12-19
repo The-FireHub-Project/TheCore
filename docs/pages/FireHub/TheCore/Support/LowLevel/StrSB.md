@@ -514,7 +514,7 @@ __
 
 ### This method is used by:
 
-* *To get par of microtime.*
+* *To get part of microtime.*
 
 
 ### Parameters:

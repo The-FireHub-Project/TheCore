@@ -91,7 +91,7 @@ public static \FireHub\TheCore\Support\LowLevel\Time::microtime():int|false
 * [\FireHub\TheCore\Support\LowLevel\StrSB::explode()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\StrSB#explode()) _To split microtime function._
 * [\FireHub\TheCore\Support\LowLevel\Data::setType()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Data#settype()) _To set microtime to other type._
 * [\FireHub\TheCore\Support\Enums\Data\Type::T_INT](/thecore/v0.2\FireHub\TheCore\Support\Enums\Data\Type#t_int) _To set microtime as integer._
-* [\FireHub\TheCore\Support\LowLevel\StrSB::part()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\StrSB#part()) _To get par of microtime._
+* [\FireHub\TheCore\Support\LowLevel\StrSB::part()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\StrSB#part()) _To get part of microtime._
 
 ### Returns:
 
