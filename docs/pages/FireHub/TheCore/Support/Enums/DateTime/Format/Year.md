@@ -64,6 +64,11 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Format\Year
 
 * **0.2.1.pre-alpha.M2** 
 
+### This case is used by:
+
+* *As format type.*
+
+
 ### Examples:
 
 ```php
@@ -111,6 +116,11 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Format\Year
 ### Changelog:
 
 * **0.2.1.pre-alpha.M2** 
+
+### This case is used by:
+
+* *As format type.*
+
 
 ### Examples:
 

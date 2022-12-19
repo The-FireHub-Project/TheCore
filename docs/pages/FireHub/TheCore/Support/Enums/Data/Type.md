@@ -87,6 +87,13 @@ _DataType enum defines the type of data a variable can store._
 
 * **0.1.3.pre-alpha.M1** 
 
+### This case is used by:
+
+* *To set type as booliean.*
+
+* *To set type as boolian.*
+
+
 <h2><a name="t_int"># T_INT</a></h2>
 ***
 
@@ -104,6 +111,34 @@ _DataType enum defines the type of data a variable can store._
 * **0.1.3.pre-alpha.M1** 
 
 ### This case is used by:
+
+* *To set type as integer.*
+
+* *To set type as integer.*
+
+* *To set type as integer.*
+
+* *To set type as integer.*
+
+* *To set type as integer.*
+
+* *To set type as integer.*
+
+* *To set type as integer.*
+
+* *To set type as integer.*
+
+* *To set type as integer.*
+
+* *To set type as integer.*
+
+* *To set type as integer.*
+
+* *To set type as integer.*
+
+* *To set type as integer.*
+
+* *To set type as boolian.*
 
 * *To compare permissions value.*
 

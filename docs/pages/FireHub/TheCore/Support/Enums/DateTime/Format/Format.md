@@ -32,3 +32,9 @@ interface \FireHub\TheCore\Support\Enums\DateTime\Format\Format
 
 * **0.2.1.pre-alpha.M2** 
 
+
+## This interface is used by
+***
+
+* *As parameter.*
+

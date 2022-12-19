@@ -36,6 +36,10 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeZone
 ## This enum is used by
 ***
 
+* *As parametar.*
+
+* *To get GMT timezone.*
+
 * *As return.*
 
 * *As parameter.*

@@ -119,6 +119,38 @@ public static \FireHub\TheCore\Support\LowLevel\Data::setType(mixed $value, \Fir
 
 ### This method is used by:
 
+* *To change type.*
+
+* *To change type.*
+
+* *To change type.*
+
+* *To change type.*
+
+* *To change type.*
+
+* *To change type.*
+
+* *To change type.*
+
+* *To change type.*
+
+* *To change type.*
+
+* *To change type.*
+
+* *To change type.*
+
+* *To change type.*
+
+* *To change type.*
+
+* *To change type.*
+
+* *To change type.*
+
+* *To change type.*
+
 * *To set microtime to other type.*
 
 

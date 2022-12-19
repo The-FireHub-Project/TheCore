@@ -33,6 +33,12 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 * **0.2.1.pre-alpha.M2** 
 
 
+## This enum is used by
+***
+
+* *As return.*
+
+
 ## Cases table
 ***
 

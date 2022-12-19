@@ -66,6 +66,11 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Format\TimeZone
 
 * **0.2.1.pre-alpha.M2** 
 
+### This case is used by:
+
+* *As format type.*
+
+
 ### Examples:
 
 ```php
@@ -89,6 +94,11 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Format\TimeZone
 ### Changelog:
 
 * **0.2.1.pre-alpha.M2** 
+
+### This case is used by:
+
+* *As format type.*
+
 
 ### Examples:
 
@@ -114,6 +124,11 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Format\TimeZone
 
 * **0.2.1.pre-alpha.M2** 
 
+### This case is used by:
+
+* *As format type.*
+
+
 ### Examples:
 
 ```php
@@ -138,6 +153,11 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Format\TimeZone
 
 * **0.2.1.pre-alpha.M2** 
 
+### This case is used by:
+
+* *As format type.*
+
+
 ### Examples:
 
 ```php
@@ -161,6 +181,11 @@ EST, MDT, +05
 ### Changelog:
 
 * **0.2.1.pre-alpha.M2** 
+
+### This case is used by:
+
+* *As format type.*
+
 
 ### Examples:
 

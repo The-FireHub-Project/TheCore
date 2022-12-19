@@ -98,6 +98,11 @@ public static \FireHub\TheCore\Support\LowLevel\DateAndTime::date(string $format
 * **0.1.3.pre-alpha.M1** 
 * **0.2.1.pre-alpha.M2** _Changed default $format._
 
+### This method is used by:
+
+* *To format date and time from timestamp.*
+
+
 ### Parameters:
 
 * string $format = 'Y-m-d H:i:s.u' _[optional] 
@@ -128,6 +133,15 @@ public static \FireHub\TheCore\Support\LowLevel\DateAndTime::dateInteger(string 
 ### Changelog:
 
 * **0.1.3.pre-alpha.M1** 
+
+### This method is used by:
+
+* *To get current month as integer.*
+
+* *To get current month as integer.*
+
+* *To get current month as integer.*
+
 
 ### Parameters:
 

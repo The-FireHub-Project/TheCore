@@ -147,6 +147,11 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Format\Predefined
 
 * **0.1.3.pre-alpha.M1** 
 
+### This case is used by:
+
+* *As datetime format.*
+
+
 ### Examples:
 
 ```php
@@ -170,6 +175,11 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Format\Predefined
 ### Changelog:
 
 * **0.1.3.pre-alpha.M1** 
+
+### This case is used by:
+
+* *As default parameter.*
+
 
 ### Examples:
 
