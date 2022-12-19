@@ -2,6 +2,8 @@
 
 ## [Unreleased](https://github.com/The-FireHub-Project/Documentor/compare/develop-pre-alpha-m1...develop-pre-alpha)
 
+[v0.2.0](https://github.com/The-FireHub-Project/Documentor/compare/v0.2.0-alpha.1...develop-pre-alpha-m1) - (2022-12-19)
+
 ### Added
 
 - Added NOW enum to TimeName enum, created Unit and Ordinal enums ([#10](https://github.com/The-FireHub-Project/FireHub/issues/10), [419d735](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/419d735))
