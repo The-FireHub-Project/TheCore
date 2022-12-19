@@ -54,7 +54,7 @@ final class TimeZone {
 
             $this->date_time_zone = new DateTimeZone($timezone->value);
 
-        } catch (Throwable) {
+        } catch (Throwable) { // @phpstan-ignore-line PHPStan error, there can be Execption
 
             throw new Error("Timezone $timezone->value is not in valid.");
 
