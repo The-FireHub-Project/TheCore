@@ -7,6 +7,8 @@
 - Added NOW enum to TimeName enum, created Unit and Ordinal enums ([#10](https://github.com/The-FireHub-Project/FireHub/issues/10), [419d735](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/419d735))
 - Created Time low level class ([#10](https://github.com/The-FireHub-Project/FireHub/issues/10), [9e7e559](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/9e7e559))
 - Created Year, Day, Month, Week enums ([#10](https://github.com/The-FireHub-Project/FireHub/issues/10), [848af53](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/848af53))
+- Created Country and Continent enums ([#10](https://github.com/The-FireHub-Project/FireHub/issues/10), [3d61551](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/3d61551))
+- Created Time and TimeZone format enums ([#10](https://github.com/The-FireHub-Project/FireHub/issues/10), [27f75f9](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/27f75f9))
 
 ### Changed
 - Constansts refactor ([#9](https://github.com/The-FireHub-Project/FireHub/issues/9), [9ab9b65](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/9ab9b65))
