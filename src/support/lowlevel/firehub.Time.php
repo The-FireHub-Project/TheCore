@@ -53,7 +53,7 @@ final class Time {
      * @uses \FireHub\TheCore\Support\LowLevel\StrSB::explode() To split microtime function.
      * @uses \FireHub\TheCore\Support\LowLevel\Data::setType() To set microtime to other type.
      * @uses \FireHub\TheCore\Support\Enums\Data\Type::T_INT To set microtime as integer.
-     * @uses \FireHub\TheCore\Support\LowLevel\StrSB::part() To get par of microtime.
+     * @uses \FireHub\TheCore\Support\LowLevel\StrSB::part() To get part of microtime.
      *
      * @return int|false Current microseconds, false otherwise.
      */
