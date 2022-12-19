@@ -1,7 +1,7 @@
 name: CreateAlphaDocumentation
 env:
   FIREHUB_APP_TITLE: FireHub Web Application Framework
-  FIREHUB_APP_NAME: Core
+  FIREHUB_APP_NAME: TheCore
   FIREHUB_APP_VERSION: v0.2
   FIREHUB_BRANCH: v1.0
 on:

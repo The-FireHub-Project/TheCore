@@ -19,7 +19,7 @@
             </ignore>
         </api>
     </version>
-    <setting name="app_name" value="Core"/>
+    <setting name="app_name" value="TheCore"/>
     <setting name="app_version" value="v0.2"/>
     <setting name="branch" value="v1.0"/>
     <template name="vendor/firehub/documentor/src/template/pages" location="vendor/firehub/documentor/src/template/pages"/>
