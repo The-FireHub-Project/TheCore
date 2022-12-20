@@ -34,7 +34,7 @@ final class \FireHub\TheCore\Support\DateTime\Interval()
 ## Changelog
 ***
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 
 ## This class is used by
@@ -182,7 +182,7 @@ public \FireHub\TheCore\Support\DateTime\Interval::__construct(int $years, int $
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### Parameters:
 

@@ -31,7 +31,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Format\TimeZone
 ## Changelog
 ***
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 
 ## Cases table
@@ -64,7 +64,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Format\TimeZone
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This case is used by:
 
@@ -93,7 +93,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Format\TimeZone
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This case is used by:
 
@@ -122,7 +122,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Format\TimeZone
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This case is used by:
 
@@ -151,7 +151,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Format\TimeZone
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This case is used by:
 
@@ -180,7 +180,7 @@ EST, MDT, +05
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This case is used by:
 

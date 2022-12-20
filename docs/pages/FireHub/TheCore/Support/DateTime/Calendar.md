@@ -34,7 +34,7 @@ final class \FireHub\TheCore\Support\DateTime\Calendar()
 ## Changelog
 ***
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 
 ## Properties table
@@ -111,7 +111,7 @@ readonly private \DateTime \FireHub\TheCore\Support\DateTime\Calendar::$date_tim
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 <h2><a name="$time_zone"># $time_zone</a></h2>
 ***
@@ -144,7 +144,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::__construct(string $datetime 
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -181,7 +181,7 @@ public static \FireHub\TheCore\Support\DateTime\Calendar::now(\FireHub\TheCore\S
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -212,7 +212,7 @@ public static \FireHub\TheCore\Support\DateTime\Calendar::today(\FireHub\TheCore
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -247,7 +247,7 @@ public static \FireHub\TheCore\Support\DateTime\Calendar::yesterday(\FireHub\The
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -282,7 +282,7 @@ public static \FireHub\TheCore\Support\DateTime\Calendar::relative(int $number, 
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -319,7 +319,7 @@ public static \FireHub\TheCore\Support\DateTime\Calendar::firstDay(\FireHub\TheC
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -360,7 +360,7 @@ public static \FireHub\TheCore\Support\DateTime\Calendar::lastDay(\FireHub\TheCo
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -401,7 +401,7 @@ public static \FireHub\TheCore\Support\DateTime\Calendar::weekDay(\FireHub\TheCo
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -444,7 +444,7 @@ public static \FireHub\TheCore\Support\DateTime\Calendar::fromTimestamp(int $tim
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -473,7 +473,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::toTimestamp():int
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### Returns:
 
@@ -493,7 +493,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::format(\FireHub\TheCore\Suppo
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -575,7 +575,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::year(bool $short = false):int
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -614,7 +614,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::leapYear():bool
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -641,7 +641,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::monthName(bool $short = false
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -672,7 +672,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::month(bool $short = false)
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -708,7 +708,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::monthDays():int
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -735,7 +735,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::dayinYear():int
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -762,7 +762,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::dayInMonth(bool $short = fals
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -801,7 +801,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::dayInWeek(bool $iso8601 = fal
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -834,7 +834,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::dayNameInWeek(bool $short = f
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -865,7 +865,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::weekInYear():int
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -892,7 +892,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::hourShort(bool $short = false
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -924,7 +924,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::hourLong(bool $short = false)
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -960,7 +960,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::minute(bool $short = false)
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -995,7 +995,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::second(bool $short = false)
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -1030,7 +1030,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::miliSecond(bool $short = fals
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -1058,7 +1058,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::microSecond(bool $short = fal
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -1093,7 +1093,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::timeZoneDaylightSavingTime():
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -1120,7 +1120,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::timeZoneGMTdiff(bool $colon =
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -1151,7 +1151,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::timeZoneAbbreviation():string
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -1176,7 +1176,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::timeZoneOffset():int
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -1203,7 +1203,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::setDate(int|null $year = null
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -1243,7 +1243,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::setTime(int|null $hour = null
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -1286,7 +1286,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::timeZone():\FireHub\TheCore\S
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -1315,7 +1315,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::changeTimeZone(\FireHub\TheCo
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -1347,7 +1347,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::add(\FireHub\TheCore\Support\
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 

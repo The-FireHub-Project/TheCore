@@ -35,7 +35,7 @@ final class \FireHub\TheCore\Support\LowLevel\DateAndTime()
 ***
 
 * **0.1.3.pre-alpha.M1** 
-* **0.2.1.pre-alpha.M2** _Removed timezone methods, changed default $format in format method._
+* **0.2.0.pre-alpha.M2** _Removed timezone methods, changed default $format in format method._
 
 
 ## Methods table
@@ -96,7 +96,7 @@ public static \FireHub\TheCore\Support\LowLevel\DateAndTime::date(string $format
 ### Changelog:
 
 * **0.1.3.pre-alpha.M1** 
-* **0.2.1.pre-alpha.M2** _Changed default $format._
+* **0.2.0.pre-alpha.M2** _Changed default $format._
 
 ### This method is used by:
 

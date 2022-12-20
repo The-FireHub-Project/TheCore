@@ -34,7 +34,7 @@ final class \FireHub\TheCore\Support\LowLevel\TimeZone()
 ## Changelog
 ***
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 
 ## Methods table
@@ -64,7 +64,7 @@ public static \FireHub\TheCore\Support\LowLevel\TimeZone::getDefaultTimezone():\
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 
@@ -93,7 +93,7 @@ public static \FireHub\TheCore\Support\LowLevel\TimeZone::setDefaultTimezone(\Fi
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method is used by:
 

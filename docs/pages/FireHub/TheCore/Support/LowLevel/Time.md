@@ -34,7 +34,7 @@ final class \FireHub\TheCore\Support\LowLevel\Time()
 ## Changelog
 ***
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 
 ## Methods table
@@ -64,7 +64,7 @@ public static \FireHub\TheCore\Support\LowLevel\Time::timestamp():int
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### Returns:
 
@@ -84,7 +84,7 @@ public static \FireHub\TheCore\Support\LowLevel\Time::microtime():int|false
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This method uses:
 

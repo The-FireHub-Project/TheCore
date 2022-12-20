@@ -31,7 +31,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeName
 ***
 
 * **0.1.3.pre-alpha.M1** 
-* **0.2.1.pre-alpha.M2** _Added NOW enum._
+* **0.2.0.pre-alpha.M2** _Added NOW enum._
 
 
 ## Cases table
@@ -62,7 +62,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\TimeName
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This case is used by:
 

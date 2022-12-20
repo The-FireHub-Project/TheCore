@@ -31,7 +31,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\DayName
 ***
 
 * **0.1.3.pre-alpha.M1** 
-* **0.2.1.pre-alpha.M2** _Removed FIRST_DAY and LAST_DAY enums._
+* **0.2.0.pre-alpha.M2** _Removed FIRST_DAY and LAST_DAY enums._
 
 
 ## Cases table

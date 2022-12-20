@@ -30,7 +30,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 ## Changelog
 ***
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 
 ## Cases table
@@ -72,7 +72,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This case is used by:
 
@@ -91,7 +91,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 <h2><a name="third"># THIRD</a></h2>
 ***
@@ -105,7 +105,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 <h2><a name="fourth"># FOURTH</a></h2>
 ***
@@ -119,7 +119,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 <h2><a name="fifth"># FIFTH</a></h2>
 ***
@@ -133,7 +133,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 <h2><a name="sixth"># SIXTH</a></h2>
 ***
@@ -147,7 +147,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 <h2><a name="seventh"># SEVENTH</a></h2>
 ***
@@ -161,7 +161,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 <h2><a name="eighth"># EIGHTH</a></h2>
 ***
@@ -175,7 +175,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 <h2><a name="ninth"># NINTH</a></h2>
 ***
@@ -189,7 +189,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 <h2><a name="tenth"># TENTH</a></h2>
 ***
@@ -203,7 +203,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 <h2><a name="eleventh"># ELEVENTH</a></h2>
 ***
@@ -217,7 +217,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 <h2><a name="twelfth"># TWELFTH</a></h2>
 ***
@@ -231,7 +231,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 <h2><a name="next"># NEXT</a></h2>
 ***
@@ -245,7 +245,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 <h2><a name="last"># LAST</a></h2>
 ***
@@ -259,7 +259,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### This case is used by:
 
@@ -278,7 +278,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 <h2><a name="this"># THIS</a></h2>
 ***
@@ -292,5 +292,5 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Ordinal
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 

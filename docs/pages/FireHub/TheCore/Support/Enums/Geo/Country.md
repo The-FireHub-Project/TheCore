@@ -30,7 +30,7 @@ enum \FireHub\TheCore\Support\Enums\Geo\Country
 ## Changelog
 ***
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 
 ## This enum is used by
@@ -3221,7 +3221,7 @@ public \FireHub\TheCore\Support\Enums\Geo\Country::continent():\FireHub\TheCore\
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### Returns:
 

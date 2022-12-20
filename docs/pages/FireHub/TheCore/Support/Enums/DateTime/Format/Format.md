@@ -30,7 +30,7 @@ interface \FireHub\TheCore\Support\Enums\DateTime\Format\Format
 ## Changelog
 ***
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 
 ## This interface is used by

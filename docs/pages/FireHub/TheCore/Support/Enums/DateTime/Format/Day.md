@@ -31,7 +31,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Format\Day
 ## Changelog
 ***
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 
 ## Cases table
@@ -67,7 +67,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Format\Day
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### Examples:
 
@@ -91,7 +91,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Format\Day
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### Examples:
 
@@ -115,7 +115,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Format\Day
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### Examples:
 
@@ -139,7 +139,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Format\Day
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### Examples:
 
@@ -163,7 +163,7 @@ Sunday through Saturday
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### Examples:
 
@@ -187,7 +187,7 @@ Mon through Sun
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### Examples:
 
@@ -211,7 +211,7 @@ Mon through Sun
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### Examples:
 
@@ -235,7 +235,7 @@ Mon through Sun
 
 ### Changelog:
 
-* **0.2.1.pre-alpha.M2** 
+* **0.2.0.pre-alpha.M2** 
 
 ### Examples:
 
