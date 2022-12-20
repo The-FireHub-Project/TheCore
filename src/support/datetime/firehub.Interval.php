@@ -16,7 +16,7 @@ namespace FireHub\TheCore\Support\DateTime;
 
 /**
  * ### Interval support class
- * @since 0.2.1.pre-alpha.M2
+ * @since 0.2.0.pre-alpha.M2
  *
  * @api
  */
@@ -24,7 +24,7 @@ final class Interval {
 
     /**
      * ### Constructor
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @param int $years [optional] <p>
      * Number of years.

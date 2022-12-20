@@ -21,7 +21,7 @@ use function date_default_timezone_set;
 
 /**
  * ### TimeZone low level class
- * @since 0.2.1.pre-alpha.M2
+ * @since 0.2.0.pre-alpha.M2
  *
  * @api
  *
@@ -36,7 +36,7 @@ final class TimeZone {
 
     /**
      * ### Gets the default timezone used by all date/time functions in a script
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\Enums\DateTime\TimeZone To check for valid timezone.
      *
@@ -52,7 +52,7 @@ final class TimeZone {
 
     /**
      * ### Sets the default timezone used by all date/time functions in a script
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @param \FireHub\TheCore\Support\Enums\DateTime\TimeZone $time_zone <p>
      * The timezone identifier.

@@ -16,7 +16,7 @@ namespace FireHub\TheCore\Support\Enums\DateTime\Format;
 
 /**
  * ### Timezone format enum
- * @since 0.2.1.pre-alpha.M2
+ * @since 0.2.0.pre-alpha.M2
  *
  * @api
  */
@@ -24,7 +24,7 @@ enum TimeZone:string implements Format {
 
     /**
      * ### Whether the date is in daylight saving time
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @example
      * ```php
@@ -35,7 +35,7 @@ enum TimeZone:string implements Format {
 
     /**
      * ### Difference to Greenwich time (GMT) without colon between hours and minutes
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @example
      * ```php
@@ -46,7 +46,7 @@ enum TimeZone:string implements Format {
 
     /**
      * ### Difference to Greenwich time (GMT) with colon between hours and minutes
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @example
      * ```php
@@ -57,7 +57,7 @@ enum TimeZone:string implements Format {
 
     /**
      * ### Timezone abbreviation, if known; otherwise the GMT offset
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @example
      * ```php
@@ -68,7 +68,7 @@ enum TimeZone:string implements Format {
 
     /**
      * ### Timezone offset in seconds. The offset for timezones west of UTC is always negative, and for those east of UTC is always positive
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @example
      * ```php

@@ -16,7 +16,7 @@ namespace FireHub\TheCore\Support\Enums\DateTime\Format;
 
 /**
  * ### Week format enum
- * @since 0.2.1.pre-alpha.M2
+ * @since 0.2.0.pre-alpha.M2
  *
  * @api
  */
@@ -24,7 +24,7 @@ enum Week:string implements Format {
 
     /**
      * ### ISO 8601 week number of year, weeks starting on Monday
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @example
      * ```php

@@ -21,7 +21,7 @@ use function time;
 
 /**
  * ### Time low level class
- * @since 0.2.1.pre-alpha.M2
+ * @since 0.2.0.pre-alpha.M2
  *
  * @api
  *
@@ -36,7 +36,7 @@ final class Time {
 
     /**
      * ### Get current Unix timestamp
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @return int Current time measured in the number of seconds since the Unix Epoch (January 1 1970 00:00:00 GMT).
      */
@@ -48,7 +48,7 @@ final class Time {
 
     /**
      * ### Get current Unix microseconds
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\LowLevel\StrSB::explode() To split microtime function.
      * @uses \FireHub\TheCore\Support\LowLevel\Data::setType() To set microtime to other type.

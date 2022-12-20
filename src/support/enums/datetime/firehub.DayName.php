@@ -18,7 +18,7 @@ namespace FireHub\TheCore\Support\Enums\DateTime;
  * ### Day names notations enum
  *
  * @since 0.1.3.pre-alpha.M1
- * @since 0.2.1.pre-alpha.M2 Removed FIRST_DAY and LAST_DAY enums.
+ * @since 0.2.0.pre-alpha.M2 Removed FIRST_DAY and LAST_DAY enums.
  *
  * @api
  */

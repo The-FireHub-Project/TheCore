@@ -27,7 +27,7 @@ use DateTime, DateTimeZone, Error, Throwable;
 
 /**
  * ### Calendar support class
- * @since 0.2.1.pre-alpha.M2
+ * @since 0.2.0.pre-alpha.M2
  *
  * @api
  *
@@ -41,7 +41,7 @@ final class Calendar {
 
     /**
      * ### Base DateTime object
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @var DateTime
      */
@@ -51,7 +51,7 @@ final class Calendar {
 
     /**
      * ### Constructor
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\DateTime\TimeZone As parameter.
      * @uses \FireHub\TheCore\Support\DateTime\TimeZone::getDefaultTimeZone() To get default timezone.
@@ -85,7 +85,7 @@ final class Calendar {
 
     /**
      * ### Set calendar to current date and time
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\DateTime\TimeZone As parameter.
      * @uses \FireHub\TheCore\Support\Enums\DateTime\TimeName::NOW To get current date and time.
@@ -105,7 +105,7 @@ final class Calendar {
 
     /**
      * ### Set calendar to current date
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\Enums\DateTime\TimeName::MIDNIGHT As default parametar.
      * @uses \FireHub\TheCore\Support\DateTime\TimeZone As parameter.
@@ -130,7 +130,7 @@ final class Calendar {
 
     /**
      * ### Set calendar to yesterday date
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\Enums\DateTime\TimeName::MIDNIGHT As default parametar.
      * @uses \FireHub\TheCore\Support\DateTime\TimeZone As parameter.
@@ -155,7 +155,7 @@ final class Calendar {
 
     /**
      * ### Set relative time and date
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\Enums\DateTime\Unit As parametar.
      * @uses \FireHub\TheCore\Support\Enums\DateTime\TimeName::NOW As default parametar.
@@ -186,7 +186,7 @@ final class Calendar {
 
     /**
      * ### Set calendar to first day of specified month
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\Enums\DateTime\Month As parametar.
      * @uses \FireHub\TheCore\Support\Enums\DateTime\TimeName::MIDNIGHT As default parametar.
@@ -219,7 +219,7 @@ final class Calendar {
 
     /**
      * ### Set datetime to last day of specified month
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\Enums\DateTime\MonthAs parametar.
      * @uses \FireHub\TheCore\Support\Enums\DateTime\TimeName::MIDNIGHT As default parametar.
@@ -252,7 +252,7 @@ final class Calendar {
 
     /**
      * ### Set datetime by ordinal day of specified weekday name and month
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\Enums\DateTime\WeekDay As parametar.
      * @uses \FireHub\TheCore\Support\Enums\DateTime\Month As parametar.
@@ -291,7 +291,7 @@ final class Calendar {
 
     /**
      * ### Set datetime from timestamp
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\LowLevel\DateAndTime::date() To format date and time from timestamp.
      * @uses \FireHub\TheCore\Support\Enums\DateTime\Format\Predefined::DATETIME As datetime format.
@@ -310,7 +310,7 @@ final class Calendar {
 
     /**
      * ### Gets timestamp from datetime
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @return int Unix timestamp representing the date.
      */
@@ -322,7 +322,7 @@ final class Calendar {
 
     /**
      * ### Formats datetime according to given format
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\Enums\DateTime\Format\Format As parameter.
      * @uses \FireHub\TheCore\Support\Enums\DateTime\Format\Predefined::DATE_MICRO_TIME As default parameter.
@@ -346,7 +346,7 @@ final class Calendar {
 
     /**
      * ### Get year
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\LowLevel\Data::setType() To change type.
      * @uses \FireHub\TheCore\Support\DateTime\Calendar::format() To format datetime according to given format.
@@ -367,7 +367,7 @@ final class Calendar {
 
     /**
      * ### Whether it's a leap year
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\LowLevel\Data::setType() To change type.
      * @uses \FireHub\TheCore\Support\DateTime\Calendar::format() To format datetime according to given format.
@@ -384,7 +384,7 @@ final class Calendar {
 
     /**
      * ### Get month name
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\DateTime\Calendar::format() To format datetime according to given format.
      * @uses \FireHub\TheCore\Support\Enums\DateTime\Format\Month::TEXTUAL_SHORT As format type.
@@ -404,7 +404,7 @@ final class Calendar {
 
     /**
      * ### Get month number
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\LowLevel\Data::setType() To change type.
      * @uses \FireHub\TheCore\Support\DateTime\Calendar::format() To format datetime according to given format.
@@ -426,7 +426,7 @@ final class Calendar {
 
     /**
      * ### Get number of days in the given month
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\LowLevel\Data::setType() To change type.
      * @uses \FireHub\TheCore\Support\DateTime\Calendar::format() To format datetime according to given format.
@@ -443,7 +443,7 @@ final class Calendar {
 
     /**
      * ### The day of the year
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\LowLevel\Data::setType() To change type.
      * @uses \FireHub\TheCore\Support\DateTime\Calendar::format() To format datetime according to given format.
@@ -460,7 +460,7 @@ final class Calendar {
 
     /**
      * ### The day of the month
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\LowLevel\Data::setType() To change type.
      * @uses \FireHub\TheCore\Support\DateTime\Calendar::format() To format datetime according to given format.
@@ -494,7 +494,7 @@ final class Calendar {
 
     /**
      * ### The day of the week, starting from Sunday with value 0
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\LowLevel\Data::setType() To change type.
      * @uses \FireHub\TheCore\Support\DateTime\Calendar::format() To format datetime according to given format.
@@ -516,7 +516,7 @@ final class Calendar {
 
     /**
      * ### The day name of the week
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\DateTime\Calendar::format() To format datetime according to given format.
      * @uses \FireHub\TheCore\Support\Enums\DateTime\Format\DayFormat::TEXTUAL_IN_WEEK_SHORT As format type.
@@ -536,7 +536,7 @@ final class Calendar {
 
     /**
      * ### The week number of the year
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\LowLevel\Data::setType() To change type.
      * @uses \FireHub\TheCore\Support\DateTime\Calendar::format() To format datetime according to given format.
@@ -553,7 +553,7 @@ final class Calendar {
 
     /**
      * ### 12 hour type of the time
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\LowLevel\Data::setType() To change type.
      * @uses \FireHub\TheCore\Support\DateTime\Calendar::format() To format datetime according to given format.
@@ -587,7 +587,7 @@ final class Calendar {
 
     /**
      * ### 24 type hour of the time
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\LowLevel\Data::setType() To change type.
      * @uses \FireHub\TheCore\Support\DateTime\Calendar::format() To format datetime according to given format.
@@ -609,7 +609,7 @@ final class Calendar {
 
     /**
      * ### Minute of the time
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\LowLevel\Data::setType() To change type.
      * @uses \FireHub\TheCore\Support\DateTime\Calendar::format() To format datetime according to given format.
@@ -630,7 +630,7 @@ final class Calendar {
 
     /**
      * ### Second of the time
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\LowLevel\Data::setType() To change type.
      * @uses \FireHub\TheCore\Support\DateTime\Calendar::format() To format datetime according to given format.
@@ -651,7 +651,7 @@ final class Calendar {
 
     /**
      * ### Milisecond of the time
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\LowLevel\Data::setType() To change type.
      * @uses \FireHub\TheCore\Support\DateTime\Calendar::format() To format datetime according to given format.
@@ -672,7 +672,7 @@ final class Calendar {
 
     /**
      * ### Microsecond of the time
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\LowLevel\Data::setType() To change type.
      * @uses \FireHub\TheCore\Support\DateTime\Calendar::format() To format datetime according to given format.
@@ -693,7 +693,7 @@ final class Calendar {
 
     /**
      * ### Daylight saving time
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\LowLevel\Data::setType() To change type.
      * @uses \FireHub\TheCore\Support\DateTime\Calendar::format() To format datetime according to given format.
@@ -710,7 +710,7 @@ final class Calendar {
 
     /**
      * ### Difference to Greenwich time (GMT) without colon between hours and minutes
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\DateTime\Calendar::format() To format datetime according to given format.
      * @uses \FireHub\TheCore\Support\Enums\DateTime\Format\TimeZone::GMT_DIFF_COLON As format type.
@@ -730,7 +730,7 @@ final class Calendar {
 
     /**
      * ### Timezone abbreviation if known; otherwise the GMT offset
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\DateTime\Calendar::format() To format datetime according to given format.
      * @uses \FireHub\TheCore\Support\Enums\DateTime\Format\TimeZone::ABBREVIATION As format type.
@@ -745,7 +745,7 @@ final class Calendar {
 
     /**
      * ### Timezone offset in seconds
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\LowLevel\Data::setType() To change type.
      * @uses \FireHub\TheCore\Support\DateTime\Calendar::format() To format datetime according to given format.
@@ -762,7 +762,7 @@ final class Calendar {
 
     /**
      * ### Sets the date
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\DateTime\Calendar::year() To get current year.
      * @uses \FireHub\TheCore\Support\DateTime\Calendar::month() To get current month.
@@ -790,7 +790,7 @@ final class Calendar {
 
     /**
      * ### Sets the time
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\DateTime\Calendar::hourLong() To get current hour.
      * @uses \FireHub\TheCore\Support\DateTime\Calendar::minute() To get current minute.
@@ -822,7 +822,7 @@ final class Calendar {
 
     /**
      * ### Gets current timezone object
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\DateTime\TimeZone::getDefaultTimeZone() To get current timezone.
      * @uses \FireHub\TheCore\Support\DateTime\TimeZone As return.
@@ -839,7 +839,7 @@ final class Calendar {
 
     /**
      * ### Sets timezone
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\DateTime\TimeZone As parameter.
      *
@@ -870,7 +870,7 @@ final class Calendar {
 
     /**
      * ### Add interval to datetime
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\DateTime\Interval As parameter.
      * @uses \FireHub\TheCore\Support\DateTime\Calendar::setDate() To se date.

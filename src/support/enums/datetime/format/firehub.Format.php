@@ -16,7 +16,7 @@ namespace FireHub\TheCore\Support\Enums\DateTime\Format;
 
 /**
  * ### Interface for format enums
- * @since 0.2.1.pre-alpha.M2
+ * @since 0.2.0.pre-alpha.M2
  */
 interface Format {
 

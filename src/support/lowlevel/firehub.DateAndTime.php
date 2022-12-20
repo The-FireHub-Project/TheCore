@@ -23,7 +23,7 @@ use function strtotime;
  * ### Date and time low level class
  *
  * @since 0.1.3.pre-alpha.M1
- * @since 0.2.1.pre-alpha.M2 Removed timezone methods, changed default $format in format method.
+ * @since 0.2.0.pre-alpha.M2 Removed timezone methods, changed default $format in format method.
  *
  * @api
  *
@@ -61,7 +61,7 @@ final class DateAndTime {
      * ### Gets a local time/date
      *
      * @since 0.1.3.pre-alpha.M1
-     * @since 0.2.1.pre-alpha.M2 Changed default $format.
+     * @since 0.2.0.pre-alpha.M2 Changed default $format.
      *
      * @param string $format [optional] <p>
      * The format of the outputted date string.

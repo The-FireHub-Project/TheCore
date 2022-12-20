@@ -16,7 +16,7 @@ namespace FireHub\TheCore\Support\Enums\Geo;
 
 /**
  * ### Time zones enum
- * @since 0.2.1.pre-alpha.M2
+ * @since 0.2.0.pre-alpha.M2
  *
  * @api
  */

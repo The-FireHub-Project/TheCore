@@ -16,7 +16,7 @@ namespace FireHub\TheCore\Support\Enums\DateTime\Format;
 
 /**
  * ### Time format enum
- * @since 0.2.1.pre-alpha.M2
+ * @since 0.2.0.pre-alpha.M2
  *
  * @api
  */
@@ -24,7 +24,7 @@ enum Time:string implements Format {
 
     /**
      * ### Lowercase Ante meridiem and Post meridiem
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @example
      * ```php
@@ -35,7 +35,7 @@ enum Time:string implements Format {
 
     /**
      * ### Uppercase Ante meridiem and Post meridiem
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @example
      * ```php
@@ -46,7 +46,7 @@ enum Time:string implements Format {
 
     /**
      * ### Swatch Internet time
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @example
      * ```php
@@ -57,7 +57,7 @@ enum Time:string implements Format {
 
     /**
      * ### 12-hour format of an hour without leading zeros
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @example
      * ```php
@@ -68,7 +68,7 @@ enum Time:string implements Format {
 
     /**
      * ### 24-hour format of an hour without leading zeros
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @example
      * ```php
@@ -79,7 +79,7 @@ enum Time:string implements Format {
 
     /**
      * ### 12-hour format of an hour with leading zeros
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @example
      * ```php
@@ -90,7 +90,7 @@ enum Time:string implements Format {
 
     /**
      * ### 24-hour format of an hour with leading zeros
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @example
      * ```php
@@ -101,7 +101,7 @@ enum Time:string implements Format {
 
     /**
      * ### Minutes with leading zeros
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @example
      * ```php
@@ -112,7 +112,7 @@ enum Time:string implements Format {
 
     /**
      * ### Seconds with leading zeros
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @example
      * ```php
@@ -123,7 +123,7 @@ enum Time:string implements Format {
 
     /**
      * ### Miliseconds
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @example
      * ```php
@@ -134,7 +134,7 @@ enum Time:string implements Format {
 
     /**
      * ### Microseconds
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @example
      * ```php

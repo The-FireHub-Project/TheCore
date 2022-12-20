@@ -16,7 +16,7 @@ namespace FireHub\TheCore\Support\Enums\DateTime\Format;
 
 /**
  * ### Day format enum
- * @since 0.2.1.pre-alpha.M2
+ * @since 0.2.0.pre-alpha.M2
  *
  * @api
  */
@@ -24,7 +24,7 @@ enum Day:string implements Format {
 
     /**
      * ### The day of the year (starting from 0)
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @example
      * ```php
@@ -35,7 +35,7 @@ enum Day:string implements Format {
 
     /**
      * ### Day of the month, 2 digits with leading zeros
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @example
      * ```php
@@ -46,7 +46,7 @@ enum Day:string implements Format {
 
     /**
      * ### Day of the month without leading zeros
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @example
      * ```php
@@ -57,7 +57,7 @@ enum Day:string implements Format {
 
     /**
      * ### Full textual representation of the day of the week
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @example
      * ```php
@@ -68,7 +68,7 @@ enum Day:string implements Format {
 
     /**
      * ### Textual representation of a day, three letters
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @example
      * ```php
@@ -79,7 +79,7 @@ enum Day:string implements Format {
 
     /**
      * ### Numeric representation of the day of the week
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @example
      * ```php
@@ -90,7 +90,7 @@ enum Day:string implements Format {
 
     /**
      * ### ISO 8601 numeric representation of the day of the weeK
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @example
      * ```php
@@ -101,7 +101,7 @@ enum Day:string implements Format {
 
     /**
      * ### English ordinal suffix for the day of the month, 2 characters
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @example
      * ```php

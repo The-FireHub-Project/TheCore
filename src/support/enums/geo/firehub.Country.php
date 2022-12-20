@@ -16,7 +16,7 @@ namespace FireHub\TheCore\Support\Enums\Geo;
 
 /**
  * ### Time zones enum
- * @since 0.2.1.pre-alpha.M2
+ * @since 0.2.0.pre-alpha.M2
  *
  * @api
  */
@@ -287,7 +287,7 @@ enum Country:string {
 
     /**
     * ### Gets continent for country
-    * @since 0.2.1.pre-alpha.M2
+    * @since 0.2.0.pre-alpha.M2
     *
     * @return \FireHub\TheCore\Support\Enums\Geo\Continent Continent enum of selected country.
     */

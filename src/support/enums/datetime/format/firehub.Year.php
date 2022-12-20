@@ -16,7 +16,7 @@ namespace FireHub\TheCore\Support\Enums\DateTime\Format;
 
 /**
  * ### Year format enum
- * @since 0.2.1.pre-alpha.M2
+ * @since 0.2.0.pre-alpha.M2
  *
  * @api
  */
@@ -24,7 +24,7 @@ enum Year:string implements Format {
 
     /**
      * ### Full numeric representation of a year, at least 4 digits, with - for years BCE
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @example
      * ```php
@@ -35,7 +35,7 @@ enum Year:string implements Format {
 
     /**
      * ### Two digit representation of a year
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @example
      * ```php
@@ -46,7 +46,7 @@ enum Year:string implements Format {
 
     /**
      * ### 1 if it is a leap year, 0 otherwise
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @example
      * ```php

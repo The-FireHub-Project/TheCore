@@ -22,7 +22,7 @@ use DateTime, DateTimeZone, Error, Throwable;
 
 /**
  * ### TimeZone support class
- * @since 0.2.1.pre-alpha.M2
+ * @since 0.2.0.pre-alpha.M2
  *
  * @api
  */
@@ -30,7 +30,7 @@ final class TimeZone {
 
     /**
      * ### Base DateTimeZone object
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @var DateTimeZone
      */
@@ -38,7 +38,7 @@ final class TimeZone {
 
     /**
      * ### Constructor
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\Enums\DateTime\TimeZone As parametar.
      *
@@ -64,7 +64,7 @@ final class TimeZone {
 
     /**
      * ### Name of the timezone
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @return string Timezone name.
      */
@@ -76,7 +76,7 @@ final class TimeZone {
 
     /**
      * ### GMT offset for the timezone
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\Enums\DateTime\TimeZone To get GMT timezone.
      *
@@ -102,7 +102,7 @@ final class TimeZone {
 
     /**
      * ### Get timezone latitude
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @throws Error If system could not get timezone latitude.
      *
@@ -116,7 +116,7 @@ final class TimeZone {
 
     /**
      * ### Get timezone longitude
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @throws Error If system could not get timezone longitude.
      *
@@ -130,7 +130,7 @@ final class TimeZone {
 
     /**
      * ### Get country for timezone
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\Enums\Geo\Country As return.
      *
@@ -148,7 +148,7 @@ final class TimeZone {
 
     /**
      * ### Get continent for timezone
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\Enums\Geo\Continent As return.
      *
@@ -164,7 +164,7 @@ final class TimeZone {
 
     /**
      * ### Gets default timezone
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\Enums\DateTime\TimeZone As return.
      * @uses \FireHub\TheCore\Support\LowLevel\TimeZone::getDefaultTimezone() To get default timezone.
@@ -181,7 +181,7 @@ final class TimeZone {
 
     /**
      * ### Sets default timezone
-     * @since 0.2.1.pre-alpha.M2
+     * @since 0.2.0.pre-alpha.M2
      *
      * @uses \FireHub\TheCore\Support\Enums\DateTime\TimeZone As parameter.
      * @uses \FireHub\TheCore\Support\LowLevel\TimeZone::setDefaultTimezone() To set default timezone.
