@@ -481,21 +481,31 @@ If $timezone is omitted, the current timezone will be used._
 ***
 
 ```php
-public static \FireHub\TheCore\Support\DateTime\Calendar::fromFormat(string $format, string $datetime, \FireHub\TheCore\Support\Enums\DateTime\TimeZone|null $time_zone = null):self
+public static \FireHub\TheCore\Support\DateTime\Calendar::fromFormat(\FireHub\TheCore\Support\Enums\DateTime\Format\Predefined|string $format, string $datetime, \FireHub\TheCore\Support\Enums\DateTime\TimeZone|null $time_zone = null):self
 ```
 
 ### ### Parses a time string according to a specified format
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Calendar::fromFormat()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L342)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L345)**</sub><br>
 
 ### Changelog:
 
 * **0.2.1.pre-alpha.M2** 
 
+### This method uses:
+
+* [\FireHub\TheCore\Support\LowLevel\DataIs::string()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\DataIs#string()) _To check if $format is string._
+* [\FireHub\TheCore\Support\Enums\DateTime\Format\Predefined::DATE_MICRO_TIME](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\Format\Predefined#date_micro_time) _As return format._
+
+### This method is used by:
+
+* *To create new Calendar from selected format.*
+
+
 ### Parameters:
 
-* string $format _The format that the passed in string should be in._
+* [\FireHub\TheCore\Support\Enums\DateTime\Format\Predefined](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\Format\Predefined) or string $format _The format that the passed in string should be in._
 * string $datetime _String representing the datetime._
 * [\FireHub\TheCore\Support\Enums\DateTime\TimeZone](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\TimeZone) or null $time_zone = null _[optional] 
 TimeZone enum representing the timezone of $datetime.
@@ -523,7 +533,7 @@ public static \FireHub\TheCore\Support\DateTime\Calendar::fromTimestamp(int $tim
 ### ### Set datetime from timestamp
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Calendar::fromTimestamp()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L366)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L371)**</sub><br>
 
 ### Changelog:
 
@@ -552,7 +562,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::toTimestamp():int
 ### ### Gets timestamp from datetime
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Calendar::toTimestamp()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L378)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L383)**</sub><br>
 
 ### Changelog:
 
@@ -572,7 +582,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::format(\FireHub\TheCore\Suppo
 ### ### Formats datetime according to given format
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Calendar::format()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L402)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L407)**</sub><br>
 
 ### Changelog:
 
@@ -654,7 +664,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::year(bool $short = false):int
 ### ### Get year
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Calendar::year()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L423)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L428)**</sub><br>
 
 ### Changelog:
 
@@ -677,6 +687,8 @@ public \FireHub\TheCore\Support\DateTime\Calendar::year(bool $short = false):int
 
 * *To get current year.*
 
+* *To get Calendar year.*
+
 
 ### Parameters:
 
@@ -697,7 +709,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::leapYear():bool
 ### ### Whether it's a leap year
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Calendar::leapYear()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L440)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L445)**</sub><br>
 
 ### Changelog:
 
@@ -724,7 +736,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::monthName(bool $short = false
 ### ### Get month name
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Calendar::monthName()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L460)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L465)**</sub><br>
 
 ### Changelog:
 
@@ -755,7 +767,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::month(bool $short = false)
 ### ### Get month number
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Calendar::month()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L482)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L487)**</sub><br>
 
 ### Changelog:
 
@@ -779,6 +791,8 @@ public \FireHub\TheCore\Support\DateTime\Calendar::month(bool $short = false)
 
 * *To get current month.*
 
+* *To get Calendar month.*
+
 
 ### Parameters:
 
@@ -795,7 +809,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::monthDays():int
 ### ### Get number of days in the given month
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Calendar::monthDays()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L499)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L504)**</sub><br>
 
 ### Changelog:
 
@@ -822,7 +836,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::dayinYear():int
 ### ### The day of the year
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Calendar::dayinYear()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L516)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L521)**</sub><br>
 
 ### Changelog:
 
@@ -849,7 +863,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::dayInMonth(bool $short = fals
 ### ### The day of the month
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Calendar::dayInMonth()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L542)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L547)**</sub><br>
 
 ### Changelog:
 
@@ -874,6 +888,8 @@ public \FireHub\TheCore\Support\DateTime\Calendar::dayInMonth(bool $short = fals
 
 * *To get current day in month.*
 
+* *To get Calendar day in month.*
+
 
 ### Parameters:
 
@@ -892,7 +908,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::dayInWeek(bool $iso8601 = fal
 ### ### The day of the week, starting from Sunday with value 0
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Calendar::dayInWeek()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L572)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L577)**</sub><br>
 
 ### Changelog:
 
@@ -925,7 +941,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::dayNameInWeek(bool $short = f
 ### ### The day name of the week
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Calendar::dayNameInWeek()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L592)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L597)**</sub><br>
 
 ### Changelog:
 
@@ -956,7 +972,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::weekInYear():int
 ### ### The week number of the year
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Calendar::weekInYear()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L609)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L614)**</sub><br>
 
 ### Changelog:
 
@@ -983,7 +999,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::hourShort(bool $short = false
 ### ### 12 hour type of the time
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Calendar::hourShort()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L635)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L640)**</sub><br>
 
 ### Changelog:
 
@@ -1015,7 +1031,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::hourLong(bool $short = false)
 ### ### 24 type hour of the time
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Calendar::hourLong()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L665)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L670)**</sub><br>
 
 ### Changelog:
 
@@ -1039,6 +1055,8 @@ public \FireHub\TheCore\Support\DateTime\Calendar::hourLong(bool $short = false)
 
 * *To get current hour.*
 
+* *To get Calendar hour.*
+
 
 ### Parameters:
 
@@ -1055,7 +1073,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::minute(bool $short = false)
 ### ### Minute of the time
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Calendar::minute()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L686)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L691)**</sub><br>
 
 ### Changelog:
 
@@ -1078,6 +1096,8 @@ public \FireHub\TheCore\Support\DateTime\Calendar::minute(bool $short = false)
 
 * *To get current minute.*
 
+* *To get Calendar minute.*
+
 
 ### Parameters:
 
@@ -1094,7 +1114,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::second(bool $short = false)
 ### ### Second of the time
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Calendar::second()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L707)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L712)**</sub><br>
 
 ### Changelog:
 
@@ -1117,6 +1137,8 @@ public \FireHub\TheCore\Support\DateTime\Calendar::second(bool $short = false)
 
 * *To get current second.*
 
+* *To get Calendar second.*
+
 
 ### Parameters:
 
@@ -1133,7 +1155,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::miliSecond(bool $short = fals
 ### ### Milisecond of the time
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Calendar::miliSecond()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L728)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L733)**</sub><br>
 
 ### Changelog:
 
@@ -1161,7 +1183,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::microSecond(bool $short = fal
 ### ### Microsecond of the time
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Calendar::microSecond()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L749)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L754)**</sub><br>
 
 ### Changelog:
 
@@ -1184,6 +1206,8 @@ public \FireHub\TheCore\Support\DateTime\Calendar::microSecond(bool $short = fal
 
 * *To get current microsecond.*
 
+* *To get Calendar microsecond.*
+
 
 ### Parameters:
 
@@ -1200,7 +1224,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::timeZoneDaylightSavingTime():
 ### ### Daylight saving time
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Calendar::timeZoneDaylightSavingTime()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L766)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L771)**</sub><br>
 
 ### Changelog:
 
@@ -1227,7 +1251,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::timeZoneGMTdiff(bool $colon =
 ### ### Difference to Greenwich time (GMT) without colon between hours and minutes
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Calendar::timeZoneGMTdiff()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L786)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L791)**</sub><br>
 
 ### Changelog:
 
@@ -1258,7 +1282,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::timeZoneAbbreviation():string
 ### ### Timezone abbreviation if known; otherwise the GMT offset
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Calendar::timeZoneAbbreviation()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L801)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L806)**</sub><br>
 
 ### Changelog:
 
@@ -1283,7 +1307,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::timeZoneOffset():int
 ### ### Timezone offset in seconds
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Calendar::timeZoneOffset()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L818)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L823)**</sub><br>
 
 ### Changelog:
 
@@ -1310,7 +1334,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::setDate(int|null $year = null
 ### ### Sets the date
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Calendar::setDate()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L844)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L849)**</sub><br>
 
 ### Changelog:
 
@@ -1352,7 +1376,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::setTime(int|null $hour = null
 ### ### Sets the time
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Calendar::setTime()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L876)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L881)**</sub><br>
 
 ### Changelog:
 
@@ -1397,7 +1421,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::timeZone():\FireHub\TheCore\S
 ### ### Gets current timezone object
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Calendar::timeZone()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L895)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L900)**</sub><br>
 
 ### Changelog:
 
@@ -1426,7 +1450,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::changeTimeZone(\FireHub\TheCo
 ### ### Sets timezone
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Calendar::changeTimeZone()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L915)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L920)**</sub><br>
 
 ### Changelog:
 
@@ -1458,7 +1482,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::add(\FireHub\TheCore\Support\
 ### ### Add interval to datetime
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Calendar::add()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L960)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L965)**</sub><br>
 
 ### Changelog:
 
@@ -1503,7 +1527,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::sub(\FireHub\TheCore\Support\
 ### ### Calculate interval to datetime
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Calendar::sub()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L1006)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L1011)**</sub><br>
 
 ### Changelog:
 
@@ -1548,7 +1572,7 @@ public \FireHub\TheCore\Support\DateTime\Calendar::diffrence(\FireHub\TheCore\Su
 ### ### Difference between two Calendars
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Calendar::diffrence()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L1051)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Calendar.php#L1056)**</sub><br>
 
 ### Changelog:
 

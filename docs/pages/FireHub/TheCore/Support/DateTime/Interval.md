@@ -22,7 +22,7 @@ final class \FireHub\TheCore\Support\DateTime\Interval()
 
 <sub>Fully Qualified Class Name:  **\FireHub\TheCore\Support\DateTime\Interval**</sub><br>
 <sub>This class is part of package:  **\FireHub\Support\Calendar**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Interval.php#L81)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Interval.php#L83)**</sub><br>
 <sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/datetime/firehub.Interval.php)**</sub><br>
 <sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/datetime/firehub.Interval.php)**</sub><br>
 
@@ -111,6 +111,7 @@ final class \FireHub\TheCore\Support\DateTime\Interval()
 |magic public |<a href="#submilliseconds()">subMilliSeconds</a>||
 |magic public |<a href="#submicroseconds()">subMicroSeconds</a>||
 |private |<a href="#__construct()">__construct</a>|### Constructor|
+|public static |<a href="#fromformat()">fromFormat</a>|### Create interval according to a specified format|
 |public |<a href="#__get()">__get</a>|### Reading from inaccessible properties|
 |public |<a href="#__set()">__set</a>|### Writing to inaccessible properties|
 |public |<a href="#__call()">__call</a>|### Invoking inaccessible methods in an object context|
@@ -131,7 +132,7 @@ private \FireHub\TheCore\Support\Enums\DateTime\Unit\Basic[] \FireHub\TheCore\Su
 ### ### Basic units
 
 <sub>Fully Qualified Property Name:  **\FireHub\TheCore\Support\DateTime\Interval::$basic_units**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Interval.php#L89)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Interval.php#L91)**</sub><br>
 
 ### Changelog:
 
@@ -147,7 +148,7 @@ private \FireHub\TheCore\Support\Enums\DateTime\Unit\Calculatable[] \FireHub\The
 ### ### Units
 
 <sub>Fully Qualified Property Name:  **\FireHub\TheCore\Support\DateTime\Interval::$calculatable_units**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Interval.php#L97)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Interval.php#L99)**</sub><br>
 
 ### Changelog:
 
@@ -1002,7 +1003,7 @@ private \FireHub\TheCore\Support\DateTime\Interval::__construct()
 ### ### Constructor
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Interval::__construct()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Interval.php#L108)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Interval.php#L110)**</sub><br>
 
 ### Changelog:
 
@@ -1015,6 +1016,53 @@ private \FireHub\TheCore\Support\DateTime\Interval::__construct()
 * [\FireHub\TheCore\Support\Enums\DateTime\Unit\Days::cases()](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\Unit\Days#cases()) _To get all days unit enums._
 * [\FireHub\TheCore\Support\Enums\DateTime\Unit\Microseconds::cases()](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\Unit\Microseconds#cases()) _To get all days unit enums._
 
+<h2><a name="fromformat()"># fromFormat()</a></h2>
+***
+
+```php
+public static \FireHub\TheCore\Support\DateTime\Interval::fromFormat(\FireHub\TheCore\Support\Enums\DateTime\Format\Predefined|string $format, string $datetime):self
+```
+
+### ### Create interval according to a specified format
+
+<sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Interval::fromFormat()**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Interval.php#L156)**</sub><br>
+
+### Changelog:
+
+* **0.2.1.pre-alpha.M2** 
+
+### This method uses:
+
+* [\FireHub\TheCore\Support\DateTime\Calendar::fromFormat()](/thecore/v0.2\FireHub\TheCore\Support\DateTime\Calendar#fromformat()) _To create new Calendar from selected format._
+* [\FireHub\TheCore\Support\DateTime\Calendar::year()](/thecore/v0.2\FireHub\TheCore\Support\DateTime\Calendar#year()) _To get Calendar year._
+* [\FireHub\TheCore\Support\DateTime\Calendar::month()](/thecore/v0.2\FireHub\TheCore\Support\DateTime\Calendar#month()) _To get Calendar month._
+* [\FireHub\TheCore\Support\DateTime\Calendar::dayInMonth()](/thecore/v0.2\FireHub\TheCore\Support\DateTime\Calendar#dayinmonth()) _To get Calendar day in month._
+* [\FireHub\TheCore\Support\DateTime\Calendar::hourLong()](/thecore/v0.2\FireHub\TheCore\Support\DateTime\Calendar#hourlong()) _To get Calendar hour._
+* [\FireHub\TheCore\Support\DateTime\Calendar::minute()](/thecore/v0.2\FireHub\TheCore\Support\DateTime\Calendar#minute()) _To get Calendar minute._
+* [\FireHub\TheCore\Support\DateTime\Calendar::second()](/thecore/v0.2\FireHub\TheCore\Support\DateTime\Calendar#second()) _To get Calendar second._
+* [\FireHub\TheCore\Support\DateTime\Calendar::microSecond()](/thecore/v0.2\FireHub\TheCore\Support\DateTime\Calendar#microsecond()) _To get Calendar microsecond._
+* [\FireHub\TheCore\Support\DateTime\Interval::years()](/thecore/v0.2\FireHub\TheCore\Support\DateTime\Interval#years()) _To se interval years._
+* [\FireHub\TheCore\Support\DateTime\Interval::addMonths()](/thecore/v0.2\FireHub\TheCore\Support\DateTime\Interval#addmonths()) _To se interval months._
+* [\FireHub\TheCore\Support\DateTime\Interval::addDays()](/thecore/v0.2\FireHub\TheCore\Support\DateTime\Interval#adddays()) _To se interval days._
+* [\FireHub\TheCore\Support\DateTime\Interval::addHours()](/thecore/v0.2\FireHub\TheCore\Support\DateTime\Interval#addhours()) _To se interval hours._
+* [\FireHub\TheCore\Support\DateTime\Interval::addMinutes()](/thecore/v0.2\FireHub\TheCore\Support\DateTime\Interval#addminutes()) _To se interval minutes._
+* [\FireHub\TheCore\Support\DateTime\Interval::addSeconds()](/thecore/v0.2\FireHub\TheCore\Support\DateTime\Interval#addseconds()) _To se interval seconds._
+* [\FireHub\TheCore\Support\DateTime\Interval::addMicroSeconds()](/thecore/v0.2\FireHub\TheCore\Support\DateTime\Interval#addmicroseconds()) _To se interval microseconds._
+
+### Parameters:
+
+* [\FireHub\TheCore\Support\Enums\DateTime\Format\Predefined](/thecore/v0.2\FireHub\TheCore\Support\Enums\DateTime\Format\Predefined) or string $format _The format that the passed in string should be in._
+* string $datetime _String representing the datetime._
+
+### Throws:
+
+* [\Error](/thecore/v0.2\Error) _If system cannot create Calendar from format._
+
+### Returns:
+
+* self _New interval._
+
 <h2><a name="__get()"># __get()</a></h2>
 ***
 
@@ -1025,7 +1073,7 @@ public \FireHub\TheCore\Support\DateTime\Interval::__get(string $name):int
 ### ### Reading from inaccessible properties
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Interval::__get()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Interval.php#L138)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Interval.php#L185)**</sub><br>
 
 ### Changelog:
 
@@ -1058,7 +1106,7 @@ public \FireHub\TheCore\Support\DateTime\Interval::__set(string $name, mixed $va
 ### ### Writing to inaccessible properties
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Interval::__set()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Interval.php#L182)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Interval.php#L213)**</sub><br>
 
 ### Changelog:
 
@@ -1092,7 +1140,7 @@ public \FireHub\TheCore\Support\DateTime\Interval::__call(string $method, array 
 ### ### Invoking inaccessible methods in an object context
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Interval::__call()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Interval.php#L235)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Interval.php#L266)**</sub><br>
 
 ### Changelog:
 
@@ -1129,7 +1177,7 @@ public static \FireHub\TheCore\Support\DateTime\Interval::__callStatic(string $m
 ### ### Invoking inaccessible static methods in an object context
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\DateTime\Interval::__callStatic()**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Interval.php#L282)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/datetime/firehub.Interval.php#L313)**</sub><br>
 
 ### Changelog:
 

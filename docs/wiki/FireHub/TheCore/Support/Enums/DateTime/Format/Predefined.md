@@ -6,7 +6,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Format\Predefined
 ### ### Predefined datetime format enum
 <sub>Fully Qualified Enum Name:  **\FireHub\TheCore\Support\Enums\DateTime\Format\Predefined**</sub><br>
 <sub>This enum is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Predefined.php#L23)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Predefined.php#L25)**</sub><br>
 <sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/enums/datetime/format/firehub.Predefined.php)**</sub><br>
 <sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/enums/datetime/format/firehub.Predefined.php)**</sub><br>
 
@@ -21,7 +21,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Format\Predefined
 
 | Name  | Title | Value |
 | :---  | :---  | :---  |
-|<a href="#date">DATE</a>|### Date only format|&#039;Y-m-d&#039;|
+|<a href="#date">DATE</a>|### Date only format|&#039;!Y-m-d&#039;|
 |<a href="#time">TIME</a>|### Time only format|&#039;H:i:s&#039;|
 |<a href="#micro_time">MICRO_TIME</a>|### Time only format with microseconds|&#039;H:i:s.u&#039;|
 |<a href="#datetime">DATETIME</a>|### Date and time format|&#039;Y-m-d H:i:s&#039;|
@@ -43,12 +43,12 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Format\Predefined
 <h2><a name="date"># DATE</a></h2>
 
 ```php
-\FireHub\TheCore\Support\Enums\DateTime\Format\Predefined::DATE = 'Y-m-d'
+\FireHub\TheCore\Support\Enums\DateTime\Format\Predefined::DATE = '!Y-m-d'
 ```
 
 ### ### Date only format
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Format\Predefined::DATE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Predefined.php#L34)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Predefined.php#L38)**</sub><br>
 
 
 ### Examples:
@@ -67,7 +67,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Format\Predefined
 
 ### ### Time only format
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Format\Predefined::TIME**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Predefined.php#L45)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Predefined.php#L49)**</sub><br>
 
 
 ### Examples:
@@ -86,7 +86,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Format\Predefined
 
 ### ### Time only format with microseconds
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Format\Predefined::MICRO_TIME**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Predefined.php#L56)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Predefined.php#L60)**</sub><br>
 
 
 ### Examples:
@@ -105,7 +105,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Format\Predefined
 
 ### ### Date and time format
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Format\Predefined::DATETIME**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Predefined.php#L67)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Predefined.php#L71)**</sub><br>
 
 
 ### Examples:
@@ -124,7 +124,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Format\Predefined
 
 ### ### Date and time format with microseconds
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Format\Predefined::DATE_MICRO_TIME**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Predefined.php#L78)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Predefined.php#L82)**</sub><br>
 
 
 ### Examples:
@@ -143,7 +143,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Format\Predefined
 
 ### ### ATOM
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Format\Predefined::ATOM**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Predefined.php#L89)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Predefined.php#L93)**</sub><br>
 
 
 ### Examples:
@@ -162,7 +162,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Format\Predefined
 
 ### ### ATOM_EXTENDED
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Format\Predefined::ATOM_EXTENDED**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Predefined.php#L100)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Predefined.php#L104)**</sub><br>
 
 
 ### Examples:
@@ -181,7 +181,7 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Format\Predefined
 
 ### ### COOKIE
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Format\Predefined::COOKIE**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Predefined.php#L111)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Predefined.php#L115)**</sub><br>
 
 
 ### Examples:
@@ -200,7 +200,7 @@ Friday, 09-Dec-2022 08:58:31 CET
 
 ### ### ISO8601
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Format\Predefined::ISO8601**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Predefined.php#L122)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Predefined.php#L126)**</sub><br>
 
 
 ### Examples:
@@ -219,7 +219,7 @@ Friday, 09-Dec-2022 08:58:31 CET
 
 ### ### ISO8601_EXPANDED
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Format\Predefined::ISO8601_EXPANDED**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Predefined.php#L133)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Predefined.php#L137)**</sub><br>
 
 
 ### Examples:
@@ -238,7 +238,7 @@ X-12-09T08:58:03+01:00
 
 ### ### RFC822
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Format\Predefined::RFC822**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Predefined.php#L144)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Predefined.php#L148)**</sub><br>
 
 
 ### Examples:
@@ -257,7 +257,7 @@ Fri, 09 Dec 22 08:57:30 +0100
 
 ### ### RFC850
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Format\Predefined::RFC850**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Predefined.php#L155)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Predefined.php#L159)**</sub><br>
 
 
 ### Examples:
@@ -276,7 +276,7 @@ Friday, 09-Dec-22 08:57:46 CET
 
 ### ### RFC7231
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Format\Predefined::RFC7231**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Predefined.php#L166)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Predefined.php#L170)**</sub><br>
 
 
 ### Examples:
@@ -295,7 +295,7 @@ Fri, 09 Dec 2022 08:56:35 GMT
 
 ### ### RSS
 <sub>Fully Qualified Case Name:  **\FireHub\TheCore\Support\Enums\DateTime\Format\Predefined::RSS**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Predefined.php#L177)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Predefined.php#L181)**</sub><br>
 
 
 ### Examples:
