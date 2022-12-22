@@ -16,7 +16,9 @@ namespace FireHub\TheCore\Support\Enums\DateTime\Format;
 
 /**
  * ### Predefined datetime format enum
+ *
  * @since 0.1.3.pre-alpha.M1
+ * @since 0.2.1.pre-alpha.M2 For DATE case added ! in front of case to remove current time as default.
  *
  * @api
  */
@@ -24,14 +26,16 @@ enum Predefined:string implements Format {
 
     /**
      * ### Date only format
+     *
      * @since 0.1.3.pre-alpha.M1
+     * @since 0.2.1.pre-alpha.M2 Added ! in front of case to remove current time as default.
      *
      * @example
      * ```php
      * 2022-12-09
      * ```
      */
-    case DATE = 'Y-m-d';
+    case DATE = '!Y-m-d';
 
     /**
      * ### Time only format
