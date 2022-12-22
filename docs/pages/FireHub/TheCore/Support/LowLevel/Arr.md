@@ -566,7 +566,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::search(mixed $value, array 
 ### This method uses:
 
 * [\FireHub\TheCore\Support\LowLevel\Arr::combine()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Arr#combine()) _To combine from one array for keys and another for its values._
-* [\FireHub\TheCore\Support\LowLevel\Arr::keys()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Arr#keys()) _To get keys from array.._
+* [\FireHub\TheCore\Support\LowLevel\Arr::keys()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Arr#keys()) _To get keys from array._
 * [\FireHub\TheCore\Support\LowLevel\Arr::column()](/thecore/v0.2\FireHub\TheCore\Support\LowLevel\Arr#column()) _To get the values from a single column._
 
 ### Parameters:
@@ -1199,7 +1199,7 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::keys(array $array, \FireHub
 
 ### This method is used by:
 
-* *To get keys from array..*
+* *To get keys from array.*
 
 * *To get array keys.*
 

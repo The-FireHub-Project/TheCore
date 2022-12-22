@@ -18,7 +18,8 @@ interface \FireHub\TheCore\Support\Enums\DateTime\Format\Format
 
 <sub>Fully Qualified Interface Name:  **\FireHub\TheCore\Support\Enums\DateTime\Format\Format**</sub><br>
 <sub>This interface is part of package:  **\FireHub\Support**</sub><br>
-<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Format.php#L21)**</sub><br>
+<sub>Extends interface:  **[](/thecore/v0.2)**</sub><br>
+<sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/enums/datetime/format/firehub.Format.php#L25)**</sub><br>
 <sub>Blame:  **[view blame](https://github.com/The-FireHub-Project/TheCore/blame/v1.0/src/support/enums/datetime/format/firehub.Format.php)**</sub><br>
 <sub>History:  **[view history](https://github.com/The-FireHub-Project/TheCore/commits/v1.0/src/support/enums/datetime/format/firehub.Format.php)**</sub><br>
 
@@ -31,6 +32,7 @@ interface \FireHub\TheCore\Support\Enums\DateTime\Format\Format
 ***
 
 * **0.2.0.pre-alpha.M2** 
+* **0.2.1.pre-alpha.M2** _Interface now extends from BackedEnum._
 
 
 ## This interface is used by
