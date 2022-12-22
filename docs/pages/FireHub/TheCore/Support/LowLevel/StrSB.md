@@ -514,6 +514,8 @@ __
 
 ### This method is used by:
 
+* *To extract part of method name.*
+
 * *To get part of microtime.*
 
 
@@ -604,6 +606,11 @@ __
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Support\LowLevel\StrSB::toLower()**</sub><br>
 <sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/support/lowlevel/firehub.StrSB.php#L177)**</sub><br>
+
+
+### This method is used by:
+
+* *To lowercase method name.*
 
 
 ### Parameters:

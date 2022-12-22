@@ -481,6 +481,12 @@ public static \FireHub\TheCore\Support\LowLevel\Arr::merge(array ...$arrays)
 
 ### This method is used by:
 
+* *To merge all calculatable enums.*
+
+* *To merge all unit enums.*
+
+* *To merge all unit enums.*
+
 * *To merge parent traits with ones in class.*
 
 * *To merge parent traits with ones in class.*

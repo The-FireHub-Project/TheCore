@@ -56,6 +56,8 @@ final class \FireHub\TheCore\Support\DateTime\TimeZone()
 
 * *As parameter.*
 
+* *As parameter.*
+
 * *As return.*
 
 * *As parameter.*

@@ -33,12 +33,6 @@ enum \FireHub\TheCore\Support\Enums\DateTime\Unit
 * **0.2.0.pre-alpha.M2** 
 
 
-## This enum is used by
-***
-
-* *As parametar.*
-
-
 ## Cases table
 ***
 
