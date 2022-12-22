@@ -55,7 +55,7 @@ enum Unit:string {
     /**
      * @since 0.2.0.pre-alpha.M2
      */
-    case MILISECOND = 'milisecond';
+    case MILLISECOND = 'millisecond';
 
     /**
      * @since 0.2.0.pre-alpha.M2

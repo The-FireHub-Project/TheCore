@@ -14,10 +14,14 @@
 
 namespace FireHub\TheCore\Support\Enums\DateTime\Format;
 
+use BackedEnum;
+
 /**
  * ### Interface for format enums
+ *
  * @since 0.2.0.pre-alpha.M2
+ * @since 0.2.1.pre-alpha.M2 Interface now extends from BackedEnum.
  */
-interface Format {
+interface Format extends BackedEnum {
 
 }

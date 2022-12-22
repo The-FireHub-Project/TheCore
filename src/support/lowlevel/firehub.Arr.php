@@ -324,7 +324,7 @@ final class Arr {
      * @since 0.1.3.pre-alpha.M1
      *
      * @param array{array-key, mixed} $array <p>
-     * A multi-dimensional array (record set) from which to pull a column of values.
+     * A multidimensional array (record set) from which to pull a column of values.
      * </p>
      * @param int|string|null $key <p>
      * The column of values to return.
@@ -432,7 +432,7 @@ final class Arr {
      * @since 0.1.3.pre-alpha.M1
      *
      * @uses \FireHub\TheCore\Support\LowLevel\Arr::combine() To combine from one array for keys and another for its values.
-     * @uses \FireHub\TheCore\Support\LowLevel\Arr::keys() To get keys from array..
+     * @uses \FireHub\TheCore\Support\LowLevel\Arr::keys() To get keys from array.
      * @uses \FireHub\TheCore\Support\LowLevel\Arr::column() To get the values from a single column.
      *
      * @param mixed $value <p>
@@ -745,7 +745,7 @@ final class Arr {
      *
      * @return array{TKey, TValue} The filtered array.
      *
-     * @note The two values from the key => value pairs are considered equal only if (string) $elem1 === (string) $elem2 . In other words a strict type check is executed so the string representation must be the same.
+     * @note The two values from the key → value pairs are considered equal only if (string) $elem1 === (string) $elem2 . In other words a strict type check is executed so the string representation must be the same.
      */
     public static function intersectAssoc (array $array, array ...$arrays):array {
 
