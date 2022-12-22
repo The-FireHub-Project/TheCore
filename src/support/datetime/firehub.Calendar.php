@@ -322,7 +322,10 @@ final class Calendar {
      * ### Parses a time string according to a specified format
      * @since 0.2.1.pre-alpha.M2
      *
-     * @param string $format <p>
+     * @uses \FireHub\TheCore\Support\LowLevel\DataIs::string() To check if $format is string.
+     * @uses \FireHub\TheCore\Support\Enums\DateTime\Format\Predefined::DATE_MICRO_TIME As return format.
+     *
+     * @param \FireHub\TheCore\Support\Enums\DateTime\Format\Predefined|string $format <p>
      * The format that the passed in string should be in.
      * </p>
      * @param string $datetime <p>
@@ -339,7 +342,9 @@ final class Calendar {
      *
      * @return self New calendar.
      */
-    public static function fromFormat (string $format, string $datetime, ?TimeZones $time_zone = null):self {
+    public static function fromFormat (PredefinedFormat|string $format, string $datetime, ?TimeZones $time_zone = null):self {
+
+        $format = DataIs::string($format) ? $format : $format->value;
 
         $date_time = DateTime::createFromFormat($format, $datetime);
 

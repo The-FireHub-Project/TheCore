@@ -17,8 +17,8 @@ namespace FireHub\TheCore\Support\DateTime;
 use FireHub\TheCore\Support\LowLevel\ {
     Arr, StrSB
 };
-use FireHub\TheCore\Support\Enums\DateTime\Unit\ {
-    Basic, Calculatable, Days, Microseconds, Months, Years
+use FireHub\TheCore\Support\Enums\DateTime\ {
+    Format\Predefined, Unit\Basic, Unit\Calculatable, Unit\Days, Unit\Microseconds, Unit\Months, Unit\Years
 };
 use Error;
 
@@ -77,6 +77,8 @@ use Error;
  * @method self subMicroSeconds (int $number) ### Sub given number of microseconds to the current interval
  *
  * @api
+ *
+ * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 final class Interval {
 
@@ -121,6 +123,51 @@ final class Interval {
     }
 
     /**
+     * ### Create interval according to a specified format
+     * @since 0.2.1.pre-alpha.M2
+     *
+     * @uses \FireHub\TheCore\Support\DateTime\Calendar::fromFormat() To create new Calendar from selected format.
+     * @uses \FireHub\TheCore\Support\DateTime\Calendar::year() To get Calendar year.
+     * @uses \FireHub\TheCore\Support\DateTime\Calendar::month() To get Calendar month.
+     * @uses \FireHub\TheCore\Support\DateTime\Calendar::dayInMonth() To get Calendar day in month.
+     * @uses \FireHub\TheCore\Support\DateTime\Calendar::hourLong() To get Calendar hour.
+     * @uses \FireHub\TheCore\Support\DateTime\Calendar::minute() To get Calendar minute.
+     * @uses \FireHub\TheCore\Support\DateTime\Calendar::second() To get Calendar second.
+     * @uses \FireHub\TheCore\Support\DateTime\Calendar::microSecond() To get Calendar microsecond.
+     * @uses \FireHub\TheCore\Support\DateTime\Interval::years() To se interval years.
+     * @uses \FireHub\TheCore\Support\DateTime\Interval::addMonths() To se interval months.
+     * @uses \FireHub\TheCore\Support\DateTime\Interval::addDays() To se interval days.
+     * @uses \FireHub\TheCore\Support\DateTime\Interval::addHours() To se interval hours.
+     * @uses \FireHub\TheCore\Support\DateTime\Interval::addMinutes() To se interval minutes.
+     * @uses \FireHub\TheCore\Support\DateTime\Interval::addSeconds() To se interval seconds.
+     * @uses \FireHub\TheCore\Support\DateTime\Interval::addMicroSeconds() To se interval microseconds.
+     *
+     * @param \FireHub\TheCore\Support\Enums\DateTime\Format\Predefined|string $format <p>
+     * The format that the passed in string should be in.
+     * </p>
+     * @param string $datetime <p>
+     * String representing the datetime.
+     * </p>
+     *
+     * @throws Error If system cannot create Calendar from format.
+     *
+     * @return self New interval.
+     */
+    public static function fromFormat (Predefined|string $format, string $datetime):self {
+
+        $calendar = Calendar::fromFormat($format, $datetime);
+
+        return self::years($calendar->year())
+            ->addMonths($calendar->month(true))
+            ->addDays($calendar->dayInMonth(true))
+            ->addHours($calendar->hourLong(true))
+            ->addMinutes($calendar->minute(true))
+            ->addSeconds($calendar->second(true))
+            ->addMicroSeconds($calendar->microSecond(true));
+
+    }
+
+    /**
      * ### Reading from inaccessible properties
      * @since 0.2.1.pre-alpha.M2
      *
@@ -137,25 +184,9 @@ final class Interval {
      */
     public function __get (string $name):int {
 
-        foreach ($this->basic_units as $basic_unit) {
+        foreach ($this->basic_units as $basic_unit) if ($basic_unit->plural() === $name) return $this->$name = 0;
 
-            if ($basic_unit->plural() === $name) {
-
-                return $this->$name = 0;
-
-            }
-
-        }
-
-        foreach ($this->calculatable_units as $calculatable_unit) {
-
-            if ($calculatable_unit->plural() === $name) {
-
-                return 0;
-
-            }
-
-        }
+        foreach ($this->calculatable_units as $calculatable_unit) if ($calculatable_unit->plural() === $name) return 0;
 
         throw new Error("Property $name doesn't exist.");
 
