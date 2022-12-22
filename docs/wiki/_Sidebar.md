@@ -13,6 +13,8 @@
 * \FireHub\TheCore\Initializers\Enums
     * [Kernel](./Kernel)
 * \FireHub\TheCore\Kernel
+* \FireHub\TheCore\Support\Collections
+    * [Collection](./Collection)
 * \FireHub\TheCore\Support\DateTime
     * [Calendar](./Calendar)
     * [Interval](./Interval)
