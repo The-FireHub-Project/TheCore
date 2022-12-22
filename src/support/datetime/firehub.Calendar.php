@@ -21,13 +21,15 @@ use FireHub\TheCore\Support\Enums\ {
     Data\Type, DateTime\DayName,
     DateTime\Format\Day as DayFormat, DateTime\Format\Format, DateTime\Format\Month as MonthFormat, DateTime\Format\Predefined as PredefinedFormat,
     DateTime\Format\Year as YearFormat, DateTime\Format\Week as WeekFormat, DateTime\Format\Time as TimeFormat, DateTime\Format\TimeZone as TimeZoneFormat,
-    DateTime\Month, DateTime\Ordinal, DateTime\TimeName, DateTime\TimeZone as TimeZones, DateTime\Unit, DateTime\WeekDay
+    DateTime\Month, DateTime\Ordinal, DateTime\TimeName, DateTime\TimeZone as TimeZones, DateTime\Unit\Unit, DateTime\WeekDay
 };
 use DateTime, DateTimeZone, Error, Throwable;
 
 /**
  * ### Calendar support class
+ *
  * @since 0.2.0.pre-alpha.M2
+ * @since 0.2.1.pre-alpha.M2 Added add, sub, diffrence and fromFormat methods, constructor market as private and added separate method Create.
  *
  * @api
  *
@@ -51,7 +53,9 @@ final class Calendar {
 
     /**
      * ### Constructor
+     *
      * @since 0.2.0.pre-alpha.M2
+     * @since 0.2.1.pre-alpha.M2 Marked as private.
      *
      * @uses \FireHub\TheCore\Support\DateTime\TimeZone As parameter.
      * @uses \FireHub\TheCore\Support\DateTime\TimeZone::getDefaultTimeZone() To get default timezone.
@@ -68,7 +72,7 @@ final class Calendar {
      *
      * @throws Error If $datetime is not in valid format.
      */
-    public function __construct (string $datetime = 'now', ?TimeZones $time_zone = null) {
+    private function __construct (string $datetime = 'now', ?TimeZones $time_zone = null) {
 
         try {
 
@@ -80,6 +84,30 @@ final class Calendar {
             throw new Error("Datetime $datetime is not in valid format.");
 
         }
+
+    }
+
+    /**
+     * ### Set calendar to current date and time
+     * @since 0.2.0.pre-alpha.M2
+     *
+     * @uses \FireHub\TheCore\Support\DateTime\TimeZone As parameter.
+     *
+     * @param string $datetime <p>
+     * A date/time string.
+     * </p>
+     * @param \FireHub\TheCore\Support\Enums\DateTime\TimeZone|null $time_zone [optional] <p>
+     * TimeZone enum representing the timezone of $datetime.
+     * If $timezone is omitted, the current timezone will be used.
+     * </p>
+     *
+     * @see https://www.php.net/manual/en/datetime.formats.php To see valid date/time formats.
+     *
+     * @return self New calendar.
+     */
+    public static function create (string $datetime, ?TimeZones $time_zone = null):self {
+
+        return new self($datetime, $time_zone);
 
     }
 
@@ -157,7 +185,7 @@ final class Calendar {
      * ### Set relative time and date
      * @since 0.2.0.pre-alpha.M2
      *
-     * @uses \FireHub\TheCore\Support\Enums\DateTime\Unit As parametar.
+     * @uses \FireHub\TheCore\Support\Enums\DateTime\Unit\Unit As parametar.
      * @uses \FireHub\TheCore\Support\Enums\DateTime\TimeName::NOW As default parametar.
      * @uses \FireHub\TheCore\Support\DateTime\TimeZone As parameter.
      * @uses \FireHub\TheCore\Support\LowLevel\DataIs::string() To check if $at is a string.
@@ -165,7 +193,7 @@ final class Calendar {
      * @param int $number <p>
      * Number, positive or negative.
      * </p>
-     * @param \FireHub\TheCore\Support\Enums\DateTime\Unit $unit <p>
+     * @param \FireHub\TheCore\Support\Enums\DateTime\Unit\Unit $unit <p>
      * Unit to use.
      * </p>
      * @param \FireHub\TheCore\Support\Enums\DateTime\TimeName|string $at [optional] <p>
@@ -180,7 +208,7 @@ final class Calendar {
      */
     public static function relative (int $number, Unit $unit, TimeName|string $at = TimeName::NOW, ?TimeZones $time_zone = null):self {
 
-        return new self($number.' '.$unit->value.' '.(DataIs::string($at) ? $at : $at->value), $time_zone);
+        return new self($number.' '.$unit->plural().' '.(DataIs::string($at) ? $at : $at->value), $time_zone);
 
     }
 
@@ -290,6 +318,38 @@ final class Calendar {
     }
 
     /**
+     * ### Parses a time string according to a specified format
+     * @since 0.2.1.pre-alpha.M2
+     *
+     * @param string $format <p>
+     * The format that the passed in string should be in.
+     * </p>
+     * @param string $datetime <p>
+     * String representing the datetime.
+     * </p>
+     * @param \FireHub\TheCore\Support\Enums\DateTime\TimeZone|null $time_zone [optional] <p>
+     * TimeZone enum representing the timezone of $datetime.
+     * If $timezone is omitted, the current timezone will be used.
+     * </p>
+     *
+     * @see https://www.php.net/manual/en/datetimeimmutable.createfromformat.php To see valid $datetime formats.
+     *
+     * @throws Error If system cannot create Calendar from format.
+     *
+     * @return self New calendar.
+     */
+    public static function fromFormat (string $format, string $datetime, ?TimeZones $time_zone = null):self {
+
+        $date_time = DateTime::createFromFormat($format, $datetime);
+
+        return new self(
+            $date_time ? $date_time->format(PredefinedFormat::DATE_MICRO_TIME->value) : throw new Error("Cannot create Calendar from format: $format"),
+            $time_zone
+        );
+
+    }
+
+    /**
      * ### Set datetime from timestamp
      * @since 0.2.0.pre-alpha.M2
      *
@@ -300,7 +360,7 @@ final class Calendar {
      * Unix timestamp representing the date.
      * </p>
      *
-     * @return self New datetime.
+     * @return self New calendar.
      */
     public static function fromTimestamp (int $timestamp):self {
 
@@ -882,6 +942,13 @@ final class Calendar {
      * @uses \FireHub\TheCore\Support\DateTime\Calendar::minute() To get current minute.
      * @uses \FireHub\TheCore\Support\DateTime\Calendar::second() To get current second.
      * @uses \FireHub\TheCore\Support\DateTime\Calendar::microSecond() To get current microsecond.
+     * @uses \FireHub\TheCore\Support\DateTime\Interval::getYears() As get years from Interval.
+     * @uses \FireHub\TheCore\Support\DateTime\Interval::getMonths() As get months from Interval.
+     * @uses \FireHub\TheCore\Support\DateTime\Interval::getDays() As get days from Interval.
+     * @uses \FireHub\TheCore\Support\DateTime\Interval::getHours() As get hours from Interval.
+     * @uses \FireHub\TheCore\Support\DateTime\Interval::getMinutes() As get minutes from Interval.
+     * @uses \FireHub\TheCore\Support\DateTime\Interval::getSeconds() As get seconds from Interval.
+     * @uses \FireHub\TheCore\Support\DateTime\Interval::getMicroSeconds() As get from Interval.
      *
      * @param \FireHub\TheCore\Support\DateTime\Interval $interval $time_zone <p>
      * Datetime interval.
@@ -892,18 +959,103 @@ final class Calendar {
     public function add (Interval $interval):self {
 
         $this->setDate(
-            ($this->year() + $interval->years),
-            ($this->month(true) + $interval->months),
-            ($this->dayInMonth(true) + $interval->days)
+            ($this->year() + $interval->getYears()),
+            ($this->month(true) + $interval->getMonths()),
+            ($this->dayInMonth(true) + $interval->getDays())
         );
         $this->setTime(
-            ($this->hourLong(true) + $interval->hours),
-            ($this->minute(true) + $interval->minutes),
-            ($this->second(true) + $interval->seconds),
-            ($this->microSecond(true) + $interval->microseconds)
+            ($this->hourLong(true) + $interval->getHours()),
+            ($this->minute(true) + $interval->getMinutes()),
+            ($this->second(true) + $interval->getSeconds()),
+            ($this->microSecond(true) + $interval->getMicroSeconds())
         );
 
         return $this;
+
+    }
+
+    /**
+     * ### Calculate interval to datetime
+     * @since 0.2.1.pre-alpha.M2
+     *
+     * @uses \FireHub\TheCore\Support\DateTime\Interval As parameter.
+     * @uses \FireHub\TheCore\Support\DateTime\Calendar::setDate() To se date.
+     * @uses \FireHub\TheCore\Support\DateTime\Calendar::setTime() To set time.
+     * @uses \FireHub\TheCore\Support\DateTime\Calendar::year() To get current year.
+     * @uses \FireHub\TheCore\Support\DateTime\Calendar::month() To get current month.
+     * @uses \FireHub\TheCore\Support\DateTime\Calendar::dayInMonth() To get current day in month.
+     * @uses \FireHub\TheCore\Support\DateTime\Calendar::hourLong() To get current hour.
+     * @uses \FireHub\TheCore\Support\DateTime\Calendar::minute() To get current minute.
+     * @uses \FireHub\TheCore\Support\DateTime\Calendar::second() To get current second.
+     * @uses \FireHub\TheCore\Support\DateTime\Calendar::microSecond() To get current microsecond.
+     * @uses \FireHub\TheCore\Support\DateTime\Interval::getYears() As get years from Interval.
+     * @uses \FireHub\TheCore\Support\DateTime\Interval::getMonths() As get months from Interval.
+     * @uses \FireHub\TheCore\Support\DateTime\Interval::getDays() As get days from Interval.
+     * @uses \FireHub\TheCore\Support\DateTime\Interval::getHours() As get hours from Interval.
+     * @uses \FireHub\TheCore\Support\DateTime\Interval::getMinutes() As get minutes from Interval.
+     * @uses \FireHub\TheCore\Support\DateTime\Interval::getSeconds() As get seconds from Interval.
+     * @uses \FireHub\TheCore\Support\DateTime\Interval::getMicroSeconds() As get from Interval.
+     *
+     * @param \FireHub\TheCore\Support\DateTime\Interval $interval $time_zone <p>
+     * Datetime interval.
+     * </p>
+     *
+     * @return $this This object.
+     */
+    public function sub (Interval $interval):self {
+
+        $this->setDate(
+            ($this->year() - $interval->getYears()),
+            ($this->month(true) - $interval->getMonths()),
+            ($this->dayInMonth(true) - $interval->getDays())
+        );
+        $this->setTime(
+            ($this->hourLong(true) - $interval->getHours()),
+            ($this->minute(true) - $interval->getMinutes()),
+            ($this->second(true) - $interval->getSeconds()),
+            ($this->microSecond(true) - $interval->getMicroSeconds())
+        );
+
+        return $this;
+
+    }
+
+    /**
+     * ### Difference between two Calendars
+     * @since 0.2.1.pre-alpha.M2
+     *
+     * @uses \FireHub\TheCore\Support\DateTime\Calendar As parameter.
+     * @uses \FireHub\TheCore\Support\DateTime\Calendar::year() To get current year.
+     * @uses \FireHub\TheCore\Support\DateTime\Calendar::month() To get current month.
+     * @uses \FireHub\TheCore\Support\DateTime\Calendar::dayInMonth() To get current day in month.
+     * @uses \FireHub\TheCore\Support\DateTime\Calendar::hourLong() To get current hour.
+     * @uses \FireHub\TheCore\Support\DateTime\Calendar::minute() To get current minute.
+     * @uses \FireHub\TheCore\Support\DateTime\Calendar::second() To get current second.
+     * @uses \FireHub\TheCore\Support\DateTime\Calendar::microSecond() To get current microsecond.
+     * @uses \FireHub\TheCore\Support\DateTime\Interval As return.
+     * @uses \FireHub\TheCore\Support\DateTime\Interval::years() As add years to Interval.
+     * @uses \FireHub\TheCore\Support\DateTime\Interval::addMonths() As add months to Interval.
+     * @uses \FireHub\TheCore\Support\DateTime\Interval::addDays() As add days to Interval.
+     * @uses \FireHub\TheCore\Support\DateTime\Interval::addHours() As add hours to Interval.
+     * @uses \FireHub\TheCore\Support\DateTime\Interval::addMinutes() As add minutes to Interval.
+     * @uses \FireHub\TheCore\Support\DateTime\Interval::addSeconds() As add seconds to Interval.
+     * @uses \FireHub\TheCore\Support\DateTime\Interval::addMicroSeconds() As add microseconds to Interval.
+     *
+     * @param \FireHub\TheCore\Support\DateTime\Calendar $date <p>
+     * Datetime interval.
+     * </p>
+     *
+     * @return \FireHub\TheCore\Support\DateTime\Interval Interval diffrence between two Calendars.
+     */
+    public function diffrence (Calendar $date):Interval {
+
+        return Interval::years($this->year() - $date->year())
+            ->addMonths($this->month(true) - $date->month(true))
+            ->addDays($this->dayInMonth(true) - $date->dayInMonth(true))
+            ->addHours($this->hourLong(true) - $date->hourLong(true))
+            ->addMinutes($this->minute(true) - $date->minute(true))
+            ->addSeconds($this->second(true) - $date->second(true))
+            ->addMicroSeconds($this->microSecond(true) - $date->microSecond(true));
 
     }
 
