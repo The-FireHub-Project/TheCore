@@ -2,7 +2,17 @@
 
 ## [Unreleased](https://github.com/The-FireHub-Project/Documentor/compare/develop-pre-alpha-m1...develop-pre-alpha)
 
-[v0.2.0](https://github.com/The-FireHub-Project/Documentor/compare/v0.2.0-alpha.1...develop-pre-alpha-m1) - (2022-12-19)
+### Added
+
+- Added substract, diffrence and fromFormat methods in Calendar ([4644369](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/4644369))
+
+### Changed
+
+- All properties are now private, add added methods for reading properties in DateTime Interval class ([4644369](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/4644369))
+- Created new datetime unit enums and interfaces ([4644369](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/4644369))
+- Interface FireHub\TheCore\Support\Enums\DateTime\Format now extends from BackedEnum ([af322ce](https://github.com/The-FireHub-Project/TheCore/pull/2/commits/af322ce))
+
+## [v0.2.0](https://github.com/The-FireHub-Project/Documentor/compare/v0.2.0-alpha.1...develop-pre-alpha-m1) - (2022-12-19)
 
 ### Added
 

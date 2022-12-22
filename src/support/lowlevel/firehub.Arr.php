@@ -353,11 +353,13 @@ final class Arr {
      * ### Merges the elements of one or more arrays together
      * @since 0.1.3.pre-alpha.M1
      *
-     * @param array{array-key, mixed} ...$arrays [optional] <p>
+     * @template TValue
+     *
+     * @param array{TValue} ...$arrays [optional] <p>
      * Variable list of arrays to merge.
      * </p>
      *
-     * @return array{array-key, mixed} The resulting array.
+     * @return array{TValue} The resulting array.
      *
      * @note If the input arrays have the same string keys, then the later value for that key will overwrite the previous one.
      * @note If the arrays contain numeric keys, the later value will be appended.
@@ -373,11 +375,13 @@ final class Arr {
      * ### Merge two or more arrays recursively
      * @since 0.1.3.pre-alpha.M1
      *
-     * @param array{array-key, mixed} ...$arrays [optional] <p>
+     * @template TValue
+     *
+     * @param array{TValue} ...$arrays [optional] <p>
      * Variable list of arrays to recursively merge.
      * </p>
      *
-     * @return array{array-key, mixed} The resulting array.
+     * @return array{TValue} The resulting array.
      *
      * @note If the input arrays have the same string keys, then the values for these keys are merged together into an array, and this is done recursively, so that if one of the values is an array itself, the function will merge it with a corresponding entry in another array too. If, however, the arrays have the same numeric key, the later value will not overwrite the original value, but will be appended.
      */

@@ -38,6 +38,7 @@ use DateTime, DateTimeZone, Error, Throwable;
  * @SuppressWarnings(PHPMD.ExcessiveClassComplexity)
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  * @SuppressWarnings(PHPMD.BooleanArgumentFlag)
+ * @SuppressWarnings(PHPMD.ExcessiveClassLength)
  */
 final class Calendar {
 
