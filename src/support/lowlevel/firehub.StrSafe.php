@@ -91,7 +91,7 @@ abstract class StrSafe {
      * The replacement value that replaces found search values.
      * An array may be used to designate multiple replacements.
      * </p>
-     * @param string|array{int, string} $replace <p>
+     * @param string|array<int, string> $replace <p>
      * The string being searched and replaced on.
      * </p>
      * @param string $string <p>
