@@ -147,9 +147,9 @@ final class Data {
      * The maximum depth of structures permitted during unserialization, and is intended to prevent stack overflows.
      * </p>
      *
-     * @return string|int|float|bool|array<array-key, mixed> The converted value is returned, false otherwise.
+     * @return ($allowed_classes is false ? string|int|float|bool|array<array-key, mixed> : string|int|float|bool|array<array-key, mixed>|object) The converted value is returned, false otherwise.
      */
-    public static function unserialize (string $data, bool|array $allowed_classes = false, int $max_depth = 4096):string|int|float|bool|array {
+    public static function unserialize (string $data, bool|array $allowed_classes = false, int $max_depth = 4096):string|int|float|bool|array|object {
 
         // return false if $data is serialized false already
         if ($data === 'b:0;') return false;

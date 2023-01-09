@@ -91,7 +91,7 @@ final class Obj {
      * The class name.
      * </p>
      *
-     * @return bool True if value is array, false otherwise.
+     * @return bool True if object is of class, false otherwise.
      */
     public static function ofClass (object $value, string $class):bool {
 
