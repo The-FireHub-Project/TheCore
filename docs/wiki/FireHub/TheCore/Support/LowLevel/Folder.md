@@ -282,7 +282,7 @@ New destination path._
 <h2><a name="list()"># list()</a></h2>
 
 ```php
-static \FireHub\TheCore\Support\LowLevel\Folder::list(string $path, null|\FireHub\TheCore\Support\Enums\Order $order = null, bool $hidden = true)
+static \FireHub\TheCore\Support\LowLevel\Folder::list(string $path, null|\FireHub\TheCore\Support\Enums\Order $order = null, bool $hidden = true):array<int,string>|false
 ```
 
 ### ### List files and directories inside the specified path
@@ -297,6 +297,10 @@ static \FireHub\TheCore\Support\LowLevel\Folder::list(string $path, null|\FireHu
 Result order._
 * bool $hidden = true _[optional] 
 List hidden file as well._
+
+### Returns:
+
+* array&lt;int,string&gt; or false _Array of filenames on success, or false on failure._
 
 <h2><a name="lastaccessed()"># lastAccessed()</a></h2>
 

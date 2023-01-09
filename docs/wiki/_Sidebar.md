@@ -66,7 +66,6 @@
     * [Encoding](./Encoding)
     * [StrCase](./StrCase)
 * \FireHub\TheCore\Support\LowLevel
-    * [Arr](./Arr)
     * [Cls](./Cls)
     * [Data](./Data)
     * [DataIs](./DataIs)

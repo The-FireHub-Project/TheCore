@@ -64,10 +64,6 @@ enum \FireHub\TheCore\Support\Enums\Order
 
 ### This case is used by:
 
-* *As paramter.*
-
-* *As paramter.*
-
 * *To sort folders in ascending order.*
 
 
@@ -88,8 +84,6 @@ enum \FireHub\TheCore\Support\Enums\Order
 * **0.1.3.pre-alpha.M1** 
 
 ### This case is used by:
-
-* *To check if order is desc on second $field value.*
 
 * *To sort folders in descending order.*
 

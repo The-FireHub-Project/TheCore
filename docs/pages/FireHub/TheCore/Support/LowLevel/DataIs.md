@@ -39,12 +39,6 @@ _This low level support class is for checking data type._
 * **0.1.3.pre-alpha.M1** 
 
 
-## This class is used by
-***
-
-* *To check if last key is null.*
-
-
 ## Methods table
 ***
 
@@ -94,11 +88,6 @@ public static \FireHub\TheCore\Support\LowLevel\DataIs::array(mixed $value)
 ### Changelog:
 
 * **0.1.3.pre-alpha.M1** 
-
-### This method is used by:
-
-* *To check if value is array.*
-
 
 ### Parameters:
 
@@ -437,10 +426,6 @@ public static \FireHub\TheCore\Support\LowLevel\DataIs::null(mixed $value)
 
 ### This method is used by:
 
-* *To check if $key is null.*
-
-* *To check if filter is null.*
-
 * *To check if return is not null.*
 
 
@@ -602,8 +587,6 @@ public static \FireHub\TheCore\Support\LowLevel\DataIs::string(mixed $value)
 * *To check if $format is string.*
 
 * *To check if $format is a string.*
-
-* *To check if first $field value is string.*
 
 * *To check if value is string.*
 

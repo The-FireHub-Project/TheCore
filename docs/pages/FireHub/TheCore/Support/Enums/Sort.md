@@ -67,11 +67,6 @@ enum \FireHub\TheCore\Support\Enums\Sort
 
 * **0.1.3.pre-alpha.M1** 
 
-### This case is used by:
-
-* *As parameter.*
-
-
 <h2><a name="sort_numeric"># SORT_NUMERIC</a></h2>
 ***
 

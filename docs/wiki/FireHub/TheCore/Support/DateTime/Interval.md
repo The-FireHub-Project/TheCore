@@ -791,7 +791,7 @@ static \FireHub\TheCore\Support\DateTime\Interval::fromFormat(\FireHub\TheCore\S
 <h2><a name="__call()"># __call()</a></h2>
 
 ```php
-\FireHub\TheCore\Support\DateTime\Interval::__call(string $method, array $arguments):self|int
+\FireHub\TheCore\Support\DateTime\Interval::__call(string $method, array<array-key,string> $arguments):self|int
 ```
 
 ### ### Invoking inaccessible methods in an object context
@@ -802,7 +802,7 @@ static \FireHub\TheCore\Support\DateTime\Interval::fromFormat(\FireHub\TheCore\S
 ### Parameters:
 
 * string $method _Method name._
-* array $arguments 
+* array&lt;array-key,string&gt; $arguments _List of arguments._
 
 ### Throws:
 
@@ -816,7 +816,7 @@ static \FireHub\TheCore\Support\DateTime\Interval::fromFormat(\FireHub\TheCore\S
 <h2><a name="__callstatic()"># __callStatic()</a></h2>
 
 ```php
-static \FireHub\TheCore\Support\DateTime\Interval::__callStatic(string $method, array $arguments):self
+static \FireHub\TheCore\Support\DateTime\Interval::__callStatic(string $method, array<array-key,string> $arguments):self
 ```
 
 ### ### Invoking inaccessible static methods in an object context
@@ -827,7 +827,7 @@ static \FireHub\TheCore\Support\DateTime\Interval::__callStatic(string $method, 
 ### Parameters:
 
 * string $method _Method name._
-* array $arguments 
+* array&lt;array-key,string&gt; $arguments _List of arguments._
 
 ### Returns:
 

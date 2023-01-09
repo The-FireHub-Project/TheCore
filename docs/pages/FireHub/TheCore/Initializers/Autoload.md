@@ -64,7 +64,7 @@ call main Firehub classes and its components._
 |public |<a href="#register()">register</a>|### Register new autoload implementation|
 |public |<a href="#unregister()">unregister</a>|### Unregister all autoload implementations|
 |public |<a href="#functions()">functions</a>|### Get all autoload implementations|
-|public |<a href="#load()">load</a>|### Try to load class from registered auto-loaders|
+|public |<a href="#load()">load</a>|### Try to load class from registered autoloaders|
 |private |<a href="#callback()">callback</a>|### The autoload function being registereD|
 |private |<a href="#extract()">extract</a>|### Breake class fully-qualified name into usable components|
 |private |<a href="#prefix()">prefix</a>|### Check for valid prefix|
@@ -229,10 +229,10 @@ public \FireHub\TheCore\Initializers\Autoload::functions():callable[]
 ***
 
 ```php
-public \FireHub\TheCore\Initializers\Autoload::load(class-string $class, array $arguments = []):void
+public \FireHub\TheCore\Initializers\Autoload::load(class-string $class, array<array-key,mixed> $arguments = []):void
 ```
 
-### ### Try to load class from registered auto-loaders
+### ### Try to load class from registered autoloaders
 
 <sub>Fully Qualified Method Name:  **\FireHub\TheCore\Initializers\Autoload::load()**</sub><br>
 <sub>Source code:  **[view source code](https://github.com/The-FireHub-Project/TheCore/blob/v1.0/src/initializers/firehub.Autoload.php#L175)**</sub><br>
@@ -244,7 +244,8 @@ public \FireHub\TheCore\Initializers\Autoload::load(class-string $class, array $
 ### Parameters:
 
 * class-string $class _Fully-qualified class name._
-* array $arguments = [] 
+* array&lt;array-key,mixed&gt; $arguments = [] _[optional] 
+List of constructor parameters to pass to class._
 
 ### Throws:
 

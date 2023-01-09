@@ -164,7 +164,7 @@ public static \FireHub\TheCore\Support\LowLevel\Data::setType(mixed $value, \Fir
 ***
 
 ```php
-public static \FireHub\TheCore\Support\LowLevel\Data::serialize(string|int|float|bool|array|object|null $value):string|false
+public static \FireHub\TheCore\Support\LowLevel\Data::serialize(string|int|float|bool|array<array-key,mixed>|object|null $value):string|false
 ```
 
 ### ### Generates storable representation of data
@@ -182,7 +182,7 @@ public static \FireHub\TheCore\Support\LowLevel\Data::serialize(string|int|float
 
 ### Parameters:
 
-* string or int or float or bool or array or object or null $value 
+* string or int or float or bool or array&lt;array-key,mixed&gt; or object or null $value _The value to be serialized._
 
 ### Returns:
 
@@ -192,7 +192,7 @@ public static \FireHub\TheCore\Support\LowLevel\Data::serialize(string|int|float
 ***
 
 ```php
-public static \FireHub\TheCore\Support\LowLevel\Data::unserialize(string $data, bool|array $allowed_classes = false, positive-int $max_depth = 4096)
+public static \FireHub\TheCore\Support\LowLevel\Data::unserialize(string $data, bool|class-string[] $allowed_classes = false, positive-int $max_depth = 4096):string|int|float|bool|array<array-key,mixed>
 ```
 
 ### ### Creates a PHP value from a stored representation
@@ -207,9 +207,14 @@ public static \FireHub\TheCore\Support\LowLevel\Data::unserialize(string $data, 
 ### Parameters:
 
 * string $data _The serialized string._
-* bool or array $allowed_classes = false 
+* bool or class-string[] $allowed_classes = false _[optional] 
+Either an array of class names which should be accepted, false to accept no classes, or true to accept all classes._
 * positive-int $max_depth = 4096 _[optional] 
 The maximum depth of structures permitted during unserialization, and is intended to prevent stack overflows._
+
+### Returns:
+
+* string or int or float or bool or array&lt;array-key,mixed&gt; _The converted value is returned, false otherwise._
 
 <h2><a name="jsonencode()"># jsonEncode()</a></h2>
 ***

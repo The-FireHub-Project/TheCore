@@ -88,7 +88,7 @@ static \FireHub\TheCore\Support\LowLevel\StrSafe::isEmpty(string $value)
 <h2><a name="replace()"># replace()</a></h2>
 
 ```php
-static \FireHub\TheCore\Support\LowLevel\StrSafe::replace(string|array $search, string|array $replace, string $string, bool $case_sensitive = true, int &$count = null):string
+static \FireHub\TheCore\Support\LowLevel\StrSafe::replace(string|array<int,string> $search, string|array $replace, string $string, bool $case_sensitive = true, int|null &$count = null):string
 ```
 
 ### ### Checks if a string ends with a given value
@@ -101,12 +101,13 @@ _Note that multibyte characters may not work as expected while $case_sensitive i
 
 ### Parameters:
 
-* string or array $search 
+* string or array&lt;int,string&gt; $search _The replacement value that replaces found search values.
+An array may be used to designate multiple replacements._
 * string or array $replace 
 * string $string _The value being searched for._
 * bool $case_sensitive = true _[optional] 
 Searched values are case-insensitive._
-* by refrence int $count = null _[optional] 
+* by refrence int or null $count = null _[optional] 
 If passed, this will hold the number of matched and replaced needles._
 
 ### Returns:

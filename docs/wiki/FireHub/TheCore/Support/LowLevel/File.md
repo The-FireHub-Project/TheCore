@@ -343,7 +343,7 @@ static \FireHub\TheCore\Support\LowLevel\File::getContent(string $path):string|f
 <h2><a name="putcontent()"># putContent()</a></h2>
 
 ```php
-static \FireHub\TheCore\Support\LowLevel\File::putContent(string $path, string|array $data, bool $append = false, bool $lock = true, bool $create_file = false):int|false
+static \FireHub\TheCore\Support\LowLevel\File::putContent(string $path, string|array<int,string> $data, bool $append = false, bool $lock = true, bool $create_file = false):int|false
 ```
 
 ### ### Write data to a file
@@ -354,7 +354,7 @@ static \FireHub\TheCore\Support\LowLevel\File::putContent(string $path, string|a
 ### Parameters:
 
 * string $path _Path to filename._
-* string or array $data 
+* string or array&lt;int,string&gt; $data _The data to write._
 * bool $append = false _[optional] 
 Append the data to the file instead of overwriting it._
 * bool $lock = true _[optional] 
