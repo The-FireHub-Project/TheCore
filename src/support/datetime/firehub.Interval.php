@@ -254,7 +254,7 @@ final class Interval {
      * @param string $method <p>
      * Method name.
      * </p>
-     * @param array{array-key, string} $arguments <p>
+     * @param array<array-key, string> $arguments <p>
      * List of arguments.
      * </p>
      *
@@ -304,7 +304,7 @@ final class Interval {
      * @param string $method <p>
      * Method name.
      * </p>
-     * @param array{array-key, string} $arguments <p>
+     * @param array<array-key, string> $arguments <p>
      * List of arguments.
      * </p>
      *

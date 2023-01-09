@@ -77,7 +77,7 @@ final class Data {
      *
      * @return (
      *      $type is Type::T_ARRAY
-     *      ? array{array-key, mixed}
+     *      ? array<array-key, mixed>
      *      : ($type is Type::T_STRING
      *          ? string
      *          : ($type is Type::T_INT
@@ -111,7 +111,7 @@ final class Data {
      *
      * @uses Throwable To cache error.
      *
-     * @param string|int|float|bool|array{array-key, mixed}|object|null $value <p>
+     * @param string|int|float|bool|array<array-key, mixed>|object|null $value <p>
      * The value to be serialized.
      * </p>
      *
@@ -140,14 +140,14 @@ final class Data {
      * @param string $data <p>
      * The serialized string.
      * </p>
-     * @param bool|array{class-string} $allowed_classes [optional] <p>
+     * @param bool|array<class-string> $allowed_classes [optional] <p>
      * Either an array of class names which should be accepted, false to accept no classes, or true to accept all classes.
      * </p>
      * @param positive-int $max_depth [optional] <p>
      * The maximum depth of structures permitted during unserialization, and is intended to prevent stack overflows.
      * </p>
      *
-     * @return string|int|float|bool|array{array-key, mixed} The converted value is returned, false otherwise.
+     * @return string|int|float|bool|array<array-key, mixed> The converted value is returned, false otherwise.
      */
     public static function unserialize (string $data, bool|array $allowed_classes = false, int $max_depth = 4096):string|int|float|bool|array {
 

@@ -412,7 +412,7 @@ final class StrSB extends StrSafe {
      * @param string $string <p>
      * A string to translate.
      * </p>
-     * @param array{string, string} $pairs <p>
+     * @param array<string, string> $pairs <p>
      * An array of key-value pairs for translation.
      * </p>
      *

@@ -87,7 +87,7 @@ abstract class StrSafe {
      * Note that multibyte characters may not work as expected while $case_sensitive is on.
      * @since 0.1.3.pre-alpha.M1
      *
-     * @param string|array{int, string} $search <p>
+     * @param string|array<int, string> $search <p>
      * The replacement value that replaces found search values.
      * An array may be used to designate multiple replacements.
      * </p>
@@ -100,7 +100,7 @@ abstract class StrSafe {
      * @param bool $case_sensitive [optional] <p>
      * Searched values are case-insensitive.
      * </p>
-     * @param int &$count [optional] <p>
+     * @param int|null &$count [optional] <p>
      * If passed, this will hold the number of matched and replaced needles.
      * </p>
      *
