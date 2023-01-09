@@ -134,7 +134,7 @@ public static \FireHub\TheCore\Support\LowLevel\Obj::ofClass(object $value, clas
 
 ### Returns:
 
-* bool _True if value is array, false otherwise._
+* bool _True if object is of class, false otherwise._
 
 <h2><a name="subclassof()"># subClassOf()</a></h2>
 ***

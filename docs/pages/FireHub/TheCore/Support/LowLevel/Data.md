@@ -192,7 +192,7 @@ public static \FireHub\TheCore\Support\LowLevel\Data::serialize(string|int|float
 ***
 
 ```php
-public static \FireHub\TheCore\Support\LowLevel\Data::unserialize(string $data, bool|class-string[] $allowed_classes = false, positive-int $max_depth = 4096):string|int|float|bool|array<array-key,mixed>
+public static \FireHub\TheCore\Support\LowLevel\Data::unserialize(string $data, bool|class-string[] $allowed_classes = false, positive-int $max_depth = 4096)
 ```
 
 ### ### Creates a PHP value from a stored representation
@@ -211,10 +211,6 @@ public static \FireHub\TheCore\Support\LowLevel\Data::unserialize(string $data, 
 Either an array of class names which should be accepted, false to accept no classes, or true to accept all classes._
 * positive-int $max_depth = 4096 _[optional] 
 The maximum depth of structures permitted during unserialization, and is intended to prevent stack overflows._
-
-### Returns:
-
-* string or int or float or bool or array&lt;array-key,mixed&gt; _The converted value is returned, false otherwise._
 
 <h2><a name="jsonencode()"># jsonEncode()</a></h2>
 ***
