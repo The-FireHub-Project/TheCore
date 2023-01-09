@@ -22,7 +22,9 @@ use function iterator_to_array;
 
 /**
  * ### Iterator low level class
+ *
  * @since 0.1.3.pre-alpha.M1
+ * @since 0.2.0.pre-alpha.M2 Added $preserveKeys parameter to toArray method.
  *
  * @api
  *
@@ -77,7 +79,7 @@ final class Iterator {
      * The iterator being counted.
      * </p>
      *
-     * @return int{0, max} Number of elements in array.
+     * @return positive-int|0 Number of elements in array.
      */
     public static function count (Traversable $iterator):int {
 
@@ -87,7 +89,9 @@ final class Iterator {
 
     /**
      * ### Copy the iterator into an array
+     *
      * @since 0.1.3.pre-alpha.M1
+     * @since 0.2.0.pre-alpha.M2 Added $preserveKeys parameter.
      *
      * @template TKey of array-key
      * @template TValue
@@ -95,12 +99,15 @@ final class Iterator {
      * @param Traversable<TKey, TValue> $iterator <p>
      * The iterator being copied.
      * </p>
+     * @param bool $preserveKeys [optional] <p>
+     * Whether to use the iterator element keys as index.
+     * </p>
      *
-     * @return array<TKey, TValue> An array containing items of the iterator.
+     * @return ($preserveKeys is true ? array<TKey, TValue> : array<array-key, TValue>) An array containing items of the iterator.
      */
-    public static function toArray (Traversable $iterator):array {
+    public static function toArray (Traversable $iterator, bool $preserveKeys = true):array {
 
-        return iterator_to_array($iterator);
+        return iterator_to_array($iterator, $preserveKeys);
 
     }
 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template>
+    <name>FireHub Pages</name>
+    <author>Danijel Galić</author>
+    <email>danijel.galic@outlook.com</email>
+    <version>0.2.0</version>
+    <transformations>
+        <transformation writer="twig" source="index.md.twig" artifact="index.md"/>
+        <transformation writer="twig" query="files" source="sidebar.md.twig" artifact="Package\{{Package}}.md"/>
+        <transformation writer="twig" query="indexes.classes" source="class.md.twig" artifact="{{Namespace}}\{{Name}}.md"/>
+        <transformation writer="twig" query="indexes.traits" source="trait.md.twig" artifact="{{Namespace}}\{{Name}}.md"/>
+        <transformation writer="twig" query="indexes.interfaces" source="interface.md.twig" artifact="{{Namespace}}\{{Name}}.md"/>
+        <transformation writer="twig" query="indexes.enums" source="enum.md.twig" artifact="{{Namespace}}\{{Name}}.md"/>
+        <transformation writer="twig" query="indexes.functions" source="function.md.twig" artifact="{{Namespace}}\{{Name}}.md"/>
+        <transformation writer="twig" query="indexes.constants" source="constant.md.twig" artifact="{{Namespace}}\{{Name}}.md"/>
+    </transformations>
+    <parameters>
+        <parameter key="twig-debug">false</parameter>
+    </parameters>
+</template>

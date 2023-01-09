@@ -364,7 +364,7 @@ final class Folder {
      * List hidden file as well.
      * </p>
      *
-     * @return array{int, string} Array of filenames on success, or false on failure.
+     * @return array<int, string>|false Array of filenames on success, or false on failure.
      */
     public static function list (string $path, ?Order $order = null, bool $hidden = true):array|false {
 
@@ -377,7 +377,7 @@ final class Folder {
         return ($filenames = scandir($path, $order))
             ? $hidden
                 ? $filenames
-                : Arr::filter($filenames, fn($value):bool => !StrSB::startsWith('.', $value)) // @phpstan-ignore-line
+                : Arr::filter($filenames, fn($value):bool => !StrSB::startsWith('.', $value))
             : false;
 
     }

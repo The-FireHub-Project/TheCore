@@ -14,18 +14,16 @@
 
 namespace FireHub\TheCore\Support\LowLevel;
 
-use FireHub\TheCore\Support\Enums\DateTime\TimeZone;
-
 use function date;
-use function date_default_timezone_get;
-use function date_default_timezone_set;
 use function date_sun_info;
 use function idate;
 use function strtotime;
 
 /**
  * ### Date and time low level class
+ *
  * @since 0.1.3.pre-alpha.M1
+ * @since 0.2.0.pre-alpha.M2 Removed timezone methods, changed default $format in format method.
  *
  * @api
  *
@@ -60,8 +58,10 @@ final class DateAndTime {
     }
 
     /**
-     * ### Format a local time/date
+     * ### Gets a local time/date
+     *
      * @since 0.1.3.pre-alpha.M1
+     * @since 0.2.0.pre-alpha.M2 Changed default $format.
      *
      * @param string $format [optional] <p>
      * The format of the outputted date string.
@@ -74,14 +74,14 @@ final class DateAndTime {
      *
      * @return string Formatted date string.
      */
-    public static function format (string $format = 'd-m-Y H:i:s.u', ?int $timestamp = null):string {
+    public static function date (string $format = 'Y-m-d H:i:s.u', ?int $timestamp = null):string {
 
         return date($format, $timestamp);
 
     }
 
     /**
-     * ### Format a local time/date as integer
+     * ### Gets a local time/date as integer
      * @since 0.1.3.pre-alpha.M1
      *
      * @param string $format <p>
@@ -95,41 +95,9 @@ final class DateAndTime {
      *
      * @return int|false Formatted date as integer, false otherwise.
      */
-    public static function formatInteger (string $format, ?int $timestamp = null):int|false {
+    public static function dateInteger (string $format, ?int $timestamp = null):int|false {
 
         return idate($format, $timestamp);
-
-    }
-
-    /**
-     * ### Gets the default timezone used by all date/time functions in a script
-     * @since 0.1.3.pre-alpha.M1
-     *
-     * @uses \FireHub\TheCore\Support\Enums\DateTime\TimeZone To check for valid timezone.
-     *
-     * @return \FireHub\TheCore\Support\Enums\DateTime\TimeZone|false Timezone, false if timezone doesn't exist.
-     */
-    public static function getDefaultTimezone ():TimeZone|false {
-
-        $default = date_default_timezone_get();
-
-        return ($time_zone = TimeZone::tryFrom($default)) ? $time_zone : false;
-
-    }
-
-    /**
-     * ### Sets the default timezone used by all date/time functions in a script
-     * @since 0.1.3.pre-alpha.M1
-     *
-     * @param \FireHub\TheCore\Support\Enums\DateTime\TimeZone $time_zone <p>
-     * The timezone identifier.
-     * </p>
-     *
-     * @return bool False if the timezone_identifier isn't valid, or true otherwise.
-     */
-    public static function setDefaultTimezone (TimeZone $time_zone):bool {
-
-        return date_default_timezone_set($time_zone->value);
 
     }
 

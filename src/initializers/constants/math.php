@@ -17,42 +17,45 @@
 
 namespace FireHub\TheCore\Initializers\Constants;
 
-use const M_E;
-use const M_PI;
-use const M_EULER;
-
-use function defined;
-use function define;
+use const FIREHUB_EULER_CONST;
+use const FIREHUB_EULER_NUM;
+use const FIREHUB_PI;
 
 /**
  * ### Ratio of a circle's circumference to its diameter
- * @since 0.1.3.pre-alpha.M1
  *
- * @var string PI
+ * @since 0.1.3.pre-alpha.M1
+ * @since 0.2.0-pre-alpha.M2 Changed internal definition for constant.
+ *
+ * @var string \FireHub\TheCore\Initializers\Constants\PI
  *
  * @api
  */
-if (!defined('FireHub\TheCore\Initializers\Constants\PI')) define('FireHub\TheCore\Initializers\Constants\PI', M_PI);
+const PI = FIREHUB_PI;
 
 /**
  * ### Euler’s number
  *
  * The term Euler's number (e) refers to a mathematical expression for the base of the natural logarithm.
  * This is represented by a non-repeating number that never ends.
- * @since 0.1.3.pre-alpha.M1
  *
- * @var string EULER_NUM
+ * @since 0.1.3.pre-alpha.M1
+ * @since 0.2.0-pre-alpha.M2 Changed internal definition for constant.
+ *
+ * @var string \FireHub\TheCore\Initializers\Constants\EULER_NUM
  *
  * @api
  */
-if (!defined('FireHub\TheCore\Initializers\Constants\EULER_NUM')) define('FireHub\TheCore\Initializers\Constants\EULER_NUM', M_E);
+const EULER_NUM = FIREHUB_EULER_NUM;
 
 /**
  * ### Euler–Mascheroni constant
- * @since 0.1.3.pre-alpha.M1
  *
- * @var string EULER_CONST
+ * @since 0.1.3.pre-alpha.M1
+ * @since 0.2.0-pre-alpha.M2 Changed internal definition for constant.
+ *
+ * @var string \FireHub\TheCore\Initializers\Constants\EULER_CONST
  *
  * @api
  */
-if (!defined('FireHub\TheCore\Initializers\Constants\EULER_CONST')) define('FireHub\TheCore\Initializers\Constants\EULER_CONST', M_EULER);
+const EULER_CONST = FIREHUB_EULER_CONST;

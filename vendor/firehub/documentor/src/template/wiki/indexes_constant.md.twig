@@ -1,0 +1,67 @@
+{% import "macro.twig" as macro %}{# macro #}
+{% if constant.tags.experimental|length > 0 %}{# is experimental #}
+**Warning:** *this constant has **experimental** flag.
+This features is still under the development phase and not ready to be deployed into the actual software or product.*<br>
+{% if constant.tags.experimental|first.description|length > 0 %}*{{ constant.tags.experimental|first.description|raw }}*{% endif %}
+
+{% endif %}{# end is experimental #}
+{% if constant.deprecated %}{# is deprecated #}
+<h2><a name="{{ constant.name|lower }}"><del># {{ constant.name }}</del></a></h2>
+
+**Warning:** *this constant in **deprecated**{% if constant.tags.deprecated|first.version|length > 0 %} in version {{ constant.tags.deprecated|first.version }}{% endif %}. {{ constant.tags.deprecated|first.description }}*
+{% else %}{# else not deprecated #}
+<h2><a name="{{ constant.name|lower }}"># {{ constant.name }}</a></h2>
+{% endif %}{# end is deprecated #}
+
+```php
+{{ macro.varType(constant) }} {{ constant.name }} = {{ constant.value|raw }}
+```
+
+{% if constant.summary|length > 0 %}{# constant summary #}
+### {{ constant.summary|raw }}
+{% endif %}{# end constant summary #}
+{% if macro.inheritedDescription(constant)|length > 0 %}{# constant description #}
+
+_{{ macro.inheritedDescription(constant)|trim }}_
+
+{% endif %}{# end constant description #}
+{% if constant.FullyQualifiedStructuralElementName|length > 0 %}{# fully qualified element name #}
+<sub>Fully Qualified Constant Name:  **{{constant.FullyQualifiedStructuralElementName}}**</sub><br>
+{% endif %}{# end fully qualified element name #}
+{% if node.line is not empty %}{# github #}
+<sub>Source code:  **[{{ 'view source code' }}]({{ 'https://github.com/The-FireHub-Project/' ~ project.settings.custom.app_name ~ '/blob/' ~ project.settings.custom.branch ~ '/' ~ constant.file ~ '#L' ~ constant.line }})**</sub><br>
+{% endif %}{# end github #}
+{% for tagName,tags in constant.tags if tagName in ['example'] %}{# example tag #}
+{% if tags|length > 0 %}
+
+
+### Examples:
+{% endif %}
+{% for tag in tags %}
+
+{{ tag.description|raw }}
+
+{% endfor %}
+{% endfor %}{# end example tag #}
+{% for tagName,tags in constant.tags if tagName in ['see'] %}{# see tag #}
+{% if tags|length > 0 %}
+
+
+### See also:
+{% endif %}
+{% for tag in tags %}
+
+* {{ macro.FormatLinkByNameAndOrProperty(tag.reference) }} {% if tag.description|length > 0 %}_{{ tag.description|raw }}_{% endif %}
+{% endfor %}
+{% endfor %}{# end see tag #}
+{% for tagName,tags in constant.tags if tagName in ['link'] %}{# link tag #}
+{% if tags|length > 0 %}
+
+
+### Links:
+{% endif %}
+{% for tag in tags %}
+
+* {{ macro.FormatLinkByNameAndOrProperty(tag.link) }} {% if tag.description|length > 0 %}_{{ tag.description|raw }}_{% endif %}
+{% endfor %}
+{% endfor %}{# end link tag #}

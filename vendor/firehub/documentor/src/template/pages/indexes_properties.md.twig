@@ -1,0 +1,132 @@
+{% import "macro.twig" as macro %}{# macro #}
+{% if property.tags.experimental|length > 0 %}{# is experimental #}
+{: .warning }
+>
+> This property has **experimental** flag.
+> This features is still under the development phase and not ready to be deployed into the actual software or product.
+>
+> {{ property.tags.experimental|first.description|raw }}
+
+{% endif %}{# end is experimental #}
+{% if property.deprecated %}{# is deprecated #}
+<h2><a name="${{ property.name|lower }}"><del># ${{ property.name }}</del></a></h2>
+***
+
+{: .warning }
+{% if property.tags.deprecated|first.version|length > 0 %}
+> This property is deprecated in version {{ property.tags.deprecated|first.version }}
+{% endif %}
+>
+> {{ property.tags.deprecated|first.description|raw }}
+
+{% else %}{# else not deprecated #}
+<h2><a name="${{ property.name|lower }}"># ${{ property.name }}</a></h2>
+***
+{% endif %}{# end is deprecated #}
+{% if property.line == 0 %}{# is magic #}
+
+{: .note }
+> This property is marked as **magic** and implements the __get() and/or __set() "magic" methods to resolve non-literal properties at run-time.
+
+{% endif %}{# end is magic #}
+{% if property.readonly %}{# is readonly #}
+
+{: .note }
+> This property is marked as **readonly** and can't be overwritten.
+
+{% endif %}{# end is readonly #}
+{% if property.writeonly %}{# is writeonly #}
+
+{: .note }
+> This property is marked as **writeonly** and is not readable.
+
+{% endif %}{# end is writeonly #}
+{% for tagName,tags in property.tags if tagName in ['todo'] %}{# todo tag #}
+{% for tag in tags %}
+
+{: .info-title }
+> Todo
+>
+> {{ tag.description|raw }}
+
+{% endfor %}
+{% endfor %}{# end todo tag #}
+
+```php
+{% if property.line == 0 %}magic {% endif %}{% if property.writeOnly %}writeonly {% endif %}{% if property.readOnly %}readonly {% endif %}{{ property.visibility }} {% if property.static or property.description.bodyTemplate starts with '{static}' %}static {% endif %}{{ macro.varType(property) }} {{ property.FullyQualifiedStructuralElementName }}{% if property.default %} = {{ property.default|raw }}{% endif %}
+
+```
+
+{% if property.summary|length > 0 %}{# property summary #}
+### {{ property.summary|raw }}
+
+{% endif %}{# end property summary #}
+{% if macro.inheritedDescription(property)|length > 0 %}{# property description #}
+_{{ macro.inheritedDescription(property)|trim }}_
+
+{% endif %}{# end property description #}
+{% if property.FullyQualifiedStructuralElementName|length > 0 %}{# fully qualified element name #}
+<sub>Fully Qualified Property Name:  **{{property.FullyQualifiedStructuralElementName}}**</sub><br>
+{% endif %}{# end fully qualified element name #}
+{% if node.line is not empty %}{# github #}
+<sub>Source code:  **[{{ 'view source code' }}]({{ 'https://github.com/The-FireHub-Project/' ~ project.settings.custom.app_name ~ '/blob/' ~ project.settings.custom.branch ~ '/' ~ property.file ~ '#L' ~ property.line }})**</sub><br>
+{% endif %}{# end github #}
+{% for tagName,tags in property.tags if tagName in ['since'] %}{# since tag #}
+{% if tags|length > 0 %}
+
+### Changelog:
+{% endif %}
+{% for tag in tags %}
+
+* **{{ tag.version }}** {% if tag.description|length > 0 %}_{{ tag.description|raw }}_{% endif %}
+{% endfor %}
+{% endfor %}{# end since tag #}
+{% for tagName,tags in property.tags if tagName in ['uses'] %}{# uses tag #}
+{% if tags|length > 0 %}
+
+
+### This property uses:
+{% endif %}
+{% for tag in tags %}
+
+* {{ macro.FormatLinkByNameAndOrProperty(tag.reference) }} {% if tag.description|length > 0 %}_{{ tag.description|raw }}_{% endif %}
+{% endfor %}
+{% endfor %}{# end uses tag #}
+{% for tagName,tags in property.tags if tagName in ['used-by'] %}{# uses tag #}
+{% if tags|length > 0 %}
+
+
+### This property is used by:
+{% endif %}
+{% for tag in tags %}
+
+* *{{ tag.description|raw }}*
+{% endfor %}
+{% endfor %}{# end used-by tag #}
+{% for tagName,tags in property.tags if tagName in ['see'] %}{# see tag #}
+{% if tags|length > 0 %}
+
+
+### See also:
+{% endif %}
+{% for tag in tags %}
+
+* {{ macro.FormatLinkByNameAndOrProperty(tag.reference) }} {% if tag.description|length > 0 %}_{{ tag.description|raw }}_{% endif %}
+{% endfor %}
+{% endfor %}{# end see tag #}
+{% for tagName,tags in property.tags if tagName in ['link'] %}{# link tag #}
+{% if tags|length > 0 %}
+
+
+### Links:
+{% endif %}
+{% for tag in tags %}
+
+* {{ macro.FormatLinkByNameAndOrProperty(tag.link) }} {% if tag.description|length > 0 %}_{{ tag.description|raw }}_{% endif %}
+{% endfor %}
+{% endfor %}{# end link tag #}
+{% if propert.author|length > 0 %}{# author tag #}
+
+
+<sub>_This property was created by {% for tag in property.author %}{% if loop.first %}{{ tag.description|raw }}{% else %} and {{ tag.description|raw }}{% endif %}{% endfor %}_</sub><br>
+{% endif %}{# end author tag #}

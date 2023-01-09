@@ -114,7 +114,7 @@ final class Arr {
      *
      * @uses \FireHub\TheCore\Support\LowLevel\Arr::count() To count array elements.
      *
-     * @param array{array-key, mixed} $array <p>
+     * @param array<array-key, mixed> $array <p>
      * Array to check.
      * </p>
      *
@@ -133,7 +133,7 @@ final class Arr {
      * @uses \FireHub\TheCore\Support\LowLevel\Arr::count() To count array elements.
      * @uses \FireHub\TheCore\Support\LowLevel\Arr::filter() To filter array elements.
      *
-     * @param array{array-key, mixed} $array <p>
+     * @param array<array-key, mixed> $array <p>
      * Array to check.
      * </p>
      *
@@ -154,7 +154,7 @@ final class Arr {
      * @uses \FireHub\TheCore\Support\LowLevel\Arr::isEmpty() To check if array is empty.
      * @uses \FireHub\TheCore\Support\LowLevel\Arr::range() To create numeric array.
      *
-     * @param array{array-key, mixed} $array <p>
+     * @param array<array-key, mixed> $array <p>
      * Array to check.
      * </p>
      *
@@ -172,14 +172,14 @@ final class Arr {
      * ### Counts all elements in the array
      * @since 0.1.3.pre-alpha.M1
      *
-     * @param array{array-key, mixed} $array <p>
+     * @param array<array-key, mixed> $array <p>
      * Array to count.
      * </p>
      * @param bool $multi_dimensional [optional] <p>
      * Count multidimensional items.
      * </p>
      *
-     * @return int<0, max> Number of elements in array.
+     * @return positive-int|0 Number of elements in array.
      *
      * @caution Method can detect recursion to avoid an infinite loop, but will emit an E_WARNING every time it does (in case the array contains itself more than once) and return a count higher than may be expected.
      */
@@ -193,22 +193,19 @@ final class Arr {
      * ### Counts all the values of an array
      * @since 0.1.3.pre-alpha.M1
      *
-     * @template TKey of array-key
-     * @template TValue
-     *
      * @uses \FireHub\TheCore\Support\LowLevel\Arr::isMultiDimensional() To check is array is multidimensional.
      * @uses \FireHub\TheCore\Support\LowLevel\Arr::merge To merge arrays.
      * @uses \FireHub\TheCore\Support\LowLevel\Arr::column() To get the values from a single column.
      * @uses \FireHub\TheCore\Support\LowLevel\DataIs::null() To check if $key is null.
      *
-     * @param array{TKey, TValue} $array <p>
+     * @param array<array-key, mixed> $array <p>
      * The array of values to count.
      * </p>
-     * @param TKey|null $key [optional] <p>
+     * @param null|int|string $key [optional] <p>
      * Key to count if counting multidimensional array.
      * </p>
      *
-     * @return array<TKey, int<1, max>>|false An associative array of values from input as keys and their count as value, false otherwise.
+     * @return array<array-key, int<1, max>>|false An associative array of values from input as keys and their count as value, false otherwise.
      */
     public static function countValues (array $array, null|int|string $key = null):array|false {
 
@@ -231,7 +228,7 @@ final class Arr {
      *
      * note: If needle is a string, the comparison is done in a case-sensitive manner.
      * </p>
-     * @param array{array-key, mixed} $array <p>
+     * @param array<array-key, mixed> $array <p>
      * The array.
      * </p>
      *
@@ -247,7 +244,7 @@ final class Arr {
      * ### Removes an item at the beginning of an array
      * @since 0.1.3.pre-alpha.M1
      *
-     * @param array{array-key, mixed} &$array <p>
+     * @param array<array-key, mixed> &$array <p>
      * Array to shift.
      * </p>
      *
@@ -265,7 +262,7 @@ final class Arr {
      * ### Prepend elements to the beginning of the array
      * @since 0.1.3.pre-alpha.M1
      *
-     * @param array{array-key, mixed} &$array <p>
+     * @param array<array-key, mixed> &$array <p>
      * Array to unshift.
      * </p>
      * @param mixed ...$values [optional] <p>
@@ -289,7 +286,7 @@ final class Arr {
      * @template TKey of array-key
      * @template TValue
      *
-     * @param array{TKey, TValue} &$array <p>
+     * @param array<TKey, TValue> &$array <p>
      * Array to pop.
      * </p>
      *
@@ -305,7 +302,7 @@ final class Arr {
      * ### Push elements onto the end of array
      * @since 0.1.3.pre-alpha.M1
      *
-     * @param array{array-key, mixed} &$array <p>
+     * @param array<array-key, mixed> &$array <p>
      * Array to unshift.
      * </p>
      * @param mixed ...$values [optional] <p>
@@ -326,8 +323,8 @@ final class Arr {
      * ### Return the values from a single column in the input array
      * @since 0.1.3.pre-alpha.M1
      *
-     * @param array{array-key, mixed} $array <p>
-     * A multi-dimensional array (record set) from which to pull a column of values.
+     * @param array<array-key, mixed> $array <p>
+     * A multidimensional array (record set) from which to pull a column of values.
      * </p>
      * @param int|string|null $key <p>
      * The column of values to return.
@@ -340,14 +337,10 @@ final class Arr {
      * The value is cast as usual for array keys.
      * </p>
      *
-     * @return array{array-key, mixed} Array of values representing a single column from the input array.
+     * @return array<array-key, mixed> Array of values representing a single column from the input array.
      */
     public static function column (array $array, int|string|null $key, int|string|null $index = null) {
 
-        /**
-         * PHPStan stan reports that returns non-empty-array<int|string, mixed>.
-         * @phpstan-ignore-next-line
-         */
         return array_column($array, $key, $index);
 
     }
@@ -356,11 +349,13 @@ final class Arr {
      * ### Merges the elements of one or more arrays together
      * @since 0.1.3.pre-alpha.M1
      *
-     * @param array{array-key, mixed} ...$arrays [optional] <p>
+     * @template TValue
+     *
+     * @param array<TValue> ...$arrays [optional] <p>
      * Variable list of arrays to merge.
      * </p>
      *
-     * @return array{array-key, mixed} The resulting array.
+     * @return array<TValue> The resulting array.
      *
      * @note If the input arrays have the same string keys, then the later value for that key will overwrite the previous one.
      * @note If the arrays contain numeric keys, the later value will be appended.
@@ -376,20 +371,18 @@ final class Arr {
      * ### Merge two or more arrays recursively
      * @since 0.1.3.pre-alpha.M1
      *
-     * @param array{array-key, mixed} ...$arrays [optional] <p>
+     * @template TValue
+     *
+     * @param array<TValue> ...$arrays [optional] <p>
      * Variable list of arrays to recursively merge.
      * </p>
      *
-     * @return array{array-key, mixed} The resulting array.
+     * @return array<TValue> The resulting array.
      *
      * @note If the input arrays have the same string keys, then the values for these keys are merged together into an array, and this is done recursively, so that if one of the values is an array itself, the function will merge it with a corresponding entry in another array too. If, however, the arrays have the same numeric key, the later value will not overwrite the original value, but will be appended.
      */
     public static function mergeRecursive (array ...$arrays):array {
 
-        /**
-         * PHPStan stan reports that returns array.
-         * @phpstan-ignore-next-line
-         */
         return array_merge_recursive(...$arrays);
 
     }
@@ -403,23 +396,19 @@ final class Arr {
      * @template TKey of array-key
      * @template TValue
      *
-     * @param array{array-key, TKey} $keys <p>
+     * @param array<array-key, TKey> $keys <p>
      * Array of values to be used as keys. Illegal values for key will be converted to string.
      * </p>
-     * @param array{array-key, TValue} $values <p>
+     * @param array<array-key, TValue> $values <p>
      * Array of values to be used as values on combined array.
      * </p>
      *
-     * @return array{TKey, TValue}|false The combined array, false if the number of elements for each array isn't equal or if the arrays are empty.
+     * @return array<TKey, TValue>|false The combined array, false if the number of elements for each array isn't equal or if the arrays are empty.
      */
     public static function combine (array $keys, array $values):array|false {
 
         try {
 
-            /**
-             * PHPStan stan reports that returns non-empty-array<TKey of (int|string), int|string|TValue>.
-             * @phpstan-ignore-next-line
-             */
             return array_combine($keys, $values);
 
         } catch (Throwable) {
@@ -435,13 +424,13 @@ final class Arr {
      * @since 0.1.3.pre-alpha.M1
      *
      * @uses \FireHub\TheCore\Support\LowLevel\Arr::combine() To combine from one array for keys and another for its values.
-     * @uses \FireHub\TheCore\Support\LowLevel\Arr::keys() To get keys from array..
+     * @uses \FireHub\TheCore\Support\LowLevel\Arr::keys() To get keys from array.
      * @uses \FireHub\TheCore\Support\LowLevel\Arr::column() To get the values from a single column.
      *
      * @param mixed $value <p>
      * The searched value.
      * </p>
-     * @param array{array-key, mixed} $array <p>
+     * @param array<array-key, mixed> $array <p>
      * Array to search.
      * </p>
      * @param int|string|false $second_dimension [optional] <p>
@@ -467,21 +456,17 @@ final class Arr {
      * @template TKey of array-key
      * @template TValue
      *
-     * @param array{TKey, TValue} $array <p>
+     * @param array<TKey, TValue> $array <p>
      * The array to compare from.
      * </p>
-     * @param array{TKey, TValue} ...$excludes [optional] <p>
+     * @param array<TKey, TValue> ...$excludes [optional] <p>
      * An array to compare against.
      * </p>
      *
-     * @return array{TKey, TValue} An array containing all the entries from array1 that are not present in any of the other arrays.
+     * @return array<TKey, TValue> An array containing all the entries from array1 that are not present in any of the other arrays.
      */
     public static function difference (array $array, array ...$excludes):array {
 
-        /**
-         * PHPStan stan reports that returns array<0|1, int|string|TValue>.
-         * @phpstan-ignore-next-line
-         */
         return array_diff($array, ...$excludes);
 
     }
@@ -493,21 +478,17 @@ final class Arr {
      * @template TKey of array-key
      * @template TValue
      *
-     * @param array{TKey, TValue} $array <p>
+     * @param array<TKey, TValue> $array <p>
      * The array to compare from.
      * </p>
-     * @param array{TKey, TValue} ...$excludes [optional] <p>
+     * @param array<TKey, TValue> ...$excludes [optional] <p>
      * An array to compare against.
      * </p>
      *
-     * @return array{TKey, TValue} An array containing all the entries from array1 that are not present in any of the other arrays.
+     * @return array<TKey, TValue> An array containing all the entries from array1 that are not present in any of the other arrays.
      */
     public static function differenceKey (array $array, array ...$excludes):array {
 
-        /**
-         * PHPStan stan reports that returns array<0|1, int|string|TValue>.
-         * @phpstan-ignore-next-line
-         */
         return array_diff_key($array, ...$excludes);
 
     }
@@ -519,21 +500,17 @@ final class Arr {
      * @template TKey of array-key
      * @template TValue
      *
-     * @param array{TKey, TValue} $array <p>
+     * @param array<TKey, TValue> $array <p>
      * The array to compare from.
      * </p>
-     * @param array{TKey, TValue} ...$excludes [optional] <p>
+     * @param array<TKey, TValue> ...$excludes [optional] <p>
      * An array to compare against.
      * </p>
      *
-     * @return array{TKey, TValue} An array containing all the entries from array1 that are not present in any of the other arrays.
+     * @return array<TKey, TValue> An array containing all the entries from array1 that are not present in any of the other arrays.
      */
     public static function differenceAssoc (array $array, array ...$excludes):array {
 
-        /**
-         * PHPStan stan reports that returns array<0|1, int|string|TValue>.
-         * @phpstan-ignore-next-line
-         */
         return array_diff_assoc($array, ...$excludes);
 
     }
@@ -542,21 +519,17 @@ final class Arr {
      * ### Removes duplicate values from an array
      * @since 0.1.3.pre-alpha.M1
      *
-     * @param array{array-key, mixed} $array <p>
+     * @param array<array-key, mixed> $array <p>
      * The array to remove duplicates.
      * </p>
      *
-     * @return array{array-key, mixed} The filtered array.
+     * @return array<array-key, mixed> The filtered array.
      *
      * @note New array will preserve associative keys, and reindex others.
      * @note This method is not intended to work on multidimensional arrays.
      */
     public static function unique (array $array):array {
 
-        /**
-         * PHPStan stan reports that returns non-empty-array<0|1, mixed>.
-         * @phpstan-ignore-next-line
-         */
         return array_unique($array, SORT_REGULAR);
 
     }
@@ -568,18 +541,14 @@ final class Arr {
      * @template TKey of array-key
      * @template TValue of array-key
      *
-     * @param array{TKey, TValue} $array <p>
+     * @param array<TKey, TValue> $array <p>
      * The array to flip.
      * </p>
      *
-     * @return array{TValue, TKey} The flipped array.
+     * @return array<TKey, TValue> The flipped array.
      */
     public static function flip (array $array):array {
 
-        /**
-         * PHPStan stan reports that returns non-empty-array<TKey of (int|string), 0|1>.
-         * @phpstan-ignore-next-line
-         */
         return array_flip($array);
 
     }
@@ -588,7 +557,7 @@ final class Arr {
      * ### Pad array to the specified length with a value
      * @since 0.1.3.pre-alpha.M1
      *
-     * @param array{array-key, mixed} $array <p>
+     * @param array<array-key, mixed> $array <p>
      * Initial array of values to pad.
      * </p>
      * @param int $size <p>
@@ -598,14 +567,10 @@ final class Arr {
      * Value to pad if input is less than pad_size.
      * </p>
      *
-     * @return array{array-key, mixed} A copy of the input padded to size specified by pad_size with value pad_value. If pad_size is positive then the array is padded on the right, if it's negative then on the left. If the absolute value of pad_size is less than or equal to the length of the input then no padding takes place.
+     * @return array<array-key, mixed> A copy of the input padded to size specified by pad_size with value pad_value. If pad_size is positive then the array is padded on the right, if it's negative then on the left. If the absolute value of pad_size is less than or equal to the length of the input then no padding takes place.
      */
     public static function pad (array $array, int $size, mixed $value):array {
 
-        /**
-         * PHPStan stan reports that result returns array.
-         * @phpstan-ignore-next-line
-         */
         return array_pad($array, $size, $value);
 
     }
@@ -620,7 +585,7 @@ final class Arr {
      * @uses Throwable To cache errors.
      * @uses \FireHub\TheCore\Support\LowLevel\Arr::isArray() To check if random value keys are array.
      *
-     * @param array{TKey, TValue} $array <p>
+     * @param array<TKey, TValue> $array <p>
      * Array from we are picking random items.
      * </p>
      * @param positive-int $number [optional] <p>
@@ -630,7 +595,7 @@ final class Arr {
      * Whether you want to preserve keys from original array or not.
      * </p>
      *
-     * @return ($preserve_keys is true ? int|string|array{TKey, TValue} : int|string|array{array-key, TValue})|false If you are picking only one entry, returns the key for a random entry. Otherwise, it returns an array of keys for the random entries.
+     * @return ($preserve_keys is true ? int|string|array<TKey, TValue> : int|string|array<array-key, TValue>)|false If you are picking only one entry, returns the key for a random entry. Otherwise, it returns an array of keys for the random entries.
      */
     public static function random (array $array, int $number = 1, bool $preserve_keys = false):int|string|array|false {
 
@@ -646,7 +611,7 @@ final class Arr {
             if ($preserve_keys) foreach ($keys as $key) $items[$key] = $array[$key]; // if we turn on preserved key
             else foreach ($keys as $key) $items[] = $array[$key]; // if we turn off preserved key
 
-            return $items; // @phpstan-ignore-line Returns array<int, int|string|TValue>.
+            return $items;
 
         } catch (Throwable) {
 
@@ -663,21 +628,17 @@ final class Arr {
      * @template TKey of array-key
      * @template TValue
      *
-     * @param array{TKey, TValue} $array <p>
+     * @param array<TKey, TValue> $array <p>
      * Array to reverse.
      * </p>
      * @param bool $preserve_keys [optional] <p>
      * Whether you want to preserve keys from original array or not.
      * </p>
      *
-     * @return ($preserve_keys is true ? array{TKey, TValue} : array{array-key, TValue}) The reversed array.
+     * @return ($preserve_keys is true ? array<TKey, TValue> : array<array-key, TValue>) The reversed array.
      */
     public static function reverse (array $array, bool $preserve_keys = false):array {
 
-        /**
-         * PHPStan stan reports that result returns array{TValue, TKey of (int|string)}.
-         * @phpstan-ignore-next-line
-         */
         return array_reverse($array, $preserve_keys);
 
     }
@@ -689,23 +650,19 @@ final class Arr {
      * @template TKey of array-key
      * @template TValue
      *
-     * @param array{TKey, TValue} $array <p>
+     * @param array<TKey, TValue> $array <p>
      * The array with main values to check.
      * </p>
-     * @param array{array-key, mixed} ...$arrays [optional] <p>
+     * @param array<array-key, mixed> ...$arrays [optional] <p>
      * An array to compare values against.
      * </p>
      *
-     * @return array{TKey, TValue} The filtered array.
+     * @return array<TKey, TValue> The filtered array.
      *
      * @note Two elements are considered equal if and only if (string) $elem1 === (string) $elem2. In words: when the string representation is the same.
      */
     public static function intersect (array $array, array ...$arrays):array {
 
-        /**
-         * PHPStan stan reports that result array<0|1, int|string|TValue>.
-         * @phpstan-ignore-next-line
-         */
         return array_intersect($array, ...$arrays);
 
     }
@@ -717,14 +674,14 @@ final class Arr {
      * @template TKey of array-key
      * @template TValue
      *
-     * @param array{TKey, TValue} $array <p>
+     * @param array<TKey, TValue> $array <p>
      * The array with main values to check.
      * </p>
-     * @param array{array-key, mixed} ...$arrays [optional] <p>
+     * @param array<array-key, mixed> ...$arrays [optional] <p>
      * An array to compare values against.
      * </p>
      *
-     * @return array{TKey, TValue} The filtered array.
+     * @return array<TKey, TValue> The filtered array.
      */
     public static function intersectKey (array $array, array ...$arrays):array {
 
@@ -739,23 +696,19 @@ final class Arr {
      * @template TKey of array-key
      * @template TValue
      *
-     * @param array{TKey, TValue} $array <p>
+     * @param array<TKey, TValue> $array <p>
      * The array with main values to check.
      * </p>
-     * @param array{array-key, mixed} ...$arrays [optional] <p>
+     * @param array<array-key, mixed> ...$arrays [optional] <p>
      * An array to compare values against.
      * </p>
      *
-     * @return array{TKey, TValue} The filtered array.
+     * @return array<TKey, TValue> The filtered array.
      *
-     * @note The two values from the key => value pairs are considered equal only if (string) $elem1 === (string) $elem2 . In other words a strict type check is executed so the string representation must be the same.
+     * @note The two values from the key → value pairs are considered equal only if (string) $elem1 === (string) $elem2 . In other words a strict type check is executed so the string representation must be the same.
      */
     public static function intersectAssoc (array $array, array ...$arrays):array {
 
-        /**
-         * PHPStan stan reports that result array<0|1, int|string|TValue>.
-         * @phpstan-ignore-next-line
-         */
         return array_intersect_assoc($array, ...$arrays);
 
     }
@@ -770,14 +723,14 @@ final class Arr {
      * @uses \FireHub\TheCore\Support\LowLevel\Arr::isEmpty() To check if array is empty.
      * @uses \FireHub\TheCore\Support\LowLevel\Arr::keys() To get array keys.
      *
-     * @param array{TKey, TValue} $array <p>
+     * @param array<TKey, TValue> $array <p>
      * An array to shuffle.
      * </p>
      * @param bool $preserve_keys [optional] <p>
      * Whether you want to preserve keys from original array or not.
      * </p>
      *
-     * @return ($preserve_keys is true ? non-empty-array<TKey, TValue|int|string> : non-empty-array<int, TValue|int|string>)|false Shuffled array, false otherwise.
+     * @return ($preserve_keys is true ? array<TKey, TValue|int|string> : array<int, TValue|int|string>)|false Shuffled array, false otherwise.
      */
     public static function shuffle (array &$array, bool $preserve_keys = false):array|false {
 
@@ -816,7 +769,7 @@ final class Arr {
      * @template TKey of array-key
      * @template TValue
      *
-     * @param array{TKey, TValue} $array <p>
+     * @param array<TKey, TValue> $array <p>
      * Array to slice.
      * </p>
      * @param int $offset <p>
@@ -833,7 +786,7 @@ final class Arr {
      * You can change this behaviour by setting preserve_keys to true.
      * </p>
      *
-     * @return ($preserve_keys is true ? array{TKey, TValue} : array{array-key, TValue}) Sliced array.
+     * @return ($preserve_keys is true ? array<TKey, TValue> : array<array-key, TValue>) Sliced array.
      */
     public static function slice (array $array, int $offset, ?int $length = null, bool $preserve_keys = false):array {
 
@@ -845,7 +798,7 @@ final class Arr {
      * ### Remove a portion of the array and replace it with something else
      * @since 0.1.3.pre-alpha.M1
      *
-     * @param array{array-key, mixed} $array <p>
+     * @param array<array-key, mixed> $array <p>
      * Array to splice.
      * </p>
      * @param int $offset <p>
@@ -863,17 +816,13 @@ final class Arr {
      * Keys in replacement array are not preserved.
      * </p>
      *
-     * @return array{array-key, mixed} Spliced array.
+     * @return array<array-key, mixed> Spliced array.
      *
      * @note Numerical keys in array are not preserved.
      * @note If replacement is not an array, it will be typecast to one (i.e. (array) $replacement). This may result in unexpected behavior when using an object or null replacement.
      */
     public static function splice (array &$array, int $offset, ?int $length = null, mixed $replacement = []):array {
 
-        /**
-         * PHPStan stan reports that result array<0|1, mixed>.
-         * @phpstan-ignore-next-line
-         */
         return array_splice($array, $offset, $length, $replacement);
 
     }
@@ -885,7 +834,7 @@ final class Arr {
      * @uses \FireHub\TheCore\Support\Enums\Order::ASC As paramter.
      * @uses \FireHub\TheCore\Support\Enums\Sort::SORT_REGULAR As parameter.
      *
-     * @param array{int|string, mixed} &$array <p>
+     * @param array<int|string, mixed> &$array <p>
      * Array to sort.
      * </p>
      * @param \FireHub\TheCore\Support\Enums\Order $order [optional] <p>
@@ -920,7 +869,7 @@ final class Arr {
      *
      * @uses \FireHub\TheCore\Support\Enums\Order::ASC As paramter.
      *
-     * @param array{int|string, mixed} &$array <p>
+     * @param array<int|string, mixed> &$array <p>
      * Array to sort.
      * </p>
      * @param \FireHub\TheCore\Support\Enums\Order $order [optional] <p>
@@ -941,7 +890,7 @@ final class Arr {
      * ### Sorts array by values using a user-defined comparison function
      * @since 0.1.3.pre-alpha.M1
      *
-     * @param array{int|string, mixed} &$array <p>
+     * @param array<int|string, mixed> &$array <p>
      * Array to sort.
      * </p>
      * @param callable $callback <p>
@@ -966,7 +915,7 @@ final class Arr {
      * ### Sorts array by key using a user-defined comparison function
      * @since 0.1.3.pre-alpha.M1
      *
-     * @param array{int|string, mixed} &$array <p>
+     * @param array<int|string, mixed> &$array <p>
      * Array to sort.
      * </p>
      * @param callable $callback <p>
@@ -1000,14 +949,14 @@ final class Arr {
      * @uses \FireHub\TheCore\Support\LowLevel\Arr::column() To get values from a single column in the array.
      * @uses \FireHub\TheCore\Support\Enums\Order::DESC To check if order is desc on second $field value.
      *
-     * @param array{TKey, TValue} $array <p>
+     * @param array<TKey, TValue> $array <p>
      * Array to sort.
      * </p>
-     * @param array{int, array<int, string|\FireHub\TheCore\Support\Enums\Order>} $fields <p>
+     * @param array<int, array<int, string|\FireHub\TheCore\Support\Enums\Order>> $fields <p>
      * List of fields to sort by.
      * </p>
      *
-     * @return array{TKey, TValue} Sorter array, false otherwise.
+     * @return array<TKey, TValue>|false Sorter array, false otherwise.
      */
     public static function sortByMany (array $array, array $fields):array|false {
 
@@ -1027,7 +976,7 @@ final class Arr {
             // when sorting by many your collection must be 2-dimensional array
             if (self::isArray($array[0]) === false) return false;
 
-            if (!self::keyExist($column, $array[0])) return false; // @phpstan-ignore-line
+            if (!self::keyExist($column, $array[0])) return false;
 
             // field 1 will be converter to PHP order constants
             // it will default to SORT_ASC is FireHub\Support\Enums\Order is not the type
@@ -1044,9 +993,9 @@ final class Arr {
         }
 
         // attach items at the end of multi-sort
-        $multi_sort[] = &$array; // @phpstan-ignore-line
+        $multi_sort[] = &$array;
 
-        array_multisort(...$multi_sort);
+        array_multisort(...$multi_sort); // @phpstan-ignore-line
 
         return $array;
 
@@ -1059,7 +1008,7 @@ final class Arr {
      * @param array-key $key <p>
      * Key to check.
      * </p>
-     * @param array{int|string, mixed} $array <p>
+     * @param array<int|string, mixed> $array <p>
      * An array with keys to check.
      * </p>
      *
@@ -1082,21 +1031,17 @@ final class Arr {
      *
      * @uses \FireHub\TheCore\Support\LowLevel\DataIs::null() To check if filter is null.
      *
-     * @param array{TKey, TValue} $array <p>
+     * @param array<TKey, TValue> $array <p>
      * An array containing keys to return.
      * </p>
      * @param TValue $filter [optional] <p>
      * If specified, then only keys containing these values are returned.
      * </p>
      *
-     * @return array{int, TKey} An array of all the keys in input.
+     * @return array<int, TKey> An array of all the keys in input.
      */
     public static function keys (array $array, mixed $filter = null):array {
 
-        /**
-         * PHPStan stan reports that returns array{0, 1}.
-         * @phpstan-ignore-next-line
-         */
         return DataIs::null($filter) ? array_keys($array) : array_keys($array, $filter, true);
 
     }
@@ -1107,11 +1052,11 @@ final class Arr {
      *
      * @template TValue
      *
-     * @param array{array-key, TValue} $array <p>
+     * @param array<array-key, TValue> $array <p>
      * The array.
      * </p>
      *
-     * @return array{int, TValue} An indexed array of values.
+     * @return array<int, TValue> An indexed array of values.
      */
     public static function values (array $array):array {
 
@@ -1123,7 +1068,7 @@ final class Arr {
      * ### Get first key from array
      * @since 0.1.3.pre-alpha.M1
      *
-     * @param array{array-key, mixed} $array <p>
+     * @param array<array-key, mixed> $array <p>
      * The array.
      * </p>
      *
@@ -1139,7 +1084,7 @@ final class Arr {
      * ### Get last key from array
      * @since 0.1.3.pre-alpha.M1
      *
-     * @param array{array-key, mixed} $array <p>
+     * @param array<array-key, mixed> $array <p>
      * The array.
      * </p>
      *
@@ -1157,7 +1102,7 @@ final class Arr {
      *
      * @uses \FireHub\TheCore\Support\LowLevel\DataIs To check if last key is null.
      *
-     * @param array{array-key, mixed} $array <p>
+     * @param array<array-key, mixed> $array <p>
      * The array to iterate over.
      * </p>
      * @param null|callable $callback [optional] <p>
@@ -1171,13 +1116,13 @@ final class Arr {
      * Pass value as the argument to callback.
      * </p>
      *
-     * @return array{array-key, mixed} Filtered array.
+     * @return array<array-key, mixed> Filtered array.
      *
      * @caution If the array is changed from the callback function (e.g. element added, deleted or unset) the behavior of this function is undefined.
      */
     public static function filter (array $array, ?callable $callback = null, bool $pass_key = false, bool $pass_value = true):array {
 
-        if (DataIs::null($callback)) return array_filter($array); // @phpstan-ignore-line Returns array{0?: (int<min, -1>|int<1, max>|non-falsy-string), 1?: mixed}
+        if (DataIs::null($callback)) return array_filter($array);
 
         $mode = $pass_key && $pass_value
             ? ARRAY_FILTER_USE_BOTH
@@ -1185,7 +1130,7 @@ final class Arr {
                 ? ARRAY_FILTER_USE_KEY
                 : 0);
 
-        return array_filter($array, $callback, $mode); // @phpstan-ignore-line Returns  array<0|1, mixed>
+        return array_filter($array, $callback, $mode);
 
     }
 
@@ -1226,7 +1171,7 @@ final class Arr {
      * ### Apply a user function to every member of an array
      * @since 0.1.3.pre-alpha.M1
      *
-     * @param array{array-key, mixed} $array <p>
+     * @param array<array-key, mixed> $array <p>
      * The array to apply a user function.
      * </p>
      * @param callable $callback <p>
@@ -1250,14 +1195,14 @@ final class Arr {
      * ### Applies the callback to the elements of the given array
      * @since 0.1.3.pre-alpha.M1
      *
-     * @param array{array-key, mixed} $array <p>
+     * @param array<array-key, mixed> $array <p>
      * Array to run through the callback function.
      * </p>
      * @param callable $callback <p>
      * Callback function to run for each element in each array.
      * </p>
      *
-     * @return array{array-key, mixed} Array containing all the elements of arr1 after applying the callback function.
+     * @return array<array-key, mixed> Array containing all the elements of arr1 after applying the callback function.
      */
     public static function map (array $array, callable $callback):array {
 
@@ -1274,7 +1219,7 @@ final class Arr {
      * @param int $start_index <p>
      * The first index of the returned array.
      * </p>
-     * @param int<0, max> $length <p>
+     * @param positive-int|0 $length <p>
      * Number of elements to insert. Must be greater than or equal to zero.
      * </p>
      * @param TValue $value p>
@@ -1298,14 +1243,14 @@ final class Arr {
      *
      * @uses \FireHub\TheCore\Support\LowLevel\Arr::isEmpty() To check if array is empty.
      *
-     * @param array{array-key, TKey} $keys <p>
+     * @param array<array-key, TKey> $keys <p>
      * Array of values that will be used as keys. Illegal values for key will be converted to string.
      * </p>
      * @param TValue $value p>
      * Value to use for filling.
      * </p>
      *
-     * @return non-empty-array<TKey, TValue> Filled array, false otherwise.
+     * @return array<TKey, TValue>|false Filled array, false otherwise.
      */
     public static function fillKeys (array $keys, mixed $value):array|false {
 

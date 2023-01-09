@@ -17,37 +17,38 @@
 
 namespace FireHub\TheCore\Initializers\Constants;
 
-use const DIRECTORY_SEPARATOR;
-use const PHP_EOL;
-
-use function defined;
-use function define;
+use const FIREHUB_DS;
+use const FIREHUB_EOL;
 
 /**
  * ### System definition for separating folders, platform specific
  *
  * Convert '\' and '/' for different operating systems.
  * This is just shorter version of PHP internal DIRECTORY_SEPARATOR constant.
- * @since 0.1.1.pre-alpha.M1
  *
- * @var string DS
+ * @since 0.1.1.pre-alpha.M1
+ * @since 0.2.0-pre-alpha.M2 Changed internal definition for constant.
+ *
+ * @var string \FireHub\TheCore\Initializers\Constants\DS
  *
  * @link https://www.php.net/manual/en/dir.constants.php To find more info for DIRECTORY_SEPARATOR constant.
  *
  * @api
  */
-if (!defined('FireHub\TheCore\Initializers\Constants\DS')) define('FireHub\TheCore\Initializers\Constants\DS', DIRECTORY_SEPARATOR);
+const DS = FIREHUB_DS;
 
 /**
  * ### System definition for separating file lines, platform specific
  *
  * This is just shorter version of PHP internal PHP_EOL constant.
- * @since 0.1.1.pre-alpha.M1
  *
- * @var string EOL
+ * @since 0.1.1.pre-alpha.M1
+ * @since 0.2.0-pre-alpha.M2 Changed internal definition for constant.
+ *
+ * @var string \FireHub\TheCore\Initializers\Constants\EOL
  *
  * @link https://www.php.net/manual/en/reserved.constants.php To find more info for PHP_EOL constant.
  *
  * @api
  */
-if (!defined('FireHub\TheCore\Initializers\Constants\EOL')) define('FireHub\TheCore\Initializers\Constants\EOL', PHP_EOL);
+const EOL = FIREHUB_EOL;

@@ -1,0 +1,114 @@
+{% import "macro.twig" as macro %}{# macro #}
+{% if method.tags.experimental|length > 0 %}{# is experimental #}
+**Warning:** *this method has **experimental** flag.
+This features is still under the development phase and not ready to be deployed into the actual software or product.*<br>
+{% if method.tags.experimental|first.description|length > 0 %}*{{ method.tags.experimental|first.description|raw }}*{% endif %}
+
+{% endif %}{# end is experimental #}
+{% if method.deprecated %}{# is deprecated #}
+<h2><a name="{{ method.name|lower }}()"><del># {{ method.name }}()</del></a></h2>
+
+**Warning:** *this method in **deprecated**{% if method.tags.deprecated|first.version|length > 0 %} in version {{ method.tags.deprecated|first.version }}{% endif %}. {{ method.tags.deprecated|first.description }}*
+{% else %}{# else not deprecated #}
+<h2><a name="{{ method.name|lower }}()"># {{ method.name }}()</a></h2>
+{% endif %}{# end is deprecated #}
+{% if method.hasReturnByReference %}{# return by refrence #}
+
+**Caution:** *this method is returned by **refrence**.*
+{% endif %}{# end return by refrence #}
+
+```php
+{% autoescape false %}
+{% if method.static %}static {% endif %}{{ method.parent.FullyQualifiedStructuralElementName }}::{{ method.hasReturnByReference ? '&' }}{{ method.name }}({% for parameter in method.arguments %}{% if loop.first %}{{ parameter.type|raw }} {{ parameter.byReference ? '&' }}{{ parameter.isVariadic ? '...' }}${{ parameter.name }}{% if parameter.default %} = {{ parameter.default|raw }}{% endif %}{% else %}, {{ parameter.type|raw }} {{ parameter.byReference ? '&' }}{{ parameter.isVariadic ? '...' }}${{ parameter.name }}{% if parameter.default %} = {{ parameter.default|raw }}{% endif %}{% endif %}{% endfor %}){% if method.tags.return|first.type %}:{{ method.tags.return|first.type }}{% endif %}
+{% endautoescape %}
+
+```
+
+{% if method.summary|length > 0 %}{# method summary #}
+### {{ method.summary|raw }}
+{% endif %}{# end method summary #}
+{% if macro.inheritedDescription(method)|length > 0 %}{# method description #}
+
+_{{ macro.inheritedDescription(method)|trim }}_
+
+{% endif %}{# end method description #}
+{% if method.FullyQualifiedStructuralElementName|length > 0 %}{# fully qualified element name #}
+<sub>Fully Qualified Method Name:  **{{method.FullyQualifiedStructuralElementName}}**</sub><br>
+{% endif %}{# end fully qualified element name #}
+{% if node.line is not empty %}{# github #}
+<sub>Source code:  **[{{ 'view source code' }}]({{ 'https://github.com/The-FireHub-Project/' ~ project.settings.custom.app_name ~ '/blob/' ~ project.settings.custom.branch ~ '/' ~ method.file ~ '#L' ~ method.line }})**</sub><br>
+{% endif %}{# end github #}
+{% for tagName,tags in method.tags if tagName in ['template'] %}{# templates tag #}
+{% if tags|length > 0 %}
+
+
+### Templates:
+{% endif %}
+{% for tag in tags %}
+
+* *{{ tag.description|raw }}*
+{% endfor %}
+{% endfor %}{# end templates tag #}
+{% if method.arguments|length > 0 %}{# parameters tag #}
+
+
+### Parameters:
+{% for parameter in method.arguments %}
+
+* {{ parameter.byReference ? 'by refrence ' }}{{ parameter.isVariadic ? 'variadic ' }}{{ macro.FormatLinkByTypeNameMultiple(parameter.type) }} ${{ parameter.name }}{% if parameter.default %} = {{ parameter.default|raw }}{% endif %} {% if parameter.description|length > 0 %}_{{ parameter.description|striptags|trim }}_{% endif %}
+{% endfor %}
+{% endif %}{# end parameters tag #}
+{% for tagName,tags in method.tags if tagName in ['throws'] %}{# throws tag #}
+{% if tags|length > 0 %}
+
+
+### Throws:
+{% endif %}
+{% for tag in tags %}
+
+* {{ macro.FormatLinkByTypeNameMultiple(tag.type) }} {% if tag.description|length > 0 %}_{{ tag.description|striptags|trim }}_{% endif %}
+{% endfor %}
+{% endfor %}{# end throws tag #}
+{% if method.return|length > 0 %}{# return tag #}
+
+
+### Returns:
+{% endif %}
+{% for tag in method.return %}
+
+* {{ macro.FormatLinkByTypeNameMultiple(tag.type) }} {% if tag.description|length > 0 %}_{{ tag.description|striptags|trim }}_{% endif %}
+{% endfor %}{# end return tag #}
+{% for tagName,tags in method.tags if tagName in ['example'] %}{# example tag #}
+{% if tags|length > 0 %}
+
+
+### Examples:
+{% endif %}
+{% for tag in tags %}
+
+{{ tag.description|raw }}
+
+{% endfor %}
+{% endfor %}{# end example tag #}
+{% for tagName,tags in method.tags if tagName in ['see'] %}{# see tag #}
+{% if tags|length > 0 %}
+
+
+### See also:
+{% endif %}
+{% for tag in tags %}
+
+* {{ macro.FormatLinkByNameAndOrProperty(tag.reference) }} {% if tag.description|length > 0 %}_{{ tag.description|raw }}_{% endif %}
+{% endfor %}
+{% endfor %}{# end see tag #}
+{% for tagName,tags in method.tags if tagName in ['link'] %}{# link tag #}
+{% if tags|length > 0 %}
+
+
+### Links:
+{% endif %}
+{% for tag in tags %}
+
+* {{ macro.FormatLinkByNameAndOrProperty(tag.link) }} {% if tag.description|length > 0 %}_{{ tag.description|raw }}_{% endif %}
+{% endfor %}
+{% endfor %}{# end link tag #}

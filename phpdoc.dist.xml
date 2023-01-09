@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdocumentor
+    configVersion="3"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="https://www.phpdoc.org"
+    xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/phpDocumentor/phpDocumentor/master/data/xsd/phpdoc.xsd">
+    <title>FireHub Web Application Framework</title>
+    <paths>
+        <output>docs/pages</output>
+        <cache>docs/cache</cache>
+    </paths>
+    <version number="3.0.0">
+        <api>
+            <source dsn=".">
+                <path>src</path>
+            </source>
+            <ignore hidden="true" symlinks="true">
+                <path>src/support/constants</path>
+            </ignore>
+        </api>
+    </version>
+    <setting name="app_name" value="TheCore"/>
+    <setting name="app_version" value="v0.2"/>
+    <setting name="branch" value="v1.0"/>
+    <template name="vendor/firehub/documentor/src/template/pages" location="vendor/firehub/documentor/src/template/pages"/>
+</phpdocumentor>

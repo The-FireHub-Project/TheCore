@@ -1,0 +1,63 @@
+{% import "macro.twig" as macro %}{# macro #}
+{% block content %}{# start content #}
+{% for namespace in project.indexes.namespaces|sort((a,b) => a.FullyQualifiedStructuralElementName <=> b.FullyQualifiedStructuralElementName) %}{# namespaces #}
+{% if namespace.classes|length > 0 or namespace.enums|length > 0 or namespace.constants|length > 0 or namespace.functions|length > 0 %}{# has classes,enums,constants,functions #}
+{% set namespaceHasApi = false %}{# set namespaceHasApi #}
+{% for class in namespace.classes %}{# classes #}
+{% for tagName,tags in class.tags if tagName in ['api'] %}{# filter api tag #}
+{% if tags|length > 0 %}{# api tag exist #}
+{% set namespaceHasApi = true %}{# set namespaceHasApi #}
+{% endif %}{# end api tag exist #}
+{% endfor %}{# end filter api tag #}
+{% endfor %}{# end classes #}
+{% for enum in namespace.enums %}{# enums #}
+{% for tagName,tags in enum.tags if tagName in ['api'] %}{# filter api tag #}
+{% if tags|length > 0 %}{# api tag exist #}
+{% set namespaceHasApi = true %}{# set namespaceHasApi #}
+{% endif %}{# end api tag exist #}
+{% endfor %}{# end filter api tag #}
+{% endfor %}{# end enums #}
+{% for constant in namespace.constants %}{# constants #}
+{% for tagName,tags in constant.tags if tagName in ['api'] %}{# filter api tag #}
+{% if tags|length > 0 %}{# api tag exist #}
+{% set namespaceHasApi = true %}{# set namespaceHasApi #}
+{% endif %}{# end api tag exist #}
+{% endfor %}{# end filter api tag #}
+{% endfor %}{# end constants #}
+{% for function in namespace.functions %}{# functions #}
+{% for tagName,tags in function.tags if tagName in ['api'] %}{# filter api tag #}
+{% if tags|length > 0 %}{# api tag exist #}
+{% set namespaceHasApi = true %}{# set namespaceHasApi #}
+{% endif %}{# end api tag exist #}
+{% endfor %}{# end filter api tag #}
+{% endfor %}{# end functions #}
+{% endif %}{# end has classes,enums,constants,functions #}
+{% if namespaceHasApi %}{# has namespaceHasApi #}
+* {{namespace.FullyQualifiedStructuralElementName}}
+{% for class in namespace.classes|sort((a,b) => a.FullyQualifiedStructuralElementName <=> b.FullyQualifiedStructuralElementName) %}{# classes in namespace #}
+{% for tagName,tags in class.tags if tagName in ['api'] %}{# filter api tag #}
+{% for tag in tags %}
+    * {{ macro.IndexLink(class, class.name) }}{% endfor %}
+{% endfor %}{# end filter api tag #}
+{% endfor %}{# end classes in namespace #}
+{% for enum in namespace.enums|sort((a,b) => a.FullyQualifiedStructuralElementName <=> b.FullyQualifiedStructuralElementName) %}{# enums in namespace #}
+{% for tagName,tags in enum.tags if tagName in ['api'] %}{# filter api tag #}
+{% for tag in tags %}
+    * {{ macro.IndexLink(enum, enum.name) }}{% endfor %}
+{% endfor %}{# end filter api tag #}
+{% endfor %}{# end enums in namespace #}
+{% for constant in namespace.constants|sort((a,b) => a.FullyQualifiedStructuralElementName <=> b.FullyQualifiedStructuralElementName) %}{# constants in namespace #}
+{% for tagName,tags in constant.tags if tagName in ['api'] %}{# filter api tag #}
+{% for tag in tags %}
+    * {{ macro.IndexLink(constant, constant.name) }}{% endfor %}
+{% endfor %}{# end filter api tag #}
+{% endfor %}{# end constants in namespace #}
+{% for function in namespace.functions|sort((a,b) => a.FullyQualifiedStructuralElementName <=> b.FullyQualifiedStructuralElementName) %}{# functions in namespace #}
+{% for tagName,tags in function.tags if tagName in ['api'] %}{# filter api tag #}
+{% for tag in tags %}
+    * {{ macro.IndexLink(function, function.name) }}{% endfor %}
+{% endfor %}{# end filter api tag #}
+{% endfor %}{# end functions in namespace #}
+{% endif %}{# end has namespaceHasApi #}
+{% endfor %}{# end namespaces #}
+{% endblock %}{# end content #}

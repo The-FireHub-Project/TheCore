@@ -1,0 +1,68 @@
+{% import "macro.twig" as macro %}{# macro #}
+{% if case.tags.experimental|length > 0 %}{# is experimental #}
+**Warning:** *this case has **experimental** flag.
+This features is still under the development phase and not ready to be deployed into the actual software or product.*<br>
+{% if case.tags.experimental|first.description|length > 0 %}*{{ case.tags.experimental|first.description|raw }}*{% endif %}
+
+{% endif %}{# end is experimental #}
+{% if case.deprecated %}{# is deprecated #}
+<h2><a name="{{ case.name|lower }}"><del># {{ case.name }}</del></a></h2>
+
+**Warning:** *this case in **deprecated**{% if case.tags.deprecated|first.version|length > 0 %} in version {{ case.tags.deprecated|first.version }}{% endif %}. {{ case.tags.deprecated|first.description }}*
+{% else %}{# else not deprecated #}
+<h2><a name="{{ case.name|lower }}"># {{ case.name }}</a></h2>
+{% endif %}{# end is deprecated #}
+
+```php
+{{ case.FullyQualifiedStructuralElementName }}{% if case.value %} = {{ case.value|raw }}{% endif %}
+
+```
+
+{% if case.summary|length > 0 %}{# case summary #}
+### {{ case.summary|raw }}
+{% endif %}{# end case summary #}
+{% if macro.inheritedDescription(case)|length > 0 %}{# case description #}
+
+_{{ macro.inheritedDescription(case)|trim }}_
+
+{% endif %}{# end case description #}
+{% if case.FullyQualifiedStructuralElementName|length > 0 %}{# fully qualified element name #}
+<sub>Fully Qualified Case Name:  **{{case.FullyQualifiedStructuralElementName}}**</sub><br>
+{% endif %}{# end fully qualified element name #}
+{% if node.line is not empty %}{# github #}
+<sub>Source code:  **[{{ 'view source code' }}]({{ 'https://github.com/The-FireHub-Project/' ~ project.settings.custom.app_name ~ '/blob/' ~ project.settings.custom.branch ~ '/' ~ case.file ~ '#L' ~ case.line }})**</sub><br>
+{% endif %}{# end github #}
+{% for tagName,tags in case.tags if tagName in ['example'] %}{# example tag #}
+{% if tags|length > 0 %}
+
+
+### Examples:
+{% endif %}
+{% for tag in tags %}
+
+{{ tag.description|raw }}
+
+{% endfor %}
+{% endfor %}{# end example tag #}
+{% for tagName,tags in case.tags if tagName in ['see'] %}{# see tag #}
+{% if tags|length > 0 %}
+
+
+### See also:
+{% endif %}
+{% for tag in tags %}
+
+* {{ macro.FormatLinkByNameAndOrProperty(tag.reference) }} {% if tag.description|length > 0 %}_{{ tag.description|raw }}_{% endif %}
+{% endfor %}
+{% endfor %}{# end see tag #}
+{% for tagName,tags in case.tags if tagName in ['link'] %}{# link tag #}
+{% if tags|length > 0 %}
+
+
+### Links:
+{% endif %}
+{% for tag in tags %}
+
+* {{ macro.FormatLinkByNameAndOrProperty(tag.link) }} {% if tag.description|length > 0 %}_{{ tag.description|raw }}_{% endif %}
+{% endfor %}
+{% endfor %}{# end link tag #}

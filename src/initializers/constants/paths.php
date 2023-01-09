@@ -18,52 +18,55 @@
 
 namespace FireHub\TheCore\Initializers\Constants;
 
-use Phar;
-
-use function defined;
-use function define;
-use function dirname;
+use const FIREHUB_CORE_ROOT;
+use const FIREHUB_PROJECT_ROOT;
 
 /**
  * ### Root FireHub Core path
- * @since 0.1.1.pre-alpha.M1
  *
- * @var string CORE_ROOT
+ * @since 0.1.1.pre-alpha.M1
+ * @since 0.2.0-pre-alpha.M2 Changed internal definition for constant.
+ *
+ * @var string \FireHub\TheCore\Initializers\Constants\CORE_ROOT
  *
  * @link https://php.net/manual/en/class.phar.php To find more info about Phar class.
  *
  * @api
  */
-if (!defined('FireHub\TheCore\Initializers\Constants\CORE_ROOT')) define('FireHub\TheCore\Initializers\Constants\CORE_ROOT', Phar::running(true));
+const CORE_ROOT = FIREHUB_CORE_ROOT;
 
 /**
  * ### Root project path
+ *
  * @since 0.1.1.pre-alpha.M1
+ * @since 0.2.0-pre-alpha.M2 Changed internal definition for constant.
  *
- * @var string PROJECT_ROOT
- *
- * @uses \FireHub\TheCore\Initializers\Constants\DS To seperate folders.
+ * @var string \FireHub\TheCore\Initializers\Constants\PROJECT_ROOT
  *
  * @api
  */
-if (!defined('FireHub\TheCore\Initializers\Constants\PROJECT_ROOT')) define('FireHub\TheCore\Initializers\Constants\PROJECT_ROOT', dirname(Phar::running(false)).DS.implode(DS, ['..', '..', '..', '..']));
+const PROJECT_ROOT = FIREHUB_PROJECT_ROOT;
 
 /**
  * ### Root app path
- * @since 0.1.1.pre-alpha.M1
  *
- * @var string APP_ROOT
+ * @since 0.1.1.pre-alpha.M1
+ * @since 0.2.0-pre-alpha.M2 Changed internal definition for constant.
+ *
+ * @var string \FireHub\TheCore\Initializers\Constants\APP_ROOT
  *
  * @uses \FireHub\TheCore\Initializers\Constants\PROJECT_ROOT To resolve root project path.
  * @uses \FireHub\TheCore\Initializers\Constants\DS To seperate folders.
  *
  * @api
  */
-if (!defined('FireHub\TheCore\Initializers\Constants\APP_ROOT')) define('FireHub\TheCore\Initializers\Constants\APP_ROOT', PROJECT_ROOT.DS.'app');
+const APP_ROOT = PROJECT_ROOT.DS.'app';
 
 /**
  * ### Root vendor path
+ *
  * @since 0.1.1.pre-alpha.M1
+ * @since 0.2.0-pre-alpha.M2 Changed internal definition for constant.
  *
  * @var string VENDOR_ROOT
  *
@@ -72,4 +75,4 @@ if (!defined('FireHub\TheCore\Initializers\Constants\APP_ROOT')) define('FireHub
  *
  * @api
  */
-if (!defined('FireHub\TheCore\Initializers\Constants\VENDOR_ROOT')) define('FireHub\TheCore\Initializers\Constants\VENDOR_ROOT', PROJECT_ROOT.DS.'vendor');
+const VENDOR_ROOT = PROJECT_ROOT.DS.'vendor';

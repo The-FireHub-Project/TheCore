@@ -1,0 +1,13 @@
+---
+layout: default
+title: {{ node.package }}
+parent: {{ project.settings.custom.app_name }} {{ project.settings.custom.app_version }}
+has_children: true
+---
+{% block stylesheets %}{# start stylesheets #}
+
+<link rel="stylesheet" type="text/css" href="/css/style.css" />
+
+{% endblock %}{# end stylesheets #}
+{% block content %}{# start content #}
+{% endblock %}{# end content #}

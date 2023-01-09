@@ -1,0 +1,36 @@
+name: UpdatePages
+on:
+  push:
+    branches:
+      - 'master'
+      - 'v*'
+  pull_request:
+    branches:
+      - 'master'
+      - 'v*'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Push documentation
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.FIREHUB }}
+        with:
+          source-directory: 'docs/pages'
+          destination-github-username: 'The-FireHub-Project'
+          destination-repository-name: 'the-firehub-project.github.io'
+          user-email: danijel.galic@outlook.com
+          commit-message: See ORIGIN_COMMIT from $GITHUB_REF
+          target-branch: master
+          target-directory: 'core/v0.2'

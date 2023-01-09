@@ -389,7 +389,7 @@ final class File {
      * @param string $path <p>
      * Path to filename.
      * </p>
-     * @param string|array{int, string} $data <p>
+     * @param string|array<int, string> $data <p>
      * The data to write.
      * </p>
      * @param bool $append [optional] <p>

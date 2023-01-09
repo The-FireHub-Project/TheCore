@@ -1,0 +1,95 @@
+{# Index macro #}
+{% macro IndexLink(index, name) %}
+[{{ name }}]({{ './' ~ index.name }})
+{% endmacro %}
+
+{# Format Link By Name And\Or Property macro #}
+{% macro FormatLinkByNameAndOrProperty(name) %}
+{% set link = name|split('::')|first %}
+{% set property = name|split('::')|last %}
+{% if link != property %}
+[{{ name }}]({{ './' ~ link|split('\\')|last ~ '#' ~ property|lower }}){% else %}
+{% if 'www' in link or 'http' in link %}
+[{{ name }}]({{ link }}){% else %}
+[{{ name }}]({{ './' ~ link|split('\\')|last }}){% endif %}
+{% endif %}
+{% endmacro %}
+
+{# Format Link By TypeName macro #}
+{% macro FormatLinkByTypeName(name) %}
+{% if name starts with '\\' %}
+[{{ name }}]({{ './' ~ name|split('\\')|last }}){% else %}{{ name }}{% endif %}
+{% endmacro %}
+
+{# Format Link By TypeName Multiple macro #}
+{% macro FormatLinkByTypeNameMultiple(type) %}
+{% import _self as self %}
+{% for type in type|split('|') %}
+{% if loop.first %}
+{% if '?' in type %}
+{% set type = type|trim('?') %}
+{{ self.FormatLinkByTypeName('null') }} {{ 'or' }} {% endif %}
+{% for type in type|split('&') %}{% if loop.first %}{{ self.FormatLinkByTypeName(type) }}{% else %} {{ 'and' }} {{ self.FormatLinkByTypeName(type) }}{% endif %}{% endfor %}
+{% else %}
+ {{ 'or' }} {% for type in type|split('&') %}{% if loop.first %}{{ self.FormatLinkByTypeName(type) }}{% else %} {{ 'and' }} {{ self.FormatLinkByTypeName(type) }}{% endif %}{% endfor %}
+{% endif %}
+{% endfor %}
+{% endmacro %}
+
+{# Recursive Constants Table macro #}
+{% macro RecursiveConstantsTable(node, constants = []) %}
+{% import _self as self %}
+{% for constant in node.constants %}{# loop over constants #}
+{% if constant.name not in constants %}{# if constant not in constants array #}
+{% if not constant.deprecated %}{# only not deprecated #}
+|{{ constant.type }}|<a href="#{{ constant.name|lower }}">{{ constant.name }}</a>|{{ constant.summary|raw }}|{{ constant.value }}|
+{% elseif constant.deprecated %}{# end not deprecated #}
+|{{ constant.type }}|<a href="#{{ constant.name|lower }}">~~{{ constant.name }}~~</a><br><sub>@deprecated</sub>|{{ constant.summary|raw }}|{{ constant.value }}|
+{% endif %}{# end only not deprecated #}
+{% endif %}{# end if constant not in constants array #}
+{% set constants = constants|merge([constant.name]) %}{# set constant to constants array #}
+{% endfor %}{# end loop over constants #}
+{% if node.parent %}{# if parent exists #}
+{{ self.RecursiveConstantsTable(node.parent, constants) }}
+{% endif %}{# end if parent exists #}
+{% endmacro %}
+
+{# Recursive Constants macro #}
+{% macro RecursiveConstants(node, constants = []) %}
+{% import _self as self %}
+{% for constant in node.constants %}{# loop over constants #}
+{% if constant.name not in constants %}{# if constant not in constants array #}
+
+{% include 'indexes_constant.md.twig' %}
+
+{% endif %}{# end if constant not in constants array #}
+{% set constants = constants|merge([constant.name]) %}{# set constant to constants array #}
+{% endfor %}{# end loop over constants #}
+{% if node.parent %}{# if parent exists #}
+{{ self.RecursiveConstants(node.parent, constants) }}
+{% endif %}{# end if parent exists #}
+{% endmacro %}
+
+{# Inherited Description #}
+{% macro inheritedDescription(element) %}
+{% import _self as self %}
+{% if element.description|length > 0 %}{# if description exist #}
+{{ element.description }}
+{% else %}{# else description exist #}
+{% if element.inheritedElement %}{# if inherited element exist #}
+{% set parent = element.inheritedElement %}
+{% if parent.description|length > 0 %}{# if parent tag exist #}
+{{ parent.description }}
+{% else %}{# else parent tag exist #}
+{{ self.inheritedDescription(parent) }}
+{% endif %}{# end parent tag exist #}
+{% endif %}{# end inherited element exist #}
+{% endif %}{# end if description exist #}
+{% endmacro %}
+
+{# Var Type #}
+{% macro varType(element) %}
+{% if element.tags.var|length > 0 %}{# if var exist #}
+{{ element.tags.var|first.type|raw }}{% else %}{# else var exist #}
+{{ element.type|raw }}{% endif %}{# end if var exist #}
+{% endmacro %}

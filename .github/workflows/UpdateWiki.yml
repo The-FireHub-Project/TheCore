@@ -1,0 +1,29 @@
+name: UpdateWiki
+on:
+  push:
+    branches:
+      - 'master'
+  pull_request:
+    branches:
+      - 'master'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: "wiki"
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Push Wiki Changes
+        uses: Andrew-Chen-Wang/github-wiki-action@v3
+        env:
+          WIKI_DIR: ./docs/wiki
+          GH_TOKEN: ${{ secrets.FIREHUB }}
+          GH_MAIL: ${{ secrets.EMAIL }}
+          GH_NAME: ${{ github.repository_owner }}

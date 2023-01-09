@@ -87,11 +87,11 @@ abstract class StrSafe {
      * Note that multibyte characters may not work as expected while $case_sensitive is on.
      * @since 0.1.3.pre-alpha.M1
      *
-     * @param string|array{int, string} $search <p>
+     * @param string|array<int, string> $search <p>
      * The replacement value that replaces found search values.
      * An array may be used to designate multiple replacements.
      * </p>
-     * @param string|array{int, string} $replace <p>
+     * @param string|array<int, string> $replace <p>
      * The string being searched and replaced on.
      * </p>
      * @param string $string <p>
@@ -100,7 +100,7 @@ abstract class StrSafe {
      * @param bool $case_sensitive [optional] <p>
      * Searched values are case-insensitive.
      * </p>
-     * @param int &$count [optional] <p>
+     * @param int|null &$count [optional] <p>
      * If passed, this will hold the number of matched and replaced needles.
      * </p>
      *
@@ -319,7 +319,7 @@ abstract class StrSafe {
      * The string being measured for length.
      * </p>
      *
-     * @return int<0, max> String length.
+     * @return positive-int|0 String length.
      */
     abstract public static function length (string $string):int;
 

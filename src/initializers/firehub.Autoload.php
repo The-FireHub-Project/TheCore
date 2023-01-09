@@ -158,13 +158,13 @@ final class Autoload {
     }
 
     /**
-     * ### Try to load class from registered auto-loaders
+     * ### Try to load class from registered autoloaders
      * @since 0.1.1.pre-alpha.M1
      *
      * @param class-string $class <p>
      * Fully-qualified class name.
      * </p>
-     * @param array{} $arguments [optional] <p>
+     * @param array<array-key, mixed> $arguments [optional] <p>
      * List of constructor parameters to pass to class.
      * </p>
      *
